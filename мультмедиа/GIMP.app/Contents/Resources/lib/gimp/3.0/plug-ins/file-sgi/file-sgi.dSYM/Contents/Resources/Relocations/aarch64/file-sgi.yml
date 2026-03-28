@@ -1,0 +1,33 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-sgi/file-sgi'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _sgiClose, symObjAddr: 0x0, symBinAddr: 0x1000052E8, symSize: 0x128 }
+  - { offsetInCU: 0x4F, offset: 0x4F, size: 0x8, addend: 0x0, symName: _sgiClose, symObjAddr: 0x0, symBinAddr: 0x1000052E8, symSize: 0x128 }
+  - { offsetInCU: 0x357, offset: 0x357, size: 0x8, addend: 0x0, symName: _putlong, symObjAddr: 0x128, symBinAddr: 0x100005410, symSize: 0x70 }
+  - { offsetInCU: 0x401, offset: 0x401, size: 0x8, addend: 0x0, symName: _sgiGetRow, symObjAddr: 0x198, symBinAddr: 0x100005480, symSize: 0x16C }
+  - { offsetInCU: 0x51E, offset: 0x51E, size: 0x8, addend: 0x0, symName: _read_rle8, symObjAddr: 0x35C, symBinAddr: 0x100005644, symSize: 0xC4 }
+  - { offsetInCU: 0x5D0, offset: 0x5D0, size: 0x8, addend: 0x0, symName: _getshort, symObjAddr: 0x304, symBinAddr: 0x1000055EC, symSize: 0x58 }
+  - { offsetInCU: 0x628, offset: 0x628, size: 0x8, addend: 0x0, symName: _read_rle16, symObjAddr: 0x420, symBinAddr: 0x100005708, symSize: 0xBC }
+  - { offsetInCU: 0x736, offset: 0x736, size: 0x8, addend: 0x0, symName: _sgiOpen, symObjAddr: 0x4DC, symBinAddr: 0x1000057C4, symSize: 0x98 }
+  - { offsetInCU: 0x853, offset: 0x853, size: 0x8, addend: 0x0, symName: _sgiOpenFile, symObjAddr: 0x574, symBinAddr: 0x10000585C, symSize: 0x4C4 }
+  - { offsetInCU: 0xC7D, offset: 0xC7D, size: 0x8, addend: 0x0, symName: _getlong, symObjAddr: 0xA38, symBinAddr: 0x100005D20, symSize: 0x50 }
+  - { offsetInCU: 0xCD5, offset: 0xCD5, size: 0x8, addend: 0x0, symName: _putshort, symObjAddr: 0xA88, symBinAddr: 0x100005D70, symSize: 0x48 }
+  - { offsetInCU: 0xD60, offset: 0xD60, size: 0x8, addend: 0x0, symName: _sgiPutRow, symObjAddr: 0xAD0, symBinAddr: 0x100005DB8, symSize: 0x3A4 }
+  - { offsetInCU: 0xF03, offset: 0xF03, size: 0x8, addend: 0x0, symName: _write_rle8, symObjAddr: 0xE74, symBinAddr: 0x10000615C, symSize: 0x1B4 }
+  - { offsetInCU: 0xFFF, offset: 0xFFF, size: 0x8, addend: 0x0, symName: _write_rle16, symObjAddr: 0x1028, symBinAddr: 0x100006310, symSize: 0x1C0 }
+  - { offsetInCU: 0x27, offset: 0x1233, size: 0x8, addend: 0x0, symName: _sgi_get_type, symObjAddr: 0x0, symBinAddr: 0x1000064D0, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x1240, size: 0x8, addend: 0x0, symName: _sgi_get_type, symObjAddr: 0x0, symBinAddr: 0x1000064D0, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x1265, size: 0x8, addend: 0x0, symName: _sgi_get_type.static_g_define_type_id, symObjAddr: 0xAA48, symBinAddr: 0x10000C288, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x1307, size: 0x8, addend: 0x0, symName: _sgi_parent_class, symObjAddr: 0xAA50, symBinAddr: 0x10000C290, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x1328, size: 0x8, addend: 0x0, symName: _Sgi_private_offset, symObjAddr: 0xAA58, symBinAddr: 0x10000C298, symSize: 0x0 }
+  - { offsetInCU: 0xE8B, offset: 0x2097, size: 0x8, addend: 0x0, symName: _sgi_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x10000651C, symSize: 0x50 }
+  - { offsetInCU: 0xF47, offset: 0x2153, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x10000656C, symSize: 0x2C }
+  - { offsetInCU: 0xFD3, offset: 0x21DF, size: 0x8, addend: 0x0, symName: _sgi_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006598, symSize: 0x68 }
+  - { offsetInCU: 0x106E, offset: 0x227A, size: 0x8, addend: 0x0, symName: _sgi_init, symObjAddr: 0x130, symBinAddr: 0x100006600, symSize: 0x4 }
+  - { offsetInCU: 0x10E8, offset: 0x22F4, size: 0x8, addend: 0x0, symName: _sgi_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006604, symSize: 0x48 }
+  - { offsetInCU: 0x11BA, offset: 0x23C6, size: 0x8, addend: 0x0, symName: _sgi_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x10000664C, symSize: 0x2DC }
+  - { offsetInCU: 0x17D7, offset: 0x29E3, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x458, symBinAddr: 0x100006928, symSize: 0x30 }
+  - { offsetInCU: 0x1D69, offset: 0x2F75, size: 0x8, addend: 0x0, symName: _sgi_load, symObjAddr: 0x488, symBinAddr: 0x100006958, symSize: 0x64C }
+  - { offsetInCU: 0x284A, offset: 0x3A56, size: 0x8, addend: 0x0, symName: _sgi_export, symObjAddr: 0xAD4, symBinAddr: 0x100006FA4, symSize: 0x46C }
+...

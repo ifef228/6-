@@ -1,0 +1,34 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-mng/file-mng'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _mng_get_type, symObjAddr: 0x0, symBinAddr: 0x100008384, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _mng_get_type, symObjAddr: 0x0, symBinAddr: 0x100008384, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _mng_get_type.static_g_define_type_id, symObjAddr: 0x11C08, symBinAddr: 0x100010460, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _mng_parent_class, symObjAddr: 0x11C10, symBinAddr: 0x100010468, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Mng_private_offset, symObjAddr: 0x11C18, symBinAddr: 0x100010470, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _mngg, symObjAddr: 0x11C20, symBinAddr: 0x100010478, symSize: 0x0 }
+  - { offsetInCU: 0x21A, offset: 0x21A, size: 0x8, addend: 0x0, symName: _respin_cmap, symObjAddr: 0x1E9C, symBinAddr: 0x10000A220, symSize: 0x380 }
+  - { offsetInCU: 0x242, offset: 0x242, size: 0x8, addend: 0x0, symName: _respin_cmap.trans, symObjAddr: 0x11C48, symBinAddr: 0x1000104A0, symSize: 0x0 }
+  - { offsetInCU: 0x258, offset: 0x258, size: 0x8, addend: 0x0, symName: _respin_cmap.palette, symObjAddr: 0x11C49, symBinAddr: 0x1000104A1, symSize: 0x0 }
+  - { offsetInCU: 0x12F8, offset: 0x12F8, size: 0x8, addend: 0x0, symName: _mng_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000083D0, symSize: 0x50 }
+  - { offsetInCU: 0x13B4, offset: 0x13B4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100008420, symSize: 0x2C }
+  - { offsetInCU: 0x1440, offset: 0x1440, size: 0x8, addend: 0x0, symName: _mng_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x10000844C, symSize: 0x68 }
+  - { offsetInCU: 0x14DB, offset: 0x14DB, size: 0x8, addend: 0x0, symName: _mng_init, symObjAddr: 0x130, symBinAddr: 0x1000084B4, symSize: 0x4 }
+  - { offsetInCU: 0x1535, offset: 0x1535, size: 0x8, addend: 0x0, symName: _mng_query_procedures, symObjAddr: 0x134, symBinAddr: 0x1000084B8, symSize: 0x24 }
+  - { offsetInCU: 0x15C0, offset: 0x15C0, size: 0x8, addend: 0x0, symName: _mng_create_procedure, symObjAddr: 0x158, symBinAddr: 0x1000084DC, symSize: 0x52C }
+  - { offsetInCU: 0x1DE9, offset: 0x1DE9, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x684, symBinAddr: 0x100008A08, symSize: 0x30 }
+  - { offsetInCU: 0x1F55, offset: 0x1F55, size: 0x8, addend: 0x0, symName: _mng_export, symObjAddr: 0x6B4, symBinAddr: 0x100008A38, symSize: 0x3E0 }
+  - { offsetInCU: 0x270B, offset: 0x270B, size: 0x8, addend: 0x0, symName: _mng_export_image, symObjAddr: 0xA94, symBinAddr: 0x100008E18, symSize: 0x10A4 }
+  - { offsetInCU: 0x3BF9, offset: 0x3BF9, size: 0x8, addend: 0x0, symName: _parse_ms_tag_from_layer_name, symObjAddr: 0x1BD0, symBinAddr: 0x100009F54, symSize: 0xE0 }
+  - { offsetInCU: 0x3EC6, offset: 0x3EC6, size: 0x8, addend: 0x0, symName: _mng_putchunk_plte_wrapper, symObjAddr: 0x1CB0, symBinAddr: 0x10000A034, symSize: 0x9C }
+  - { offsetInCU: 0x3F61, offset: 0x3F61, size: 0x8, addend: 0x0, symName: _parse_chunks_type_from_layer_name, symObjAddr: 0x1D4C, symBinAddr: 0x10000A0D0, symSize: 0xA8 }
+  - { offsetInCU: 0x40F4, offset: 0x40F4, size: 0x8, addend: 0x0, symName: _parse_disposal_type_from_layer_name, symObjAddr: 0x1DF4, symBinAddr: 0x10000A178, symSize: 0xA8 }
+  - { offsetInCU: 0x470C, offset: 0x470C, size: 0x8, addend: 0x0, symName: _mng_putchunk_trns_wrapper, symObjAddr: 0x221C, symBinAddr: 0x10000A5A0, symSize: 0xD0 }
+  - { offsetInCU: 0x4861, offset: 0x4861, size: 0x8, addend: 0x0, symName: _myalloc, symObjAddr: 0x1B38, symBinAddr: 0x100009EBC, symSize: 0x38 }
+  - { offsetInCU: 0x48C2, offset: 0x48C2, size: 0x8, addend: 0x0, symName: _myfree, symObjAddr: 0x1B70, symBinAddr: 0x100009EF4, symSize: 0x4 }
+  - { offsetInCU: 0x48F6, offset: 0x48F6, size: 0x8, addend: 0x0, symName: _myfree, symObjAddr: 0x1B70, symBinAddr: 0x100009EF4, symSize: 0x4 }
+  - { offsetInCU: 0x4908, offset: 0x4908, size: 0x8, addend: 0x0, symName: _myopenstream, symObjAddr: 0x1B74, symBinAddr: 0x100009EF8, symSize: 0x8 }
+  - { offsetInCU: 0x492F, offset: 0x492F, size: 0x8, addend: 0x0, symName: _myclosestream, symObjAddr: 0x1B7C, symBinAddr: 0x100009F00, symSize: 0x8 }
+  - { offsetInCU: 0x4956, offset: 0x4956, size: 0x8, addend: 0x0, symName: _mywritedata, symObjAddr: 0x1B84, symBinAddr: 0x100009F08, symSize: 0x4C }
+...

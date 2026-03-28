@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/modules/libdisplay-filter-aces-rrt.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_get_type, symObjAddr: 0x0, symBinAddr: 0x372C, symSize: 0xC }
+  - { offsetInCU: 0x40, offset: 0x40, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_type_id, symObjAddr: 0x4A38, symBinAddr: 0x8090, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_info, symObjAddr: 0x470, symBinAddr: 0x4008, symSize: 0x0 }
+  - { offsetInCU: 0x119, offset: 0x119, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_parent_class, symObjAddr: 0x4A40, symBinAddr: 0x8098, symSize: 0x0 }
+  - { offsetInCU: 0x13A, offset: 0x13A, size: 0x8, addend: 0x0, symName: _CdisplayAcesRRT_private_offset, symObjAddr: 0x4A48, symBinAddr: 0x80A0, symSize: 0x0 }
+  - { offsetInCU: 0x977, offset: 0x977, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_get_type, symObjAddr: 0x0, symBinAddr: 0x372C, symSize: 0xC }
+  - { offsetInCU: 0x990, offset: 0x990, size: 0x8, addend: 0x0, symName: _gimp_module_query, symObjAddr: 0xC, symBinAddr: 0x3738, symSize: 0xC }
+  - { offsetInCU: 0xC49, offset: 0xC49, size: 0x8, addend: 0x0, symName: _gimp_module_register, symObjAddr: 0x18, symBinAddr: 0x3744, symSize: 0x70 }
+  - { offsetInCU: 0xD22, offset: 0xD22, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_class_intern_init, symObjAddr: 0x88, symBinAddr: 0x37B4, symSize: 0xD4 }
+  - { offsetInCU: 0xE8C, offset: 0xE8C, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_class_finalize, symObjAddr: 0x15C, symBinAddr: 0x3888, symSize: 0x4 }
+  - { offsetInCU: 0xEAD, offset: 0xEAD, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_init, symObjAddr: 0x160, symBinAddr: 0x388C, symSize: 0x4 }
+  - { offsetInCU: 0xECE, offset: 0xECE, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_get_property, symObjAddr: 0x164, symBinAddr: 0x3890, symSize: 0xA8 }
+  - { offsetInCU: 0x100B, offset: 0x100B, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_set_property, symObjAddr: 0x20C, symBinAddr: 0x3938, symSize: 0xCC }
+  - { offsetInCU: 0x1189, offset: 0x1189, size: 0x8, addend: 0x0, symName: _cdisplay_aces_rrt_convert_buffer, symObjAddr: 0x2D8, symBinAddr: 0x3A04, symSize: 0x180 }
+...

@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/babl-0.1/sse4-int8.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3FA0, symSize: 0x8 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3FA0, symSize: 0x8 }
+...

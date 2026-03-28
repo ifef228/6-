@@ -1,0 +1,29 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gegl-0.4/exr-load.dylib'
+relocations:
+  - { offsetInCU: 0x52, offset: 0x52, size: 0x8, addend: 0x0, symName: __ZL24gegl_op_exr_load_type_id, symObjAddr: 0x4ED18, symBinAddr: 0xC1A8, symSize: 0x0 }
+  - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: __ZL20gegl_op_parent_class, symObjAddr: 0x4ED20, symBinAddr: 0xC1B0, symSize: 0x0 }
+  - { offsetInCU: 0xAE, offset: 0xAE, size: 0x8, addend: 0x0, symName: __ZL15chroma_sampling, symObjAddr: 0x1DF4, symBinAddr: 0x7C34, symSize: 0x0 }
+  - { offsetInCU: 0xE5, offset: 0xE5, size: 0x8, addend: 0x0, symName: __ZL7modinfo, symObjAddr: 0x1DF0, symBinAddr: 0x7C30, symSize: 0x0 }
+  - { offsetInCU: 0xF78C, offset: 0xF78C, size: 0x8, addend: 0x0, symName: _gegl_op_exr_load_get_type, symObjAddr: 0x0, symBinAddr: 0x5C54, symSize: 0xC }
+  - { offsetInCU: 0xF7A5, offset: 0xF7A5, size: 0x8, addend: 0x0, symName: _gegl_op_exr_load_register_type, symObjAddr: 0xC, symBinAddr: 0x5C60, symSize: 0x6C }
+  - { offsetInCU: 0xFBFD, offset: 0xFBFD, size: 0x8, addend: 0x0, symName: __ZL40gegl_op_exr_load_class_chant_intern_initPv, symObjAddr: 0x78, symBinAddr: 0x5CCC, symSize: 0x2C0 }
+  - { offsetInCU: 0xFEF0, offset: 0xFEF0, size: 0x8, addend: 0x0, symName: __ZL7has_keyP11_GParamSpecPKcS2_, symObjAddr: 0x5B8, symBinAddr: 0x620C, symSize: 0x48 }
+  - { offsetInCU: 0xFFCC, offset: 0xFFCC, size: 0x8, addend: 0x0, symName: __ZL31gegl_op_exr_load_class_finalizeP20GeglOpClass_exr_load, symObjAddr: 0x338, symBinAddr: 0x5F8C, symSize: 0x4 }
+  - { offsetInCU: 0x10027, offset: 0x10027, size: 0x8, addend: 0x0, symName: __ZL21gegl_op_exr_load_initP16_GeglOp_exr_load, symObjAddr: 0x33C, symBinAddr: 0x5F90, symSize: 0x2C }
+  - { offsetInCU: 0x100B3, offset: 0x100B3, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x368, symBinAddr: 0x5FBC, symSize: 0xC }
+  - { offsetInCU: 0x100FE, offset: 0x100FE, size: 0x8, addend: 0x0, symName: _gegl_module_register, symObjAddr: 0x374, symBinAddr: 0x5FC8, symSize: 0x70 }
+  - { offsetInCU: 0x1017E, offset: 0x1017E, size: 0x8, addend: 0x0, symName: __ZL12set_propertyP8_GObjectjPK7_GValueP11_GParamSpec, symObjAddr: 0x3E4, symBinAddr: 0x6038, symSize: 0xAC }
+  - { offsetInCU: 0x102D5, offset: 0x102D5, size: 0x8, addend: 0x0, symName: __ZL12get_propertyP8_GObjectjP7_GValueP11_GParamSpec, symObjAddr: 0x490, symBinAddr: 0x60E4, symSize: 0xAC }
+  - { offsetInCU: 0x103D6, offset: 0x103D6, size: 0x8, addend: 0x0, symName: __ZL19gegl_op_constructormjP22_GObjectConstructParam, symObjAddr: 0x53C, symBinAddr: 0x6190, symSize: 0x48 }
+  - { offsetInCU: 0x1049D, offset: 0x1049D, size: 0x8, addend: 0x0, symName: __ZL22gegl_op_destroy_notifyPv, symObjAddr: 0x584, symBinAddr: 0x61D8, symSize: 0x34 }
+  - { offsetInCU: 0x11795, offset: 0x11795, size: 0x8, addend: 0x0, symName: __ZL7processP14_GeglOperationP11_GeglBufferPK14_GeglRectanglei, symObjAddr: 0x600, symBinAddr: 0x6254, symSize: 0xB78 }
+  - { offsetInCU: 0x128B5, offset: 0x128B5, size: 0x8, addend: 0x0, symName: __ZL9query_exrPKcPiS1_S1_PPv, symObjAddr: 0x11F4, symBinAddr: 0x6E48, symSize: 0x46C }
+  - { offsetInCU: 0x12C03, offset: 0x12C03, size: 0x8, addend: 0x0, symName: __ZL22reconstruct_chroma_rowPfiiS_, symObjAddr: 0x1670, symBinAddr: 0x72C4, symSize: 0xB4 }
+  - { offsetInCU: 0x12CB6, offset: 0x12CB6, size: 0x8, addend: 0x0, symName: __ZL18fix_saturation_rowPfS_S_RKN9Imath_3_14Vec3IfEEii, symObjAddr: 0x1724, symBinAddr: 0x7378, symSize: 0x2D4 }
+  - { offsetInCU: 0x12F8E, offset: 0x12F8E, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12__value_typeIN7Imf_3_24NameENS2_5SliceEEENS_19__map_value_compareIS3_S5_NS_4lessIS3_EELb1EEENS_9allocatorIS5_EEE7destroyEPNS_11__tree_nodeIS5_PvEE, symObjAddr: 0x19F8, symBinAddr: 0x764C, symSize: 0x40 }
+  - { offsetInCU: 0x130F8, offset: 0x130F8, size: 0x8, addend: 0x0, symName: __ZL16get_bounding_boxP14_GeglOperation, symObjAddr: 0x1178, symBinAddr: 0x6DCC, symSize: 0x78 }
+  - { offsetInCU: 0x131E0, offset: 0x131E0, size: 0x8, addend: 0x0, symName: __ZL17get_cached_regionP14_GeglOperationPK14_GeglRectangle, symObjAddr: 0x11F0, symBinAddr: 0x6E44, symSize: 0x4 }
+  - { offsetInCU: 0x1321E, offset: 0x1321E, size: 0x8, addend: 0x0, symName: __ZL17get_cached_regionP14_GeglOperationPK14_GeglRectangle, symObjAddr: 0x11F0, symBinAddr: 0x6E44, symSize: 0x4 }
+...

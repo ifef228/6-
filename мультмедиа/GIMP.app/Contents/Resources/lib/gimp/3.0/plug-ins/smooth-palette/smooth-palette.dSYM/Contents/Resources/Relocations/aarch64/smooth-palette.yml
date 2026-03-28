@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/smooth-palette/smooth-palette'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _palette_get_type, symObjAddr: 0x0, symBinAddr: 0x10000664C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _palette_get_type, symObjAddr: 0x0, symBinAddr: 0x10000664C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _palette_get_type.static_g_define_type_id, symObjAddr: 0xADB0, symBinAddr: 0x10000C268, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _palette_parent_class, symObjAddr: 0xADB8, symBinAddr: 0x10000C270, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Palette_private_offset, symObjAddr: 0xADC0, symBinAddr: 0x10000C278, symSize: 0x0 }
+  - { offsetInCU: 0xE29, offset: 0xE29, size: 0x8, addend: 0x0, symName: _palette_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006698, symSize: 0x50 }
+  - { offsetInCU: 0xEE5, offset: 0xEE5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000066E8, symSize: 0x2C }
+  - { offsetInCU: 0xF71, offset: 0xF71, size: 0x8, addend: 0x0, symName: _palette_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006714, symSize: 0x68 }
+  - { offsetInCU: 0x100C, offset: 0x100C, size: 0x8, addend: 0x0, symName: _palette_init, symObjAddr: 0x130, symBinAddr: 0x10000677C, symSize: 0x4 }
+  - { offsetInCU: 0x1086, offset: 0x1086, size: 0x8, addend: 0x0, symName: _palette_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006780, symSize: 0x24 }
+  - { offsetInCU: 0x1111, offset: 0x1111, size: 0x8, addend: 0x0, symName: _palette_create_procedure, symObjAddr: 0x158, symBinAddr: 0x1000067A4, symSize: 0x26C }
+  - { offsetInCU: 0x1600, offset: 0x1600, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x3C4, symBinAddr: 0x100006A10, symSize: 0x30 }
+  - { offsetInCU: 0x1A9A, offset: 0x1A9A, size: 0x8, addend: 0x0, symName: _palette_run, symObjAddr: 0x3F4, symBinAddr: 0x100006A40, symSize: 0xC28 }
+...

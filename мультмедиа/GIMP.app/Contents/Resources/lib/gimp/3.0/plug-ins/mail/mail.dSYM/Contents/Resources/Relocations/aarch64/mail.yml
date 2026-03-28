@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/mail/mail'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _mail_get_type, symObjAddr: 0x0, symBinAddr: 0x100006A78, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _mail_get_type, symObjAddr: 0x0, symBinAddr: 0x100006A78, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _mail_get_type.static_g_define_type_id, symObjAddr: 0x8ED8, symBinAddr: 0x10000C280, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _mail_parent_class, symObjAddr: 0x8EE0, symBinAddr: 0x10000C288, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Mail_private_offset, symObjAddr: 0x8EE8, symBinAddr: 0x10000C290, symSize: 0x0 }
+  - { offsetInCU: 0xCBD, offset: 0xCBD, size: 0x8, addend: 0x0, symName: _mail_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006AC4, symSize: 0x50 }
+  - { offsetInCU: 0xD79, offset: 0xD79, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006B14, symSize: 0x2C }
+  - { offsetInCU: 0xE05, offset: 0xE05, size: 0x8, addend: 0x0, symName: _mail_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006B40, symSize: 0x64 }
+  - { offsetInCU: 0xEA0, offset: 0xEA0, size: 0x8, addend: 0x0, symName: _mail_init, symObjAddr: 0x12C, symBinAddr: 0x100006BA4, symSize: 0x4 }
+  - { offsetInCU: 0xF1A, offset: 0xF1A, size: 0x8, addend: 0x0, symName: _mail_init_procedures, symObjAddr: 0x130, symBinAddr: 0x100006BA8, symSize: 0x3C }
+  - { offsetInCU: 0xFDF, offset: 0xFDF, size: 0x8, addend: 0x0, symName: _mail_create_procedure, symObjAddr: 0x16C, symBinAddr: 0x100006BE4, symSize: 0x240 }
+  - { offsetInCU: 0x145A, offset: 0x145A, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x3AC, symBinAddr: 0x100006E24, symSize: 0x30 }
+  - { offsetInCU: 0x19FC, offset: 0x19FC, size: 0x8, addend: 0x0, symName: _mail_run, symObjAddr: 0x3DC, symBinAddr: 0x100006E54, symSize: 0x6BC }
+...

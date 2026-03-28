@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-paa/file-paa'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _paa_get_type, symObjAddr: 0x0, symBinAddr: 0x100002E70, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _paa_get_type, symObjAddr: 0x0, symBinAddr: 0x100002E70, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _paa_get_type.static_g_define_type_id, symObjAddr: 0x7D98, symBinAddr: 0x100008178, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _paa_parent_class, symObjAddr: 0x7DA0, symBinAddr: 0x100008180, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Paa_private_offset, symObjAddr: 0x7DA8, symBinAddr: 0x100008188, symSize: 0x0 }
+  - { offsetInCU: 0xC01, offset: 0xC01, size: 0x8, addend: 0x0, symName: _paa_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100002EBC, symSize: 0x50 }
+  - { offsetInCU: 0xCBD, offset: 0xCBD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100002F0C, symSize: 0x2C }
+  - { offsetInCU: 0xD49, offset: 0xD49, size: 0x8, addend: 0x0, symName: _paa_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100002F38, symSize: 0x68 }
+  - { offsetInCU: 0xDE4, offset: 0xDE4, size: 0x8, addend: 0x0, symName: _paa_init, symObjAddr: 0x130, symBinAddr: 0x100002FA0, symSize: 0x4 }
+  - { offsetInCU: 0xE5E, offset: 0xE5E, size: 0x8, addend: 0x0, symName: _paa_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100002FA4, symSize: 0x24 }
+  - { offsetInCU: 0xEF5, offset: 0xEF5, size: 0x8, addend: 0x0, symName: _paa_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100002FC8, symSize: 0xE0 }
+  - { offsetInCU: 0x1195, offset: 0x1195, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x238, symBinAddr: 0x1000030A8, symSize: 0x30 }
+  - { offsetInCU: 0x120A, offset: 0x120A, size: 0x8, addend: 0x0, symName: _paa_load, symObjAddr: 0x268, symBinAddr: 0x1000030D8, symSize: 0x11C }
+  - { offsetInCU: 0x162E, offset: 0x162E, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x384, symBinAddr: 0x1000031F4, symSize: 0x790 }
+...

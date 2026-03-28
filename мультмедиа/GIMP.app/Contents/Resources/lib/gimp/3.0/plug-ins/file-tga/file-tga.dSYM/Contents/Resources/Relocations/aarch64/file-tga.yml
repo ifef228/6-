@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-tga/file-tga'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _tga_get_type, symObjAddr: 0x0, symBinAddr: 0x10000542C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _tga_get_type, symObjAddr: 0x0, symBinAddr: 0x10000542C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _tga_get_type.static_g_define_type_id, symObjAddr: 0xF080, symBinAddr: 0x10000C2C0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _tga_parent_class, symObjAddr: 0xF088, symBinAddr: 0x10000C2C8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Tga_private_offset, symObjAddr: 0xF090, symBinAddr: 0x10000C2D0, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _magic, symObjAddr: 0x2349, symBinAddr: 0x10000C2A8, symSize: 0x0 }
+  - { offsetInCU: 0xF2F, offset: 0xF2F, size: 0x8, addend: 0x0, symName: _tga_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005478, symSize: 0x50 }
+  - { offsetInCU: 0xFEB, offset: 0xFEB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000054C8, symSize: 0x2C }
+  - { offsetInCU: 0x1077, offset: 0x1077, size: 0x8, addend: 0x0, symName: _tga_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000054F4, symSize: 0x68 }
+  - { offsetInCU: 0x1112, offset: 0x1112, size: 0x8, addend: 0x0, symName: _tga_init, symObjAddr: 0x130, symBinAddr: 0x10000555C, symSize: 0x4 }
+  - { offsetInCU: 0x1182, offset: 0x1182, size: 0x8, addend: 0x0, symName: _tga_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100005560, symSize: 0x48 }
+  - { offsetInCU: 0x1254, offset: 0x1254, size: 0x8, addend: 0x0, symName: _tga_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x1000055A8, symSize: 0x2B4 }
+  - { offsetInCU: 0x1876, offset: 0x1876, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x430, symBinAddr: 0x10000585C, symSize: 0x30 }
+  - { offsetInCU: 0x200B, offset: 0x200B, size: 0x8, addend: 0x0, symName: _tga_load, symObjAddr: 0x460, symBinAddr: 0x10000588C, symSize: 0xB28 }
+  - { offsetInCU: 0x2AA8, offset: 0x2AA8, size: 0x8, addend: 0x0, symName: _upsample, symObjAddr: 0x1A78, symBinAddr: 0x100006EA4, symSize: 0x74 }
+  - { offsetInCU: 0x2C43, offset: 0x2C43, size: 0x8, addend: 0x0, symName: _read_line, symObjAddr: 0x1AEC, symBinAddr: 0x100006F18, symSize: 0x3B8 }
+  - { offsetInCU: 0x31D5, offset: 0x31D5, size: 0x8, addend: 0x0, symName: _tga_export, symObjAddr: 0xF88, symBinAddr: 0x1000063B4, symSize: 0xA74 }
+  - { offsetInCU: 0x3D97, offset: 0x3D97, size: 0x8, addend: 0x0, symName: _bgr2rgb, symObjAddr: 0x19FC, symBinAddr: 0x100006E28, symSize: 0x7C }
+...

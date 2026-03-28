@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-farbfeld/file-farbfeld'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _farbfeld_get_type, symObjAddr: 0x0, symBinAddr: 0x100006E40, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _farbfeld_get_type, symObjAddr: 0x0, symBinAddr: 0x100006E40, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _farbfeld_get_type.static_g_define_type_id, symObjAddr: 0x8470, symBinAddr: 0x10000C1D8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _farbfeld_parent_class, symObjAddr: 0x8478, symBinAddr: 0x10000C1E0, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Farbfeld_private_offset, symObjAddr: 0x8480, symBinAddr: 0x10000C1E8, symSize: 0x0 }
+  - { offsetInCU: 0xD3B, offset: 0xD3B, size: 0x8, addend: 0x0, symName: _farbfeld_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006E8C, symSize: 0x50 }
+  - { offsetInCU: 0xDF7, offset: 0xDF7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006EDC, symSize: 0x2C }
+  - { offsetInCU: 0xE83, offset: 0xE83, size: 0x8, addend: 0x0, symName: _farbfeld_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006F08, symSize: 0x68 }
+  - { offsetInCU: 0xF1E, offset: 0xF1E, size: 0x8, addend: 0x0, symName: _farbfeld_init, symObjAddr: 0x130, symBinAddr: 0x100006F70, symSize: 0x4 }
+  - { offsetInCU: 0xF98, offset: 0xF98, size: 0x8, addend: 0x0, symName: _farbfeld_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006F74, symSize: 0x48 }
+  - { offsetInCU: 0x106A, offset: 0x106A, size: 0x8, addend: 0x0, symName: _farbfeld_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x100006FBC, symSize: 0x1C8 }
+  - { offsetInCU: 0x1546, offset: 0x1546, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x344, symBinAddr: 0x100007184, symSize: 0x30 }
+  - { offsetInCU: 0x193A, offset: 0x193A, size: 0x8, addend: 0x0, symName: _farbfeld_load, symObjAddr: 0x374, symBinAddr: 0x1000071B4, symSize: 0x3AC }
+  - { offsetInCU: 0x21AC, offset: 0x21AC, size: 0x8, addend: 0x0, symName: _farbfeld_export, symObjAddr: 0x720, symBinAddr: 0x100007560, symSize: 0x2AC }
+...

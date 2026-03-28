@@ -1,0 +1,53 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/script-fu-server/script-fu-server'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _script_fu_server_run, symObjAddr: 0x0, symBinAddr: 0x100005A30, symSize: 0x424 }
+  - { offsetInCU: 0x5A, offset: 0x5A, size: 0x8, addend: 0x0, symName: _server_log_file, symObjAddr: 0xA938, symBinAddr: 0x10000C390, symSize: 0x0 }
+  - { offsetInCU: 0x26B, offset: 0x26B, size: 0x8, addend: 0x0, symName: _script_fu_done, symObjAddr: 0xA934, symBinAddr: 0x10000C38C, symSize: 0x0 }
+  - { offsetInCU: 0x29D, offset: 0x29D, size: 0x8, addend: 0x0, symName: _server_socks_used, symObjAddr: 0xA940, symBinAddr: 0x10000C398, symSize: 0x0 }
+  - { offsetInCU: 0x2B2, offset: 0x2B2, size: 0x8, addend: 0x0, symName: _server_socks, symObjAddr: 0xA944, symBinAddr: 0x10000C39C, symSize: 0x0 }
+  - { offsetInCU: 0x2D3, offset: 0x2D3, size: 0x8, addend: 0x0, symName: _clients, symObjAddr: 0xA950, symBinAddr: 0x10000C3A8, symSize: 0x0 }
+  - { offsetInCU: 0x2FD, offset: 0x2FD, size: 0x8, addend: 0x0, symName: _request_no, symObjAddr: 0xA960, symBinAddr: 0x10000C3B8, symSize: 0x0 }
+  - { offsetInCU: 0x312, offset: 0x312, size: 0x8, addend: 0x0, symName: _queue_length, symObjAddr: 0xA964, symBinAddr: 0x10000C3BC, symSize: 0x0 }
+  - { offsetInCU: 0x327, offset: 0x327, size: 0x8, addend: 0x0, symName: _command_queue, symObjAddr: 0xA958, symBinAddr: 0x10000C3B0, symSize: 0x0 }
+  - { offsetInCU: 0x384, offset: 0x384, size: 0x8, addend: 0x0, symName: _sint.0, symObjAddr: 0xA908, symBinAddr: 0x10000C360, symSize: 0x0 }
+  - { offsetInCU: 0x38F, offset: 0x38F, size: 0x8, addend: 0x0, symName: _sint.1, symObjAddr: 0xA910, symBinAddr: 0x10000C368, symSize: 0x0 }
+  - { offsetInCU: 0x39A, offset: 0x39A, size: 0x8, addend: 0x0, symName: _sint.2, symObjAddr: 0xA918, symBinAddr: 0x10000C370, symSize: 0x0 }
+  - { offsetInCU: 0x3A5, offset: 0x3A5, size: 0x8, addend: 0x0, symName: _sint.3, symObjAddr: 0xA920, symBinAddr: 0x10000C378, symSize: 0x0 }
+  - { offsetInCU: 0x3B0, offset: 0x3B0, size: 0x8, addend: 0x0, symName: _sint.4, symObjAddr: 0x1448, symBinAddr: 0x10000C358, symSize: 0x0 }
+  - { offsetInCU: 0x3BD, offset: 0x3BD, size: 0x8, addend: 0x0, symName: _sint.5, symObjAddr: 0xA928, symBinAddr: 0x10000C380, symSize: 0x0 }
+  - { offsetInCU: 0x3C8, offset: 0x3C8, size: 0x8, addend: 0x0, symName: _sint.6, symObjAddr: 0xA930, symBinAddr: 0x10000C388, symSize: 0x0 }
+  - { offsetInCU: 0x9DB, offset: 0x9DB, size: 0x8, addend: 0x0, symName: _script_fu_server_run, symObjAddr: 0x0, symBinAddr: 0x100005A30, symSize: 0x424 }
+  - { offsetInCU: 0x1391, offset: 0x1391, size: 0x8, addend: 0x0, symName: _server_start, symObjAddr: 0x46C, symBinAddr: 0x100005E9C, symSize: 0x4F8 }
+  - { offsetInCU: 0x1917, offset: 0x1917, size: 0x8, addend: 0x0, symName: _server_log, symObjAddr: 0x964, symBinAddr: 0x100006394, symSize: 0x78 }
+  - { offsetInCU: 0x19ED, offset: 0x19ED, size: 0x8, addend: 0x0, symName: _script_fu_server_quit, symObjAddr: 0x424, symBinAddr: 0x100005E54, symSize: 0x28 }
+  - { offsetInCU: 0x1A10, offset: 0x1A10, size: 0x8, addend: 0x0, symName: _server_log, symObjAddr: 0x964, symBinAddr: 0x100006394, symSize: 0x78 }
+  - { offsetInCU: 0x1AB5, offset: 0x1AB5, size: 0x8, addend: 0x0, symName: _script_fu_server_post_command, symObjAddr: 0x44C, symBinAddr: 0x100005E7C, symSize: 0x20 }
+  - { offsetInCU: 0x1AEB, offset: 0x1AEB, size: 0x8, addend: 0x0, symName: _script_fu_server_listen, symObjAddr: 0x9DC, symBinAddr: 0x10000640C, symSize: 0x288 }
+  - { offsetInCU: 0x2493, offset: 0x2493, size: 0x8, addend: 0x0, symName: _server_start.cold.1, symObjAddr: 0xFC8, symBinAddr: 0x100006DC0, symSize: 0x44 }
+  - { offsetInCU: 0x2568, offset: 0x2568, size: 0x8, addend: 0x0, symName: _server_start.cold.2, symObjAddr: 0x100C, symBinAddr: 0x100006E04, symSize: 0x30 }
+  - { offsetInCU: 0x25AF, offset: 0x25AF, size: 0x8, addend: 0x0, symName: _print_socket_api_error, symObjAddr: 0xCB4, symBinAddr: 0x100006DBC, symSize: 0x4 }
+  - { offsetInCU: 0x25CD, offset: 0x25CD, size: 0x8, addend: 0x0, symName: _print_socket_api_error, symObjAddr: 0xCB4, symBinAddr: 0x100006DBC, symSize: 0x4 }
+  - { offsetInCU: 0x2870, offset: 0x2870, size: 0x8, addend: 0x0, symName: _script_fu_server_add_fd, symObjAddr: 0xC64, symBinAddr: 0x100006694, symSize: 0x50 }
+  - { offsetInCU: 0x29ED, offset: 0x29ED, size: 0x8, addend: 0x0, symName: _script_fu_server_read_fd, symObjAddr: 0xCB8, symBinAddr: 0x1000066E4, symSize: 0x264 }
+  - { offsetInCU: 0x2D1A, offset: 0x2D1A, size: 0x8, addend: 0x0, symName: _server_progress_start, symObjAddr: 0xF1C, symBinAddr: 0x100006948, symSize: 0x4 }
+  - { offsetInCU: 0x2D55, offset: 0x2D55, size: 0x8, addend: 0x0, symName: _server_progress_end, symObjAddr: 0xF20, symBinAddr: 0x10000694C, symSize: 0x4 }
+  - { offsetInCU: 0x2D78, offset: 0x2D78, size: 0x8, addend: 0x0, symName: _server_progress_set_text, symObjAddr: 0xF24, symBinAddr: 0x100006950, symSize: 0x4 }
+  - { offsetInCU: 0x2DA7, offset: 0x2DA7, size: 0x8, addend: 0x0, symName: _server_progress_set_value, symObjAddr: 0xF28, symBinAddr: 0x100006954, symSize: 0x4 }
+  - { offsetInCU: 0x2DD6, offset: 0x2DD6, size: 0x8, addend: 0x0, symName: _script_fu_server_shutdown_fd, symObjAddr: 0xF2C, symBinAddr: 0x100006958, symSize: 0x8 }
+  - { offsetInCU: 0x2E3D, offset: 0x2E3D, size: 0x8, addend: 0x0, symName: _response_callback, symObjAddr: 0xF34, symBinAddr: 0x100006960, symSize: 0x94 }
+  - { offsetInCU: 0x27, offset: 0x31A8, size: 0x8, addend: 0x0, symName: _script_fu_server_get_type, symObjAddr: 0x0, symBinAddr: 0x1000069F4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x31B5, size: 0x8, addend: 0x0, symName: _script_fu_server_get_type, symObjAddr: 0x0, symBinAddr: 0x1000069F4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x31DA, size: 0x8, addend: 0x0, symName: _script_fu_server_get_type.static_g_define_type_id, symObjAddr: 0x4158, symBinAddr: 0x10000C3C0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x327C, size: 0x8, addend: 0x0, symName: _script_fu_server_parent_class, symObjAddr: 0x4160, symBinAddr: 0x10000C3C8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x329D, size: 0x8, addend: 0x0, symName: _ScriptFuServer_private_offset, symObjAddr: 0x4168, symBinAddr: 0x10000C3D0, symSize: 0x0 }
+  - { offsetInCU: 0x901, offset: 0x3A82, size: 0x8, addend: 0x0, symName: _script_fu_server_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006A40, symSize: 0x50 }
+  - { offsetInCU: 0x9BD, offset: 0x3B3E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006A90, symSize: 0x2C }
+  - { offsetInCU: 0xA49, offset: 0x3BCA, size: 0x8, addend: 0x0, symName: _script_fu_server_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006ABC, symSize: 0x68 }
+  - { offsetInCU: 0xAE4, offset: 0x3C65, size: 0x8, addend: 0x0, symName: _script_fu_server_init, symObjAddr: 0x130, symBinAddr: 0x100006B24, symSize: 0x4 }
+  - { offsetInCU: 0xB54, offset: 0x3CD5, size: 0x8, addend: 0x0, symName: _script_fu_server_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006B28, symSize: 0x24 }
+  - { offsetInCU: 0xBEB, offset: 0x3D6C, size: 0x8, addend: 0x0, symName: _script_fu_server_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100006B4C, symSize: 0x154 }
+  - { offsetInCU: 0xF09, offset: 0x408A, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x2AC, symBinAddr: 0x100006CA0, symSize: 0x30 }
+  - { offsetInCU: 0xFBF, offset: 0x4140, size: 0x8, addend: 0x0, symName: _script_fu_server_outer_run, symObjAddr: 0x2DC, symBinAddr: 0x100006CD0, symSize: 0xEC }
+...

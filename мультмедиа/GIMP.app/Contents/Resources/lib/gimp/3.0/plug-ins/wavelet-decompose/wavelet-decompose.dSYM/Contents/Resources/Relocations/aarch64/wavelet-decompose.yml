@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/wavelet-decompose/wavelet-decompose'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _wavelet_get_type, symObjAddr: 0x0, symBinAddr: 0x100006D8C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _wavelet_get_type, symObjAddr: 0x0, symBinAddr: 0x100006D8C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _wavelet_get_type.static_g_define_type_id, symObjAddr: 0x77D0, symBinAddr: 0x10000C240, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _wavelet_parent_class, symObjAddr: 0x77D8, symBinAddr: 0x10000C248, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Wavelet_private_offset, symObjAddr: 0x77E0, symBinAddr: 0x10000C250, symSize: 0x0 }
+  - { offsetInCU: 0xD6D, offset: 0xD6D, size: 0x8, addend: 0x0, symName: _wavelet_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006DD8, symSize: 0x50 }
+  - { offsetInCU: 0xE29, offset: 0xE29, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006E28, symSize: 0x2C }
+  - { offsetInCU: 0xEB5, offset: 0xEB5, size: 0x8, addend: 0x0, symName: _wavelet_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006E54, symSize: 0x68 }
+  - { offsetInCU: 0xF50, offset: 0xF50, size: 0x8, addend: 0x0, symName: _wavelet_init, symObjAddr: 0x130, symBinAddr: 0x100006EBC, symSize: 0x4 }
+  - { offsetInCU: 0xFBF, offset: 0xFBF, size: 0x8, addend: 0x0, symName: _wavelet_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006EC0, symSize: 0x24 }
+  - { offsetInCU: 0x104A, offset: 0x104A, size: 0x8, addend: 0x0, symName: _wavelet_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100006EE4, symSize: 0x1A0 }
+  - { offsetInCU: 0x1403, offset: 0x1403, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x2F8, symBinAddr: 0x100007084, symSize: 0x30 }
+  - { offsetInCU: 0x153C, offset: 0x153C, size: 0x8, addend: 0x0, symName: _wavelet_run, symObjAddr: 0x328, symBinAddr: 0x1000070B4, symSize: 0x5C0 }
+...

@@ -1,0 +1,40 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-pnm/file-pnm'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _pnm_get_type, symObjAddr: 0x0, symBinAddr: 0x100007B8C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _pnm_get_type, symObjAddr: 0x0, symBinAddr: 0x100007B8C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _pnm_get_type.static_g_define_type_id, symObjAddr: 0x150D8, symBinAddr: 0x1000102C8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _pnm_parent_class, symObjAddr: 0x150E0, symBinAddr: 0x1000102D0, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Pnm_private_offset, symObjAddr: 0x150E8, symBinAddr: 0x1000102D8, symSize: 0x0 }
+  - { offsetInCU: 0x144, offset: 0x144, size: 0x8, addend: 0x0, symName: _pnm_types, symObjAddr: 0x3B70, symBinAddr: 0x10000C018, symSize: 0x0 }
+  - { offsetInCU: 0x41C, offset: 0x41C, size: 0x8, addend: 0x0, symName: _pnmsaverow_ascii_pbm, symObjAddr: 0x2D34, symBinAddr: 0x10000A8C0, symSize: 0xA0 }
+  - { offsetInCU: 0x443, offset: 0x443, size: 0x8, addend: 0x0, symName: _pnmsaverow_ascii_pbm.line_len, symObjAddr: 0x150EC, symBinAddr: 0x1000102DC, symSize: 0x0 }
+  - { offsetInCU: 0x122B, offset: 0x122B, size: 0x8, addend: 0x0, symName: _pnm_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100007BD8, symSize: 0x50 }
+  - { offsetInCU: 0x12E7, offset: 0x12E7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100007C28, symSize: 0x2C }
+  - { offsetInCU: 0x1376, offset: 0x1376, size: 0x8, addend: 0x0, symName: _pnm_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100007C54, symSize: 0x68 }
+  - { offsetInCU: 0x1411, offset: 0x1411, size: 0x8, addend: 0x0, symName: _pnm_init, symObjAddr: 0x130, symBinAddr: 0x100007CBC, symSize: 0x4 }
+  - { offsetInCU: 0x148D, offset: 0x148D, size: 0x8, addend: 0x0, symName: _pnm_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100007CC0, symSize: 0xD4 }
+  - { offsetInCU: 0x16A4, offset: 0x16A4, size: 0x8, addend: 0x0, symName: _pnm_create_procedure, symObjAddr: 0x208, symBinAddr: 0x100007D94, symSize: 0x790 }
+  - { offsetInCU: 0x2253, offset: 0x2253, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x998, symBinAddr: 0x100008524, symSize: 0x30 }
+  - { offsetInCU: 0x22C8, offset: 0x22C8, size: 0x8, addend: 0x0, symName: _pnm_load, symObjAddr: 0x9C8, symBinAddr: 0x100008554, symSize: 0x8C }
+  - { offsetInCU: 0x2416, offset: 0x2416, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x17A0, symBinAddr: 0x10000932C, symSize: 0x978 }
+  - { offsetInCU: 0x3086, offset: 0x3086, size: 0x8, addend: 0x0, symName: _pnm_export, symObjAddr: 0xA54, symBinAddr: 0x1000085E0, symSize: 0xD4C }
+  - { offsetInCU: 0x4212, offset: 0x4212, size: 0x8, addend: 0x0, symName: _pnmscanner_destroy, symObjAddr: 0x2118, symBinAddr: 0x100009CA4, symSize: 0x2C }
+  - { offsetInCU: 0x427D, offset: 0x427D, size: 0x8, addend: 0x0, symName: _pnmscanner_gettoken, symObjAddr: 0x2144, symBinAddr: 0x100009CD0, symSize: 0x94 }
+  - { offsetInCU: 0x430D, offset: 0x430D, size: 0x8, addend: 0x0, symName: _pnmscanner_eatinnerspace, symObjAddr: 0x2CF0, symBinAddr: 0x10000A87C, symSize: 0x44 }
+  - { offsetInCU: 0x4449, offset: 0x4449, size: 0x8, addend: 0x0, symName: _pnmscanner_eatwhitespace, symObjAddr: 0x21D8, symBinAddr: 0x100009D64, symSize: 0x88 }
+  - { offsetInCU: 0x4494, offset: 0x4494, size: 0x8, addend: 0x0, symName: _pnmscanner_getchar, symObjAddr: 0x2260, symBinAddr: 0x100009DEC, symSize: 0xC0 }
+  - { offsetInCU: 0x45B4, offset: 0x45B4, size: 0x8, addend: 0x0, symName: _pnm_load_ascii, symObjAddr: 0x2320, symBinAddr: 0x100009EAC, symSize: 0x374 }
+  - { offsetInCU: 0x48EA, offset: 0x48EA, size: 0x8, addend: 0x0, symName: _pnm_load_rawpbm, symObjAddr: 0x2694, symBinAddr: 0x10000A220, symSize: 0x1D4 }
+  - { offsetInCU: 0x4B96, offset: 0x4B96, size: 0x8, addend: 0x0, symName: _pnm_load_raw, symObjAddr: 0x2868, symBinAddr: 0x10000A3F4, symSize: 0x2F8 }
+  - { offsetInCU: 0x4BAC, offset: 0x4BAC, size: 0x8, addend: 0x0, symName: _pnm_load_raw, symObjAddr: 0x2868, symBinAddr: 0x10000A3F4, symSize: 0x2F8 }
+  - { offsetInCU: 0x4E23, offset: 0x4E23, size: 0x8, addend: 0x0, symName: _pnm_load_rawpfm, symObjAddr: 0x2B60, symBinAddr: 0x10000A6EC, symSize: 0x190 }
+  - { offsetInCU: 0x4E39, offset: 0x4E39, size: 0x8, addend: 0x0, symName: _pnm_load_rawpfm, symObjAddr: 0x2B60, symBinAddr: 0x10000A6EC, symSize: 0x190 }
+  - { offsetInCU: 0x500B, offset: 0x500B, size: 0x8, addend: 0x0, symName: _pnmscanner_eatinnerspace, symObjAddr: 0x2CF0, symBinAddr: 0x10000A87C, symSize: 0x44 }
+  - { offsetInCU: 0x5041, offset: 0x5041, size: 0x8, addend: 0x0, symName: _pnmsaverow_ascii, symObjAddr: 0x2DD4, symBinAddr: 0x10000A960, symSize: 0xD0 }
+  - { offsetInCU: 0x511C, offset: 0x511C, size: 0x8, addend: 0x0, symName: _pnmsaverow_ascii_indexed, symObjAddr: 0x2EA4, symBinAddr: 0x10000AA30, symSize: 0x104 }
+  - { offsetInCU: 0x5227, offset: 0x5227, size: 0x8, addend: 0x0, symName: _pnmsaverow_raw_pbm, symObjAddr: 0x2FA8, symBinAddr: 0x10000AB34, symSize: 0xB4 }
+  - { offsetInCU: 0x531A, offset: 0x531A, size: 0x8, addend: 0x0, symName: _pnmsaverow_raw, symObjAddr: 0x305C, symBinAddr: 0x10000ABE8, symSize: 0x54 }
+  - { offsetInCU: 0x53DB, offset: 0x53DB, size: 0x8, addend: 0x0, symName: _pnmsaverow_raw_indexed, symObjAddr: 0x30B0, symBinAddr: 0x10000AC3C, symSize: 0xA4 }
+...

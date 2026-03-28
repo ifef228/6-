@@ -1,0 +1,62 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/help/help'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _help_get_type, symObjAddr: 0x0, symBinAddr: 0x100005618, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _help_get_type, symObjAddr: 0x0, symBinAddr: 0x100005618, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _help_get_type.static_g_define_type_id, symObjAddr: 0x5CA8, symBinAddr: 0x10000C290, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _help_parent_class, symObjAddr: 0x5CB0, symBinAddr: 0x10000C298, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Help_private_offset, symObjAddr: 0x5CB8, symBinAddr: 0x10000C2A0, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _main_loop, symObjAddr: 0x5CC0, symBinAddr: 0x10000C2A8, symSize: 0x0 }
+  - { offsetInCU: 0x9CA, offset: 0x9CA, size: 0x8, addend: 0x0, symName: _help_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005664, symSize: 0x50 }
+  - { offsetInCU: 0xA86, offset: 0xA86, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000056B4, symSize: 0x2C }
+  - { offsetInCU: 0xB12, offset: 0xB12, size: 0x8, addend: 0x0, symName: _help_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000056E0, symSize: 0x68 }
+  - { offsetInCU: 0xBAD, offset: 0xBAD, size: 0x8, addend: 0x0, symName: _help_init, symObjAddr: 0x130, symBinAddr: 0x100005748, symSize: 0x4 }
+  - { offsetInCU: 0xC27, offset: 0xC27, size: 0x8, addend: 0x0, symName: _help_query_procedures, symObjAddr: 0x134, symBinAddr: 0x10000574C, symSize: 0x24 }
+  - { offsetInCU: 0xCB2, offset: 0xCB2, size: 0x8, addend: 0x0, symName: _help_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100005770, symSize: 0xC4 }
+  - { offsetInCU: 0xE7E, offset: 0xE7E, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x21C, symBinAddr: 0x100005834, symSize: 0x30 }
+  - { offsetInCU: 0xF12, offset: 0xF12, size: 0x8, addend: 0x0, symName: _help_run, symObjAddr: 0x24C, symBinAddr: 0x100005864, symSize: 0x1DC }
+  - { offsetInCU: 0x1347, offset: 0x1347, size: 0x8, addend: 0x0, symName: _help_temp_run, symObjAddr: 0x428, symBinAddr: 0x100005A40, symSize: 0x158 }
+  - { offsetInCU: 0x162E, offset: 0x162E, size: 0x8, addend: 0x0, symName: _help_load_idle, symObjAddr: 0x580, symBinAddr: 0x100005B98, symSize: 0x180 }
+  - { offsetInCU: 0x1AAA, offset: 0x1AAA, size: 0x8, addend: 0x0, symName: _help_load_progress_start, symObjAddr: 0x700, symBinAddr: 0x100005D18, symSize: 0x4 }
+  - { offsetInCU: 0x1AEA, offset: 0x1AEA, size: 0x8, addend: 0x0, symName: _help_load_progress_start, symObjAddr: 0x700, symBinAddr: 0x100005D18, symSize: 0x4 }
+  - { offsetInCU: 0x1B0D, offset: 0x1B0D, size: 0x8, addend: 0x0, symName: _help_load_progress_end, symObjAddr: 0x704, symBinAddr: 0x100005D1C, symSize: 0x4 }
+  - { offsetInCU: 0x1B33, offset: 0x1B33, size: 0x8, addend: 0x0, symName: _help_load_progress_end, symObjAddr: 0x704, symBinAddr: 0x100005D1C, symSize: 0x4 }
+  - { offsetInCU: 0x1B48, offset: 0x1B48, size: 0x8, addend: 0x0, symName: _help_load_progress_update, symObjAddr: 0x708, symBinAddr: 0x100005D20, symSize: 0x4 }
+  - { offsetInCU: 0x1B7D, offset: 0x1B7D, size: 0x8, addend: 0x0, symName: _help_load_progress_update, symObjAddr: 0x708, symBinAddr: 0x100005D20, symSize: 0x4 }
+  - { offsetInCU: 0x27, offset: 0x1C0D, size: 0x8, addend: 0x0, symName: _gimp_help_init, symObjAddr: 0x0, symBinAddr: 0x100005D24, symSize: 0x90 }
+  - { offsetInCU: 0x53, offset: 0x1C39, size: 0x8, addend: 0x0, symName: _domain_hash, symObjAddr: 0x1D98, symBinAddr: 0x10000C2B0, symSize: 0x0 }
+  - { offsetInCU: 0xBD, offset: 0x1CA3, size: 0x8, addend: 0x0, symName: _gimp_help_init, symObjAddr: 0x0, symBinAddr: 0x100005D24, symSize: 0x90 }
+  - { offsetInCU: 0x188, offset: 0x1D6E, size: 0x8, addend: 0x0, symName: _gimp_help_register_domain, symObjAddr: 0x90, symBinAddr: 0x100005DB4, symSize: 0xC4 }
+  - { offsetInCU: 0x3B3, offset: 0x1F99, size: 0x8, addend: 0x0, symName: _gimp_help_exit, symObjAddr: 0x154, symBinAddr: 0x100005E78, symSize: 0x2C }
+  - { offsetInCU: 0x3E3, offset: 0x1FC9, size: 0x8, addend: 0x0, symName: _gimp_help_lookup_domain, symObjAddr: 0x180, symBinAddr: 0x100005EA4, symSize: 0x44 }
+  - { offsetInCU: 0x43C, offset: 0x2022, size: 0x8, addend: 0x0, symName: _gimp_help_parse_locales, symObjAddr: 0x1C4, symBinAddr: 0x100005EE8, symSize: 0x100 }
+  - { offsetInCU: 0x27, offset: 0x2264, size: 0x8, addend: 0x0, symName: _gimp_help_domain_new, symObjAddr: 0x0, symBinAddr: 0x100005FE8, symSize: 0xA8 }
+  - { offsetInCU: 0x185, offset: 0x23C2, size: 0x8, addend: 0x0, symName: _gimp_help_domain_new, symObjAddr: 0x0, symBinAddr: 0x100005FE8, symSize: 0xA8 }
+  - { offsetInCU: 0x369, offset: 0x25A6, size: 0x8, addend: 0x0, symName: _gimp_help_domain_free, symObjAddr: 0xA8, symBinAddr: 0x100006090, symSize: 0x58 }
+  - { offsetInCU: 0x419, offset: 0x2656, size: 0x8, addend: 0x0, symName: _gimp_help_domain_lookup_locale, symObjAddr: 0x100, symBinAddr: 0x1000060E8, symSize: 0xB8 }
+  - { offsetInCU: 0x652, offset: 0x288F, size: 0x8, addend: 0x0, symName: _domain_locale_parse, symObjAddr: 0x1B8, symBinAddr: 0x1000061A0, symSize: 0xE0 }
+  - { offsetInCU: 0x7D8, offset: 0x2A15, size: 0x8, addend: 0x0, symName: _gimp_help_domain_map, symObjAddr: 0x298, symBinAddr: 0x100006280, symSize: 0x254 }
+  - { offsetInCU: 0x27, offset: 0x2C78, size: 0x8, addend: 0x0, symName: _gimp_help_item_new, symObjAddr: 0x0, symBinAddr: 0x1000064D4, symSize: 0x7C }
+  - { offsetInCU: 0x165, offset: 0x2DB6, size: 0x8, addend: 0x0, symName: _gimp_help_item_new, symObjAddr: 0x0, symBinAddr: 0x1000064D4, symSize: 0x7C }
+  - { offsetInCU: 0x2FF, offset: 0x2F50, size: 0x8, addend: 0x0, symName: _gimp_help_item_free, symObjAddr: 0x7C, symBinAddr: 0x100006550, symSize: 0x4C }
+  - { offsetInCU: 0x27, offset: 0x301D, size: 0x8, addend: 0x0, symName: _gimp_help_locale_new, symObjAddr: 0x0, symBinAddr: 0x10000659C, symSize: 0x40 }
+  - { offsetInCU: 0x53, offset: 0x3049, size: 0x8, addend: 0x0, symName: _markup_parser, symObjAddr: 0xA30, symBinAddr: 0x100008060, symSize: 0x0 }
+  - { offsetInCU: 0x462, offset: 0x3458, size: 0x8, addend: 0x0, symName: _gimp_help_locale_new, symObjAddr: 0x0, symBinAddr: 0x10000659C, symSize: 0x40 }
+  - { offsetInCU: 0x52A, offset: 0x3520, size: 0x8, addend: 0x0, symName: _gimp_help_locale_free, symObjAddr: 0x40, symBinAddr: 0x1000065DC, symSize: 0x60 }
+  - { offsetInCU: 0x5F5, offset: 0x35EB, size: 0x8, addend: 0x0, symName: _gimp_help_locale_map, symObjAddr: 0xA0, symBinAddr: 0x10000663C, symSize: 0x60 }
+  - { offsetInCU: 0x68B, offset: 0x3681, size: 0x8, addend: 0x0, symName: _gimp_help_locale_parse, symObjAddr: 0x100, symBinAddr: 0x10000669C, symSize: 0x2A0 }
+  - { offsetInCU: 0xC0F, offset: 0x3C05, size: 0x8, addend: 0x0, symName: _locale_set_error, symObjAddr: 0x3A0, symBinAddr: 0x10000693C, symSize: 0x7C }
+  - { offsetInCU: 0xDF1, offset: 0x3DE7, size: 0x8, addend: 0x0, symName: _locale_parser_start_element, symObjAddr: 0x41C, symBinAddr: 0x1000069B8, symSize: 0x318 }
+  - { offsetInCU: 0x1296, offset: 0x428C, size: 0x8, addend: 0x0, symName: _locale_parser_end_element, symObjAddr: 0x734, symBinAddr: 0x100006CD0, symSize: 0xA4 }
+  - { offsetInCU: 0x1323, offset: 0x4319, size: 0x8, addend: 0x0, symName: _locale_parser_error, symObjAddr: 0x7D8, symBinAddr: 0x100006D74, symSize: 0x48 }
+  - { offsetInCU: 0x137F, offset: 0x4375, size: 0x8, addend: 0x0, symName: _locale_parser_error, symObjAddr: 0x7D8, symBinAddr: 0x100006D74, symSize: 0x48 }
+  - { offsetInCU: 0x27, offset: 0x476E, size: 0x8, addend: 0x0, symName: _gimp_help_progress_new, symObjAddr: 0x0, symBinAddr: 0x100006DBC, symSize: 0x6C }
+  - { offsetInCU: 0x28D, offset: 0x49D4, size: 0x8, addend: 0x0, symName: _gimp_help_progress_new, symObjAddr: 0x0, symBinAddr: 0x100006DBC, symSize: 0x6C }
+  - { offsetInCU: 0x347, offset: 0x4A8E, size: 0x8, addend: 0x0, symName: _gimp_help_progress_free, symObjAddr: 0x6C, symBinAddr: 0x100006E28, symSize: 0x4C }
+  - { offsetInCU: 0x3BA, offset: 0x4B01, size: 0x8, addend: 0x0, symName: _gimp_help_progress_cancel, symObjAddr: 0xB8, symBinAddr: 0x100006E74, symSize: 0x28 }
+  - { offsetInCU: 0x406, offset: 0x4B4D, size: 0x8, addend: 0x0, symName: __gimp_help_progress_start, symObjAddr: 0xE0, symBinAddr: 0x100006E9C, symSize: 0xA4 }
+  - { offsetInCU: 0x525, offset: 0x4C6C, size: 0x8, addend: 0x0, symName: __gimp_help_progress_update, symObjAddr: 0x184, symBinAddr: 0x100006F40, symSize: 0x2C }
+  - { offsetInCU: 0x58E, offset: 0x4CD5, size: 0x8, addend: 0x0, symName: __gimp_help_progress_pulse, symObjAddr: 0x1B0, symBinAddr: 0x100006F6C, symSize: 0x30 }
+  - { offsetInCU: 0x5F8, offset: 0x4D3F, size: 0x8, addend: 0x0, symName: __gimp_help_progress_finish, symObjAddr: 0x1E0, symBinAddr: 0x100006F9C, symSize: 0x54 }
+...

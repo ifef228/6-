@@ -1,0 +1,39 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-png/file-png'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _png_get_type, symObjAddr: 0x0, symBinAddr: 0x100005570, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _png_get_type, symObjAddr: 0x0, symBinAddr: 0x100005570, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _png_get_type.static_g_define_type_id, symObjAddr: 0x1F0E0, symBinAddr: 0x1000107A8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _png_parent_class, symObjAddr: 0x1F0E8, symBinAddr: 0x1000107B0, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Png_private_offset, symObjAddr: 0x1F0F0, symBinAddr: 0x1000107B8, symSize: 0x0 }
+  - { offsetInCU: 0x148, offset: 0x148, size: 0x8, addend: 0x0, symName: _safe_to_copy_chunks, symObjAddr: 0x1F0F8, symBinAddr: 0x1000107C0, symSize: 0x0 }
+  - { offsetInCU: 0x18F, offset: 0x18F, size: 0x8, addend: 0x0, symName: _pngg, symObjAddr: 0x1F100, symBinAddr: 0x1000107C8, symSize: 0x0 }
+  - { offsetInCU: 0x275, offset: 0x275, size: 0x8, addend: 0x0, symName: _respin_cmap, symObjAddr: 0x40C0, symBinAddr: 0x100009630, symSize: 0x418 }
+  - { offsetInCU: 0x29D, offset: 0x29D, size: 0x8, addend: 0x0, symName: _respin_cmap.trans, symObjAddr: 0x1F128, symBinAddr: 0x1000107F0, symSize: 0x0 }
+  - { offsetInCU: 0x2B3, offset: 0x2B3, size: 0x8, addend: 0x0, symName: _respin_cmap.palette, symObjAddr: 0x1F129, symBinAddr: 0x1000107F1, symSize: 0x0 }
+  - { offsetInCU: 0x1A39, offset: 0x1A39, size: 0x8, addend: 0x0, symName: _png_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000055BC, symSize: 0x50 }
+  - { offsetInCU: 0x1AF5, offset: 0x1AF5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x10000560C, symSize: 0x2C }
+  - { offsetInCU: 0x1B81, offset: 0x1B81, size: 0x8, addend: 0x0, symName: _png_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005638, symSize: 0x68 }
+  - { offsetInCU: 0x1C1C, offset: 0x1C1C, size: 0x8, addend: 0x0, symName: _png_init, symObjAddr: 0x130, symBinAddr: 0x1000056A0, symSize: 0x4 }
+  - { offsetInCU: 0x1C76, offset: 0x1C76, size: 0x8, addend: 0x0, symName: _png_query_procedures, symObjAddr: 0x134, symBinAddr: 0x1000056A4, symSize: 0x64 }
+  - { offsetInCU: 0x1D87, offset: 0x1D87, size: 0x8, addend: 0x0, symName: _png_create_procedure, symObjAddr: 0x198, symBinAddr: 0x100005708, symSize: 0x66C }
+  - { offsetInCU: 0x27A5, offset: 0x27A5, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x804, symBinAddr: 0x100005D74, symSize: 0x30 }
+  - { offsetInCU: 0x281A, offset: 0x281A, size: 0x8, addend: 0x0, symName: _png_load, symObjAddr: 0x834, symBinAddr: 0x100005DA4, symSize: 0x11C }
+  - { offsetInCU: 0x2A08, offset: 0x2A08, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0xCB0, symBinAddr: 0x100006220, symSize: 0x10AC }
+  - { offsetInCU: 0x3E7F, offset: 0x3E7F, size: 0x8, addend: 0x0, symName: _load_apng_image, symObjAddr: 0x1D5C, symBinAddr: 0x1000072CC, symSize: 0x774 }
+  - { offsetInCU: 0x47EB, offset: 0x47EB, size: 0x8, addend: 0x0, symName: _apng_load, symObjAddr: 0x950, symBinAddr: 0x100005EC0, symSize: 0x110 }
+  - { offsetInCU: 0x4A1C, offset: 0x4A1C, size: 0x8, addend: 0x0, symName: _png_export, symObjAddr: 0xA60, symBinAddr: 0x100005FD0, symSize: 0x250 }
+  - { offsetInCU: 0x4EBB, offset: 0x4EBB, size: 0x8, addend: 0x0, symName: _export_image, symObjAddr: 0x2E08, symBinAddr: 0x100008378, symSize: 0x12B8 }
+  - { offsetInCU: 0x6D4D, offset: 0x6D4D, size: 0x8, addend: 0x0, symName: _offsets_dialog, symObjAddr: 0x2594, symBinAddr: 0x100007B04, symSize: 0x1CC }
+  - { offsetInCU: 0x73C9, offset: 0x73C9, size: 0x8, addend: 0x0, symName: _add_alpha_to_indexed, symObjAddr: 0x2828, symBinAddr: 0x100007D98, symSize: 0xE8 }
+  - { offsetInCU: 0x7696, offset: 0x7696, size: 0x8, addend: 0x0, symName: _restart_apng_processing, symObjAddr: 0x2910, symBinAddr: 0x100007E80, symSize: 0x1B8 }
+  - { offsetInCU: 0x7870, offset: 0x7870, size: 0x8, addend: 0x0, symName: _process_apng_data, symObjAddr: 0x2CF0, symBinAddr: 0x100008260, symSize: 0x9C }
+  - { offsetInCU: 0x7938, offset: 0x7938, size: 0x8, addend: 0x0, symName: _end_apng_processing, symObjAddr: 0x2AC8, symBinAddr: 0x100008038, symSize: 0xDC }
+  - { offsetInCU: 0x79EE, offset: 0x79EE, size: 0x8, addend: 0x0, symName: _create_apng_layer, symObjAddr: 0x2BA4, symBinAddr: 0x100008114, symSize: 0x14C }
+  - { offsetInCU: 0x7C0D, offset: 0x7C0D, size: 0x8, addend: 0x0, symName: _read_unknown_chunk, symObjAddr: 0x24D0, symBinAddr: 0x100007A40, symSize: 0xC4 }
+  - { offsetInCU: 0x7E89, offset: 0x7E89, size: 0x8, addend: 0x0, symName: _on_read_error, symObjAddr: 0x2760, symBinAddr: 0x100007CD0, symSize: 0xC8 }
+  - { offsetInCU: 0x7F8C, offset: 0x7F8C, size: 0x8, addend: 0x0, symName: _add_alpha_to_indexed, symObjAddr: 0x2828, symBinAddr: 0x100007D98, symSize: 0xE8 }
+  - { offsetInCU: 0x81A8, offset: 0x81A8, size: 0x8, addend: 0x0, symName: _read_apng_header, symObjAddr: 0x2D8C, symBinAddr: 0x1000082FC, symSize: 0x2C }
+  - { offsetInCU: 0x8201, offset: 0x8201, size: 0x8, addend: 0x0, symName: _read_apng_row, symObjAddr: 0x2DB8, symBinAddr: 0x100008328, symSize: 0x50 }
+...

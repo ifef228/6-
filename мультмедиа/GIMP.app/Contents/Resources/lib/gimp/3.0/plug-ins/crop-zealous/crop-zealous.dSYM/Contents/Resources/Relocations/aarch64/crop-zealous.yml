@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/crop-zealous/crop-zealous'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _crop_get_type, symObjAddr: 0x0, symBinAddr: 0x100003130, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _crop_get_type, symObjAddr: 0x0, symBinAddr: 0x100003130, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _crop_get_type.static_g_define_type_id, symObjAddr: 0x5FC8, symBinAddr: 0x100008190, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _crop_parent_class, symObjAddr: 0x5FD0, symBinAddr: 0x100008198, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Crop_private_offset, symObjAddr: 0x5FD8, symBinAddr: 0x1000081A0, symSize: 0x0 }
+  - { offsetInCU: 0x9FD, offset: 0x9FD, size: 0x8, addend: 0x0, symName: _crop_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x10000317C, symSize: 0x50 }
+  - { offsetInCU: 0xAB9, offset: 0xAB9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000031CC, symSize: 0x2C }
+  - { offsetInCU: 0xB45, offset: 0xB45, size: 0x8, addend: 0x0, symName: _crop_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000031F8, symSize: 0x68 }
+  - { offsetInCU: 0xBE0, offset: 0xBE0, size: 0x8, addend: 0x0, symName: _crop_init, symObjAddr: 0x130, symBinAddr: 0x100003260, symSize: 0x4 }
+  - { offsetInCU: 0xC4F, offset: 0xC4F, size: 0x8, addend: 0x0, symName: _crop_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100003264, symSize: 0x24 }
+  - { offsetInCU: 0xCDA, offset: 0xCDA, size: 0x8, addend: 0x0, symName: _crop_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100003288, symSize: 0xE0 }
+  - { offsetInCU: 0xF96, offset: 0xF96, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x238, symBinAddr: 0x100003368, symSize: 0x30 }
+  - { offsetInCU: 0x11D8, offset: 0x11D8, size: 0x8, addend: 0x0, symName: _crop_run, symObjAddr: 0x268, symBinAddr: 0x100003398, symSize: 0x628 }
+...

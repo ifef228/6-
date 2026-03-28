@@ -1,0 +1,36 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/qbist/qbist'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _qbist_get_type, symObjAddr: 0x0, symBinAddr: 0x100005898, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _qbist_get_type, symObjAddr: 0x0, symBinAddr: 0x100005898, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _qbist_get_type.static_g_define_type_id, symObjAddr: 0xC968, symBinAddr: 0x10000C338, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _qbist_parent_class, symObjAddr: 0xC970, symBinAddr: 0x10000C340, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Qbist_private_offset, symObjAddr: 0xC978, symBinAddr: 0x10000C348, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _gr, symObjAddr: 0xC980, symBinAddr: 0x10000C350, symSize: 0x0 }
+  - { offsetInCU: 0x16D, offset: 0x16D, size: 0x8, addend: 0x0, symName: _qbist_info, symObjAddr: 0xC988, symBinAddr: 0x10000C358, symSize: 0x0 }
+  - { offsetInCU: 0x276, offset: 0x276, size: 0x8, addend: 0x0, symName: _info, symObjAddr: 0xCBD8, symBinAddr: 0x10000C5A8, symSize: 0x0 }
+  - { offsetInCU: 0x298, offset: 0x298, size: 0x8, addend: 0x0, symName: _last_info, symObjAddr: 0xE018, symBinAddr: 0x10000D9E8, symSize: 0x0 }
+  - { offsetInCU: 0x2AE, offset: 0x2AE, size: 0x8, addend: 0x0, symName: _preview, symObjAddr: 0xF458, symBinAddr: 0x10000EE28, symSize: 0x0 }
+  - { offsetInCU: 0x3BC, offset: 0x3BC, size: 0x8, addend: 0x0, symName: _dialog_update_previews, symObjAddr: 0x17D4, symBinAddr: 0x10000706C, symSize: 0x1C4 }
+  - { offsetInCU: 0x3E0, offset: 0x3E0, size: 0x8, addend: 0x0, symName: _dialog_update_previews.fish, symObjAddr: 0xF4A0, symBinAddr: 0x10000EE70, symSize: 0x0 }
+  - { offsetInCU: 0x3F6, offset: 0x3F6, size: 0x8, addend: 0x0, symName: _dialog_update_previews.size, symObjAddr: 0x1D20, symBinAddr: 0x10000C330, symSize: 0x0 }
+  - { offsetInCU: 0x607, offset: 0x607, size: 0x8, addend: 0x0, symName: _used_trans_flag, symObjAddr: 0xF4A8, symBinAddr: 0x10000EE78, symSize: 0x0 }
+  - { offsetInCU: 0x61D, offset: 0x61D, size: 0x8, addend: 0x0, symName: _used_reg_flag, symObjAddr: 0xF538, symBinAddr: 0x10000EF08, symSize: 0x0 }
+  - { offsetInCU: 0x1170, offset: 0x1170, size: 0x8, addend: 0x0, symName: _qbist_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000058E4, symSize: 0x50 }
+  - { offsetInCU: 0x122C, offset: 0x122C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005934, symSize: 0x2C }
+  - { offsetInCU: 0x12B8, offset: 0x12B8, size: 0x8, addend: 0x0, symName: _qbist_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005960, symSize: 0x68 }
+  - { offsetInCU: 0x1353, offset: 0x1353, size: 0x8, addend: 0x0, symName: _qbist_init, symObjAddr: 0x130, symBinAddr: 0x1000059C8, symSize: 0x4 }
+  - { offsetInCU: 0x13C3, offset: 0x13C3, size: 0x8, addend: 0x0, symName: _qbist_query_procedures, symObjAddr: 0x134, symBinAddr: 0x1000059CC, symSize: 0x24 }
+  - { offsetInCU: 0x144E, offset: 0x144E, size: 0x8, addend: 0x0, symName: _qbist_create_procedure, symObjAddr: 0x158, symBinAddr: 0x1000059F0, symSize: 0x184 }
+  - { offsetInCU: 0x183A, offset: 0x183A, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x2DC, symBinAddr: 0x100005B74, symSize: 0x30 }
+  - { offsetInCU: 0x196A, offset: 0x196A, size: 0x8, addend: 0x0, symName: _qbist_run, symObjAddr: 0x30C, symBinAddr: 0x100005BA4, symSize: 0x898 }
+  - { offsetInCU: 0x2681, offset: 0x2681, size: 0x8, addend: 0x0, symName: _dialog_new_variations, symObjAddr: 0x10B4, symBinAddr: 0x10000694C, symSize: 0x180 }
+  - { offsetInCU: 0x2CD2, offset: 0x2CD2, size: 0x8, addend: 0x0, symName: _optimize, symObjAddr: 0xBA4, symBinAddr: 0x10000643C, symSize: 0x6C }
+  - { offsetInCU: 0x2D42, offset: 0x2D42, size: 0x8, addend: 0x0, symName: _qbist, symObjAddr: 0xC10, symBinAddr: 0x1000064A8, symSize: 0x4A4 }
+  - { offsetInCU: 0x2F13, offset: 0x2F13, size: 0x8, addend: 0x0, symName: _check_last_modified, symObjAddr: 0x1998, symBinAddr: 0x100007230, symSize: 0x94 }
+  - { offsetInCU: 0x2FAA, offset: 0x2FAA, size: 0x8, addend: 0x0, symName: _dialog_select_preview, symObjAddr: 0x1234, symBinAddr: 0x100006ACC, symSize: 0x50 }
+  - { offsetInCU: 0x2FF7, offset: 0x2FF7, size: 0x8, addend: 0x0, symName: _dialog_undo, symObjAddr: 0x1284, symBinAddr: 0x100006B1C, symSize: 0xB4 }
+  - { offsetInCU: 0x3295, offset: 0x3295, size: 0x8, addend: 0x0, symName: _dialog_load, symObjAddr: 0x1338, symBinAddr: 0x100006BD0, symSize: 0x288 }
+  - { offsetInCU: 0x368D, offset: 0x368D, size: 0x8, addend: 0x0, symName: _dialog_save, symObjAddr: 0x15C0, symBinAddr: 0x100006E58, symSize: 0x214 }
+...

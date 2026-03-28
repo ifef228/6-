@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/babl-0.1/gegl-fixups.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3284, symSize: 0x6B4 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _table_inited, symObjAddr: 0x4048, symBinAddr: 0x8038, symSize: 0x0 }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _table_8_F, symObjAddr: 0x404C, symBinAddr: 0x803C, symSize: 0x0 }
+  - { offsetInCU: 0x99, offset: 0x99, size: 0x8, addend: 0x0, symName: _table_8g_F, symObjAddr: 0x444C, symBinAddr: 0x843C, symSize: 0x0 }
+  - { offsetInCU: 0xAE, offset: 0xAE, size: 0x8, addend: 0x0, symName: _table_F_8, symObjAddr: 0x484C, symBinAddr: 0x883C, symSize: 0x0 }
+  - { offsetInCU: 0xD9, offset: 0xD9, size: 0x8, addend: 0x0, symName: _table_F_8g, symObjAddr: 0x2484C, symBinAddr: 0x2883C, symSize: 0x0 }
+  - { offsetInCU: 0x19A, offset: 0x19A, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3284, symSize: 0x6B4 }
+  - { offsetInCU: 0x8A7, offset: 0x8A7, size: 0x8, addend: 0x0, symName: _conv_rgbaF_rgbAF, symObjAddr: 0x6B4, symBinAddr: 0x3938, symSize: 0xBC }
+  - { offsetInCU: 0x974, offset: 0x974, size: 0x8, addend: 0x0, symName: _conv_rgbAF_rgbaF, symObjAddr: 0x770, symBinAddr: 0x39F4, symSize: 0xC4 }
+  - { offsetInCU: 0xA91, offset: 0xA91, size: 0x8, addend: 0x0, symName: _conv_rgbAF_lrgba8, symObjAddr: 0x834, symBinAddr: 0x3AB8, symSize: 0x100 }
+  - { offsetInCU: 0xC04, offset: 0xC04, size: 0x8, addend: 0x0, symName: _conv_rgb8_rgbaF, symObjAddr: 0x934, symBinAddr: 0x3BB8, symSize: 0x4C }
+  - { offsetInCU: 0xC67, offset: 0xC67, size: 0x8, addend: 0x0, symName: _conv_rgba8_rgbaF, symObjAddr: 0x980, symBinAddr: 0x3C04, symSize: 0x58 }
+  - { offsetInCU: 0xCCA, offset: 0xCCA, size: 0x8, addend: 0x0, symName: _conv_rgbaF_rgb8, symObjAddr: 0x9D8, symBinAddr: 0x3C5C, symSize: 0x50 }
+  - { offsetInCU: 0xD7C, offset: 0xD7C, size: 0x8, addend: 0x0, symName: _conv_rgbAF_rgb8, symObjAddr: 0xA28, symBinAddr: 0x3CAC, symSize: 0xA0 }
+  - { offsetInCU: 0xEA9, offset: 0xEA9, size: 0x8, addend: 0x0, symName: _conv_bgrA8_rgba8, symObjAddr: 0xAC8, symBinAddr: 0x3D4C, symSize: 0x74 }
+  - { offsetInCU: 0xF42, offset: 0xF42, size: 0x8, addend: 0x0, symName: _conv_rgba8_rgb8, symObjAddr: 0xB3C, symBinAddr: 0x3DC0, symSize: 0x34 }
+  - { offsetInCU: 0xFA1, offset: 0xFA1, size: 0x8, addend: 0x0, symName: _conv_ga8_rgbaF, symObjAddr: 0xB70, symBinAddr: 0x3DF4, symSize: 0x44 }
+...

@@ -1,0 +1,36 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gegl-0.4/rgbe-load.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_op_rgbe_load_get_type, symObjAddr: 0x0, symBinAddr: 0x58AC, symSize: 0xC }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _gegl_op_rgbe_load_type_id, symObjAddr: 0x6A80, symBinAddr: 0xC1A0, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _gegl_op_parent_class, symObjAddr: 0x6A88, symBinAddr: 0xC1A8, symSize: 0x0 }
+  - { offsetInCU: 0xB7, offset: 0xB7, size: 0x8, addend: 0x0, symName: _modinfo, symObjAddr: 0xA00, symBinAddr: 0x7910, symSize: 0x0 }
+  - { offsetInCU: 0xC27, offset: 0xC27, size: 0x8, addend: 0x0, symName: _gegl_op_rgbe_load_get_type, symObjAddr: 0x0, symBinAddr: 0x58AC, symSize: 0xC }
+  - { offsetInCU: 0xC40, offset: 0xC40, size: 0x8, addend: 0x0, symName: _gegl_op_rgbe_load_register_type, symObjAddr: 0xC, symBinAddr: 0x58B8, symSize: 0x6C }
+  - { offsetInCU: 0x108A, offset: 0x108A, size: 0x8, addend: 0x0, symName: _gegl_op_rgbe_load_class_chant_intern_init, symObjAddr: 0x78, symBinAddr: 0x5924, symSize: 0x32C }
+  - { offsetInCU: 0x13EE, offset: 0x13EE, size: 0x8, addend: 0x0, symName: _has_key, symObjAddr: 0x624, symBinAddr: 0x5ED0, symSize: 0x48 }
+  - { offsetInCU: 0x14BF, offset: 0x14BF, size: 0x8, addend: 0x0, symName: _gegl_op_rgbe_load_class_finalize, symObjAddr: 0x3A4, symBinAddr: 0x5C50, symSize: 0x4 }
+  - { offsetInCU: 0x1510, offset: 0x1510, size: 0x8, addend: 0x0, symName: _gegl_op_rgbe_load_init, symObjAddr: 0x3A8, symBinAddr: 0x5C54, symSize: 0x2C }
+  - { offsetInCU: 0x1592, offset: 0x1592, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x3D4, symBinAddr: 0x5C80, symSize: 0xC }
+  - { offsetInCU: 0x15DA, offset: 0x15DA, size: 0x8, addend: 0x0, symName: _gegl_module_register, symObjAddr: 0x3E0, symBinAddr: 0x5C8C, symSize: 0x70 }
+  - { offsetInCU: 0x1656, offset: 0x1656, size: 0x8, addend: 0x0, symName: _set_property, symObjAddr: 0x450, symBinAddr: 0x5CFC, symSize: 0xAC }
+  - { offsetInCU: 0x179E, offset: 0x179E, size: 0x8, addend: 0x0, symName: _get_property, symObjAddr: 0x4FC, symBinAddr: 0x5DA8, symSize: 0xAC }
+  - { offsetInCU: 0x1890, offset: 0x1890, size: 0x8, addend: 0x0, symName: _gegl_op_constructor, symObjAddr: 0x5A8, symBinAddr: 0x5E54, symSize: 0x48 }
+  - { offsetInCU: 0x194D, offset: 0x194D, size: 0x8, addend: 0x0, symName: _gegl_op_destroy_notify, symObjAddr: 0x5F0, symBinAddr: 0x5E9C, symSize: 0x34 }
+  - { offsetInCU: 0x1A0E, offset: 0x1A0E, size: 0x8, addend: 0x0, symName: _gegl_rgbe_load_process, symObjAddr: 0x66C, symBinAddr: 0x5F18, symSize: 0xD4 }
+  - { offsetInCU: 0x1C24, offset: 0x1C24, size: 0x8, addend: 0x0, symName: _gegl_rgbe_load_get_bounding_box, symObjAddr: 0x740, symBinAddr: 0x5FEC, symSize: 0x8C }
+  - { offsetInCU: 0x1D20, offset: 0x1D20, size: 0x8, addend: 0x0, symName: _gegl_rgbe_load_get_cached_region, symObjAddr: 0x7CC, symBinAddr: 0x6078, symSize: 0x4 }
+  - { offsetInCU: 0x1D55, offset: 0x1D55, size: 0x8, addend: 0x0, symName: _gegl_rgbe_load_get_cached_region, symObjAddr: 0x7CC, symBinAddr: 0x6078, symSize: 0x4 }
+  - { offsetInCU: 0x27, offset: 0x1D98, size: 0x8, addend: 0x0, symName: _rgbe_file_free, symObjAddr: 0x0, symBinAddr: 0x607C, symSize: 0x34 }
+  - { offsetInCU: 0x53, offset: 0x1DC4, size: 0x8, addend: 0x0, symName: _RADIANCE_MAGIC, symObjAddr: 0x17FA, symBinAddr: 0x7920, symSize: 0x0 }
+  - { offsetInCU: 0x84, offset: 0x1DF5, size: 0x8, addend: 0x0, symName: _RGBE_FORMAT_STRINGS, symObjAddr: 0x1800, symBinAddr: 0x8060, symSize: 0x0 }
+  - { offsetInCU: 0x2A8, offset: 0x2019, size: 0x8, addend: 0x0, symName: _rgbe_file_free, symObjAddr: 0x0, symBinAddr: 0x607C, symSize: 0x34 }
+  - { offsetInCU: 0x740, offset: 0x24B1, size: 0x8, addend: 0x0, symName: _rgbe_save_path, symObjAddr: 0x34, symBinAddr: 0x60B0, symSize: 0x4CC }
+  - { offsetInCU: 0xB98, offset: 0x2909, size: 0x8, addend: 0x0, symName: _rgbe_write_line, symObjAddr: 0x1118, symBinAddr: 0x7194, symSize: 0xB4 }
+  - { offsetInCU: 0x1262, offset: 0x2FD3, size: 0x8, addend: 0x0, symName: _rgbe_load_path, symObjAddr: 0x500, symBinAddr: 0x657C, symSize: 0x71C }
+  - { offsetInCU: 0x19BB, offset: 0x372C, size: 0x8, addend: 0x0, symName: _rgbe_mapped_file_remaining, symObjAddr: 0x11CC, symBinAddr: 0x7248, symSize: 0x88 }
+  - { offsetInCU: 0x1AEF, offset: 0x3860, size: 0x8, addend: 0x0, symName: _rgbe_get_size, symObjAddr: 0xC1C, symBinAddr: 0x6C98, symSize: 0x44 }
+  - { offsetInCU: 0x1DAD, offset: 0x3B1E, size: 0x8, addend: 0x0, symName: _rgbe_read_scanlines, symObjAddr: 0xC60, symBinAddr: 0x6CDC, symSize: 0x4B8 }
+  - { offsetInCU: 0x2098, offset: 0x3E09, size: 0x8, addend: 0x0, symName: _rgbe_apply_exponent, symObjAddr: 0x1254, symBinAddr: 0x72D0, symSize: 0xE0 }
+...

@@ -1,0 +1,44 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/jigsaw/jigsaw'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _jigsaw_get_type, symObjAddr: 0x0, symBinAddr: 0x100006954, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _jigsaw_get_type, symObjAddr: 0x0, symBinAddr: 0x100006954, symSize: 0x4C }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _jigsaw_get_type.static_g_define_type_id, symObjAddr: 0x18030, symBinAddr: 0x100010270, symSize: 0x0 }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _jigsaw_parent_class, symObjAddr: 0x18038, symBinAddr: 0x100010278, symSize: 0x0 }
+  - { offsetInCU: 0x123, offset: 0x123, size: 0x8, addend: 0x0, symName: _Jigsaw_private_offset, symObjAddr: 0x18040, symBinAddr: 0x100010280, symSize: 0x0 }
+  - { offsetInCU: 0x14B, offset: 0x14B, size: 0x8, addend: 0x0, symName: _globals, symObjAddr: 0x18048, symBinAddr: 0x100010288, symSize: 0x0 }
+  - { offsetInCU: 0xCCA, offset: 0xCCA, size: 0x8, addend: 0x0, symName: _jigsaw_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000069A0, symSize: 0x50 }
+  - { offsetInCU: 0xD88, offset: 0xD88, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000069F0, symSize: 0x2C }
+  - { offsetInCU: 0xE1A, offset: 0xE1A, size: 0x8, addend: 0x0, symName: _jigsaw_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006A1C, symSize: 0x68 }
+  - { offsetInCU: 0xEB3, offset: 0xEB3, size: 0x8, addend: 0x0, symName: _jigsaw_init, symObjAddr: 0x130, symBinAddr: 0x100006A84, symSize: 0x4 }
+  - { offsetInCU: 0xF25, offset: 0xF25, size: 0x8, addend: 0x0, symName: _jigsaw_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006A88, symSize: 0x24 }
+  - { offsetInCU: 0xFB3, offset: 0xFB3, size: 0x8, addend: 0x0, symName: _jigsaw_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100006AAC, symSize: 0x2AC }
+  - { offsetInCU: 0x1504, offset: 0x1504, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x404, symBinAddr: 0x100006D58, symSize: 0x30 }
+  - { offsetInCU: 0x15F2, offset: 0x15F2, size: 0x8, addend: 0x0, symName: _jigsaw_run, symObjAddr: 0x434, symBinAddr: 0x100006D88, symSize: 0x368 }
+  - { offsetInCU: 0x1D69, offset: 0x1D69, size: 0x8, addend: 0x0, symName: _jigsaw, symObjAddr: 0x79C, symBinAddr: 0x1000070F0, symSize: 0x2AF8 }
+  - { offsetInCU: 0x419D, offset: 0x419D, size: 0x8, addend: 0x0, symName: _jigsaw_preview, symObjAddr: 0x3294, symBinAddr: 0x100009BE8, symSize: 0x30 }
+  - { offsetInCU: 0x52EA, offset: 0x52EA, size: 0x8, addend: 0x0, symName: _generate_bezier, symObjAddr: 0x32C4, symBinAddr: 0x100009C18, symSize: 0xC8 }
+  - { offsetInCU: 0x53FA, offset: 0x53FA, size: 0x8, addend: 0x0, symName: _draw_bezier_line, symObjAddr: 0x4960, symBinAddr: 0x10000B2B4, symSize: 0x60 }
+  - { offsetInCU: 0x54D1, offset: 0x54D1, size: 0x8, addend: 0x0, symName: _darken_bezier_line, symObjAddr: 0x49C0, symBinAddr: 0x10000B314, symSize: 0xAC }
+  - { offsetInCU: 0x55E5, offset: 0x55E5, size: 0x8, addend: 0x0, symName: _lighten_bezier_line, symObjAddr: 0x4A6C, symBinAddr: 0x10000B3C0, symSize: 0xB0 }
+  - { offsetInCU: 0x56F9, offset: 0x56F9, size: 0x8, addend: 0x0, symName: _draw_right_bump, symObjAddr: 0x352C, symBinAddr: 0x100009E80, symSize: 0xD0 }
+  - { offsetInCU: 0x57D2, offset: 0x57D2, size: 0x8, addend: 0x0, symName: _darken_right_bump, symObjAddr: 0x35FC, symBinAddr: 0x100009F50, symSize: 0x1F4 }
+  - { offsetInCU: 0x58FF, offset: 0x58FF, size: 0x8, addend: 0x0, symName: _lighten_right_bump, symObjAddr: 0x37F0, symBinAddr: 0x10000A144, symSize: 0x1F4 }
+  - { offsetInCU: 0x5A2C, offset: 0x5A2C, size: 0x8, addend: 0x0, symName: _draw_left_bump, symObjAddr: 0x39E4, symBinAddr: 0x10000A338, symSize: 0xD0 }
+  - { offsetInCU: 0x5B05, offset: 0x5B05, size: 0x8, addend: 0x0, symName: _darken_left_bump, symObjAddr: 0x3AB4, symBinAddr: 0x10000A408, symSize: 0x1E4 }
+  - { offsetInCU: 0x5C32, offset: 0x5C32, size: 0x8, addend: 0x0, symName: _lighten_left_bump, symObjAddr: 0x3C98, symBinAddr: 0x10000A5EC, symSize: 0x1E4 }
+  - { offsetInCU: 0x5D7D, offset: 0x5D7D, size: 0x8, addend: 0x0, symName: _draw_up_bump, symObjAddr: 0x4010, symBinAddr: 0x10000A964, symSize: 0xD0 }
+  - { offsetInCU: 0x5E56, offset: 0x5E56, size: 0x8, addend: 0x0, symName: _darken_up_bump, symObjAddr: 0x40E0, symBinAddr: 0x10000AA34, symSize: 0x1E4 }
+  - { offsetInCU: 0x5F83, offset: 0x5F83, size: 0x8, addend: 0x0, symName: _lighten_up_bump, symObjAddr: 0x42C4, symBinAddr: 0x10000AC18, symSize: 0x1E4 }
+  - { offsetInCU: 0x60B0, offset: 0x60B0, size: 0x8, addend: 0x0, symName: _draw_down_bump, symObjAddr: 0x44A8, symBinAddr: 0x10000ADFC, symSize: 0xD0 }
+  - { offsetInCU: 0x6189, offset: 0x6189, size: 0x8, addend: 0x0, symName: _darken_down_bump, symObjAddr: 0x4578, symBinAddr: 0x10000AECC, symSize: 0x1F4 }
+  - { offsetInCU: 0x62B6, offset: 0x62B6, size: 0x8, addend: 0x0, symName: _lighten_down_bump, symObjAddr: 0x476C, symBinAddr: 0x10000B0C0, symSize: 0x1F4 }
+  - { offsetInCU: 0x63E3, offset: 0x63E3, size: 0x8, addend: 0x0, symName: _draw_vertical_line, symObjAddr: 0x338C, symBinAddr: 0x100009CE0, symSize: 0x6C }
+  - { offsetInCU: 0x649C, offset: 0x649C, size: 0x8, addend: 0x0, symName: _darken_vertical_line, symObjAddr: 0x33F8, symBinAddr: 0x100009D4C, symSize: 0x98 }
+  - { offsetInCU: 0x6567, offset: 0x6567, size: 0x8, addend: 0x0, symName: _lighten_vertical_line, symObjAddr: 0x3490, symBinAddr: 0x100009DE4, symSize: 0x9C }
+  - { offsetInCU: 0x6632, offset: 0x6632, size: 0x8, addend: 0x0, symName: _draw_horizontal_line, symObjAddr: 0x3E7C, symBinAddr: 0x10000A7D0, symSize: 0x68 }
+  - { offsetInCU: 0x66E7, offset: 0x66E7, size: 0x8, addend: 0x0, symName: _darken_horizontal_line, symObjAddr: 0x3EE4, symBinAddr: 0x10000A838, symSize: 0x94 }
+  - { offsetInCU: 0x67AE, offset: 0x67AE, size: 0x8, addend: 0x0, symName: _lighten_horizontal_line, symObjAddr: 0x3F78, symBinAddr: 0x10000A8CC, symSize: 0x98 }
+  - { offsetInCU: 0x6997, offset: 0x6997, size: 0x8, addend: 0x0, symName: _jigsaw_preview, symObjAddr: 0x3294, symBinAddr: 0x100009BE8, symSize: 0x30 }
+...

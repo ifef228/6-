@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/libinih.0.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _ini_parse_stream, symObjAddr: 0x0, symBinAddr: 0x397C, symSize: 0x284 }
+  - { offsetInCU: 0x107, offset: 0x107, size: 0x8, addend: 0x0, symName: _ini_parse_stream, symObjAddr: 0x0, symBinAddr: 0x397C, symSize: 0x284 }
+  - { offsetInCU: 0x35D, offset: 0x35D, size: 0x8, addend: 0x0, symName: _ini_rstrip, symObjAddr: 0x2E0, symBinAddr: 0x3C5C, symSize: 0x78 }
+  - { offsetInCU: 0x406, offset: 0x406, size: 0x8, addend: 0x0, symName: _ini_lskip, symObjAddr: 0x284, symBinAddr: 0x3C00, symSize: 0x5C }
+  - { offsetInCU: 0x48A, offset: 0x48A, size: 0x8, addend: 0x0, symName: _ini_find_chars_or_comment, symObjAddr: 0x358, symBinAddr: 0x3CD4, symSize: 0x9C }
+  - { offsetInCU: 0x5B5, offset: 0x5B5, size: 0x8, addend: 0x0, symName: _ini_parse_file, symObjAddr: 0x3F4, symBinAddr: 0x3D70, symSize: 0x18 }
+  - { offsetInCU: 0x83D, offset: 0x83D, size: 0x8, addend: 0x0, symName: _ini_parse, symObjAddr: 0x40C, symBinAddr: 0x3D88, symSize: 0x6C }
+  - { offsetInCU: 0x94C, offset: 0x94C, size: 0x8, addend: 0x0, symName: _ini_parse_string, symObjAddr: 0x478, symBinAddr: 0x3DF4, symSize: 0x4C }
+  - { offsetInCU: 0x9DB, offset: 0x9DB, size: 0x8, addend: 0x0, symName: _ini_reader_string, symObjAddr: 0x4C4, symBinAddr: 0x3E40, symSize: 0x74 }
+...

@@ -1,0 +1,34 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-bmp/file-bmp'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x0, symBinAddr: 0x100006D70, symSize: 0x79C }
+  - { offsetInCU: 0x73, offset: 0x73, size: 0x8, addend: 0x0, symName: _nodebuffer, symObjAddr: 0x18DE, symBinAddr: 0x10000AE76, symSize: 0x0 }
+  - { offsetInCU: 0x6E1, offset: 0x6E1, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x0, symBinAddr: 0x100006D70, symSize: 0x79C }
+  - { offsetInCU: 0x1078, offset: 0x1078, size: 0x8, addend: 0x0, symName: _read_colormap, symObjAddr: 0x79C, symBinAddr: 0x10000750C, symSize: 0xE4 }
+  - { offsetInCU: 0x114B, offset: 0x114B, size: 0x8, addend: 0x0, symName: _digest_masks, symObjAddr: 0x880, symBinAddr: 0x1000075F0, symSize: 0x8C }
+  - { offsetInCU: 0x11B8, offset: 0x11B8, size: 0x8, addend: 0x0, symName: _ReadImage, symObjAddr: 0x90C, symBinAddr: 0x10000767C, symSize: 0xE8C }
+  - { offsetInCU: 0x1F56, offset: 0x1F56, size: 0x8, addend: 0x0, symName: _huff_fillbuf, symObjAddr: 0x1798, symBinAddr: 0x100008508, symSize: 0x78 }
+  - { offsetInCU: 0x1FC1, offset: 0x1FC1, size: 0x8, addend: 0x0, symName: _huff_skip_eol, symObjAddr: 0x1810, symBinAddr: 0x100008580, symSize: 0xA4 }
+  - { offsetInCU: 0x27, offset: 0x233F, size: 0x8, addend: 0x0, symName: _export_image, symObjAddr: 0x0, symBinAddr: 0x100008624, symSize: 0x920 }
+  - { offsetInCU: 0x970, offset: 0x2C88, size: 0x8, addend: 0x0, symName: _export_image, symObjAddr: 0x0, symBinAddr: 0x100008624, symSize: 0x920 }
+  - { offsetInCU: 0x1144, offset: 0x345C, size: 0x8, addend: 0x0, symName: _warning_dialog, symObjAddr: 0x920, symBinAddr: 0x100008F44, symSize: 0x8C }
+  - { offsetInCU: 0x1264, offset: 0x357C, size: 0x8, addend: 0x0, symName: _warning_dialog, symObjAddr: 0x920, symBinAddr: 0x100008F44, symSize: 0x8C }
+  - { offsetInCU: 0x13C7, offset: 0x36DF, size: 0x8, addend: 0x0, symName: _save_dialog, symObjAddr: 0x9AC, symBinAddr: 0x100008FD0, symSize: 0x230 }
+  - { offsetInCU: 0x1964, offset: 0x3C7C, size: 0x8, addend: 0x0, symName: _write_image, symObjAddr: 0xBDC, symBinAddr: 0x100009200, symSize: 0xA94 }
+  - { offsetInCU: 0x2614, offset: 0x492C, size: 0x8, addend: 0x0, symName: _config_notify, symObjAddr: 0x1670, symBinAddr: 0x100009C94, symSize: 0xE0 }
+  - { offsetInCU: 0x27, offset: 0x4D19, size: 0x8, addend: 0x0, symName: _bmp_get_type, symObjAddr: 0x0, symBinAddr: 0x100009D74, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x4D26, size: 0x8, addend: 0x0, symName: _bmp_get_type, symObjAddr: 0x0, symBinAddr: 0x100009D74, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x4D4B, size: 0x8, addend: 0x0, symName: _bmp_get_type.static_g_define_type_id, symObjAddr: 0x56F8, symBinAddr: 0x100010360, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x4DED, size: 0x8, addend: 0x0, symName: _bmp_parent_class, symObjAddr: 0x5700, symBinAddr: 0x100010368, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x4E0E, size: 0x8, addend: 0x0, symName: _Bmp_private_offset, symObjAddr: 0x5708, symBinAddr: 0x100010370, symSize: 0x0 }
+  - { offsetInCU: 0x99B, offset: 0x568D, size: 0x8, addend: 0x0, symName: _bmp_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100009DC0, symSize: 0x50 }
+  - { offsetInCU: 0xA57, offset: 0x5749, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100009E10, symSize: 0x2C }
+  - { offsetInCU: 0xAE3, offset: 0x57D5, size: 0x8, addend: 0x0, symName: _bmp_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100009E3C, symSize: 0x68 }
+  - { offsetInCU: 0xB7E, offset: 0x5870, size: 0x8, addend: 0x0, symName: _bmp_init, symObjAddr: 0x130, symBinAddr: 0x100009EA4, symSize: 0x4 }
+  - { offsetInCU: 0xBF8, offset: 0x58EA, size: 0x8, addend: 0x0, symName: _bmp_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100009EA8, symSize: 0x48 }
+  - { offsetInCU: 0xCCA, offset: 0x59BC, size: 0x8, addend: 0x0, symName: _bmp_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x100009EF0, symSize: 0x3B8 }
+  - { offsetInCU: 0x13C9, offset: 0x60BB, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x534, symBinAddr: 0x10000A2A8, symSize: 0x30 }
+  - { offsetInCU: 0x143E, offset: 0x6130, size: 0x8, addend: 0x0, symName: _bmp_load, symObjAddr: 0x564, symBinAddr: 0x10000A2D8, symSize: 0x8C }
+  - { offsetInCU: 0x1659, offset: 0x634B, size: 0x8, addend: 0x0, symName: _bmp_export, symObjAddr: 0x5F0, symBinAddr: 0x10000A364, symSize: 0xCC }
+...

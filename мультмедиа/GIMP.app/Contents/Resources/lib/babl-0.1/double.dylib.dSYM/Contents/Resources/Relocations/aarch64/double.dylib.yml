@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/babl-0.1/double.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3524, symSize: 0x3CC }
+  - { offsetInCU: 0xFD, offset: 0xFD, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3524, symSize: 0x3CC }
+  - { offsetInCU: 0x1090, offset: 0x1090, size: 0x8, addend: 0x0, symName: _conv_rgbAD_linear_rgbAD_gamma, symObjAddr: 0x3CC, symBinAddr: 0x38F0, symSize: 0xF4 }
+  - { offsetInCU: 0x1248, offset: 0x1248, size: 0x8, addend: 0x0, symName: _conv_rgbaD_linear_rgbAD_gamma, symObjAddr: 0x4C0, symBinAddr: 0x39E4, symSize: 0x138 }
+  - { offsetInCU: 0x13D6, offset: 0x13D6, size: 0x8, addend: 0x0, symName: _conv_rgbaD_linear_rgbaD_gamma, symObjAddr: 0x5F8, symBinAddr: 0x3B1C, symSize: 0xA4 }
+  - { offsetInCU: 0x1558, offset: 0x1558, size: 0x8, addend: 0x0, symName: _conv_rgbaD_gamma_rgbaD_linear, symObjAddr: 0x69C, symBinAddr: 0x3BC0, symSize: 0xA4 }
+  - { offsetInCU: 0x16AC, offset: 0x16AC, size: 0x8, addend: 0x0, symName: _conv_rgbD_linear_rgbD_gamma, symObjAddr: 0x740, symBinAddr: 0x3C64, symSize: 0x9C }
+  - { offsetInCU: 0x1800, offset: 0x1800, size: 0x8, addend: 0x0, symName: _conv_rgbD_gamma_rgbD_linear, symObjAddr: 0x7DC, symBinAddr: 0x3D00, symSize: 0x9C }
+  - { offsetInCU: 0x1954, offset: 0x1954, size: 0x8, addend: 0x0, symName: _conv_rgbaD_gamma_rgbD_gamma, symObjAddr: 0x878, symBinAddr: 0x3D9C, symSize: 0x30 }
+  - { offsetInCU: 0x19CF, offset: 0x19CF, size: 0x8, addend: 0x0, symName: _conv_rgbD_linear_rgbaD_linear, symObjAddr: 0x8A8, symBinAddr: 0x3DCC, symSize: 0xAC }
+...

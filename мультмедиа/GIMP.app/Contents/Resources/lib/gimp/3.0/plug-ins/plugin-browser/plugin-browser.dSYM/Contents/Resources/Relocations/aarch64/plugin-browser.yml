@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/plugin-browser/plugin-browser'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _browser_get_type, symObjAddr: 0x0, symBinAddr: 0x100005E7C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _browser_get_type, symObjAddr: 0x0, symBinAddr: 0x100005E7C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _browser_get_type.static_g_define_type_id, symObjAddr: 0xBA08, symBinAddr: 0x10000C368, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _browser_parent_class, symObjAddr: 0xBA10, symBinAddr: 0x10000C370, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Browser_private_offset, symObjAddr: 0xBA18, symBinAddr: 0x10000C378, symSize: 0x0 }
+  - { offsetInCU: 0xDDC, offset: 0xDDC, size: 0x8, addend: 0x0, symName: _browser_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005EC8, symSize: 0x50 }
+  - { offsetInCU: 0xE98, offset: 0xE98, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005F18, symSize: 0x2C }
+  - { offsetInCU: 0xF24, offset: 0xF24, size: 0x8, addend: 0x0, symName: _browser_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005F44, symSize: 0x68 }
+  - { offsetInCU: 0xFBF, offset: 0xFBF, size: 0x8, addend: 0x0, symName: _browser_init, symObjAddr: 0x130, symBinAddr: 0x100005FAC, symSize: 0x4 }
+  - { offsetInCU: 0x102F, offset: 0x102F, size: 0x8, addend: 0x0, symName: _browser_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100005FB0, symSize: 0x24 }
+  - { offsetInCU: 0x10BA, offset: 0x10BA, size: 0x8, addend: 0x0, symName: _browser_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100005FD4, symSize: 0x11C }
+  - { offsetInCU: 0x1393, offset: 0x1393, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x274, symBinAddr: 0x1000060F0, symSize: 0x30 }
+  - { offsetInCU: 0x15E2, offset: 0x15E2, size: 0x8, addend: 0x0, symName: _browser_run, symObjAddr: 0x2A4, symBinAddr: 0x100006120, symSize: 0x564 }
+  - { offsetInCU: 0x2222, offset: 0x2222, size: 0x8, addend: 0x0, symName: _browser_search, symObjAddr: 0x820, symBinAddr: 0x10000669C, symSize: 0x498 }
+  - { offsetInCU: 0x2AF5, offset: 0x2AF5, size: 0x8, addend: 0x0, symName: _browser_dialog_quit, symObjAddr: 0x808, symBinAddr: 0x100006684, symSize: 0x18 }
+  - { offsetInCU: 0x2F0A, offset: 0x2F0A, size: 0x8, addend: 0x0, symName: _get_parent, symObjAddr: 0x1040, symBinAddr: 0x100006EBC, symSize: 0x144 }
+  - { offsetInCU: 0x3182, offset: 0x3182, size: 0x8, addend: 0x0, symName: _browser_list_selection_changed, symObjAddr: 0xCB8, symBinAddr: 0x100006B34, symSize: 0x198 }
+  - { offsetInCU: 0x33D1, offset: 0x33D1, size: 0x8, addend: 0x0, symName: _find_existing_mpath, symObjAddr: 0x1184, symBinAddr: 0x100007000, symSize: 0x80 }
+  - { offsetInCU: 0x35D9, offset: 0x35D9, size: 0x8, addend: 0x0, symName: _browser_tree_selection_changed, symObjAddr: 0xE50, symBinAddr: 0x100006CCC, symSize: 0x1F0 }
+  - { offsetInCU: 0x38E5, offset: 0x38E5, size: 0x8, addend: 0x0, symName: _find_existing_mpath_helper, symObjAddr: 0x1204, symBinAddr: 0x100007080, symSize: 0x108 }
+...

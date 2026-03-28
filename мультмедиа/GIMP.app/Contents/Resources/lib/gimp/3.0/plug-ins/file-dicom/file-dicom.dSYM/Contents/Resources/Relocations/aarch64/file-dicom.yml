@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-dicom/file-dicom'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _dicom_get_type, symObjAddr: 0x0, symBinAddr: 0x1000049D4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _dicom_get_type, symObjAddr: 0x0, symBinAddr: 0x1000049D4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _dicom_get_type.static_g_define_type_id, symObjAddr: 0x10990, symBinAddr: 0x10000C320, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _dicom_parent_class, symObjAddr: 0x10998, symBinAddr: 0x10000C328, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Dicom_private_offset, symObjAddr: 0x109A0, symBinAddr: 0x10000C330, symSize: 0x0 }
+  - { offsetInCU: 0xE32, offset: 0xE32, size: 0x8, addend: 0x0, symName: _dicom_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100004A20, symSize: 0x50 }
+  - { offsetInCU: 0xEEE, offset: 0xEEE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100004A70, symSize: 0x2C }
+  - { offsetInCU: 0xF7A, offset: 0xF7A, size: 0x8, addend: 0x0, symName: _dicom_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100004A9C, symSize: 0x68 }
+  - { offsetInCU: 0x1010, offset: 0x1010, size: 0x8, addend: 0x0, symName: _dicom_init, symObjAddr: 0x130, symBinAddr: 0x100004B04, symSize: 0x4 }
+  - { offsetInCU: 0x108A, offset: 0x108A, size: 0x8, addend: 0x0, symName: _dicom_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100004B08, symSize: 0x48 }
+  - { offsetInCU: 0x115C, offset: 0x115C, size: 0x8, addend: 0x0, symName: _dicom_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x100004B50, symSize: 0x1F0 }
+  - { offsetInCU: 0x1656, offset: 0x1656, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x36C, symBinAddr: 0x100004D40, symSize: 0x30 }
+  - { offsetInCU: 0x1D6E, offset: 0x1D6E, size: 0x8, addend: 0x0, symName: _dicom_load, symObjAddr: 0x39C, symBinAddr: 0x100004D70, symSize: 0xF5C }
+  - { offsetInCU: 0x3409, offset: 0x3409, size: 0x8, addend: 0x0, symName: _dicom_export, symObjAddr: 0x12F8, symBinAddr: 0x100005CCC, symSize: 0xB5C }
+  - { offsetInCU: 0x43C9, offset: 0x43C9, size: 0x8, addend: 0x0, symName: _dicom_add_element, symObjAddr: 0x1E80, symBinAddr: 0x100006854, symSize: 0x88 }
+  - { offsetInCU: 0x4520, offset: 0x4520, size: 0x8, addend: 0x0, symName: _dicom_destroy_element, symObjAddr: 0x1F40, symBinAddr: 0x100006914, symSize: 0x44 }
+  - { offsetInCU: 0x45EB, offset: 0x45EB, size: 0x8, addend: 0x0, symName: _write_group_to_file, symObjAddr: 0x2108, symBinAddr: 0x100006ADC, symSize: 0xE0 }
+  - { offsetInCU: 0x4794, offset: 0x4794, size: 0x8, addend: 0x0, symName: _add_parasites_to_image, symObjAddr: 0x1E54, symBinAddr: 0x100006828, symSize: 0x2C }
+  - { offsetInCU: 0x483A, offset: 0x483A, size: 0x8, addend: 0x0, symName: _dicom_elements_compare, symObjAddr: 0x1F08, symBinAddr: 0x1000068DC, symSize: 0x38 }
+  - { offsetInCU: 0x493B, offset: 0x493B, size: 0x8, addend: 0x0, symName: _dicom_print_tags, symObjAddr: 0x1F84, symBinAddr: 0x100006958, symSize: 0x184 }
+  - { offsetInCU: 0x4B6C, offset: 0x4B6C, size: 0x8, addend: 0x0, symName: _dicom_element_done, symObjAddr: 0x21E8, symBinAddr: 0x100006BBC, symSize: 0x3C }
+...

@@ -1,0 +1,44 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-icns/file-icns'
+relocations:
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _iconTypes, symObjAddr: 0xC8, symBinAddr: 0x10000C408, symSize: 0x0 }
+  - { offsetInCU: 0xFE, offset: 0xFE, size: 0x8, addend: 0x0, symName: _maskTypes, symObjAddr: 0x668, symBinAddr: 0x10000C9A8, symSize: 0x0 }
+  - { offsetInCU: 0x11F, offset: 0x11F, size: 0x8, addend: 0x0, symName: _icns_colormap_4, symObjAddr: 0x730, symBinAddr: 0x10000CA70, symSize: 0x0 }
+  - { offsetInCU: 0x152, offset: 0x152, size: 0x8, addend: 0x0, symName: _icns_colormap_8, symObjAddr: 0x760, symBinAddr: 0x10000CAA0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x18F, size: 0x8, addend: 0x0, symName: _resource_load, symObjAddr: 0x0, symBinAddr: 0x100003EDC, symSize: 0x10C }
+  - { offsetInCU: 0x51F, offset: 0x687, size: 0x8, addend: 0x0, symName: _resource_load, symObjAddr: 0x0, symBinAddr: 0x100003EDC, symSize: 0x10C }
+  - { offsetInCU: 0x911, offset: 0xA79, size: 0x8, addend: 0x0, symName: _resource_find, symObjAddr: 0x10C, symBinAddr: 0x100003FE8, symSize: 0x54 }
+  - { offsetInCU: 0x99A, offset: 0xB02, size: 0x8, addend: 0x0, symName: _resource_get_next, symObjAddr: 0x160, symBinAddr: 0x10000403C, symSize: 0xC8 }
+  - { offsetInCU: 0xA93, offset: 0xBFB, size: 0x8, addend: 0x0, symName: _icns_load, symObjAddr: 0x228, symBinAddr: 0x100004104, symSize: 0x1C8 }
+  - { offsetInCU: 0xDD1, offset: 0xF39, size: 0x8, addend: 0x0, symName: _icns_attach_image, symObjAddr: 0x3F0, symBinAddr: 0x1000042CC, symSize: 0x3AC }
+  - { offsetInCU: 0x1370, offset: 0x14D8, size: 0x8, addend: 0x0, symName: _icns_slurp, symObjAddr: 0x79C, symBinAddr: 0x100004678, symSize: 0x2A0 }
+  - { offsetInCU: 0x1818, offset: 0x1980, size: 0x8, addend: 0x0, symName: _icns_decompress, symObjAddr: 0xA3C, symBinAddr: 0x100004918, symSize: 0x250 }
+  - { offsetInCU: 0x1AAD, offset: 0x1C15, size: 0x8, addend: 0x0, symName: _icns_load_image, symObjAddr: 0xC8C, symBinAddr: 0x100004B68, symSize: 0x130 }
+  - { offsetInCU: 0x1D04, offset: 0x1E6C, size: 0x8, addend: 0x0, symName: _icns_load_thumbnail_image, symObjAddr: 0xDBC, symBinAddr: 0x100004C98, symSize: 0x3EC }
+  - { offsetInCU: 0x27, offset: 0x246E, size: 0x8, addend: 0x0, symName: _icns_dialog_add_icon, symObjAddr: 0x0, symBinAddr: 0x100005084, symSize: 0x310 }
+  - { offsetInCU: 0x86F, offset: 0x2CB6, size: 0x8, addend: 0x0, symName: _icns_dialog_add_icon, symObjAddr: 0x0, symBinAddr: 0x100005084, symSize: 0x310 }
+  - { offsetInCU: 0xEDB, offset: 0x3322, size: 0x8, addend: 0x0, symName: _icns_find_type, symObjAddr: 0x1078, symBinAddr: 0x1000060FC, symSize: 0x50 }
+  - { offsetInCU: 0xF1F, offset: 0x3366, size: 0x8, addend: 0x0, symName: _icns_find_type, symObjAddr: 0x1078, symBinAddr: 0x1000060FC, symSize: 0x50 }
+  - { offsetInCU: 0xF3D, offset: 0x3384, size: 0x8, addend: 0x0, symName: _icns_check_dimensions, symObjAddr: 0xFF0, symBinAddr: 0x100006074, symSize: 0x88 }
+  - { offsetInCU: 0x108B, offset: 0x34D2, size: 0x8, addend: 0x0, symName: _icns_check_compat, symObjAddr: 0x310, symBinAddr: 0x100005394, symSize: 0x90 }
+  - { offsetInCU: 0x119D, offset: 0x35E4, size: 0x8, addend: 0x0, symName: _icns_dialog_new, symObjAddr: 0x3A0, symBinAddr: 0x100005424, symSize: 0x1FC }
+  - { offsetInCU: 0x1851, offset: 0x3C98, size: 0x8, addend: 0x0, symName: _icns_export_image, symObjAddr: 0x59C, symBinAddr: 0x100005620, symSize: 0xA54 }
+  - { offsetInCU: 0x2C27, offset: 0x506E, size: 0x8, addend: 0x0, symName: _icns_save_image, symObjAddr: 0x10C8, symBinAddr: 0x10000614C, symSize: 0x2E4 }
+  - { offsetInCU: 0x27, offset: 0x5501, size: 0x8, addend: 0x0, symName: _icns_get_type, symObjAddr: 0x0, symBinAddr: 0x100006430, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x550E, size: 0x8, addend: 0x0, symName: _icns_get_type, symObjAddr: 0x0, symBinAddr: 0x100006430, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x5533, size: 0x8, addend: 0x0, symName: _icns_get_type.static_g_define_type_id, symObjAddr: 0x5398, symBinAddr: 0x10000CDA8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x55D5, size: 0x8, addend: 0x0, symName: _icns_parent_class, symObjAddr: 0x53A0, symBinAddr: 0x10000CDB0, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x55F6, size: 0x8, addend: 0x0, symName: _Icns_private_offset, symObjAddr: 0x53A8, symBinAddr: 0x10000CDB8, symSize: 0x0 }
+  - { offsetInCU: 0x95B, offset: 0x5E35, size: 0x8, addend: 0x0, symName: _icns_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x10000647C, symSize: 0x50 }
+  - { offsetInCU: 0xA17, offset: 0x5EF1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000064CC, symSize: 0x2C }
+  - { offsetInCU: 0xA84, offset: 0x5F5E, size: 0x8, addend: 0x0, symName: _fourcc_get_string, symObjAddr: 0xC8, symBinAddr: 0x1000064F8, symSize: 0x8 }
+  - { offsetInCU: 0xAD6, offset: 0x5FB0, size: 0x8, addend: 0x0, symName: _icns_class_intern_init, symObjAddr: 0xD0, symBinAddr: 0x100006500, symSize: 0x68 }
+  - { offsetInCU: 0xB71, offset: 0x604B, size: 0x8, addend: 0x0, symName: _icns_init, symObjAddr: 0x138, symBinAddr: 0x100006568, symSize: 0x4 }
+  - { offsetInCU: 0xBEB, offset: 0x60C5, size: 0x8, addend: 0x0, symName: _icns_query_procedures, symObjAddr: 0x13C, symBinAddr: 0x10000656C, symSize: 0x64 }
+  - { offsetInCU: 0xCFC, offset: 0x61D6, size: 0x8, addend: 0x0, symName: _icns_create_procedure, symObjAddr: 0x1A0, symBinAddr: 0x1000065D0, symSize: 0x264 }
+  - { offsetInCU: 0x12CF, offset: 0x67A9, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x404, symBinAddr: 0x100006834, symSize: 0x30 }
+  - { offsetInCU: 0x1344, offset: 0x681E, size: 0x8, addend: 0x0, symName: _icns_load, symObjAddr: 0x434, symBinAddr: 0x100006864, symSize: 0x90 }
+  - { offsetInCU: 0x1579, offset: 0x6A53, size: 0x8, addend: 0x0, symName: _icns_load_thumb, symObjAddr: 0x4C4, symBinAddr: 0x1000068F4, symSize: 0xDC }
+  - { offsetInCU: 0x1770, offset: 0x6C4A, size: 0x8, addend: 0x0, symName: _icns_export, symObjAddr: 0x5A0, symBinAddr: 0x1000069D0, symSize: 0x80 }
+...

@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/border-average/border-average'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _border_average_get_type, symObjAddr: 0x0, symBinAddr: 0x100006AF4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _border_average_get_type, symObjAddr: 0x0, symBinAddr: 0x100006AF4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _border_average_get_type.static_g_define_type_id, symObjAddr: 0x7C40, symBinAddr: 0x10000C1F8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _border_average_parent_class, symObjAddr: 0x7C48, symBinAddr: 0x10000C200, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _BorderAverage_private_offset, symObjAddr: 0x7C50, symBinAddr: 0x10000C208, symSize: 0x0 }
+  - { offsetInCU: 0xB36, offset: 0xB36, size: 0x8, addend: 0x0, symName: _border_average_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006B40, symSize: 0x50 }
+  - { offsetInCU: 0xBF2, offset: 0xBF2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006B90, symSize: 0x2C }
+  - { offsetInCU: 0xC7E, offset: 0xC7E, size: 0x8, addend: 0x0, symName: _border_average_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006BBC, symSize: 0x68 }
+  - { offsetInCU: 0xD14, offset: 0xD14, size: 0x8, addend: 0x0, symName: _border_average_init, symObjAddr: 0x130, symBinAddr: 0x100006C24, symSize: 0x4 }
+  - { offsetInCU: 0xD83, offset: 0xD83, size: 0x8, addend: 0x0, symName: _border_average_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006C28, symSize: 0x24 }
+  - { offsetInCU: 0xE0E, offset: 0xE0E, size: 0x8, addend: 0x0, symName: _border_average_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100006C4C, symSize: 0x388 }
+  - { offsetInCU: 0x147D, offset: 0x147D, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x4E0, symBinAddr: 0x100006FD4, symSize: 0x30 }
+  - { offsetInCU: 0x1829, offset: 0x1829, size: 0x8, addend: 0x0, symName: _border_average_run, symObjAddr: 0x510, symBinAddr: 0x100007004, symSize: 0x6AC }
+...

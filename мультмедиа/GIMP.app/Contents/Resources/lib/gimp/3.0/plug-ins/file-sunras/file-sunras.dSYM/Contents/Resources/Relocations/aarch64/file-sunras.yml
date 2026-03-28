@@ -1,0 +1,34 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-sunras/file-sunras'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _sunras_get_type, symObjAddr: 0x0, symBinAddr: 0x100004D70, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _sunras_get_type, symObjAddr: 0x0, symBinAddr: 0x100004D70, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _sunras_get_type.static_g_define_type_id, symObjAddr: 0x116F0, symBinAddr: 0x10000C2C0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _sunras_parent_class, symObjAddr: 0x116F8, symBinAddr: 0x10000C2C8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Sunras_private_offset, symObjAddr: 0x11700, symBinAddr: 0x10000C2D0, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _rlebuf.0, symObjAddr: 0x11704, symBinAddr: 0x10000C2D4, symSize: 0x0 }
+  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: _rlebuf.1, symObjAddr: 0x11708, symBinAddr: 0x10000C2D8, symSize: 0x0 }
+  - { offsetInCU: 0x181, offset: 0x181, size: 0x8, addend: 0x0, symName: _save_index, symObjAddr: 0x1B94, symBinAddr: 0x100006904, symSize: 0x6EC }
+  - { offsetInCU: 0x1A8, offset: 0x1A8, size: 0x8, addend: 0x0, symName: _save_index.sun_bwmap, symObjAddr: 0x29C5, symBinAddr: 0x10000C2B0, symSize: 0x0 }
+  - { offsetInCU: 0x1BE, offset: 0x1BE, size: 0x8, addend: 0x0, symName: _save_index.sun_wbmap, symObjAddr: 0x29CB, symBinAddr: 0x10000C2B6, symSize: 0x0 }
+  - { offsetInCU: 0x16A5, offset: 0x16A5, size: 0x8, addend: 0x0, symName: _sunras_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100004DBC, symSize: 0x50 }
+  - { offsetInCU: 0x1761, offset: 0x1761, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100004E0C, symSize: 0x2C }
+  - { offsetInCU: 0x17ED, offset: 0x17ED, size: 0x8, addend: 0x0, symName: _sunras_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100004E38, symSize: 0x68 }
+  - { offsetInCU: 0x1888, offset: 0x1888, size: 0x8, addend: 0x0, symName: _sunras_init, symObjAddr: 0x130, symBinAddr: 0x100004EA0, symSize: 0x4 }
+  - { offsetInCU: 0x18E2, offset: 0x18E2, size: 0x8, addend: 0x0, symName: _sunras_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100004EA4, symSize: 0x48 }
+  - { offsetInCU: 0x19B7, offset: 0x19B7, size: 0x8, addend: 0x0, symName: _sunras_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x100004EEC, symSize: 0x29C }
+  - { offsetInCU: 0x1FC6, offset: 0x1FC6, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x418, symBinAddr: 0x100005188, symSize: 0x30 }
+  - { offsetInCU: 0x26A7, offset: 0x26A7, size: 0x8, addend: 0x0, symName: _sunras_load, symObjAddr: 0x448, symBinAddr: 0x1000051B8, symSize: 0xE70 }
+  - { offsetInCU: 0x3442, offset: 0x3442, size: 0x8, addend: 0x0, symName: _sunras_export, symObjAddr: 0x12B8, symBinAddr: 0x100006028, symSize: 0x5D4 }
+  - { offsetInCU: 0x35EB, offset: 0x35EB, size: 0x8, addend: 0x0, symName: _create_new_image, symObjAddr: 0x188C, symBinAddr: 0x1000065FC, symSize: 0xD4 }
+  - { offsetInCU: 0x372B, offset: 0x372B, size: 0x8, addend: 0x0, symName: _rle_fgetc, symObjAddr: 0x1A50, symBinAddr: 0x1000067C0, symSize: 0x90 }
+  - { offsetInCU: 0x386F, offset: 0x386F, size: 0x8, addend: 0x0, symName: _rle_fread, symObjAddr: 0x1AE0, symBinAddr: 0x100006850, symSize: 0xB4 }
+  - { offsetInCU: 0x391B, offset: 0x391B, size: 0x8, addend: 0x0, symName: _set_color_table, symObjAddr: 0x1960, symBinAddr: 0x1000066D0, symSize: 0xF0 }
+  - { offsetInCU: 0x3BEA, offset: 0x3BEA, size: 0x8, addend: 0x0, symName: _sunras_export, symObjAddr: 0x12B8, symBinAddr: 0x100006028, symSize: 0x5D4 }
+  - { offsetInCU: 0x4457, offset: 0x4457, size: 0x8, addend: 0x0, symName: _write_sun_header, symObjAddr: 0x2280, symBinAddr: 0x100006FF0, symSize: 0x6C }
+  - { offsetInCU: 0x455F, offset: 0x455F, size: 0x8, addend: 0x0, symName: _rle_fputc, symObjAddr: 0x2390, symBinAddr: 0x100007100, symSize: 0xA8 }
+  - { offsetInCU: 0x45D2, offset: 0x45D2, size: 0x8, addend: 0x0, symName: _rle_putrun, symObjAddr: 0x2438, symBinAddr: 0x1000071A8, symSize: 0xA8 }
+  - { offsetInCU: 0x4903, offset: 0x4903, size: 0x8, addend: 0x0, symName: _rle_fwrite, symObjAddr: 0x22EC, symBinAddr: 0x10000705C, symSize: 0x88 }
+  - { offsetInCU: 0x49C2, offset: 0x49C2, size: 0x8, addend: 0x0, symName: _my_fwrite, symObjAddr: 0x2374, symBinAddr: 0x1000070E4, symSize: 0x1C }
+...

@@ -1,0 +1,60 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-ico/file-ico'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _ico_dialog_new, symObjAddr: 0x0, symBinAddr: 0x1000079E4, symSize: 0x4AC }
+  - { offsetInCU: 0x9EE, offset: 0x9EE, size: 0x8, addend: 0x0, symName: _ico_dialog_new, symObjAddr: 0x0, symBinAddr: 0x1000079E4, symSize: 0x4AC }
+  - { offsetInCU: 0x1664, offset: 0x1664, size: 0x8, addend: 0x0, symName: _ico_dialog_ani_update_inam, symObjAddr: 0x4AC, symBinAddr: 0x100007E90, symSize: 0x54 }
+  - { offsetInCU: 0x1748, offset: 0x1748, size: 0x8, addend: 0x0, symName: _ico_dialog_ani_update_iart, symObjAddr: 0x500, symBinAddr: 0x100007EE4, symSize: 0x54 }
+  - { offsetInCU: 0x1988, offset: 0x1988, size: 0x8, addend: 0x0, symName: _ico_dialog_add_icon, symObjAddr: 0x554, symBinAddr: 0x100007F38, symSize: 0x578 }
+  - { offsetInCU: 0x22D9, offset: 0x22D9, size: 0x8, addend: 0x0, symName: _ico_dialog_update_icon_preview, symObjAddr: 0xACC, symBinAddr: 0x1000084B0, symSize: 0x598 }
+  - { offsetInCU: 0x2AF9, offset: 0x2AF9, size: 0x8, addend: 0x0, symName: _ico_dialog_check_compat, symObjAddr: 0x1064, symBinAddr: 0x100008A48, symSize: 0x8C }
+  - { offsetInCU: 0x2FC9, offset: 0x2FC9, size: 0x8, addend: 0x0, symName: _ico_dialog_bpp_changed, symObjAddr: 0x10F0, symBinAddr: 0x100008AD4, symSize: 0xC0 }
+  - { offsetInCU: 0x30D8, offset: 0x30D8, size: 0x8, addend: 0x0, symName: _ico_dialog_toggle_compress, symObjAddr: 0x11B0, symBinAddr: 0x100008B94, symSize: 0x94 }
+  - { offsetInCU: 0x3122, offset: 0x3122, size: 0x8, addend: 0x0, symName: _ico_dialog_toggle_compress, symObjAddr: 0x11B0, symBinAddr: 0x100008B94, symSize: 0x94 }
+  - { offsetInCU: 0x27, offset: 0x332A, size: 0x8, addend: 0x0, symName: _ico_get_bit_from_data, symObjAddr: 0x0, symBinAddr: 0x100008C28, symSize: 0x54 }
+  - { offsetInCU: 0x554, offset: 0x3857, size: 0x8, addend: 0x0, symName: _ico_get_bit_from_data, symObjAddr: 0x0, symBinAddr: 0x100008C28, symSize: 0x54 }
+  - { offsetInCU: 0x5A3, offset: 0x38A6, size: 0x8, addend: 0x0, symName: _ico_get_nibble_from_data, symObjAddr: 0x54, symBinAddr: 0x100008C7C, symSize: 0x60 }
+  - { offsetInCU: 0x62A, offset: 0x392D, size: 0x8, addend: 0x0, symName: _ico_get_byte_from_data, symObjAddr: 0xB4, symBinAddr: 0x100008CDC, symSize: 0x30 }
+  - { offsetInCU: 0x670, offset: 0x3973, size: 0x8, addend: 0x0, symName: _ico_load_image, symObjAddr: 0xE4, symBinAddr: 0x100008D0C, symSize: 0x378 }
+  - { offsetInCU: 0xDCA, offset: 0x40CD, size: 0x8, addend: 0x0, symName: _ico_read_init, symObjAddr: 0x45C, symBinAddr: 0x100009084, symSize: 0xA8 }
+  - { offsetInCU: 0x1031, offset: 0x4334, size: 0x8, addend: 0x0, symName: _ico_read_info, symObjAddr: 0x504, symBinAddr: 0x10000912C, symSize: 0x18C }
+  - { offsetInCU: 0x129C, offset: 0x459F, size: 0x8, addend: 0x0, symName: _ico_load_layer, symObjAddr: 0x690, symBinAddr: 0x1000092B8, symSize: 0x840 }
+  - { offsetInCU: 0x2090, offset: 0x5393, size: 0x8, addend: 0x0, symName: _ico_read_size, symObjAddr: 0x1700, symBinAddr: 0x10000A328, symSize: 0x1C0 }
+  - { offsetInCU: 0x270A, offset: 0x5A0D, size: 0x8, addend: 0x0, symName: _ico_read_png, symObjAddr: 0x18C0, symBinAddr: 0x10000A4E8, symSize: 0x290 }
+  - { offsetInCU: 0x2BB5, offset: 0x5EB8, size: 0x8, addend: 0x0, symName: _ani_load_image, symObjAddr: 0xED0, symBinAddr: 0x100009AF8, symSize: 0x5B8 }
+  - { offsetInCU: 0x3410, offset: 0x6713, size: 0x8, addend: 0x0, symName: _ico_load_thumbnail_image, symObjAddr: 0x1488, symBinAddr: 0x10000A0B0, symSize: 0x278 }
+  - { offsetInCU: 0x27, offset: 0x6E3D, size: 0x8, addend: 0x0, symName: _ico_cmap_contains_black, symObjAddr: 0x0, symBinAddr: 0x10000A778, symSize: 0xB4 }
+  - { offsetInCU: 0x7EA, offset: 0x7600, size: 0x8, addend: 0x0, symName: _ico_cmap_contains_black, symObjAddr: 0x0, symBinAddr: 0x10000A778, symSize: 0xB4 }
+  - { offsetInCU: 0x9B6, offset: 0x77CC, size: 0x8, addend: 0x0, symName: _ico_export_image, symObjAddr: 0xB4, symBinAddr: 0x10000A82C, symSize: 0x54 }
+  - { offsetInCU: 0xA80, offset: 0x7896, size: 0x8, addend: 0x0, symName: _shared_save_image, symObjAddr: 0x108, symBinAddr: 0x10000A880, symSize: 0xEDC }
+  - { offsetInCU: 0x21E8, offset: 0x8FFE, size: 0x8, addend: 0x0, symName: _ico_write_png, symObjAddr: 0x2040, symBinAddr: 0x10000C7B8, symSize: 0x1AC }
+  - { offsetInCU: 0x2485, offset: 0x929B, size: 0x8, addend: 0x0, symName: _ico_image_get_reduced_buf, symObjAddr: 0x21EC, symBinAddr: 0x10000C964, symSize: 0x48C }
+  - { offsetInCU: 0x2D2C, offset: 0x9B42, size: 0x8, addend: 0x0, symName: _ico_save_info_free, symObjAddr: 0x1FE4, symBinAddr: 0x10000C75C, symSize: 0x5C }
+  - { offsetInCU: 0x2DB2, offset: 0x9BC8, size: 0x8, addend: 0x0, symName: _ico_save_init, symObjAddr: 0x1940, symBinAddr: 0x10000C0B8, symSize: 0x52C }
+  - { offsetInCU: 0x32EC, offset: 0xA102, size: 0x8, addend: 0x0, symName: _ico_save_dialog, symObjAddr: 0x1E6C, symBinAddr: 0x10000C5E4, symSize: 0x178 }
+  - { offsetInCU: 0x365E, offset: 0xA474, size: 0x8, addend: 0x0, symName: _cur_export_image, symObjAddr: 0xFE4, symBinAddr: 0x10000B75C, symSize: 0x60 }
+  - { offsetInCU: 0x3788, offset: 0xA59E, size: 0x8, addend: 0x0, symName: _ani_export_image, symObjAddr: 0x1044, symBinAddr: 0x10000B7BC, symSize: 0x8FC }
+  - { offsetInCU: 0x27, offset: 0xBCFA, size: 0x8, addend: 0x0, symName: _ico_get_type, symObjAddr: 0x0, symBinAddr: 0x10000CDF0, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0xBD07, size: 0x8, addend: 0x0, symName: _ico_get_type, symObjAddr: 0x0, symBinAddr: 0x10000CDF0, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0xBD2C, size: 0x8, addend: 0x0, symName: _ico_get_type.static_g_define_type_id, symObjAddr: 0x9C58, symBinAddr: 0x100014668, symSize: 0x0 }
+  - { offsetInCU: 0x100, offset: 0xBDD3, size: 0x8, addend: 0x0, symName: _ico_parent_class, symObjAddr: 0x9C60, symBinAddr: 0x100014670, symSize: 0x0 }
+  - { offsetInCU: 0x121, offset: 0xBDF4, size: 0x8, addend: 0x0, symName: _Ico_private_offset, symObjAddr: 0x9C68, symBinAddr: 0x100014678, symSize: 0x0 }
+  - { offsetInCU: 0xA22, offset: 0xC6F5, size: 0x8, addend: 0x0, symName: _ico_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x10000CE3C, symSize: 0x50 }
+  - { offsetInCU: 0xADE, offset: 0xC7B1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x10000CE8C, symSize: 0x2C }
+  - { offsetInCU: 0xB4B, offset: 0xC81E, size: 0x8, addend: 0x0, symName: _ico_rowstride, symObjAddr: 0xC8, symBinAddr: 0x10000CEB8, symSize: 0x120 }
+  - { offsetInCU: 0xBA1, offset: 0xC874, size: 0x8, addend: 0x0, symName: _ico_alloc_map, symObjAddr: 0x1E8, symBinAddr: 0x10000CFD8, symSize: 0x34 }
+  - { offsetInCU: 0xC02, offset: 0xC8D5, size: 0x8, addend: 0x0, symName: _ico_alloc_map, symObjAddr: 0x1E8, symBinAddr: 0x10000CFD8, symSize: 0x34 }
+  - { offsetInCU: 0xD0A, offset: 0xC9DD, size: 0x8, addend: 0x0, symName: _ico_class_intern_init, symObjAddr: 0x21C, symBinAddr: 0x10000D00C, symSize: 0x68 }
+  - { offsetInCU: 0xDA5, offset: 0xCA78, size: 0x8, addend: 0x0, symName: _ico_init, symObjAddr: 0x284, symBinAddr: 0x10000D074, symSize: 0x4 }
+  - { offsetInCU: 0xE15, offset: 0xCAE8, size: 0x8, addend: 0x0, symName: _ico_query_procedures, symObjAddr: 0x288, symBinAddr: 0x10000D078, symSize: 0xF0 }
+  - { offsetInCU: 0x1061, offset: 0xCD34, size: 0x8, addend: 0x0, symName: _ico_create_procedure, symObjAddr: 0x378, symBinAddr: 0x10000D168, symSize: 0x738 }
+  - { offsetInCU: 0x1C12, offset: 0xD8E5, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0xAB0, symBinAddr: 0x10000D8A0, symSize: 0x30 }
+  - { offsetInCU: 0x1C87, offset: 0xD95A, size: 0x8, addend: 0x0, symName: _ico_load, symObjAddr: 0xAE0, symBinAddr: 0x10000D8D0, symSize: 0x94 }
+  - { offsetInCU: 0x1ECC, offset: 0xDB9F, size: 0x8, addend: 0x0, symName: _ani_load, symObjAddr: 0xB74, symBinAddr: 0x10000D964, symSize: 0x98 }
+  - { offsetInCU: 0x2037, offset: 0xDD0A, size: 0x8, addend: 0x0, symName: _ico_load_thumb, symObjAddr: 0xC0C, symBinAddr: 0x10000D9FC, symSize: 0xDC }
+  - { offsetInCU: 0x2239, offset: 0xDF0C, size: 0x8, addend: 0x0, symName: _ani_load_thumb, symObjAddr: 0xCE8, symBinAddr: 0x10000DAD8, symSize: 0xDC }
+  - { offsetInCU: 0x23F2, offset: 0xE0C5, size: 0x8, addend: 0x0, symName: _ico_export, symObjAddr: 0xDC4, symBinAddr: 0x10000DBB4, symSize: 0xA4 }
+  - { offsetInCU: 0x259B, offset: 0xE26E, size: 0x8, addend: 0x0, symName: _cur_export, symObjAddr: 0xE68, symBinAddr: 0x10000DC58, symSize: 0x180 }
+  - { offsetInCU: 0x2900, offset: 0xE5D3, size: 0x8, addend: 0x0, symName: _ani_export, symObjAddr: 0xFE8, symBinAddr: 0x10000DDD8, symSize: 0x218 }
+...

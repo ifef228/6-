@@ -1,0 +1,24 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/sparkle/sparkle'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _sparkle_get_type, symObjAddr: 0x0, symBinAddr: 0x1000052DC, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _sparkle_get_type, symObjAddr: 0x0, symBinAddr: 0x1000052DC, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _sparkle_get_type.static_g_define_type_id, symObjAddr: 0xD388, symBinAddr: 0x10000C308, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _sparkle_parent_class, symObjAddr: 0xD390, symBinAddr: 0x10000C310, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Sparkle_private_offset, symObjAddr: 0xD398, symBinAddr: 0x10000C318, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _num_sparkles, symObjAddr: 0xD39C, symBinAddr: 0x10000C31C, symSize: 0x0 }
+  - { offsetInCU: 0xC4F, offset: 0xC4F, size: 0x8, addend: 0x0, symName: _sparkle_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005328, symSize: 0x50 }
+  - { offsetInCU: 0xD0B, offset: 0xD0B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005378, symSize: 0x2C }
+  - { offsetInCU: 0xD97, offset: 0xD97, size: 0x8, addend: 0x0, symName: _sparkle_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000053A4, symSize: 0x68 }
+  - { offsetInCU: 0xE32, offset: 0xE32, size: 0x8, addend: 0x0, symName: _sparkle_init, symObjAddr: 0x130, symBinAddr: 0x10000540C, symSize: 0x4 }
+  - { offsetInCU: 0xEAC, offset: 0xEAC, size: 0x8, addend: 0x0, symName: _sparkle_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100005410, symSize: 0x24 }
+  - { offsetInCU: 0xF37, offset: 0xF37, size: 0x8, addend: 0x0, symName: _sparkle_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100005434, symSize: 0x4EC }
+  - { offsetInCU: 0x168D, offset: 0x168D, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x644, symBinAddr: 0x100005920, symSize: 0x30 }
+  - { offsetInCU: 0x1775, offset: 0x1775, size: 0x8, addend: 0x0, symName: _sparkle_run, symObjAddr: 0x674, symBinAddr: 0x100005950, symSize: 0x458 }
+  - { offsetInCU: 0x20D9, offset: 0x20D9, size: 0x8, addend: 0x0, symName: _sparkle, symObjAddr: 0xACC, symBinAddr: 0x100005DA8, symSize: 0x988 }
+  - { offsetInCU: 0x2DB5, offset: 0x2DB5, size: 0x8, addend: 0x0, symName: _compute_luminosity, symObjAddr: 0x1490, symBinAddr: 0x10000676C, symSize: 0x9C }
+  - { offsetInCU: 0x2EE2, offset: 0x2EE2, size: 0x8, addend: 0x0, symName: _fspike, symObjAddr: 0x152C, symBinAddr: 0x100006808, symSize: 0x570 }
+  - { offsetInCU: 0x34C5, offset: 0x34C5, size: 0x8, addend: 0x0, symName: _sparkle_preview, symObjAddr: 0x1454, symBinAddr: 0x100006730, symSize: 0x3C }
+  - { offsetInCU: 0x3692, offset: 0x3692, size: 0x8, addend: 0x0, symName: _rpnt, symObjAddr: 0x1A9C, symBinAddr: 0x100006D78, symSize: 0x230 }
+...

@@ -1,0 +1,46 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/curve-bend/curve-bend'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _bender_get_type, symObjAddr: 0x0, symBinAddr: 0x100005618, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _bender_get_type, symObjAddr: 0x0, symBinAddr: 0x100005618, symSize: 0x4C }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _bender_get_type.static_g_define_type_id, symObjAddr: 0x1FDF0, symBinAddr: 0x100010638, symSize: 0x0 }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _bender_parent_class, symObjAddr: 0x1FDF8, symBinAddr: 0x100010640, symSize: 0x0 }
+  - { offsetInCU: 0x123, offset: 0x123, size: 0x8, addend: 0x0, symName: _Bender_private_offset, symObjAddr: 0x1FE00, symBinAddr: 0x100010648, symSize: 0x0 }
+  - { offsetInCU: 0x14B, offset: 0x14B, size: 0x8, addend: 0x0, symName: _gb_debug, symObjAddr: 0x1FE04, symBinAddr: 0x10001064C, symSize: 0x0 }
+  - { offsetInCU: 0x168, offset: 0x168, size: 0x8, addend: 0x0, symName: _CR_basis, symObjAddr: 0x57E8, symBinAddr: 0x1000105B0, symSize: 0x0 }
+  - { offsetInCU: 0x195, offset: 0x195, size: 0x8, addend: 0x0, symName: _bender_graph_events, symObjAddr: 0x2C30, symBinAddr: 0x100008248, symSize: 0x4D4 }
+  - { offsetInCU: 0x1BC, offset: 0x1BC, size: 0x8, addend: 0x0, symName: _bender_graph_events.cursor_type, symObjAddr: 0x5868, symBinAddr: 0x100010630, symSize: 0x0 }
+  - { offsetInCU: 0x1CDE, offset: 0x1CDE, size: 0x8, addend: 0x0, symName: _bender_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005664, symSize: 0x50 }
+  - { offsetInCU: 0x1D9C, offset: 0x1D9C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000056B4, symSize: 0x2C }
+  - { offsetInCU: 0x1E2E, offset: 0x1E2E, size: 0x8, addend: 0x0, symName: _bender_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000056E0, symSize: 0x68 }
+  - { offsetInCU: 0x1ECC, offset: 0x1ECC, size: 0x8, addend: 0x0, symName: _bender_init, symObjAddr: 0x130, symBinAddr: 0x100005748, symSize: 0x4 }
+  - { offsetInCU: 0x1F48, offset: 0x1F48, size: 0x8, addend: 0x0, symName: _bender_query_procedures, symObjAddr: 0x134, symBinAddr: 0x10000574C, symSize: 0x24 }
+  - { offsetInCU: 0x1FD6, offset: 0x1FD6, size: 0x8, addend: 0x0, symName: _bender_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100005770, symSize: 0x4E4 }
+  - { offsetInCU: 0x27B4, offset: 0x27B4, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x63C, symBinAddr: 0x100005C54, symSize: 0x30 }
+  - { offsetInCU: 0x2921, offset: 0x2921, size: 0x8, addend: 0x0, symName: _bender_run, symObjAddr: 0x66C, symBinAddr: 0x100005C84, symSize: 0x2FC }
+  - { offsetInCU: 0x2F0A, offset: 0x2F0A, size: 0x8, addend: 0x0, symName: _p_retrieve_values, symObjAddr: 0x1510, symBinAddr: 0x100006B28, symSize: 0x318 }
+  - { offsetInCU: 0x3276, offset: 0x3276, size: 0x8, addend: 0x0, symName: _do_dialog, symObjAddr: 0x968, symBinAddr: 0x100005F80, symSize: 0xBA8 }
+  - { offsetInCU: 0x42DA, offset: 0x42DA, size: 0x8, addend: 0x0, symName: _p_main_bend, symObjAddr: 0x1828, symBinAddr: 0x100006E40, symSize: 0xFB0 }
+  - { offsetInCU: 0x52B1, offset: 0x52B1, size: 0x8, addend: 0x0, symName: _p_store_values, symObjAddr: 0x27D8, symBinAddr: 0x100007DF0, symSize: 0x20C }
+  - { offsetInCU: 0x5E78, offset: 0x5E78, size: 0x8, addend: 0x0, symName: _p_init_gdrw, symObjAddr: 0x4444, symBinAddr: 0x100009A5C, symSize: 0xF0 }
+  - { offsetInCU: 0x60B1, offset: 0x60B1, size: 0x8, addend: 0x0, symName: _bender_update, symObjAddr: 0x29E4, symBinAddr: 0x100007FFC, symSize: 0xE8 }
+  - { offsetInCU: 0x67DE, offset: 0x67DE, size: 0x8, addend: 0x0, symName: _p_gimp_rotate, symObjAddr: 0x46A0, symBinAddr: 0x100009CB8, symSize: 0x94 }
+  - { offsetInCU: 0x68FC, offset: 0x68FC, size: 0x8, addend: 0x0, symName: _bender_calculate_curve, symObjAddr: 0x3874, symBinAddr: 0x100008E8C, symSize: 0x610 }
+  - { offsetInCU: 0x6C55, offset: 0x6C55, size: 0x8, addend: 0x0, symName: _p_put_mix_pixel, symObjAddr: 0x4734, symBinAddr: 0x100009D4C, symSize: 0x134 }
+  - { offsetInCU: 0x6E88, offset: 0x6E88, size: 0x8, addend: 0x0, symName: _p_render_preview, symObjAddr: 0x4534, symBinAddr: 0x100009B4C, symSize: 0x16C }
+  - { offsetInCU: 0x70E4, offset: 0x70E4, size: 0x8, addend: 0x0, symName: _bender_global_notify, symObjAddr: 0x2ACC, symBinAddr: 0x1000080E4, symSize: 0x1C }
+  - { offsetInCU: 0x713A, offset: 0x713A, size: 0x8, addend: 0x0, symName: _bender_preview_update_once, symObjAddr: 0x2AE8, symBinAddr: 0x100008100, symSize: 0x14 }
+  - { offsetInCU: 0x7190, offset: 0x7190, size: 0x8, addend: 0x0, symName: _bender_preview_update, symObjAddr: 0x2AFC, symBinAddr: 0x100008114, symSize: 0x40 }
+  - { offsetInCU: 0x722A, offset: 0x722A, size: 0x8, addend: 0x0, symName: _bender_type_callback, symObjAddr: 0x2B3C, symBinAddr: 0x100008154, symSize: 0xF4 }
+  - { offsetInCU: 0x81CC, offset: 0x81CC, size: 0x8, addend: 0x0, symName: _bender_graph_draw, symObjAddr: 0x3104, symBinAddr: 0x10000871C, symSize: 0x290 }
+  - { offsetInCU: 0x8565, offset: 0x8565, size: 0x8, addend: 0x0, symName: _bender_copy_callback, symObjAddr: 0x3394, symBinAddr: 0x1000089AC, symSize: 0xA8 }
+  - { offsetInCU: 0x8628, offset: 0x8628, size: 0x8, addend: 0x0, symName: _bender_copy_inv_callback, symObjAddr: 0x343C, symBinAddr: 0x100008A54, symSize: 0xC0 }
+  - { offsetInCU: 0x86EB, offset: 0x86EB, size: 0x8, addend: 0x0, symName: _bender_swap_callback, symObjAddr: 0x34FC, symBinAddr: 0x100008B14, symSize: 0xB8 }
+  - { offsetInCU: 0x87CA, offset: 0x87CA, size: 0x8, addend: 0x0, symName: _bender_reset_callback, symObjAddr: 0x35B4, symBinAddr: 0x100008BCC, symSize: 0xB8 }
+  - { offsetInCU: 0x887D, offset: 0x887D, size: 0x8, addend: 0x0, symName: _bender_load_callback, symObjAddr: 0x366C, symBinAddr: 0x100008C84, symSize: 0x10C }
+  - { offsetInCU: 0x89D5, offset: 0x89D5, size: 0x8, addend: 0x0, symName: _bender_save_callback, symObjAddr: 0x3778, symBinAddr: 0x100008D90, symSize: 0xFC }
+  - { offsetInCU: 0x8C46, offset: 0x8C46, size: 0x8, addend: 0x0, symName: _bender_CR_compose, symObjAddr: 0x3E84, symBinAddr: 0x10000949C, symSize: 0x74 }
+  - { offsetInCU: 0x8F3F, offset: 0x8F3F, size: 0x8, addend: 0x0, symName: _p_points_load_from_file_response, symObjAddr: 0x3EF8, symBinAddr: 0x100009510, symSize: 0x308 }
+  - { offsetInCU: 0x9318, offset: 0x9318, size: 0x8, addend: 0x0, symName: _p_points_save_to_file_response, symObjAddr: 0x4200, symBinAddr: 0x100009818, symSize: 0x244 }
+...

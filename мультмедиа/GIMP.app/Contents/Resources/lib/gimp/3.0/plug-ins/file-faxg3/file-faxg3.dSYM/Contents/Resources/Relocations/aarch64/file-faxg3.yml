@@ -1,0 +1,39 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-faxg3/file-faxg3'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _faxg3_get_type, symObjAddr: 0x0, symBinAddr: 0x1000068F8, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _faxg3_get_type, symObjAddr: 0x0, symBinAddr: 0x1000068F8, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _faxg3_get_type.static_g_define_type_id, symObjAddr: 0x8570, symBinAddr: 0x10000CD80, symSize: 0x0 }
+  - { offsetInCU: 0xED, offset: 0xED, size: 0x8, addend: 0x0, symName: _black, symObjAddr: 0x9190, symBinAddr: 0x10000D9A0, symSize: 0x0 }
+  - { offsetInCU: 0x144, offset: 0x144, size: 0x8, addend: 0x0, symName: _white, symObjAddr: 0x9198, symBinAddr: 0x10000D9A8, symSize: 0x0 }
+  - { offsetInCU: 0x160, offset: 0x160, size: 0x8, addend: 0x0, symName: _faxg3_parent_class, symObjAddr: 0x8578, symBinAddr: 0x10000CD88, symSize: 0x0 }
+  - { offsetInCU: 0x181, offset: 0x181, size: 0x8, addend: 0x0, symName: _Faxg3_private_offset, symObjAddr: 0x8580, symBinAddr: 0x10000CD90, symSize: 0x0 }
+  - { offsetInCU: 0x1A1, offset: 0x1A1, size: 0x8, addend: 0x0, symName: _byte_tab, symObjAddr: 0x8584, symBinAddr: 0x10000CD94, symSize: 0x0 }
+  - { offsetInCU: 0x1C3, offset: 0x1C3, size: 0x8, addend: 0x0, symName: _rbuf, symObjAddr: 0x8984, symBinAddr: 0x10000D194, symSize: 0x0 }
+  - { offsetInCU: 0x1E5, offset: 0x1E5, size: 0x8, addend: 0x0, symName: _rs, symObjAddr: 0x9184, symBinAddr: 0x10000D994, symSize: 0x0 }
+  - { offsetInCU: 0x1FA, offset: 0x1FA, size: 0x8, addend: 0x0, symName: _rp, symObjAddr: 0x9188, symBinAddr: 0x10000D998, symSize: 0x0 }
+  - { offsetInCU: 0xCF9, offset: 0xCF9, size: 0x8, addend: 0x0, symName: _faxg3_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006944, symSize: 0x50 }
+  - { offsetInCU: 0xDB5, offset: 0xDB5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006994, symSize: 0x2C }
+  - { offsetInCU: 0xE41, offset: 0xE41, size: 0x8, addend: 0x0, symName: _faxg3_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000069C0, symSize: 0x68 }
+  - { offsetInCU: 0xEDC, offset: 0xEDC, size: 0x8, addend: 0x0, symName: _faxg3_init, symObjAddr: 0x130, symBinAddr: 0x100006A28, symSize: 0x4 }
+  - { offsetInCU: 0xF56, offset: 0xF56, size: 0x8, addend: 0x0, symName: _faxg3_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006A2C, symSize: 0x24 }
+  - { offsetInCU: 0xFE1, offset: 0xFE1, size: 0x8, addend: 0x0, symName: _faxg3_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100006A50, symSize: 0xE4 }
+  - { offsetInCU: 0x12B2, offset: 0x12B2, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x23C, symBinAddr: 0x100006B34, symSize: 0x30 }
+  - { offsetInCU: 0x160C, offset: 0x160C, size: 0x8, addend: 0x0, symName: _faxg3_load, symObjAddr: 0x26C, symBinAddr: 0x100006B64, symSize: 0x9D4 }
+  - { offsetInCU: 0x1E01, offset: 0x1E01, size: 0x8, addend: 0x0, symName: _faxg3_load.cold.1, symObjAddr: 0xC40, symBinAddr: 0x100007738, symSize: 0x28 }
+  - { offsetInCU: 0x1FB9, offset: 0x1FB9, size: 0x8, addend: 0x0, symName: _faxg3_load.cold.2, symObjAddr: 0xC68, symBinAddr: 0x100007760, symSize: 0x24 }
+  - { offsetInCU: 0x21FF, offset: 0x21FF, size: 0x8, addend: 0x0, symName: _faxg3_load.cold.1, symObjAddr: 0xC40, symBinAddr: 0x100007738, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x2291, size: 0x8, addend: 0x0, symName: _tree_add_node, symObjAddr: 0x0, symBinAddr: 0x100007538, symSize: 0x13C }
+  - { offsetInCU: 0x40, offset: 0x22AA, size: 0x8, addend: 0x0, symName: _t_white, symObjAddr: 0x260, symBinAddr: 0x10000C1C0, symSize: 0x0 }
+  - { offsetInCU: 0xA8, offset: 0x2312, size: 0x8, addend: 0x0, symName: _m_white, symObjAddr: 0x680, symBinAddr: 0x10000C5E0, symSize: 0x0 }
+  - { offsetInCU: 0xC9, offset: 0x2333, size: 0x8, addend: 0x0, symName: _t_black, symObjAddr: 0x840, symBinAddr: 0x10000C7A0, symSize: 0x0 }
+  - { offsetInCU: 0xDE, offset: 0x2348, size: 0x8, addend: 0x0, symName: _m_black, symObjAddr: 0xC60, symBinAddr: 0x10000CBC0, symSize: 0x0 }
+  - { offsetInCU: 0x123, offset: 0x238D, size: 0x8, addend: 0x0, symName: _tree_add_node, symObjAddr: 0x0, symBinAddr: 0x100007538, symSize: 0x13C }
+  - { offsetInCU: 0x1D2, offset: 0x243C, size: 0x8, addend: 0x0, symName: _build_tree, symObjAddr: 0x13C, symBinAddr: 0x100007674, symSize: 0x64 }
+  - { offsetInCU: 0x240, offset: 0x24AA, size: 0x8, addend: 0x0, symName: _tree_add_node.cold.1, symObjAddr: 0x200, symBinAddr: 0x100007784, symSize: 0x1C }
+  - { offsetInCU: 0x257, offset: 0x24C1, size: 0x8, addend: 0x0, symName: _build_tree, symObjAddr: 0x13C, symBinAddr: 0x100007674, symSize: 0x64 }
+  - { offsetInCU: 0x2BC, offset: 0x2526, size: 0x8, addend: 0x0, symName: _init_byte_tab, symObjAddr: 0x1A0, symBinAddr: 0x1000076D8, symSize: 0x60 }
+  - { offsetInCU: 0x2C6, offset: 0x2530, size: 0x8, addend: 0x0, symName: _build_tree.cold.1, symObjAddr: 0x21C, symBinAddr: 0x1000077A0, symSize: 0x1C }
+  - { offsetInCU: 0x2DD, offset: 0x2547, size: 0x8, addend: 0x0, symName: _init_byte_tab, symObjAddr: 0x1A0, symBinAddr: 0x1000076D8, symSize: 0x60 }
+...

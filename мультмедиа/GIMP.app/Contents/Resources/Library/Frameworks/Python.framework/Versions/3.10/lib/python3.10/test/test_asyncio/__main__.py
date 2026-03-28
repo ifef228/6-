@@ -1,0 +1,1 @@
+../../lib2to3/tests/__main__.py

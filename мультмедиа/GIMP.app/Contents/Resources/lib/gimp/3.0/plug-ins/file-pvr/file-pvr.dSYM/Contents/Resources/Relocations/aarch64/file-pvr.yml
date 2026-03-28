@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-pvr/file-pvr'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _pvr_get_type, symObjAddr: 0x0, symBinAddr: 0x10000636C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _pvr_get_type, symObjAddr: 0x0, symBinAddr: 0x10000636C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _pvr_get_type.static_g_define_type_id, symObjAddr: 0xB078, symBinAddr: 0x10000C190, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _pvr_parent_class, symObjAddr: 0xB080, symBinAddr: 0x10000C198, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Pvr_private_offset, symObjAddr: 0xB088, symBinAddr: 0x10000C1A0, symSize: 0x0 }
+  - { offsetInCU: 0xBEA, offset: 0xBEA, size: 0x8, addend: 0x0, symName: _pvr_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000063B8, symSize: 0x50 }
+  - { offsetInCU: 0xCA6, offset: 0xCA6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006408, symSize: 0x2C }
+  - { offsetInCU: 0xD32, offset: 0xD32, size: 0x8, addend: 0x0, symName: _pvr_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006434, symSize: 0x68 }
+  - { offsetInCU: 0xDCD, offset: 0xDCD, size: 0x8, addend: 0x0, symName: _pvr_init, symObjAddr: 0x130, symBinAddr: 0x10000649C, symSize: 0x4 }
+  - { offsetInCU: 0xE47, offset: 0xE47, size: 0x8, addend: 0x0, symName: _pvr_query_procedures, symObjAddr: 0x134, symBinAddr: 0x1000064A0, symSize: 0x24 }
+  - { offsetInCU: 0xEDE, offset: 0xEDE, size: 0x8, addend: 0x0, symName: _pvr_create_procedure, symObjAddr: 0x158, symBinAddr: 0x1000064C4, symSize: 0xF0 }
+  - { offsetInCU: 0x11A4, offset: 0x11A4, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x248, symBinAddr: 0x1000065B4, symSize: 0x30 }
+  - { offsetInCU: 0x1219, offset: 0x1219, size: 0x8, addend: 0x0, symName: _pvr_load, symObjAddr: 0x278, symBinAddr: 0x1000065E4, symSize: 0x11C }
+  - { offsetInCU: 0x163D, offset: 0x163D, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x394, symBinAddr: 0x100006700, symSize: 0xA64 }
+  - { offsetInCU: 0x254F, offset: 0x254F, size: 0x8, addend: 0x0, symName: _pvr_create_twiddle, symObjAddr: 0x1284, symBinAddr: 0x1000075F0, symSize: 0x70 }
+  - { offsetInCU: 0x25AE, offset: 0x25AE, size: 0x8, addend: 0x0, symName: _pvr_decode_color, symObjAddr: 0x12F4, symBinAddr: 0x100007660, symSize: 0x208 }
+  - { offsetInCU: 0x2707, offset: 0x2707, size: 0x8, addend: 0x0, symName: _pvr_decode_compressed, symObjAddr: 0xF60, symBinAddr: 0x1000072CC, symSize: 0x324 }
+  - { offsetInCU: 0x2A07, offset: 0x2A07, size: 0x8, addend: 0x0, symName: _pvr_decode_rect, symObjAddr: 0xDF8, symBinAddr: 0x100007164, symSize: 0x168 }
+...

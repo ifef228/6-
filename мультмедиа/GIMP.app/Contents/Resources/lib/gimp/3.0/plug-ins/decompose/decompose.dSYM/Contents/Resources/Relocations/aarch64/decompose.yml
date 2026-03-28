@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/decompose/decompose'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _decompose_get_type, symObjAddr: 0x0, symBinAddr: 0x100005984, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _decompose_get_type, symObjAddr: 0x0, symBinAddr: 0x100005984, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _decompose_get_type.static_g_define_type_id, symObjAddr: 0xE120, symBinAddr: 0x10000C360, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _decompose_parent_class, symObjAddr: 0xE128, symBinAddr: 0x10000C368, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Decompose_private_offset, symObjAddr: 0xE130, symBinAddr: 0x10000C370, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _extract, symObjAddr: 0x1BD0, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0xF20, offset: 0xF20, size: 0x8, addend: 0x0, symName: _decompose_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000059D0, symSize: 0x50 }
+  - { offsetInCU: 0xFDC, offset: 0xFDC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005A20, symSize: 0x2C }
+  - { offsetInCU: 0x1068, offset: 0x1068, size: 0x8, addend: 0x0, symName: _decompose_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005A4C, symSize: 0x68 }
+  - { offsetInCU: 0x1103, offset: 0x1103, size: 0x8, addend: 0x0, symName: _decompose_init, symObjAddr: 0x130, symBinAddr: 0x100005AB4, symSize: 0x4 }
+  - { offsetInCU: 0x117D, offset: 0x117D, size: 0x8, addend: 0x0, symName: _decompose_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100005AB8, symSize: 0x24 }
+  - { offsetInCU: 0x12EF, offset: 0x12EF, size: 0x8, addend: 0x0, symName: _decompose_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100005ADC, symSize: 0x6E0 }
+  - { offsetInCU: 0x1BCD, offset: 0x1BCD, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x838, symBinAddr: 0x1000061BC, symSize: 0x30 }
+  - { offsetInCU: 0x21F8, offset: 0x21F8, size: 0x8, addend: 0x0, symName: _decompose_run, symObjAddr: 0x868, symBinAddr: 0x1000061EC, symSize: 0xB38 }
+  - { offsetInCU: 0x3289, offset: 0x3289, size: 0x8, addend: 0x0, symName: _create_new_layer, symObjAddr: 0x1444, symBinAddr: 0x100006DC8, symSize: 0x98 }
+  - { offsetInCU: 0x33A2, offset: 0x33A2, size: 0x8, addend: 0x0, symName: _create_new_image, symObjAddr: 0x13A0, symBinAddr: 0x100006D24, symSize: 0xA4 }
+...

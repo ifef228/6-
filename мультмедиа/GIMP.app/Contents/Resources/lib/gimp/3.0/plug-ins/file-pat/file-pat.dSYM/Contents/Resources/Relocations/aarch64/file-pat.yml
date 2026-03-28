@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-pat/file-pat'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _pat_get_type, symObjAddr: 0x0, symBinAddr: 0x1000032B8, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _pat_get_type, symObjAddr: 0x0, symBinAddr: 0x1000032B8, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _pat_get_type.static_g_define_type_id, symObjAddr: 0x5F58, symBinAddr: 0x1000081C0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _pat_parent_class, symObjAddr: 0x5F60, symBinAddr: 0x1000081C8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Pat_private_offset, symObjAddr: 0x5F68, symBinAddr: 0x1000081D0, symSize: 0x0 }
+  - { offsetInCU: 0xBBF, offset: 0xBBF, size: 0x8, addend: 0x0, symName: _pat_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100003304, symSize: 0x50 }
+  - { offsetInCU: 0xC7B, offset: 0xC7B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100003354, symSize: 0x2C }
+  - { offsetInCU: 0xD07, offset: 0xD07, size: 0x8, addend: 0x0, symName: _pat_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100003380, symSize: 0x68 }
+  - { offsetInCU: 0xDA2, offset: 0xDA2, size: 0x8, addend: 0x0, symName: _pat_init, symObjAddr: 0x130, symBinAddr: 0x1000033E8, symSize: 0x4 }
+  - { offsetInCU: 0xE11, offset: 0xE11, size: 0x8, addend: 0x0, symName: _pat_query_procedures, symObjAddr: 0x134, symBinAddr: 0x1000033EC, symSize: 0x24 }
+  - { offsetInCU: 0xE9C, offset: 0xE9C, size: 0x8, addend: 0x0, symName: _pat_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100003410, symSize: 0x19C }
+  - { offsetInCU: 0x1307, offset: 0x1307, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x2F4, symBinAddr: 0x1000035AC, symSize: 0x30 }
+  - { offsetInCU: 0x13EB, offset: 0x13EB, size: 0x8, addend: 0x0, symName: _pat_export, symObjAddr: 0x324, symBinAddr: 0x1000035DC, symSize: 0x2B0 }
+...

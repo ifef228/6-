@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-wmf/file-wmf'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _wmf_get_type, symObjAddr: 0x0, symBinAddr: 0x100006B44, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _wmf_get_type, symObjAddr: 0x0, symBinAddr: 0x100006B44, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _wmf_get_type.static_g_define_type_id, symObjAddr: 0xAC98, symBinAddr: 0x10000C220, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _wmf_parent_class, symObjAddr: 0xACA0, symBinAddr: 0x10000C228, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Wmf_private_offset, symObjAddr: 0xACA8, symBinAddr: 0x10000C230, symSize: 0x0 }
+  - { offsetInCU: 0x1175, offset: 0x1175, size: 0x8, addend: 0x0, symName: _wmf_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006B90, symSize: 0x50 }
+  - { offsetInCU: 0x1231, offset: 0x1231, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006BE0, symSize: 0x2C }
+  - { offsetInCU: 0x12BD, offset: 0x12BD, size: 0x8, addend: 0x0, symName: _wmf_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006C0C, symSize: 0x68 }
+  - { offsetInCU: 0x1358, offset: 0x1358, size: 0x8, addend: 0x0, symName: _wmf_init, symObjAddr: 0x130, symBinAddr: 0x100006C74, symSize: 0x4 }
+  - { offsetInCU: 0x13BD, offset: 0x13BD, size: 0x8, addend: 0x0, symName: _wmf_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006C78, symSize: 0x48 }
+  - { offsetInCU: 0x148F, offset: 0x148F, size: 0x8, addend: 0x0, symName: _wmf_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x100006CC0, symSize: 0x190 }
+  - { offsetInCU: 0x19B5, offset: 0x19B5, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x30C, symBinAddr: 0x100006E50, symSize: 0x30 }
+  - { offsetInCU: 0x1A2A, offset: 0x1A2A, size: 0x8, addend: 0x0, symName: _wmf_extract, symObjAddr: 0x33C, symBinAddr: 0x100006E80, symSize: 0xE0 }
+  - { offsetInCU: 0x1B7D, offset: 0x1B7D, size: 0x8, addend: 0x0, symName: _load_wmf_size, symObjAddr: 0x6B4, symBinAddr: 0x1000071F8, symSize: 0x1B0 }
+  - { offsetInCU: 0x1E12, offset: 0x1E12, size: 0x8, addend: 0x0, symName: _wmf_load, symObjAddr: 0x41C, symBinAddr: 0x100006F60, symSize: 0x150 }
+  - { offsetInCU: 0x20B2, offset: 0x20B2, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x864, symBinAddr: 0x1000073A8, symSize: 0x3B0 }
+  - { offsetInCU: 0x25BA, offset: 0x25BA, size: 0x8, addend: 0x0, symName: _wmf_load_thumb, symObjAddr: 0x56C, symBinAddr: 0x1000070B0, symSize: 0x148 }
+...

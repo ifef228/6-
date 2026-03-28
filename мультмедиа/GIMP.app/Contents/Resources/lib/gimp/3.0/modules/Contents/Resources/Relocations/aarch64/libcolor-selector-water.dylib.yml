@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     './lib/gimp/3.0/modules/libcolor-selector-water.dylib'
+relocations:
+  - { offset: 0x27, size: 0x8, addend: 0x0, symName: _colorsel_water_get_type, symObjAddr: 0x0, symBinAddr: 0x6A98, symSize: 0xC }
+  - { offset: 0x40, size: 0x8, addend: 0x0, symName: _colorsel_water_type_id, symObjAddr: 0xF3E8, symBinAddr: 0xC210, symSize: 0x0 }
+  - { offset: 0x81, size: 0x8, addend: 0x0, symName: _colorsel_water_info, symObjAddr: 0xD28, symBinAddr: 0x8010, symSize: 0x0 }
+  - { offset: 0x119, size: 0x8, addend: 0x0, symName: _colorsel_water_parent_class, symObjAddr: 0xF3F0, symBinAddr: 0xC218, symSize: 0x0 }
+  - { offset: 0x13A, size: 0x8, addend: 0x0, symName: _ColorselWater_private_offset, symObjAddr: 0xF3F8, symBinAddr: 0xC220, symSize: 0x0 }
+  - { offset: 0x3587, size: 0x8, addend: 0x0, symName: _colorsel_water_get_type, symObjAddr: 0x0, symBinAddr: 0x6A98, symSize: 0xC }
+  - { offset: 0x35A0, size: 0x8, addend: 0x0, symName: _gimp_module_query, symObjAddr: 0xC, symBinAddr: 0x6AA4, symSize: 0xC }
+  - { offset: 0x3847, size: 0x8, addend: 0x0, symName: _gimp_module_register, symObjAddr: 0x18, symBinAddr: 0x6AB0, symSize: 0x70 }
+  - { offset: 0x3920, size: 0x8, addend: 0x0, symName: _colorsel_water_class_intern_init, symObjAddr: 0x88, symBinAddr: 0x6B20, symSize: 0xA4 }
+  - { offset: 0x3A10, size: 0x8, addend: 0x0, symName: _colorsel_water_class_finalize, symObjAddr: 0x12C, symBinAddr: 0x6BC4, symSize: 0x4 }
+  - { offset: 0x3A31, size: 0x8, addend: 0x0, symName: _colorsel_water_init, symObjAddr: 0x130, symBinAddr: 0x6BC8, symSize: 0x264 }
+  - { offset: 0x4134, size: 0x8, addend: 0x0, symName: _colorsel_water_dispose, symObjAddr: 0x394, symBinAddr: 0x6E2C, symSize: 0x3C }
+  - { offset: 0x41E3, size: 0x8, addend: 0x0, symName: _colorsel_water_set_format, symObjAddr: 0x3D0, symBinAddr: 0x6E68, symSize: 0x158 }
+  - { offset: 0x450F, size: 0x8, addend: 0x0, symName: _colorsel_water_set_config, symObjAddr: 0x528, symBinAddr: 0x6FC0, symSize: 0x5C }
+  - { offset: 0x45B9, size: 0x8, addend: 0x0, symName: _select_area_draw, symObjAddr: 0x584, symBinAddr: 0x701C, symSize: 0x2B8 }
+  - { offset: 0x4A66, size: 0x8, addend: 0x0, symName: _motion_notify_event, symObjAddr: 0x83C, symBinAddr: 0x72D4, symSize: 0x1E0 }
+  - { offset: 0x4D82, size: 0x8, addend: 0x0, symName: _add_pigment, symObjAddr: 0xAF0, symBinAddr: 0x7588, symSize: 0x1C8 }
+  - { offset: 0x4FA5, size: 0x8, addend: 0x0, symName: _button_press_event, symObjAddr: 0xA1C, symBinAddr: 0x74B4, symSize: 0x7C }
+  - { offset: 0x503E, size: 0x8, addend: 0x0, symName: _proximity_out_event, symObjAddr: 0xA98, symBinAddr: 0x7530, symSize: 0x8 }
+  - { offset: 0x507D, size: 0x8, addend: 0x0, symName: _pressure_adjust_update, symObjAddr: 0xAA0, symBinAddr: 0x7538, symSize: 0x50 }
+...

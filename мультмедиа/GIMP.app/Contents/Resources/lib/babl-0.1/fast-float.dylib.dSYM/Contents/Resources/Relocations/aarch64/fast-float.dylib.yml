@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/babl-0.1/fast-float.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3AF4, symSize: 0x3D0 }
+  - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3AF4, symSize: 0x3D0 }
+  - { offsetInCU: 0x56B, offset: 0x56B, size: 0x8, addend: 0x0, symName: _destroy, symObjAddr: 0x3D0, symBinAddr: 0x3EC4, symSize: 0x4 }
+...

@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/align-layers/align-layers'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _align_layers_get_type, symObjAddr: 0x0, symBinAddr: 0x1000068BC, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _align_layers_get_type, symObjAddr: 0x0, symBinAddr: 0x1000068BC, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _align_layers_get_type.static_g_define_type_id, symObjAddr: 0x8A48, symBinAddr: 0x10000C1A0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _align_layers_parent_class, symObjAddr: 0x8A50, symBinAddr: 0x10000C1A8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _AlignLayers_private_offset, symObjAddr: 0x8A58, symBinAddr: 0x10000C1B0, symSize: 0x0 }
+  - { offsetInCU: 0xAEF, offset: 0xAEF, size: 0x8, addend: 0x0, symName: _align_layers_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006908, symSize: 0x50 }
+  - { offsetInCU: 0xBAB, offset: 0xBAB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006958, symSize: 0x2C }
+  - { offsetInCU: 0xC37, offset: 0xC37, size: 0x8, addend: 0x0, symName: _align_layers_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006984, symSize: 0x68 }
+  - { offsetInCU: 0xCD2, offset: 0xCD2, size: 0x8, addend: 0x0, symName: _align_layers_init, symObjAddr: 0x130, symBinAddr: 0x1000069EC, symSize: 0x4 }
+  - { offsetInCU: 0xD41, offset: 0xD41, size: 0x8, addend: 0x0, symName: _align_layers_query_procedures, symObjAddr: 0x134, symBinAddr: 0x1000069F0, symSize: 0x24 }
+  - { offsetInCU: 0xDCC, offset: 0xDCC, size: 0x8, addend: 0x0, symName: _align_layers_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100006A14, symSize: 0x4F4 }
+  - { offsetInCU: 0x144C, offset: 0x144C, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x64C, symBinAddr: 0x100006F08, symSize: 0x30 }
+  - { offsetInCU: 0x17C1, offset: 0x17C1, size: 0x8, addend: 0x0, symName: _align_layers_run, symObjAddr: 0x67C, symBinAddr: 0x100006F38, symSize: 0x550 }
+  - { offsetInCU: 0x1E26, offset: 0x1E26, size: 0x8, addend: 0x0, symName: _align_layers_count_visibles_layers, symObjAddr: 0xBCC, symBinAddr: 0x100007488, symSize: 0x8C }
+  - { offsetInCU: 0x1F2F, offset: 0x1F2F, size: 0x8, addend: 0x0, symName: _align_layers_spread_visibles_layers, symObjAddr: 0xC58, symBinAddr: 0x100007514, symSize: 0x98 }
+  - { offsetInCU: 0x20D1, offset: 0x20D1, size: 0x8, addend: 0x0, symName: _align_layers_find_last_layer, symObjAddr: 0xCF0, symBinAddr: 0x1000075AC, symSize: 0x94 }
+  - { offsetInCU: 0x220A, offset: 0x220A, size: 0x8, addend: 0x0, symName: _align_layers_get_align_offsets, symObjAddr: 0xD84, symBinAddr: 0x100007640, symSize: 0xB0 }
+...

@@ -1,0 +1,28 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/grid/grid'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _grid_get_type, symObjAddr: 0x0, symBinAddr: 0x100005880, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _grid_get_type, symObjAddr: 0x0, symBinAddr: 0x100005880, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _grid_get_type.static_g_define_type_id, symObjAddr: 0xC1A0, symBinAddr: 0x10000C2E0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _grid_parent_class, symObjAddr: 0xC1A8, symBinAddr: 0x10000C2E8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Grid_private_offset, symObjAddr: 0xC1B0, symBinAddr: 0x10000C2F0, symSize: 0x0 }
+  - { offsetInCU: 0x148, offset: 0x148, size: 0x8, addend: 0x0, symName: _main_dialog, symObjAddr: 0xC1B8, symBinAddr: 0x10000C2F8, symSize: 0x0 }
+  - { offsetInCU: 0x25D, offset: 0x25D, size: 0x8, addend: 0x0, symName: _sx1, symObjAddr: 0xC1C0, symBinAddr: 0x10000C300, symSize: 0x0 }
+  - { offsetInCU: 0x272, offset: 0x272, size: 0x8, addend: 0x0, symName: _sy1, symObjAddr: 0xC1C4, symBinAddr: 0x10000C304, symSize: 0x0 }
+  - { offsetInCU: 0x287, offset: 0x287, size: 0x8, addend: 0x0, symName: _sx2, symObjAddr: 0xC1C8, symBinAddr: 0x10000C308, symSize: 0x0 }
+  - { offsetInCU: 0x29C, offset: 0x29C, size: 0x8, addend: 0x0, symName: _sy2, symObjAddr: 0xC1CC, symBinAddr: 0x10000C30C, symSize: 0x0 }
+  - { offsetInCU: 0xE00, offset: 0xE00, size: 0x8, addend: 0x0, symName: _grid_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000058CC, symSize: 0x50 }
+  - { offsetInCU: 0xEBD, offset: 0xEBD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x10000591C, symSize: 0x2C }
+  - { offsetInCU: 0xF49, offset: 0xF49, size: 0x8, addend: 0x0, symName: _grid_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005948, symSize: 0x68 }
+  - { offsetInCU: 0xFE4, offset: 0xFE4, size: 0x8, addend: 0x0, symName: _grid_init, symObjAddr: 0x130, symBinAddr: 0x1000059B0, symSize: 0x4 }
+  - { offsetInCU: 0x1054, offset: 0x1054, size: 0x8, addend: 0x0, symName: _grid_query_procedures, symObjAddr: 0x134, symBinAddr: 0x1000059B4, symSize: 0x24 }
+  - { offsetInCU: 0x10DF, offset: 0x10DF, size: 0x8, addend: 0x0, symName: _grid_create_procedure, symObjAddr: 0x158, symBinAddr: 0x1000059D8, symSize: 0x580 }
+  - { offsetInCU: 0x1B03, offset: 0x1B03, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x6D8, symBinAddr: 0x100005F58, symSize: 0x30 }
+  - { offsetInCU: 0x1C99, offset: 0x1C99, size: 0x8, addend: 0x0, symName: _grid_run, symObjAddr: 0x708, symBinAddr: 0x100005F88, symSize: 0x6C4 }
+  - { offsetInCU: 0x29C5, offset: 0x29C5, size: 0x8, addend: 0x0, symName: _render_grid, symObjAddr: 0xDCC, symBinAddr: 0x10000664C, symSize: 0xA2C }
+  - { offsetInCU: 0x31AF, offset: 0x31AF, size: 0x8, addend: 0x0, symName: _update_preview, symObjAddr: 0x17F8, symBinAddr: 0x100007078, symSize: 0x4C }
+  - { offsetInCU: 0x33A7, offset: 0x33A7, size: 0x8, addend: 0x0, symName: _best_cmap_match, symObjAddr: 0x1968, symBinAddr: 0x1000071E8, symSize: 0xC0 }
+  - { offsetInCU: 0x36C1, offset: 0x36C1, size: 0x8, addend: 0x0, symName: _update_preview, symObjAddr: 0x17F8, symBinAddr: 0x100007078, symSize: 0x4C }
+  - { offsetInCU: 0x375E, offset: 0x375E, size: 0x8, addend: 0x0, symName: _color_callback, symObjAddr: 0x1844, symBinAddr: 0x1000070C4, symSize: 0x124 }
+...

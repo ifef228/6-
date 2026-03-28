@@ -1,0 +1,29 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-compressor/file-compressor'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _compressor_get_type, symObjAddr: 0x0, symBinAddr: 0x100005EF8, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _compressor_get_type, symObjAddr: 0x0, symBinAddr: 0x100005EF8, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _compressor_get_type.static_g_define_type_id, symObjAddr: 0xC5E8, symBinAddr: 0x10000C2A0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _compressor_parent_class, symObjAddr: 0xC5F0, symBinAddr: 0x10000C2A8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Compressor_private_offset, symObjAddr: 0xC5F8, symBinAddr: 0x10000C2B0, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _compressors, symObjAddr: 0x1868, symBinAddr: 0x100008018, symSize: 0x0 }
+  - { offsetInCU: 0xB8E, offset: 0xB8E, size: 0x8, addend: 0x0, symName: _compressor_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005F44, symSize: 0x50 }
+  - { offsetInCU: 0xC4A, offset: 0xC4A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005F94, symSize: 0x2C }
+  - { offsetInCU: 0xCD9, offset: 0xCD9, size: 0x8, addend: 0x0, symName: _compressor_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005FC0, symSize: 0x68 }
+  - { offsetInCU: 0xD74, offset: 0xD74, size: 0x8, addend: 0x0, symName: _compressor_init, symObjAddr: 0x130, symBinAddr: 0x100006028, symSize: 0x4 }
+  - { offsetInCU: 0xDF0, offset: 0xDF0, size: 0x8, addend: 0x0, symName: _compressor_query_procedures, symObjAddr: 0x134, symBinAddr: 0x10000602C, symSize: 0x8C }
+  - { offsetInCU: 0xF15, offset: 0xF15, size: 0x8, addend: 0x0, symName: _compressor_create_procedure, symObjAddr: 0x1C0, symBinAddr: 0x1000060B8, symSize: 0x1C4 }
+  - { offsetInCU: 0x1389, offset: 0x1389, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x384, symBinAddr: 0x10000627C, symSize: 0x30 }
+  - { offsetInCU: 0x13FE, offset: 0x13FE, size: 0x8, addend: 0x0, symName: _gzip_load, symObjAddr: 0x3B4, symBinAddr: 0x1000062AC, symSize: 0x134 }
+  - { offsetInCU: 0x189C, offset: 0x189C, size: 0x8, addend: 0x0, symName: _gzip_export, symObjAddr: 0x4E8, symBinAddr: 0x1000063E0, symSize: 0x1B4 }
+  - { offsetInCU: 0x1AB5, offset: 0x1AB5, size: 0x8, addend: 0x0, symName: _get_file_info, symObjAddr: 0xE98, symBinAddr: 0x100006D90, symSize: 0x5C }
+  - { offsetInCU: 0x1BB4, offset: 0x1BB4, size: 0x8, addend: 0x0, symName: _bzip2_load, symObjAddr: 0x69C, symBinAddr: 0x100006594, symSize: 0x130 }
+  - { offsetInCU: 0x1D83, offset: 0x1D83, size: 0x8, addend: 0x0, symName: _bzip2_export, symObjAddr: 0x7CC, symBinAddr: 0x1000066C4, symSize: 0x1B0 }
+  - { offsetInCU: 0x1FB4, offset: 0x1FB4, size: 0x8, addend: 0x0, symName: _xz_load, symObjAddr: 0x97C, symBinAddr: 0x100006874, symSize: 0x1D4 }
+  - { offsetInCU: 0x2400, offset: 0x2400, size: 0x8, addend: 0x0, symName: _xz_export, symObjAddr: 0xB50, symBinAddr: 0x100006A48, symSize: 0x200 }
+  - { offsetInCU: 0x2688, offset: 0x2688, size: 0x8, addend: 0x0, symName: _zip_load, symObjAddr: 0xD50, symBinAddr: 0x100006C48, symSize: 0x148 }
+  - { offsetInCU: 0x2BAF, offset: 0x2BAF, size: 0x8, addend: 0x0, symName: _compressor_load, symObjAddr: 0xEF4, symBinAddr: 0x100006DEC, symSize: 0x194 }
+  - { offsetInCU: 0x2F09, offset: 0x2F09, size: 0x8, addend: 0x0, symName: _find_extension, symObjAddr: 0x127C, symBinAddr: 0x100007174, symSize: 0xAC }
+  - { offsetInCU: 0x33D3, offset: 0x33D3, size: 0x8, addend: 0x0, symName: _compressor_export, symObjAddr: 0x1088, symBinAddr: 0x100006F80, symSize: 0x1F4 }
+...

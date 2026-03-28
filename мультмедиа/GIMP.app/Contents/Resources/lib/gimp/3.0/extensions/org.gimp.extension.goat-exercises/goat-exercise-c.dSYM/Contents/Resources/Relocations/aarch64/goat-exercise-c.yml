@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/extensions/org.gimp.extension.goat-exercises/goat-exercise-c'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _goat_get_type, symObjAddr: 0x0, symBinAddr: 0x1000070A4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _goat_get_type, symObjAddr: 0x0, symBinAddr: 0x1000070A4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _goat_get_type.static_g_define_type_id, symObjAddr: 0x69A0, symBinAddr: 0x10000C1F8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _goat_parent_class, symObjAddr: 0x69A8, symBinAddr: 0x10000C200, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Goat_private_offset, symObjAddr: 0x69B0, symBinAddr: 0x10000C208, symSize: 0x0 }
+  - { offsetInCU: 0xC04, offset: 0xC04, size: 0x8, addend: 0x0, symName: _goat_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000070F0, symSize: 0x50 }
+  - { offsetInCU: 0xCC0, offset: 0xCC0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100007140, symSize: 0x2C }
+  - { offsetInCU: 0xD4C, offset: 0xD4C, size: 0x8, addend: 0x0, symName: _goat_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x10000716C, symSize: 0x5C }
+  - { offsetInCU: 0xDE7, offset: 0xDE7, size: 0x8, addend: 0x0, symName: _goat_init, symObjAddr: 0x124, symBinAddr: 0x1000071C8, symSize: 0x4 }
+  - { offsetInCU: 0xE56, offset: 0xE56, size: 0x8, addend: 0x0, symName: _goat_query_procedures, symObjAddr: 0x128, symBinAddr: 0x1000071CC, symSize: 0x24 }
+  - { offsetInCU: 0xEE1, offset: 0xEE1, size: 0x8, addend: 0x0, symName: _goat_create_procedure, symObjAddr: 0x14C, symBinAddr: 0x1000071F0, symSize: 0x10C }
+  - { offsetInCU: 0x1219, offset: 0x1219, size: 0x8, addend: 0x0, symName: _goat_run, symObjAddr: 0x258, symBinAddr: 0x1000072FC, symSize: 0x43C }
+...

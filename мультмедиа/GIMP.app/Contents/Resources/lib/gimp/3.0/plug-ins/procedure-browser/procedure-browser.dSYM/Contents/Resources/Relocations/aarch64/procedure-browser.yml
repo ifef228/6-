@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/procedure-browser/procedure-browser'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _browser_get_type, symObjAddr: 0x0, symBinAddr: 0x100003818, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _browser_get_type, symObjAddr: 0x0, symBinAddr: 0x100003818, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _browser_get_type.static_g_define_type_id, symObjAddr: 0x42F8, symBinAddr: 0x1000080E8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _browser_parent_class, symObjAddr: 0x4300, symBinAddr: 0x1000080F0, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Browser_private_offset, symObjAddr: 0x4308, symBinAddr: 0x1000080F8, symSize: 0x0 }
+  - { offsetInCU: 0xA20, offset: 0xA20, size: 0x8, addend: 0x0, symName: _browser_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100003864, symSize: 0x50 }
+  - { offsetInCU: 0xADC, offset: 0xADC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000038B4, symSize: 0x2C }
+  - { offsetInCU: 0xB68, offset: 0xB68, size: 0x8, addend: 0x0, symName: _browser_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000038E0, symSize: 0x68 }
+  - { offsetInCU: 0xC03, offset: 0xC03, size: 0x8, addend: 0x0, symName: _browser_init, symObjAddr: 0x130, symBinAddr: 0x100003948, symSize: 0x4 }
+  - { offsetInCU: 0xC72, offset: 0xC72, size: 0x8, addend: 0x0, symName: _browser_query_procedures, symObjAddr: 0x134, symBinAddr: 0x10000394C, symSize: 0x24 }
+  - { offsetInCU: 0xCFD, offset: 0xCFD, size: 0x8, addend: 0x0, symName: _browser_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100003970, symSize: 0xFC }
+  - { offsetInCU: 0xFA2, offset: 0xFA2, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x254, symBinAddr: 0x100003A6C, symSize: 0x30 }
+  - { offsetInCU: 0x1017, offset: 0x1017, size: 0x8, addend: 0x0, symName: _browser_run, symObjAddr: 0x284, symBinAddr: 0x100003A9C, symSize: 0x11C }
+...

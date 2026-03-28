@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/babl-0.1/ycbcr.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3598, symSize: 0x29C }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3598, symSize: 0x29C }
+  - { offsetInCU: 0x46A, offset: 0x46A, size: 0x8, addend: 0x0, symName: _rgba_to_ycbcr709, symObjAddr: 0x29C, symBinAddr: 0x3834, symSize: 0x16C }
+  - { offsetInCU: 0x579, offset: 0x579, size: 0x8, addend: 0x0, symName: _rgba_to_ycbcra709, symObjAddr: 0x408, symBinAddr: 0x39A0, symSize: 0x180 }
+  - { offsetInCU: 0x6AF, offset: 0x6AF, size: 0x8, addend: 0x0, symName: _ycbcra709_to_rgba, symObjAddr: 0x588, symBinAddr: 0x3B20, symSize: 0x180 }
+  - { offsetInCU: 0x7CD, offset: 0x7CD, size: 0x8, addend: 0x0, symName: _ycbcr709_to_rgba, symObjAddr: 0x708, symBinAddr: 0x3CA0, symSize: 0x178 }
+...

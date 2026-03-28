@@ -1,0 +1,42 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/pagecurl/pagecurl'
+relocations:
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _static_resource, symObjAddr: 0x40, symBinAddr: 0x100014348, symSize: 0x0 }
+  - { offsetInCU: 0xFA, offset: 0xFA, size: 0x8, addend: 0x0, symName: _pagecurl_icons_resource_data, symObjAddr: 0x68, symBinAddr: 0x100009170, symSize: 0x0 }
+  - { offsetInCU: 0x157, offset: 0x157, size: 0x8, addend: 0x0, symName: _pagecurl_icons_get_resource, symObjAddr: 0x0, symBinAddr: 0x100007100, symSize: 0xC }
+  - { offsetInCU: 0x190, offset: 0x190, size: 0x8, addend: 0x0, symName: _pagecurl_iconsresource_constructor, symObjAddr: 0xC, symBinAddr: 0x10000710C, symSize: 0xC }
+  - { offsetInCU: 0x1C1, offset: 0x1C1, size: 0x8, addend: 0x0, symName: _pagecurl_iconsresource_destructor, symObjAddr: 0x18, symBinAddr: 0x100007118, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x219, size: 0x8, addend: 0x0, symName: _pagecurl_get_type, symObjAddr: 0x0, symBinAddr: 0x10000713C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x226, size: 0x8, addend: 0x0, symName: _pagecurl_get_type, symObjAddr: 0x0, symBinAddr: 0x10000713C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x24B, size: 0x8, addend: 0x0, symName: _pagecurl_get_type.static_g_define_type_id, symObjAddr: 0xC4B0, symBinAddr: 0x100014370, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x2ED, size: 0x8, addend: 0x0, symName: _pagecurl_parent_class, symObjAddr: 0xC4B8, symBinAddr: 0x100014378, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x30E, size: 0x8, addend: 0x0, symName: _Pagecurl_private_offset, symObjAddr: 0xC4C0, symBinAddr: 0x100014380, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x335, size: 0x8, addend: 0x0, symName: _image, symObjAddr: 0xC4C8, symBinAddr: 0x100014388, symSize: 0x0 }
+  - { offsetInCU: 0x16D, offset: 0x35F, size: 0x8, addend: 0x0, symName: _sel_x, symObjAddr: 0xC4D0, symBinAddr: 0x100014390, symSize: 0x0 }
+  - { offsetInCU: 0x182, offset: 0x374, size: 0x8, addend: 0x0, symName: _sel_y, symObjAddr: 0xC4D4, symBinAddr: 0x100014394, symSize: 0x0 }
+  - { offsetInCU: 0x197, offset: 0x389, size: 0x8, addend: 0x0, symName: _true_sel_width, symObjAddr: 0xC4D8, symBinAddr: 0x100014398, symSize: 0x0 }
+  - { offsetInCU: 0x1AC, offset: 0x39E, size: 0x8, addend: 0x0, symName: _true_sel_height, symObjAddr: 0xC4DC, symBinAddr: 0x10001439C, symSize: 0x0 }
+  - { offsetInCU: 0x1C1, offset: 0x3B3, size: 0x8, addend: 0x0, symName: _drawable_position, symObjAddr: 0xC4E0, symBinAddr: 0x1000143A0, symSize: 0x0 }
+  - { offsetInCU: 0x1D6, offset: 0x3C8, size: 0x8, addend: 0x0, symName: _sel_width, symObjAddr: 0xC4E4, symBinAddr: 0x1000143A4, symSize: 0x0 }
+  - { offsetInCU: 0x1EB, offset: 0x3DD, size: 0x8, addend: 0x0, symName: _sel_height, symObjAddr: 0xC4E8, symBinAddr: 0x1000143A8, symSize: 0x0 }
+  - { offsetInCU: 0x200, offset: 0x3F2, size: 0x8, addend: 0x0, symName: _center, symObjAddr: 0xC4F0, symBinAddr: 0x1000143B0, symSize: 0x0 }
+  - { offsetInCU: 0x253, offset: 0x445, size: 0x8, addend: 0x0, symName: _radius, symObjAddr: 0xC500, symBinAddr: 0x1000143C0, symSize: 0x0 }
+  - { offsetInCU: 0x268, offset: 0x45A, size: 0x8, addend: 0x0, symName: _left_tangent, symObjAddr: 0xC508, symBinAddr: 0x1000143C8, symSize: 0x0 }
+  - { offsetInCU: 0x27D, offset: 0x46F, size: 0x8, addend: 0x0, symName: _right_tangent, symObjAddr: 0xC518, symBinAddr: 0x1000143D8, symSize: 0x0 }
+  - { offsetInCU: 0x292, offset: 0x484, size: 0x8, addend: 0x0, symName: _diagl_slope, symObjAddr: 0xC528, symBinAddr: 0x1000143E8, symSize: 0x0 }
+  - { offsetInCU: 0x2A7, offset: 0x499, size: 0x8, addend: 0x0, symName: _diagr_slope, symObjAddr: 0xC530, symBinAddr: 0x1000143F0, symSize: 0x0 }
+  - { offsetInCU: 0x2BC, offset: 0x4AE, size: 0x8, addend: 0x0, symName: _diagb_slope, symObjAddr: 0xC538, symBinAddr: 0x1000143F8, symSize: 0x0 }
+  - { offsetInCU: 0x2D1, offset: 0x4C3, size: 0x8, addend: 0x0, symName: _diagm_slope, symObjAddr: 0xC540, symBinAddr: 0x100014400, symSize: 0x0 }
+  - { offsetInCU: 0x2E6, offset: 0x4D8, size: 0x8, addend: 0x0, symName: _fg_color, symObjAddr: 0xC548, symBinAddr: 0x100014408, symSize: 0x0 }
+  - { offsetInCU: 0x307, offset: 0x4F9, size: 0x8, addend: 0x0, symName: _bg_color, symObjAddr: 0xC568, symBinAddr: 0x100014428, symSize: 0x0 }
+  - { offsetInCU: 0x107B, offset: 0x126D, size: 0x8, addend: 0x0, symName: _pagecurl_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100007188, symSize: 0x50 }
+  - { offsetInCU: 0x1137, offset: 0x1329, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000071D8, symSize: 0x2C }
+  - { offsetInCU: 0x11C3, offset: 0x13B5, size: 0x8, addend: 0x0, symName: _pagecurl_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100007204, symSize: 0x68 }
+  - { offsetInCU: 0x125E, offset: 0x1450, size: 0x8, addend: 0x0, symName: _pagecurl_init, symObjAddr: 0x130, symBinAddr: 0x10000726C, symSize: 0x4 }
+  - { offsetInCU: 0x12CD, offset: 0x14BF, size: 0x8, addend: 0x0, symName: _pagecurl_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100007270, symSize: 0x24 }
+  - { offsetInCU: 0x1358, offset: 0x154A, size: 0x8, addend: 0x0, symName: _pagecurl_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100007294, symSize: 0x3AC }
+  - { offsetInCU: 0x18E6, offset: 0x1AD8, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x504, symBinAddr: 0x100007640, symSize: 0x30 }
+  - { offsetInCU: 0x2052, offset: 0x2244, size: 0x8, addend: 0x0, symName: _pagecurl_run, symObjAddr: 0x534, symBinAddr: 0x100007670, symSize: 0x1074 }
+  - { offsetInCU: 0x32BD, offset: 0x34AF, size: 0x8, addend: 0x0, symName: _curl_pixbuf_update, symObjAddr: 0x15A8, symBinAddr: 0x1000086E4, symSize: 0xB4 }
+...

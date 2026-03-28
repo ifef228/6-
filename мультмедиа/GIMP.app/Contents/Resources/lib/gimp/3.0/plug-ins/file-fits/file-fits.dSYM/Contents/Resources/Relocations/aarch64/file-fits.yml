@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-fits/file-fits'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _fits_get_type, symObjAddr: 0x0, symBinAddr: 0x1000059F0, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _fits_get_type, symObjAddr: 0x0, symBinAddr: 0x1000059F0, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _fits_get_type.static_g_define_type_id, symObjAddr: 0xE610, symBinAddr: 0x10000C338, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _fits_parent_class, symObjAddr: 0xE618, symBinAddr: 0x10000C340, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Fits_private_offset, symObjAddr: 0xE620, symBinAddr: 0x10000C348, symSize: 0x0 }
+  - { offsetInCU: 0xF85, offset: 0xF85, size: 0x8, addend: 0x0, symName: _fits_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005A3C, symSize: 0x50 }
+  - { offsetInCU: 0x1041, offset: 0x1041, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005A8C, symSize: 0x2C }
+  - { offsetInCU: 0x10CD, offset: 0x10CD, size: 0x8, addend: 0x0, symName: _fits_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005AB8, symSize: 0x68 }
+  - { offsetInCU: 0x1168, offset: 0x1168, size: 0x8, addend: 0x0, symName: _fits_init, symObjAddr: 0x130, symBinAddr: 0x100005B20, symSize: 0x4 }
+  - { offsetInCU: 0x11E2, offset: 0x11E2, size: 0x8, addend: 0x0, symName: _fits_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100005B24, symSize: 0x48 }
+  - { offsetInCU: 0x12B4, offset: 0x12B4, size: 0x8, addend: 0x0, symName: _fits_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x100005B6C, symSize: 0x294 }
+  - { offsetInCU: 0x187E, offset: 0x187E, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x410, symBinAddr: 0x100005E00, symSize: 0x30 }
+  - { offsetInCU: 0x244C, offset: 0x244C, size: 0x8, addend: 0x0, symName: _fits_load, symObjAddr: 0x440, symBinAddr: 0x100005E30, symSize: 0x9AC }
+  - { offsetInCU: 0x367E, offset: 0x367E, size: 0x8, addend: 0x0, symName: _fits_export, symObjAddr: 0xDEC, symBinAddr: 0x1000067DC, symSize: 0x9F4 }
+...

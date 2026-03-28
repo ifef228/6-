@@ -1,0 +1,28 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-jp2/file-jp2'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _jp2_get_type, symObjAddr: 0x0, symBinAddr: 0x1000071CC, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _jp2_get_type, symObjAddr: 0x0, symBinAddr: 0x1000071CC, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _jp2_get_type.static_g_define_type_id, symObjAddr: 0x17CB8, symBinAddr: 0x1000103E0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _jp2_parent_class, symObjAddr: 0x17CC0, symBinAddr: 0x1000103E8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Jp2_private_offset, symObjAddr: 0x17CC8, symBinAddr: 0x1000103F0, symSize: 0x0 }
+  - { offsetInCU: 0x1067, offset: 0x1067, size: 0x8, addend: 0x0, symName: _jp2_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100007218, symSize: 0x50 }
+  - { offsetInCU: 0x1123, offset: 0x1123, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100007268, symSize: 0x2C }
+  - { offsetInCU: 0x11AF, offset: 0x11AF, size: 0x8, addend: 0x0, symName: _jp2_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100007294, symSize: 0x68 }
+  - { offsetInCU: 0x124A, offset: 0x124A, size: 0x8, addend: 0x0, symName: _jp2_init, symObjAddr: 0x130, symBinAddr: 0x1000072FC, symSize: 0x4 }
+  - { offsetInCU: 0x12A4, offset: 0x12A4, size: 0x8, addend: 0x0, symName: _jp2_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100007300, symSize: 0x80 }
+  - { offsetInCU: 0x13F4, offset: 0x13F4, size: 0x8, addend: 0x0, symName: _jp2_create_procedure, symObjAddr: 0x1B4, symBinAddr: 0x100007380, symSize: 0xBEC }
+  - { offsetInCU: 0x227F, offset: 0x227F, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0xDA0, symBinAddr: 0x100007F6C, symSize: 0x30 }
+  - { offsetInCU: 0x22F4, offset: 0x22F4, size: 0x8, addend: 0x0, symName: _jp2_load, symObjAddr: 0xDD0, symBinAddr: 0x100007F9C, symSize: 0x150 }
+  - { offsetInCU: 0x253E, offset: 0x253E, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x1898, symBinAddr: 0x100008A64, symSize: 0x864 }
+  - { offsetInCU: 0x3A17, offset: 0x3A17, size: 0x8, addend: 0x0, symName: _jp2_export, symObjAddr: 0xF20, symBinAddr: 0x1000080EC, symSize: 0x978 }
+  - { offsetInCU: 0x4315, offset: 0x4315, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x1898, symBinAddr: 0x100008A64, symSize: 0x864 }
+  - { offsetInCU: 0x4A59, offset: 0x4A59, size: 0x8, addend: 0x0, symName: _open_dialog, symObjAddr: 0x20FC, symBinAddr: 0x1000092C8, symSize: 0x1E8 }
+  - { offsetInCU: 0x4CC5, offset: 0x4CC5, size: 0x8, addend: 0x0, symName: _color_sycc_to_rgb, symObjAddr: 0x22E4, symBinAddr: 0x1000094B0, symSize: 0x110 }
+  - { offsetInCU: 0x4D2F, offset: 0x4D2F, size: 0x8, addend: 0x0, symName: _color_cmyk_to_rgb, symObjAddr: 0x23F4, symBinAddr: 0x1000095C0, symSize: 0x1E8 }
+  - { offsetInCU: 0x4E32, offset: 0x4E32, size: 0x8, addend: 0x0, symName: _color_esycc_to_rgb, symObjAddr: 0x25DC, symBinAddr: 0x1000097A8, symSize: 0x1A0 }
+  - { offsetInCU: 0x50FC, offset: 0x50FC, size: 0x8, addend: 0x0, symName: _sycc420_to_rgb, symObjAddr: 0x277C, symBinAddr: 0x100009948, symSize: 0x9C4 }
+  - { offsetInCU: 0x5969, offset: 0x5969, size: 0x8, addend: 0x0, symName: _sycc444_to_rgb, symObjAddr: 0x3518, symBinAddr: 0x10000A6E4, symSize: 0x1FC }
+  - { offsetInCU: 0x5BF1, offset: 0x5BF1, size: 0x8, addend: 0x0, symName: _sycc422_to_rgb, symObjAddr: 0x3140, symBinAddr: 0x10000A30C, symSize: 0x3D8 }
+...

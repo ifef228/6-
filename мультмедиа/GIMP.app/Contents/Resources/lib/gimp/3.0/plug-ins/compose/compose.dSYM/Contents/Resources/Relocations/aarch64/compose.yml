@@ -1,0 +1,27 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/compose/compose'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _compose_get_type, symObjAddr: 0x0, symBinAddr: 0x10000462C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _compose_get_type, symObjAddr: 0x0, symBinAddr: 0x10000462C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _compose_get_type.static_g_define_type_id, symObjAddr: 0x12208, symBinAddr: 0x10000C510, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _compose_parent_class, symObjAddr: 0x12210, symBinAddr: 0x10000C518, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Compose_private_offset, symObjAddr: 0x12218, symBinAddr: 0x10000C520, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _compose_dsc, symObjAddr: 0x2B60, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x24B, offset: 0x24B, size: 0x8, addend: 0x0, symName: _composevals, symObjAddr: 0x33A0, symBinAddr: 0x10000C4A0, symSize: 0x0 }
+  - { offsetInCU: 0x42F, offset: 0x42F, size: 0x8, addend: 0x0, symName: _composeint, symObjAddr: 0x12220, symBinAddr: 0x10000C528, symSize: 0x0 }
+  - { offsetInCU: 0x13AA, offset: 0x13AA, size: 0x8, addend: 0x0, symName: _compose_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100004678, symSize: 0x50 }
+  - { offsetInCU: 0x1466, offset: 0x1466, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000046C8, symSize: 0x2C }
+  - { offsetInCU: 0x14F5, offset: 0x14F5, size: 0x8, addend: 0x0, symName: _compose_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000046F4, symSize: 0x68 }
+  - { offsetInCU: 0x1590, offset: 0x1590, size: 0x8, addend: 0x0, symName: _compose_init, symObjAddr: 0x130, symBinAddr: 0x10000475C, symSize: 0x4 }
+  - { offsetInCU: 0x160C, offset: 0x160C, size: 0x8, addend: 0x0, symName: _compose_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100004760, symSize: 0x64 }
+  - { offsetInCU: 0x180A, offset: 0x180A, size: 0x8, addend: 0x0, symName: _compose_create_procedure, symObjAddr: 0x198, symBinAddr: 0x1000047C4, symSize: 0x89C }
+  - { offsetInCU: 0x2326, offset: 0x2326, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0xA34, symBinAddr: 0x100005060, symSize: 0x30 }
+  - { offsetInCU: 0x2A32, offset: 0x2A32, size: 0x8, addend: 0x0, symName: _compose_run, symObjAddr: 0xA64, symBinAddr: 0x100005090, symSize: 0x1308 }
+  - { offsetInCU: 0x4299, offset: 0x4299, size: 0x8, addend: 0x0, symName: _type_combo_callback, symObjAddr: 0x1F40, symBinAddr: 0x10000656C, symSize: 0x104 }
+  - { offsetInCU: 0x464E, offset: 0x464E, size: 0x8, addend: 0x0, symName: _get_buffer_with_filters, symObjAddr: 0x2044, symBinAddr: 0x100006670, symSize: 0xE0 }
+  - { offsetInCU: 0x4BCF, offset: 0x4BCF, size: 0x8, addend: 0x0, symName: _check_response, symObjAddr: 0x1D6C, symBinAddr: 0x100006398, symSize: 0xA8 }
+  - { offsetInCU: 0x4D35, offset: 0x4D35, size: 0x8, addend: 0x0, symName: _check_gray, symObjAddr: 0x1E14, symBinAddr: 0x100006440, symSize: 0x60 }
+  - { offsetInCU: 0x4DC6, offset: 0x4DC6, size: 0x8, addend: 0x0, symName: _scale_callback, symObjAddr: 0x1E74, symBinAddr: 0x1000064A0, symSize: 0x28 }
+  - { offsetInCU: 0x4E23, offset: 0x4E23, size: 0x8, addend: 0x0, symName: _combo_callback, symObjAddr: 0x1E9C, symBinAddr: 0x1000064C8, symSize: 0xA4 }
+...

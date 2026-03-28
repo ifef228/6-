@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/MacOS/gegl'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_options_parse, symObjAddr: 0x0, symBinAddr: 0x100003CBC, symSize: 0x80C }
+  - { offsetInCU: 0x608, offset: 0x608, size: 0x8, addend: 0x0, symName: _gegl_options_parse, symObjAddr: 0x0, symBinAddr: 0x100003CBC, symSize: 0x80C }
+  - { offsetInCU: 0x102A, offset: 0x102A, size: 0x8, addend: 0x0, symName: _usage, symObjAddr: 0x8E0, symBinAddr: 0x10000459C, symSize: 0x4C }
+  - { offsetInCU: 0x1073, offset: 0x1073, size: 0x8, addend: 0x0, symName: _print_key_value, symObjAddr: 0x92C, symBinAddr: 0x1000045E8, symSize: 0x148 }
+  - { offsetInCU: 0x1115, offset: 0x1115, size: 0x8, addend: 0x0, symName: _print_key_value, symObjAddr: 0x92C, symBinAddr: 0x1000045E8, symSize: 0x148 }
+  - { offsetInCU: 0x137B, offset: 0x137B, size: 0x8, addend: 0x0, symName: _gegl_options_next_file, symObjAddr: 0x80C, symBinAddr: 0x1000044C8, symSize: 0x8C }
+  - { offsetInCU: 0x1423, offset: 0x1423, size: 0x8, addend: 0x0, symName: _gegl_options_previous_file, symObjAddr: 0x898, symBinAddr: 0x100004554, symSize: 0x48 }
+  - { offsetInCU: 0x27, offset: 0x14BB, size: 0x8, addend: 0x0, symName: _gegl_path_smooth_init, symObjAddr: 0x0, symBinAddr: 0x100004730, symSize: 0x48 }
+  - { offsetInCU: 0x34, offset: 0x14C8, size: 0x8, addend: 0x0, symName: _gegl_path_smooth_init, symObjAddr: 0x0, symBinAddr: 0x100004730, symSize: 0x48 }
+  - { offsetInCU: 0x55, offset: 0x14E9, size: 0x8, addend: 0x0, symName: _gegl_path_smooth_init.done, symObjAddr: 0x1C04, symBinAddr: 0x10000C2A0, symSize: 0x0 }
+  - { offsetInCU: 0x363, offset: 0x17F7, size: 0x8, addend: 0x0, symName: _gegl_path_smooth_flatten, symObjAddr: 0x48, symBinAddr: 0x100004778, symSize: 0x29C }
+  - { offsetInCU: 0x27, offset: 0x1B26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100004A14, symSize: 0xA48 }
+  - { offsetInCU: 0x2BC, offset: 0x1DBB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100004A14, symSize: 0xA48 }
+  - { offsetInCU: 0xF0A, offset: 0x2A09, size: 0x8, addend: 0x0, symName: _gegl_str_has_video_suffix, symObjAddr: 0xA48, symBinAddr: 0x10000545C, symSize: 0x35C }
+  - { offsetInCU: 0x155B, offset: 0x305A, size: 0x8, addend: 0x0, symName: _gegl_str_has_video_suffix, symObjAddr: 0xA48, symBinAddr: 0x10000545C, symSize: 0x35C }
+  - { offsetInCU: 0x1FB7, offset: 0x3AB6, size: 0x8, addend: 0x0, symName: _gegl_str_has_image_suffix, symObjAddr: 0xDA4, symBinAddr: 0x1000057B8, symSize: 0x3B0 }
+  - { offsetInCU: 0x27, offset: 0x43A4, size: 0x8, addend: 0x0, symName: _gegl_path_spiro_init, symObjAddr: 0x0, symBinAddr: 0x100005B68, symSize: 0x98 }
+  - { offsetInCU: 0x34, offset: 0x43B1, size: 0x8, addend: 0x0, symName: _gegl_path_spiro_init, symObjAddr: 0x0, symBinAddr: 0x100005B68, symSize: 0x98 }
+  - { offsetInCU: 0x55, offset: 0x43D2, size: 0x8, addend: 0x0, symName: _gegl_path_spiro_init.done, symObjAddr: 0x1BE0, symBinAddr: 0x10000C2A4, symSize: 0x0 }
+  - { offsetInCU: 0x127, offset: 0x44A4, size: 0x8, addend: 0x0, symName: _bezcontext, symBinAddr: 0x10000C2A8, symSize: 0x0 }
+  - { offsetInCU: 0x3B8, offset: 0x4735, size: 0x8, addend: 0x0, symName: _gegl_path_spiro_flatten, symObjAddr: 0x98, symBinAddr: 0x100005C00, symSize: 0x1CC }
+  - { offsetInCU: 0x506, offset: 0x4883, size: 0x8, addend: 0x0, symName: _moveto, symObjAddr: 0x264, symBinAddr: 0x100005DCC, symSize: 0x40 }
+  - { offsetInCU: 0x570, offset: 0x48ED, size: 0x8, addend: 0x0, symName: _lineto, symObjAddr: 0x2A4, symBinAddr: 0x100005E0C, symSize: 0x40 }
+  - { offsetInCU: 0x5BC, offset: 0x4939, size: 0x8, addend: 0x0, symName: _curveto, symObjAddr: 0x2E4, symBinAddr: 0x100005E4C, symSize: 0x48 }
+  - { offsetInCU: 0x644, offset: 0x49C1, size: 0x8, addend: 0x0, symName: _quadto, symObjAddr: 0x32C, symBinAddr: 0x100005E94, symSize: 0x30 }
+...

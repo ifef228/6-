@@ -1,0 +1,33 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/MacOS/gimptool-3.2'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001760, symSize: 0xB7C }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _cli_prefix, symObjAddr: 0x90A0, symBinAddr: 0x1000080D8, symSize: 0x0 }
+  - { offsetInCU: 0x78, offset: 0x78, size: 0x8, addend: 0x0, symName: _cli_exec_prefix, symObjAddr: 0x90A8, symBinAddr: 0x1000080E0, symSize: 0x0 }
+  - { offsetInCU: 0x8D, offset: 0x8D, size: 0x8, addend: 0x0, symName: _dry_run, symObjAddr: 0x9098, symBinAddr: 0x1000080D0, symSize: 0x0 }
+  - { offsetInCU: 0xC6, offset: 0xC6, size: 0x8, addend: 0x0, symName: _env_cc, symObjAddr: 0x90B8, symBinAddr: 0x1000080F0, symSize: 0x0 }
+  - { offsetInCU: 0xDB, offset: 0xDB, size: 0x8, addend: 0x0, symName: _msvc_syntax, symObjAddr: 0x90C0, symBinAddr: 0x1000080F8, symSize: 0x0 }
+  - { offsetInCU: 0xF7, offset: 0xF7, size: 0x8, addend: 0x0, symName: _env_cflags, symObjAddr: 0x90C8, symBinAddr: 0x100008100, symSize: 0x0 }
+  - { offsetInCU: 0x10C, offset: 0x10C, size: 0x8, addend: 0x0, symName: _env_ldflags, symObjAddr: 0x90D0, symBinAddr: 0x100008108, symSize: 0x0 }
+  - { offsetInCU: 0x121, offset: 0x121, size: 0x8, addend: 0x0, symName: _env_libs, symObjAddr: 0x90D8, symBinAddr: 0x100008110, symSize: 0x0 }
+  - { offsetInCU: 0x136, offset: 0x136, size: 0x8, addend: 0x0, symName: _dirs, symObjAddr: 0x25B0, symBinAddr: 0x100004018, symSize: 0x0 }
+  - { offsetInCU: 0x174, offset: 0x174, size: 0x8, addend: 0x0, symName: _silent, symObjAddr: 0x90B0, symBinAddr: 0x1000080E8, symSize: 0x0 }
+  - { offsetInCU: 0x584, offset: 0x584, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001760, symSize: 0xB7C }
+  - { offsetInCU: 0x1493, offset: 0x1493, size: 0x8, addend: 0x0, symName: _usage, symObjAddr: 0xB7C, symBinAddr: 0x1000022DC, symSize: 0x24 }
+  - { offsetInCU: 0x14A3, offset: 0x14A3, size: 0x8, addend: 0x0, symName: _usage, symObjAddr: 0xB7C, symBinAddr: 0x1000022DC, symSize: 0x24 }
+  - { offsetInCU: 0x14DA, offset: 0x14DA, size: 0x8, addend: 0x0, symName: _do_build, symObjAddr: 0xBA0, symBinAddr: 0x100002300, symSize: 0x64 }
+  - { offsetInCU: 0x1599, offset: 0x1599, size: 0x8, addend: 0x0, symName: _get_sys_script_dir, symObjAddr: 0x1414, symBinAddr: 0x100002B74, symSize: 0x70 }
+  - { offsetInCU: 0x161E, offset: 0x161E, size: 0x8, addend: 0x0, symName: _do_uninstall_script_2, symObjAddr: 0x1484, symBinAddr: 0x100002BE4, symSize: 0x80 }
+  - { offsetInCU: 0x16F6, offset: 0x16F6, size: 0x8, addend: 0x0, symName: _starts_with_dir, symObjAddr: 0xCD8, symBinAddr: 0x100002438, symSize: 0x80 }
+  - { offsetInCU: 0x17BB, offset: 0x17BB, size: 0x8, addend: 0x0, symName: _pkg_config, symObjAddr: 0xD58, symBinAddr: 0x1000024B8, symSize: 0x158 }
+  - { offsetInCU: 0x191D, offset: 0x191D, size: 0x8, addend: 0x0, symName: _do_build_2, symObjAddr: 0xEB0, symBinAddr: 0x100002610, symSize: 0x380 }
+  - { offsetInCU: 0x1D0A, offset: 0x1D0A, size: 0x8, addend: 0x0, symName: _maybe_run, symObjAddr: 0x1230, symBinAddr: 0x100002990, symSize: 0x60 }
+  - { offsetInCU: 0x1D1A, offset: 0x1D1A, size: 0x8, addend: 0x0, symName: _do_build, symObjAddr: 0xBA0, symBinAddr: 0x100002300, symSize: 0x64 }
+  - { offsetInCU: 0x1DEB, offset: 0x1DEB, size: 0x8, addend: 0x0, symName: _do_install, symObjAddr: 0xC04, symBinAddr: 0x100002364, symSize: 0x8C }
+  - { offsetInCU: 0x1F44, offset: 0x1F44, size: 0x8, addend: 0x0, symName: _get_plugin_dir, symObjAddr: 0x1290, symBinAddr: 0x1000029F0, symSize: 0x88 }
+  - { offsetInCU: 0x2059, offset: 0x2059, size: 0x8, addend: 0x0, symName: _do_install_bin_2, symObjAddr: 0x1318, symBinAddr: 0x100002A78, symSize: 0xA4 }
+  - { offsetInCU: 0x2185, offset: 0x2185, size: 0x8, addend: 0x0, symName: _do_uninstall, symObjAddr: 0x13BC, symBinAddr: 0x100002B1C, symSize: 0x58 }
+  - { offsetInCU: 0x221C, offset: 0x221C, size: 0x8, addend: 0x0, symName: _do_uninstall_script, symObjAddr: 0xC90, symBinAddr: 0x1000023F0, symSize: 0x48 }
+  - { offsetInCU: 0x25B3, offset: 0x25B3, size: 0x8, addend: 0x0, symName: _maybe_run, symObjAddr: 0x1230, symBinAddr: 0x100002990, symSize: 0x60 }
+...

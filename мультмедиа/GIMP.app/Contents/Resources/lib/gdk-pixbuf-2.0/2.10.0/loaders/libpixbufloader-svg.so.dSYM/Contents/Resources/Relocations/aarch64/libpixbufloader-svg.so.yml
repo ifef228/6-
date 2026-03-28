@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so'
+relocations:     []
+...

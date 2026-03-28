@@ -1,0 +1,1 @@
+euc_jp-utf8.txt

@@ -1,0 +1,24 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/modules/libcolor-selector-cmyk.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_get_type, symObjAddr: 0x0, symBinAddr: 0x6EB0, symSize: 0xC }
+  - { offsetInCU: 0x40, offset: 0x40, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_type_id, symObjAddr: 0xDE38, symBinAddr: 0xC180, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_info, symObjAddr: 0xAF0, symBinAddr: 0x8010, symSize: 0x0 }
+  - { offsetInCU: 0x119, offset: 0x119, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_parent_class, symObjAddr: 0xDE40, symBinAddr: 0xC188, symSize: 0x0 }
+  - { offsetInCU: 0x13A, offset: 0x13A, size: 0x8, addend: 0x0, symName: _ColorselCmyk_private_offset, symObjAddr: 0xDE48, symBinAddr: 0xC190, symSize: 0x0 }
+  - { offsetInCU: 0x155, offset: 0x155, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_init, symObjAddr: 0x13C, symBinAddr: 0x6FEC, symSize: 0x220 }
+  - { offsetInCU: 0x176, offset: 0x176, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_init.cmyk_labels, symObjAddr: 0xB68, symBinAddr: 0x8088, symSize: 0x0 }
+  - { offsetInCU: 0x18B, offset: 0x18B, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_init.cmyk_tips, symObjAddr: 0xB88, symBinAddr: 0x80A8, symSize: 0x0 }
+  - { offsetInCU: 0x3719, offset: 0x3719, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_get_type, symObjAddr: 0x0, symBinAddr: 0x6EB0, symSize: 0xC }
+  - { offsetInCU: 0x3732, offset: 0x3732, size: 0x8, addend: 0x0, symName: _gimp_module_query, symObjAddr: 0xC, symBinAddr: 0x6EBC, symSize: 0xC }
+  - { offsetInCU: 0x39D9, offset: 0x39D9, size: 0x8, addend: 0x0, symName: _gimp_module_register, symObjAddr: 0x18, symBinAddr: 0x6EC8, symSize: 0x70 }
+  - { offsetInCU: 0x3AB2, offset: 0x3AB2, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_class_intern_init, symObjAddr: 0x88, symBinAddr: 0x6F38, symSize: 0xB0 }
+  - { offsetInCU: 0x3BA2, offset: 0x3BA2, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_class_finalize, symObjAddr: 0x138, symBinAddr: 0x6FE8, symSize: 0x4 }
+  - { offsetInCU: 0x3E64, offset: 0x3E64, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_dispose, symObjAddr: 0x35C, symBinAddr: 0x720C, symSize: 0x4C }
+  - { offsetInCU: 0x3EF6, offset: 0x3EF6, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_set_config, symObjAddr: 0x5A8, symBinAddr: 0x7458, symSize: 0xC8 }
+  - { offsetInCU: 0x4066, offset: 0x4066, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_set_color, symObjAddr: 0x3A8, symBinAddr: 0x7258, symSize: 0x200 }
+  - { offsetInCU: 0x449A, offset: 0x449A, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_config_changed, symObjAddr: 0x97C, symBinAddr: 0x782C, symSize: 0x174 }
+  - { offsetInCU: 0x46E1, offset: 0x46E1, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_set_simulation, symObjAddr: 0x670, symBinAddr: 0x7520, symSize: 0x198 }
+  - { offsetInCU: 0x49CF, offset: 0x49CF, size: 0x8, addend: 0x0, symName: _colorsel_cmyk_scale_update, symObjAddr: 0x808, symBinAddr: 0x76B8, symSize: 0x174 }
+...

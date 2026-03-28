@@ -1,0 +1,61 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     './lib/gimp/3.0/modules/libcolor-selector-wheel.dylib'
+relocations:
+  - { offset: 0x27, size: 0x8, addend: 0x0, symName: _colorsel_wheel_get_type, symObjAddr: 0x0, symBinAddr: 0x4840, symSize: 0xC }
+  - { offset: 0x40, size: 0x8, addend: 0x0, symName: _colorsel_wheel_type_id, symObjAddr: 0xB930, symBinAddr: 0xC340, symSize: 0x0 }
+  - { offset: 0x81, size: 0x8, addend: 0x0, symName: _colorsel_wheel_info, symObjAddr: 0x530, symBinAddr: 0x8010, symSize: 0x0 }
+  - { offset: 0x119, size: 0x8, addend: 0x0, symName: _colorsel_wheel_parent_class, symObjAddr: 0xB938, symBinAddr: 0xC348, symSize: 0x0 }
+  - { offset: 0x13A, size: 0x8, addend: 0x0, symName: _ColorselWheel_private_offset, symObjAddr: 0xB940, symBinAddr: 0xC350, symSize: 0x0 }
+  - { offset: 0x33D2, size: 0x8, addend: 0x0, symName: _colorsel_wheel_get_type, symObjAddr: 0x0, symBinAddr: 0x4840, symSize: 0xC }
+  - { offset: 0x33EB, size: 0x8, addend: 0x0, symName: _gimp_module_query, symObjAddr: 0xC, symBinAddr: 0x484C, symSize: 0xC }
+  - { offset: 0x3692, size: 0x8, addend: 0x0, symName: _gimp_module_register, symObjAddr: 0x18, symBinAddr: 0x4858, symSize: 0x74 }
+  - { offset: 0x3782, size: 0x8, addend: 0x0, symName: _colorsel_wheel_class_intern_init, symObjAddr: 0x8C, symBinAddr: 0x48CC, symSize: 0xA4 }
+  - { offset: 0x3869, size: 0x8, addend: 0x0, symName: _colorsel_wheel_class_finalize, symObjAddr: 0x130, symBinAddr: 0x4970, symSize: 0x4 }
+  - { offset: 0x388A, size: 0x8, addend: 0x0, symName: _colorsel_wheel_init, symObjAddr: 0x134, symBinAddr: 0x4974, symSize: 0xE8 }
+  - { offset: 0x3BCF, size: 0x8, addend: 0x0, symName: _colorsel_wheel_set_color, symObjAddr: 0x21C, symBinAddr: 0x4A5C, symSize: 0xD8 }
+  - { offset: 0x3D65, size: 0x8, addend: 0x0, symName: _colorsel_wheel_set_config, symObjAddr: 0x2F4, symBinAddr: 0x4B34, symSize: 0x10 }
+  - { offset: 0x3DC5, size: 0x8, addend: 0x0, symName: _colorsel_wheel_set_format, symObjAddr: 0x304, symBinAddr: 0x4B44, symSize: 0x174 }
+  - { offset: 0x411D, size: 0x8, addend: 0x0, symName: _colorsel_wheel_changed, symObjAddr: 0x478, symBinAddr: 0x4CB8, symSize: 0xB4 }
+  - { offset: 0x4299, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_get_type, symObjAddr: 0x0, symBinAddr: 0x4D6C, symSize: 0xC }
+  - { offset: 0x42C5, size: 0x8, addend: 0x0, symName: _wheel_signals.0, symObjAddr: 0x170E0, symBinAddr: 0xC360, symSize: 0x0 }
+  - { offset: 0x42FA, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_type_id, symObjAddr: 0x170D8, symBinAddr: 0xC358, symSize: 0x0 }
+  - { offset: 0x432D, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_parent_class, symObjAddr: 0x170E8, symBinAddr: 0xC368, symSize: 0x0 }
+  - { offset: 0x434E, size: 0x8, addend: 0x0, symName: _GimpColorWheel_private_offset, symObjAddr: 0x170E4, symBinAddr: 0xC364, symSize: 0x0 }
+  - { offset: 0x7146, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_get_type, symObjAddr: 0x0, symBinAddr: 0x4D6C, symSize: 0xC }
+  - { offset: 0x73D7, size: 0x8, addend: 0x0, symName: _color_wheel_register_type, symObjAddr: 0xC, symBinAddr: 0x4D78, symSize: 0x78 }
+  - { offset: 0x748F, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_new, symObjAddr: 0x84, symBinAddr: 0x4DF0, symSize: 0x10 }
+  - { offset: 0x74AD, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_new, symObjAddr: 0x84, symBinAddr: 0x4DF0, symSize: 0x10 }
+  - { offset: 0x74EA, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_set_color, symObjAddr: 0x94, symBinAddr: 0x4E00, symSize: 0x11C }
+  - { offset: 0x7643, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_get_color, symObjAddr: 0x1B0, symBinAddr: 0x4F1C, symSize: 0xC8 }
+  - { offset: 0x7715, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_set_ring_fraction, symObjAddr: 0x278, symBinAddr: 0x4FE4, symSize: 0xAC }
+  - { offset: 0x77D4, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_get_ring_fraction, symObjAddr: 0x324, symBinAddr: 0x5090, symSize: 0x7C }
+  - { offset: 0x78EC, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_set_color_config, symObjAddr: 0x3A0, symBinAddr: 0x510C, symSize: 0x104 }
+  - { offset: 0x7ACA, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_set_format, symObjAddr: 0x4A4, symBinAddr: 0x5210, symSize: 0x24 }
+  - { offset: 0x7B10, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_set_format, symObjAddr: 0x4A4, symBinAddr: 0x5210, symSize: 0x24 }
+  - { offset: 0x7B37, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_is_adjusting, symObjAddr: 0x4C8, symBinAddr: 0x5234, symSize: 0x80 }
+  - { offset: 0x7DCF, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_class_intern_init, symObjAddr: 0x548, symBinAddr: 0x52B4, symSize: 0x248 }
+  - { offset: 0x829A, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_class_finalize, symObjAddr: 0x790, symBinAddr: 0x54FC, symSize: 0x4 }
+  - { offset: 0x82BB, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_init, symObjAddr: 0x794, symBinAddr: 0x5500, symSize: 0xF0 }
+  - { offset: 0x8456, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_dispose, symObjAddr: 0x884, symBinAddr: 0x55F0, symSize: 0x34 }
+  - { offset: 0x84B2, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_map, symObjAddr: 0x8B8, symBinAddr: 0x5624, symSize: 0x38 }
+  - { offset: 0x8544, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_unmap, symObjAddr: 0x8F0, symBinAddr: 0x565C, symSize: 0x40 }
+  - { offset: 0x85CE, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_realize, symObjAddr: 0x930, symBinAddr: 0x569C, symSize: 0xB4 }
+  - { offset: 0x88C0, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_unrealize, symObjAddr: 0x9E4, symBinAddr: 0x5750, symSize: 0x50 }
+  - { offset: 0x895D, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_get_preferred_width, symObjAddr: 0xA34, symBinAddr: 0x57A0, symSize: 0x64 }
+  - { offset: 0x89ED, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_get_preferred_height, symObjAddr: 0xA98, symBinAddr: 0x5804, symSize: 0x64 }
+  - { offset: 0x8A69, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_size_allocate, symObjAddr: 0xAFC, symBinAddr: 0x5868, symSize: 0xC0 }
+  - { offset: 0x9188, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_draw, symObjAddr: 0xBBC, symBinAddr: 0x5928, symSize: 0xCF4 }
+  - { offset: 0x9DB1, size: 0x8, addend: 0x0, symName: _hsv_to_rgb, symObjAddr: 0x1B00, symBinAddr: 0x686C, symSize: 0x10C }
+  - { offset: 0x9E6B, size: 0x8, addend: 0x0, symName: _compute_triangle, symObjAddr: 0x1C0C, symBinAddr: 0x6978, symSize: 0x144 }
+  - { offset: 0xA038, size: 0x8, addend: 0x0, symName: _compute_triangle, symObjAddr: 0x1C0C, symBinAddr: 0x6978, symSize: 0x144 }
+  - { offset: 0xA166, size: 0x8, addend: 0x0, symName: _get_color, symObjAddr: 0x1D50, symBinAddr: 0x6ABC, symSize: 0x88 }
+  - { offset: 0xA280, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_focus, symObjAddr: 0x18B0, symBinAddr: 0x661C, symSize: 0xB8 }
+  - { offset: 0xA355, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_move, symObjAddr: 0x1968, symBinAddr: 0x66D4, symSize: 0x198 }
+  - { offset: 0xA4CF, size: 0x8, addend: 0x0, symName: _compute_sv, symObjAddr: 0x1DD8, symBinAddr: 0x6B44, symSize: 0x280 }
+  - { offset: 0xA7D6, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_drag_begin, symObjAddr: 0x2058, symBinAddr: 0x6DC4, symSize: 0x228 }
+  - { offset: 0xAB8D, size: 0x8, addend: 0x0, symName: _compute_v, symObjAddr: 0x2408, symBinAddr: 0x7174, symSize: 0x6C }
+  - { offset: 0xAC5F, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_drag_update, symObjAddr: 0x2280, symBinAddr: 0x6FEC, symSize: 0xA0 }
+  - { offset: 0xADD8, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_drag_end, symObjAddr: 0x2320, symBinAddr: 0x708C, symSize: 0xBC }
+  - { offset: 0xAF58, size: 0x8, addend: 0x0, symName: _gimp_color_wheel_drag_cancel, symObjAddr: 0x23DC, symBinAddr: 0x7148, symSize: 0x2C }
+...

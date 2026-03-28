@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     './lib/gimp/3.0/modules/libcontroller-midi.dylib'
+relocations:
+  - { offset: 0x27, size: 0x8, addend: 0x0, symName: _controller_midi_get_type, symObjAddr: 0x0, symBinAddr: 0x2BA4, symSize: 0xC }
+  - { offset: 0x40, size: 0x8, addend: 0x0, symName: _controller_midi_type_id, symObjAddr: 0x77E0, symBinAddr: 0x8128, symSize: 0x0 }
+  - { offset: 0x81, size: 0x8, addend: 0x0, symName: _midi_info, symObjAddr: 0xC30, symBinAddr: 0x4010, symSize: 0x0 }
+  - { offset: 0x119, size: 0x8, addend: 0x0, symName: _controller_midi_parent_class, symObjAddr: 0x77E8, symBinAddr: 0x8130, symSize: 0x0 }
+  - { offset: 0x13A, size: 0x8, addend: 0x0, symName: _ControllerMidi_private_offset, symObjAddr: 0x77F0, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offset: 0x161, size: 0x8, addend: 0x0, symName: _midi_events, symObjAddr: 0x77F8, symBinAddr: 0x8140, symSize: 0x0 }
+  - { offset: 0x10A4, size: 0x8, addend: 0x0, symName: _controller_midi_get_type, symObjAddr: 0x0, symBinAddr: 0x2BA4, symSize: 0xC }
+  - { offset: 0x10BD, size: 0x8, addend: 0x0, symName: _gimp_module_query, symObjAddr: 0xC, symBinAddr: 0x2BB0, symSize: 0xC }
+  - { offset: 0x1376, size: 0x8, addend: 0x0, symName: _gimp_module_register, symObjAddr: 0x18, symBinAddr: 0x2BBC, symSize: 0x70 }
+  - { offset: 0x145A, size: 0x8, addend: 0x0, symName: _controller_midi_class_intern_init, symObjAddr: 0x88, symBinAddr: 0x2C2C, symSize: 0x174 }
+  - { offset: 0x16A5, size: 0x8, addend: 0x0, symName: _controller_midi_class_finalize, symObjAddr: 0x1FC, symBinAddr: 0x2DA0, symSize: 0x4 }
+  - { offset: 0x16C6, size: 0x8, addend: 0x0, symName: _controller_midi_init, symObjAddr: 0x200, symBinAddr: 0x2DA4, symSize: 0x28 }
+  - { offset: 0x16E9, size: 0x8, addend: 0x0, symName: _midi_dispose, symObjAddr: 0x228, symBinAddr: 0x2DCC, symSize: 0x34 }
+  - { offset: 0x1745, size: 0x8, addend: 0x0, symName: _midi_set_device, symObjAddr: 0x52C, symBinAddr: 0x30D0, symSize: 0x1D8 }
+  - { offset: 0x1977, size: 0x8, addend: 0x0, symName: _midi_get_property, symObjAddr: 0x25C, symBinAddr: 0x2E00, symSize: 0xCC }
+  - { offset: 0x1ABD, size: 0x8, addend: 0x0, symName: _midi_set_property, symObjAddr: 0x328, symBinAddr: 0x2ECC, symSize: 0xC8 }
+  - { offset: 0x1BDA, size: 0x8, addend: 0x0, symName: _midi_get_n_events, symObjAddr: 0x3F0, symBinAddr: 0x2F94, symSize: 0x8 }
+  - { offset: 0x1C01, size: 0x8, addend: 0x0, symName: _midi_get_event_name, symObjAddr: 0x3F8, symBinAddr: 0x2F9C, symSize: 0x90 }
+  - { offset: 0x1C58, size: 0x8, addend: 0x0, symName: _midi_get_event_blurb, symObjAddr: 0x488, symBinAddr: 0x302C, symSize: 0xA4 }
+  - { offset: 0x1E18, size: 0x8, addend: 0x0, symName: _midi_read_event, symObjAddr: 0x704, symBinAddr: 0x32A8, symSize: 0x458 }
+  - { offset: 0x206E, size: 0x8, addend: 0x0, symName: _midi_event, symObjAddr: 0xB5C, symBinAddr: 0x3700, symSize: 0x98 }
+...

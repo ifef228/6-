@@ -1,0 +1,24 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/hot/hot'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _hot_get_type, symObjAddr: 0x0, symBinAddr: 0x100006458, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _hot_get_type, symObjAddr: 0x0, symBinAddr: 0x100006458, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _hot_get_type.static_g_define_type_id, symObjAddr: 0x9A90, symBinAddr: 0x10000C238, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _hot_parent_class, symObjAddr: 0x9A98, symBinAddr: 0x10000C240, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Hot_private_offset, symObjAddr: 0x9AA0, symBinAddr: 0x10000C248, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _ichroma_lim2, symObjAddr: 0xBEB8, symBinAddr: 0x10000E660, symSize: 0x0 }
+  - { offsetInCU: 0x16A, offset: 0x16A, size: 0x8, addend: 0x0, symName: _icompos_lim, symObjAddr: 0xBEC0, symBinAddr: 0x10000E668, symSize: 0x0 }
+  - { offsetInCU: 0x17F, offset: 0x17F, size: 0x8, addend: 0x0, symName: _tab, symObjAddr: 0x9AA4, symBinAddr: 0x10000C24C, symSize: 0x0 }
+  - { offsetInCU: 0x1AD, offset: 0x1AD, size: 0x8, addend: 0x0, symName: _chroma_lim, symObjAddr: 0xBEA8, symBinAddr: 0x10000E650, symSize: 0x0 }
+  - { offsetInCU: 0x1D4, offset: 0x1D4, size: 0x8, addend: 0x0, symName: _compos_lim, symObjAddr: 0xBEB0, symBinAddr: 0x10000E658, symSize: 0x0 }
+  - { offsetInCU: 0x1E9, offset: 0x1E9, size: 0x8, addend: 0x0, symName: _mode_vals, symObjAddr: 0x13F8, symBinAddr: 0x100007BD0, symSize: 0x0 }
+  - { offsetInCU: 0xE6A, offset: 0xE6A, size: 0x8, addend: 0x0, symName: _hot_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000064A4, symSize: 0x50 }
+  - { offsetInCU: 0xF26, offset: 0xF26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000064F4, symSize: 0x2C }
+  - { offsetInCU: 0xFB2, offset: 0xFB2, size: 0x8, addend: 0x0, symName: _hot_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006520, symSize: 0x68 }
+  - { offsetInCU: 0x104D, offset: 0x104D, size: 0x8, addend: 0x0, symName: _hot_init, symObjAddr: 0x130, symBinAddr: 0x100006588, symSize: 0x4 }
+  - { offsetInCU: 0x10C7, offset: 0x10C7, size: 0x8, addend: 0x0, symName: _hot_query_procedures, symObjAddr: 0x134, symBinAddr: 0x10000658C, symSize: 0x24 }
+  - { offsetInCU: 0x1152, offset: 0x1152, size: 0x8, addend: 0x0, symName: _hot_create_procedure, symObjAddr: 0x158, symBinAddr: 0x1000065B0, symSize: 0x28C }
+  - { offsetInCU: 0x15C9, offset: 0x15C9, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x3E4, symBinAddr: 0x10000683C, symSize: 0x30 }
+  - { offsetInCU: 0x1A6F, offset: 0x1A6F, size: 0x8, addend: 0x0, symName: _hot_run, symObjAddr: 0x414, symBinAddr: 0x10000686C, symSize: 0xC8C }
+...

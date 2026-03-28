@@ -1,0 +1,34 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gegl-0.4/ff-load.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_op_ff_load_get_type, symObjAddr: 0x0, symBinAddr: 0x540C, symSize: 0xC }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _gegl_op_ff_load_type_id, symObjAddr: 0x19A10, symBinAddr: 0xC278, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _gegl_op_parent_class, symObjAddr: 0x19A18, symBinAddr: 0xC280, symSize: 0x0 }
+  - { offsetInCU: 0x96, offset: 0x96, size: 0x8, addend: 0x0, symName: _decode_audio, symObjAddr: 0x1834, symBinAddr: 0x6C40, symSize: 0x560 }
+  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _decode_audio.frame, symObjAddr: 0x19A20, symBinAddr: 0xC288, symSize: 0x0 }
+  - { offsetInCU: 0xBC7, offset: 0xBC7, size: 0x8, addend: 0x0, symName: _modinfo, symObjAddr: 0x1F1C, symBinAddr: 0x7A7C, symSize: 0x0 }
+  - { offsetInCU: 0x5A3D, offset: 0x5A3D, size: 0x8, addend: 0x0, symName: _gegl_op_ff_load_get_type, symObjAddr: 0x0, symBinAddr: 0x540C, symSize: 0xC }
+  - { offsetInCU: 0x5A56, offset: 0x5A56, size: 0x8, addend: 0x0, symName: _gegl_op_ff_load_register_type, symObjAddr: 0xC, symBinAddr: 0x5418, symSize: 0x6C }
+  - { offsetInCU: 0x5EB9, offset: 0x5EB9, size: 0x8, addend: 0x0, symName: _gegl_op_ff_load_class_chant_intern_init, symObjAddr: 0x78, symBinAddr: 0x5484, symSize: 0x4E4 }
+  - { offsetInCU: 0x657E, offset: 0x657E, size: 0x8, addend: 0x0, symName: _param_spec_update_ui, symObjAddr: 0x92C, symBinAddr: 0x5D38, symSize: 0x1C8 }
+  - { offsetInCU: 0x67E3, offset: 0x67E3, size: 0x8, addend: 0x0, symName: _gegl_op_ff_load_class_finalize, symObjAddr: 0x55C, symBinAddr: 0x5968, symSize: 0x4 }
+  - { offsetInCU: 0x6834, offset: 0x6834, size: 0x8, addend: 0x0, symName: _gegl_op_ff_load_init, symObjAddr: 0x560, symBinAddr: 0x596C, symSize: 0x34 }
+  - { offsetInCU: 0x68B7, offset: 0x68B7, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x594, symBinAddr: 0x59A0, symSize: 0xC }
+  - { offsetInCU: 0x68FF, offset: 0x68FF, size: 0x8, addend: 0x0, symName: _gegl_module_register, symObjAddr: 0x5A0, symBinAddr: 0x59AC, symSize: 0x70 }
+  - { offsetInCU: 0x697B, offset: 0x697B, size: 0x8, addend: 0x0, symName: _set_property, symObjAddr: 0x610, symBinAddr: 0x5A1C, symSize: 0x168 }
+  - { offsetInCU: 0x6BF8, offset: 0x6BF8, size: 0x8, addend: 0x0, symName: _get_property, symObjAddr: 0x778, symBinAddr: 0x5B84, symSize: 0x144 }
+  - { offsetInCU: 0x6D48, offset: 0x6D48, size: 0x8, addend: 0x0, symName: _gegl_op_constructor, symObjAddr: 0x8BC, symBinAddr: 0x5CC8, symSize: 0x70 }
+  - { offsetInCU: 0x6E7F, offset: 0x6E7F, size: 0x8, addend: 0x0, symName: _has_key, symObjAddr: 0xB58, symBinAddr: 0x5F64, symSize: 0x48 }
+  - { offsetInCU: 0x6F0F, offset: 0x6F0F, size: 0x8, addend: 0x0, symName: _gegl_op_destroy_notify, symObjAddr: 0xAF4, symBinAddr: 0x5F00, symSize: 0x64 }
+  - { offsetInCU: 0x707C, offset: 0x707C, size: 0x8, addend: 0x0, symName: _finalize, symObjAddr: 0xBA0, symBinAddr: 0x5FAC, symSize: 0x60 }
+  - { offsetInCU: 0x7134, offset: 0x7134, size: 0x8, addend: 0x0, symName: _ff_cleanup, symObjAddr: 0x1760, symBinAddr: 0x6B6C, symSize: 0x90 }
+  - { offsetInCU: 0x7444, offset: 0x7444, size: 0x8, addend: 0x0, symName: _process, symObjAddr: 0xC00, symBinAddr: 0x600C, symSize: 0x5EC }
+  - { offsetInCU: 0x7E48, offset: 0x7E48, size: 0x8, addend: 0x0, symName: _alloc_picture, symObjAddr: 0x1D94, symBinAddr: 0x71A0, symSize: 0x88 }
+  - { offsetInCU: 0x7F94, offset: 0x7F94, size: 0x8, addend: 0x0, symName: _get_bounding_box, symObjAddr: 0x11EC, symBinAddr: 0x65F8, symSize: 0x14 }
+  - { offsetInCU: 0x7FF5, offset: 0x7FF5, size: 0x8, addend: 0x0, symName: _get_cached_region, symObjAddr: 0x1200, symBinAddr: 0x660C, symSize: 0x14 }
+  - { offsetInCU: 0x802F, offset: 0x802F, size: 0x8, addend: 0x0, symName: _get_cached_region, symObjAddr: 0x1200, symBinAddr: 0x660C, symSize: 0x14 }
+  - { offsetInCU: 0x810D, offset: 0x810D, size: 0x8, addend: 0x0, symName: _prepare, symObjAddr: 0x1214, symBinAddr: 0x6620, symSize: 0x54C }
+  - { offsetInCU: 0x853A, offset: 0x853A, size: 0x8, addend: 0x0, symName: _ff_cleanup, symObjAddr: 0x1760, symBinAddr: 0x6B6C, symSize: 0x90 }
+  - { offsetInCU: 0x8562, offset: 0x8562, size: 0x8, addend: 0x0, symName: _clear_audio_track, symObjAddr: 0x17F0, symBinAddr: 0x6BFC, symSize: 0x44 }
+...

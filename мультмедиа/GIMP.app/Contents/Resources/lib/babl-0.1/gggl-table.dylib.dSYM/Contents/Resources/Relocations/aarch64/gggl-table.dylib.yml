@@ -1,0 +1,32 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/babl-0.1/gggl-table.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x2DA8, symSize: 0x8CC }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _table_F_8, symObjAddr: 0x5CA1, symBinAddr: 0x8031, symSize: 0x0 }
+  - { offsetInCU: 0x78, offset: 0x78, size: 0x8, addend: 0x0, symName: _table_8_F_int, symObjAddr: 0x15CA8, symBinAddr: 0x18038, symSize: 0x0 }
+  - { offsetInCU: 0xA4, offset: 0xA4, size: 0x8, addend: 0x0, symName: _table_F_16, symObjAddr: 0x15CB0, symBinAddr: 0x18040, symSize: 0x0 }
+  - { offsetInCU: 0xCF, offset: 0xCF, size: 0x8, addend: 0x0, symName: _table_16_F, symObjAddr: 0x35CB0, symBinAddr: 0x38040, symSize: 0x0 }
+  - { offsetInCU: 0xFA, offset: 0xFA, size: 0x8, addend: 0x0, symName: _table_inited, symObjAddr: 0x5CA0, symBinAddr: 0x8030, symSize: 0x0 }
+  - { offsetInCU: 0x11D, offset: 0x11D, size: 0x8, addend: 0x0, symName: _table_8_F, symObjAddr: 0x75CB0, symBinAddr: 0x78040, symSize: 0x0 }
+  - { offsetInCU: 0x138, offset: 0x138, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x2DA8, symSize: 0x8CC }
+  - { offsetInCU: 0xCD9, offset: 0xCD9, size: 0x8, addend: 0x0, symName: _table_init, symObjAddr: 0xFB8, symBinAddr: 0x3D60, symSize: 0x138 }
+  - { offsetInCU: 0xDC6, offset: 0xDC6, size: 0x8, addend: 0x0, symName: _conv_rgbaF_rgba8, symObjAddr: 0x8CC, symBinAddr: 0x3674, symSize: 0x64 }
+  - { offsetInCU: 0xE9E, offset: 0xE9E, size: 0x8, addend: 0x0, symName: _conv_rgba8_rgbaF, symObjAddr: 0x930, symBinAddr: 0x36D8, symSize: 0x60 }
+  - { offsetInCU: 0xF85, offset: 0xF85, size: 0x8, addend: 0x0, symName: _conv_rgbaF_rgba16, symObjAddr: 0x990, symBinAddr: 0x3738, symSize: 0x68 }
+  - { offsetInCU: 0x105F, offset: 0x105F, size: 0x8, addend: 0x0, symName: _conv_rgba16_rgbaF, symObjAddr: 0x9F8, symBinAddr: 0x37A0, symSize: 0x60 }
+  - { offsetInCU: 0x10F9, offset: 0x10F9, size: 0x8, addend: 0x0, symName: _conv_rgbF_rgb8, symObjAddr: 0xA58, symBinAddr: 0x3800, symSize: 0x64 }
+  - { offsetInCU: 0x1191, offset: 0x1191, size: 0x8, addend: 0x0, symName: _conv_rgb8_rgbF, symObjAddr: 0xABC, symBinAddr: 0x3864, symSize: 0x60 }
+  - { offsetInCU: 0x122B, offset: 0x122B, size: 0x8, addend: 0x0, symName: _conv_rgbF_rgb16, symObjAddr: 0xB1C, symBinAddr: 0x38C4, symSize: 0x68 }
+  - { offsetInCU: 0x12C5, offset: 0x12C5, size: 0x8, addend: 0x0, symName: _conv_rgb16_rgbF, symObjAddr: 0xB84, symBinAddr: 0x392C, symSize: 0x60 }
+  - { offsetInCU: 0x135F, offset: 0x135F, size: 0x8, addend: 0x0, symName: _conv_gaF_ga8, symObjAddr: 0xBE4, symBinAddr: 0x398C, symSize: 0x64 }
+  - { offsetInCU: 0x13F7, offset: 0x13F7, size: 0x8, addend: 0x0, symName: _conv_F_8, symObjAddr: 0xC48, symBinAddr: 0x39F0, symSize: 0x60 }
+  - { offsetInCU: 0x1454, offset: 0x1454, size: 0x8, addend: 0x0, symName: _conv_ga8_gaF, symObjAddr: 0xCA8, symBinAddr: 0x3A50, symSize: 0x60 }
+  - { offsetInCU: 0x14EE, offset: 0x14EE, size: 0x8, addend: 0x0, symName: _conv_8_F, symObjAddr: 0xD08, symBinAddr: 0x3AB0, symSize: 0x5C }
+  - { offsetInCU: 0x1538, offset: 0x1538, size: 0x8, addend: 0x0, symName: _conv_gaF_ga16, symObjAddr: 0xD64, symBinAddr: 0x3B0C, symSize: 0x68 }
+  - { offsetInCU: 0x15D2, offset: 0x15D2, size: 0x8, addend: 0x0, symName: _conv_F_16, symObjAddr: 0xDCC, symBinAddr: 0x3B74, symSize: 0x64 }
+  - { offsetInCU: 0x162F, offset: 0x162F, size: 0x8, addend: 0x0, symName: _conv_ga16_gaF, symObjAddr: 0xE30, symBinAddr: 0x3BD8, symSize: 0x60 }
+  - { offsetInCU: 0x16C9, offset: 0x16C9, size: 0x8, addend: 0x0, symName: _conv_16_F, symObjAddr: 0xE90, symBinAddr: 0x3C38, symSize: 0x5C }
+  - { offsetInCU: 0x1713, offset: 0x1713, size: 0x8, addend: 0x0, symName: _conv_rgbaF_rgb8, symObjAddr: 0xEEC, symBinAddr: 0x3C94, symSize: 0x44 }
+  - { offsetInCU: 0x178A, offset: 0x178A, size: 0x8, addend: 0x0, symName: _conv_rgb8_rgbaF, symObjAddr: 0xF30, symBinAddr: 0x3CD8, symSize: 0x88 }
+...

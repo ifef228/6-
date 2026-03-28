@@ -1,0 +1,34 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-webp/file-webp'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _save_dialog, symObjAddr: 0x0, symBinAddr: 0x100008150, symSize: 0x2E4 }
+  - { offsetInCU: 0x429, offset: 0x429, size: 0x8, addend: 0x0, symName: _save_dialog, symObjAddr: 0x0, symBinAddr: 0x100008150, symSize: 0x2E4 }
+  - { offsetInCU: 0xC6F, offset: 0xC6F, size: 0x8, addend: 0x0, symName: _show_maxkeyframe_hints, symObjAddr: 0x2E4, symBinAddr: 0x100008434, symSize: 0x78 }
+  - { offsetInCU: 0x27, offset: 0xE68, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x0, symBinAddr: 0x1000084AC, symSize: 0x3A8 }
+  - { offsetInCU: 0x5EB, offset: 0x142C, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x0, symBinAddr: 0x1000084AC, symSize: 0x3A8 }
+  - { offsetInCU: 0xF56, offset: 0x1D97, size: 0x8, addend: 0x0, symName: _create_layer, symObjAddr: 0x3A8, symBinAddr: 0x100008854, symSize: 0xD4 }
+  - { offsetInCU: 0x27, offset: 0x23C8, size: 0x8, addend: 0x0, symName: _webp_anim_file_writer, symObjAddr: 0x0, symBinAddr: 0x100008928, symSize: 0x38 }
+  - { offsetInCU: 0x6A1, offset: 0x2A42, size: 0x8, addend: 0x0, symName: _webp_anim_file_writer, symObjAddr: 0x0, symBinAddr: 0x100008928, symSize: 0x38 }
+  - { offsetInCU: 0x72B, offset: 0x2ACC, size: 0x8, addend: 0x0, symName: _webp_file_writer, symObjAddr: 0x38, symBinAddr: 0x100008960, symSize: 0x34 }
+  - { offsetInCU: 0x7A1, offset: 0x2B42, size: 0x8, addend: 0x0, symName: _webp_file_progress, symObjAddr: 0x6C, symBinAddr: 0x100008994, symSize: 0x14 }
+  - { offsetInCU: 0x852, offset: 0x2BF3, size: 0x8, addend: 0x0, symName: _webp_error_string, symObjAddr: 0x80, symBinAddr: 0x1000089A8, symSize: 0xE4 }
+  - { offsetInCU: 0xF5E, offset: 0x32FF, size: 0x8, addend: 0x0, symName: _save_layer, symObjAddr: 0x164, symBinAddr: 0x100008A8C, symSize: 0x54C }
+  - { offsetInCU: 0x1809, offset: 0x3BAA, size: 0x8, addend: 0x0, symName: _webp_decide_output, symObjAddr: 0x6B0, symBinAddr: 0x100008FD8, symSize: 0x108 }
+  - { offsetInCU: 0x233F, offset: 0x46E0, size: 0x8, addend: 0x0, symName: _save_animation, symObjAddr: 0x7B8, symBinAddr: 0x1000090E0, symSize: 0xA68 }
+  - { offsetInCU: 0x27, offset: 0x57EC, size: 0x8, addend: 0x0, symName: _webp_get_type, symObjAddr: 0x0, symBinAddr: 0x100009B48, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x57F9, size: 0x8, addend: 0x0, symName: _webp_get_type, symObjAddr: 0x0, symBinAddr: 0x100009B48, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x581E, size: 0x8, addend: 0x0, symName: _webp_get_type.static_g_define_type_id, symObjAddr: 0x6AA0, symBinAddr: 0x100010530, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x58C0, size: 0x8, addend: 0x0, symName: _webp_parent_class, symObjAddr: 0x6AA8, symBinAddr: 0x100010538, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x58E1, size: 0x8, addend: 0x0, symName: _Webp_private_offset, symObjAddr: 0x6AB0, symBinAddr: 0x100010540, symSize: 0x0 }
+  - { offsetInCU: 0x99B, offset: 0x6160, size: 0x8, addend: 0x0, symName: _webp_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100009B94, symSize: 0x50 }
+  - { offsetInCU: 0xA57, offset: 0x621C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100009BE4, symSize: 0x2C }
+  - { offsetInCU: 0xAE3, offset: 0x62A8, size: 0x8, addend: 0x0, symName: _webp_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100009C10, symSize: 0x68 }
+  - { offsetInCU: 0xB7E, offset: 0x6343, size: 0x8, addend: 0x0, symName: _webp_init, symObjAddr: 0x130, symBinAddr: 0x100009C78, symSize: 0x4 }
+  - { offsetInCU: 0xBF8, offset: 0x63BD, size: 0x8, addend: 0x0, symName: _webp_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100009C7C, symSize: 0x48 }
+  - { offsetInCU: 0xCCA, offset: 0x648F, size: 0x8, addend: 0x0, symName: _webp_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x100009CC4, symSize: 0x600 }
+  - { offsetInCU: 0x16C8, offset: 0x6E8D, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x77C, symBinAddr: 0x10000A2C4, symSize: 0x30 }
+  - { offsetInCU: 0x173D, offset: 0x6F02, size: 0x8, addend: 0x0, symName: _webp_load, symObjAddr: 0x7AC, symBinAddr: 0x10000A2F4, symSize: 0xA0 }
+  - { offsetInCU: 0x197C, offset: 0x7141, size: 0x8, addend: 0x0, symName: _webp_export, symObjAddr: 0x84C, symBinAddr: 0x10000A394, symSize: 0x1A0 }
+  - { offsetInCU: 0x1D54, offset: 0x7519, size: 0x8, addend: 0x0, symName: _export_edit_options, symObjAddr: 0x9EC, symBinAddr: 0x10000A534, symSize: 0x44 }
+...

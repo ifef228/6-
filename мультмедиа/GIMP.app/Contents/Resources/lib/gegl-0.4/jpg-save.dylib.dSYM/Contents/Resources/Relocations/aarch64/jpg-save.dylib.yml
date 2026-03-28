@@ -1,0 +1,31 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gegl-0.4/jpg-save.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_save_get_type, symObjAddr: 0x0, symBinAddr: 0x5EC4, symSize: 0xC }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_save_type_id, symObjAddr: 0xDC10, symBinAddr: 0xC2A0, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _gegl_op_parent_class, symObjAddr: 0xDC18, symBinAddr: 0xC2A8, symSize: 0x0 }
+  - { offsetInCU: 0xB9, offset: 0xB9, size: 0x8, addend: 0x0, symName: _jpeg_save_metadata, symObjAddr: 0x14C8, symBinAddr: 0x8058, symSize: 0x0 }
+  - { offsetInCU: 0x27C, offset: 0x27C, size: 0x8, addend: 0x0, symName: _modinfo, symObjAddr: 0x1420, symBinAddr: 0x7AB8, symSize: 0x0 }
+  - { offsetInCU: 0xE7C, offset: 0xE7C, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_save_get_type, symObjAddr: 0x0, symBinAddr: 0x5EC4, symSize: 0xC }
+  - { offsetInCU: 0xE95, offset: 0xE95, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_save_register_type, symObjAddr: 0xC, symBinAddr: 0x5ED0, symSize: 0x6C }
+  - { offsetInCU: 0x128C, offset: 0x128C, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_save_class_chant_intern_init, symObjAddr: 0x78, symBinAddr: 0x5F3C, symSize: 0x420 }
+  - { offsetInCU: 0x18A8, offset: 0x18A8, size: 0x8, addend: 0x0, symName: _param_spec_update_ui, symObjAddr: 0x800, symBinAddr: 0x66C4, symSize: 0x1AC }
+  - { offsetInCU: 0x1AF3, offset: 0x1AF3, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_save_class_finalize, symObjAddr: 0x498, symBinAddr: 0x635C, symSize: 0x4 }
+  - { offsetInCU: 0x1B44, offset: 0x1B44, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_save_init, symObjAddr: 0x49C, symBinAddr: 0x6360, symSize: 0x34 }
+  - { offsetInCU: 0x1BC7, offset: 0x1BC7, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x4D0, symBinAddr: 0x6394, symSize: 0xC }
+  - { offsetInCU: 0x1C0F, offset: 0x1C0F, size: 0x8, addend: 0x0, symName: _gegl_module_register, symObjAddr: 0x4DC, symBinAddr: 0x63A0, symSize: 0x70 }
+  - { offsetInCU: 0x1C8B, offset: 0x1C8B, size: 0x8, addend: 0x0, symName: _set_property, symObjAddr: 0x54C, symBinAddr: 0x6410, symSize: 0x138 }
+  - { offsetInCU: 0x1EC6, offset: 0x1EC6, size: 0x8, addend: 0x0, symName: _get_property, symObjAddr: 0x684, symBinAddr: 0x6548, symSize: 0x134 }
+  - { offsetInCU: 0x2016, offset: 0x2016, size: 0x8, addend: 0x0, symName: _gegl_op_constructor, symObjAddr: 0x7B8, symBinAddr: 0x667C, symSize: 0x48 }
+  - { offsetInCU: 0x20F5, offset: 0x20F5, size: 0x8, addend: 0x0, symName: _has_key, symObjAddr: 0x9F0, symBinAddr: 0x68B4, symSize: 0x48 }
+  - { offsetInCU: 0x2185, offset: 0x2185, size: 0x8, addend: 0x0, symName: _gegl_op_destroy_notify, symObjAddr: 0x9AC, symBinAddr: 0x6870, symSize: 0x44 }
+  - { offsetInCU: 0x319E, offset: 0x319E, size: 0x8, addend: 0x0, symName: _process, symObjAddr: 0xA38, symBinAddr: 0x68FC, symSize: 0x6A8 }
+  - { offsetInCU: 0x3E78, offset: 0x3E78, size: 0x8, addend: 0x0, symName: _init_buffer, symObjAddr: 0x10E0, symBinAddr: 0x6FA4, symSize: 0x50 }
+  - { offsetInCU: 0x3F05, offset: 0x3F05, size: 0x8, addend: 0x0, symName: _write_to_stream, symObjAddr: 0x1130, symBinAddr: 0x6FF4, symSize: 0xBC }
+  - { offsetInCU: 0x3F49, offset: 0x3F49, size: 0x8, addend: 0x0, symName: _write_to_stream, symObjAddr: 0x1130, symBinAddr: 0x6FF4, symSize: 0xBC }
+  - { offsetInCU: 0x402F, offset: 0x402F, size: 0x8, addend: 0x0, symName: _close_stream, symObjAddr: 0x11EC, symBinAddr: 0x70B0, symSize: 0x104 }
+  - { offsetInCU: 0x40C2, offset: 0x40C2, size: 0x8, addend: 0x0, symName: _close_stream, symObjAddr: 0x11EC, symBinAddr: 0x70B0, symSize: 0x104 }
+  - { offsetInCU: 0x420A, offset: 0x420A, size: 0x8, addend: 0x0, symName: _iso8601_format_timestamp, symObjAddr: 0x12F0, symBinAddr: 0x71B4, symSize: 0xDC }
+  - { offsetInCU: 0x423C, offset: 0x423C, size: 0x8, addend: 0x0, symName: _iso8601_format_timestamp, symObjAddr: 0x12F0, symBinAddr: 0x71B4, symSize: 0xDC }
+...

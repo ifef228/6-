@@ -1,0 +1,27 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gegl-0.4/text.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x0, symBinAddr: 0x5E80, symSize: 0xC }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _modinfo, symObjAddr: 0x1314, symBinAddr: 0x77F4, symSize: 0x0 }
+  - { offsetInCU: 0x9A, offset: 0x9A, size: 0x8, addend: 0x0, symName: _gegl_op_text_type_id, symObjAddr: 0xB410, symBinAddr: 0xC220, symSize: 0x0 }
+  - { offsetInCU: 0xCD, offset: 0xCD, size: 0x8, addend: 0x0, symName: _gegl_op_parent_class, symObjAddr: 0xB418, symBinAddr: 0xC228, symSize: 0x0 }
+  - { offsetInCU: 0xF16, offset: 0xF16, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x0, symBinAddr: 0x5E80, symSize: 0xC }
+  - { offsetInCU: 0x11C4, offset: 0x11C4, size: 0x8, addend: 0x0, symName: _gegl_module_register, symObjAddr: 0xC, symBinAddr: 0x5E8C, symSize: 0x70 }
+  - { offsetInCU: 0x1276, offset: 0x1276, size: 0x8, addend: 0x0, symName: _gegl_op_text_register_type, symObjAddr: 0x7C, symBinAddr: 0x5EFC, symSize: 0x6C }
+  - { offsetInCU: 0x12C7, offset: 0x12C7, size: 0x8, addend: 0x0, symName: _gegl_op_text_get_type, symObjAddr: 0xE8, symBinAddr: 0x5F68, symSize: 0xC }
+  - { offsetInCU: 0x14A2, offset: 0x14A2, size: 0x8, addend: 0x0, symName: _gegl_op_text_class_chant_intern_init, symObjAddr: 0xF4, symBinAddr: 0x5F74, symSize: 0x65C }
+  - { offsetInCU: 0x1D51, offset: 0x1D51, size: 0x8, addend: 0x0, symName: _param_spec_update_ui, symObjAddr: 0xAAC, symBinAddr: 0x692C, symSize: 0x1AC }
+  - { offsetInCU: 0x1F93, offset: 0x1F93, size: 0x8, addend: 0x0, symName: _gegl_op_text_class_finalize, symObjAddr: 0x750, symBinAddr: 0x65D0, symSize: 0x4 }
+  - { offsetInCU: 0x1FE4, offset: 0x1FE4, size: 0x8, addend: 0x0, symName: _gegl_op_text_init, symObjAddr: 0x754, symBinAddr: 0x65D4, symSize: 0x34 }
+  - { offsetInCU: 0x2067, offset: 0x2067, size: 0x8, addend: 0x0, symName: _set_property, symObjAddr: 0x788, symBinAddr: 0x6608, symSize: 0x170 }
+  - { offsetInCU: 0x22EB, offset: 0x22EB, size: 0x8, addend: 0x0, symName: _get_property, symObjAddr: 0x8F8, symBinAddr: 0x6778, symSize: 0x14C }
+  - { offsetInCU: 0x243B, offset: 0x243B, size: 0x8, addend: 0x0, symName: _gegl_op_constructor, symObjAddr: 0xA44, symBinAddr: 0x68C4, symSize: 0x68 }
+  - { offsetInCU: 0x2549, offset: 0x2549, size: 0x8, addend: 0x0, symName: _has_key, symObjAddr: 0xCAC, symBinAddr: 0x6B2C, symSize: 0x48 }
+  - { offsetInCU: 0x25D9, offset: 0x25D9, size: 0x8, addend: 0x0, symName: _gegl_op_destroy_notify, symObjAddr: 0xC58, symBinAddr: 0x6AD8, symSize: 0x54 }
+  - { offsetInCU: 0x270D, offset: 0x270D, size: 0x8, addend: 0x0, symName: _finalize, symObjAddr: 0xCF4, symBinAddr: 0x6B74, symSize: 0x3C }
+  - { offsetInCU: 0x2769, offset: 0x2769, size: 0x8, addend: 0x0, symName: _prepare, symObjAddr: 0xD30, symBinAddr: 0x6BB0, symSize: 0x58 }
+  - { offsetInCU: 0x289F, offset: 0x289F, size: 0x8, addend: 0x0, symName: _get_bounding_box, symObjAddr: 0xD88, symBinAddr: 0x6C08, symSize: 0x128 }
+  - { offsetInCU: 0x2A9C, offset: 0x2A9C, size: 0x8, addend: 0x0, symName: _text_layout_text, symObjAddr: 0x103C, symBinAddr: 0x6EBC, symSize: 0x224 }
+  - { offsetInCU: 0x2D9B, offset: 0x2D9B, size: 0x8, addend: 0x0, symName: _process, symObjAddr: 0xEB0, symBinAddr: 0x6D30, symSize: 0x18C }
+...

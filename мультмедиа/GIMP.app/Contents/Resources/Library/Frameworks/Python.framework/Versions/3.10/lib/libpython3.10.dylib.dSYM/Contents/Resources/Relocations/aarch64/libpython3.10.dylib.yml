@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/Library/Frameworks/Python.framework/Versions/3.10/lib/libpython3.10.dylib'
+relocations:     []
+...

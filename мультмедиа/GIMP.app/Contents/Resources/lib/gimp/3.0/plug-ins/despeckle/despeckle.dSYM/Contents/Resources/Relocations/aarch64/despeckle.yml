@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/despeckle/despeckle'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _despeckle_get_type, symObjAddr: 0x0, symBinAddr: 0x100005D0C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _despeckle_get_type, symObjAddr: 0x0, symBinAddr: 0x100005D0C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _despeckle_get_type.static_g_define_type_id, symObjAddr: 0xBD88, symBinAddr: 0x10000C218, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _despeckle_parent_class, symObjAddr: 0xBD90, symBinAddr: 0x10000C220, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Despeckle_private_offset, symObjAddr: 0xBD98, symBinAddr: 0x10000C228, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _histogram, symObjAddr: 0xBDA0, symBinAddr: 0x10000C230, symSize: 0x0 }
+  - { offsetInCU: 0x23A, offset: 0x23A, size: 0x8, addend: 0x0, symName: _hist0, symObjAddr: 0x7511B0, symBinAddr: 0x100751640, symSize: 0x0 }
+  - { offsetInCU: 0x24F, offset: 0x24F, size: 0x8, addend: 0x0, symName: _histrest, symObjAddr: 0x7511B4, symBinAddr: 0x100751644, symSize: 0x0 }
+  - { offsetInCU: 0x264, offset: 0x264, size: 0x8, addend: 0x0, symName: _hist255, symObjAddr: 0x7511B8, symBinAddr: 0x100751648, symSize: 0x0 }
+  - { offsetInCU: 0xCA1, offset: 0xCA1, size: 0x8, addend: 0x0, symName: _despeckle_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005D58, symSize: 0x50 }
+  - { offsetInCU: 0xD5D, offset: 0xD5D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005DA8, symSize: 0x2C }
+  - { offsetInCU: 0xDE9, offset: 0xDE9, size: 0x8, addend: 0x0, symName: _despeckle_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005DD4, symSize: 0x68 }
+  - { offsetInCU: 0xE84, offset: 0xE84, size: 0x8, addend: 0x0, symName: _despeckle_init, symObjAddr: 0x130, symBinAddr: 0x100005E3C, symSize: 0x4 }
+  - { offsetInCU: 0xEFE, offset: 0xEFE, size: 0x8, addend: 0x0, symName: _despeckle_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100005E40, symSize: 0x24 }
+  - { offsetInCU: 0xF89, offset: 0xF89, size: 0x8, addend: 0x0, symName: _despeckle_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100005E64, symSize: 0x2B8 }
+  - { offsetInCU: 0x1481, offset: 0x1481, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x410, symBinAddr: 0x10000611C, symSize: 0x30 }
+  - { offsetInCU: 0x16B7, offset: 0x16B7, size: 0x8, addend: 0x0, symName: _despeckle_run, symObjAddr: 0x440, symBinAddr: 0x10000614C, symSize: 0x478 }
+  - { offsetInCU: 0x1FCE, offset: 0x1FCE, size: 0x8, addend: 0x0, symName: _get_u8_format, symObjAddr: 0xA30, symBinAddr: 0x10000673C, symSize: 0x60 }
+  - { offsetInCU: 0x2155, offset: 0x2155, size: 0x8, addend: 0x0, symName: _despeckle_median, symObjAddr: 0xA90, symBinAddr: 0x10000679C, symSize: 0xE6C }
+  - { offsetInCU: 0x2E23, offset: 0x2E23, size: 0x8, addend: 0x0, symName: _preview_update, symObjAddr: 0x8B8, symBinAddr: 0x1000065C4, symSize: 0x178 }
+...

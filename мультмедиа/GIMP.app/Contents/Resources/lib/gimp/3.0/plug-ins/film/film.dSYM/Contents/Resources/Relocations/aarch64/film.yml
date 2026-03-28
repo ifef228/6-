@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/film/film'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _film_get_type, symObjAddr: 0x0, symBinAddr: 0x100004CC4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _film_get_type, symObjAddr: 0x0, symBinAddr: 0x100004CC4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _film_get_type.static_g_define_type_id, symObjAddr: 0x102B0, symBinAddr: 0x10000C468, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _film_parent_class, symObjAddr: 0x102B8, symBinAddr: 0x10000C470, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Film_private_offset, symObjAddr: 0x102C0, symBinAddr: 0x10000C478, symSize: 0x0 }
+  - { offsetInCU: 0x145, offset: 0x145, size: 0x8, addend: 0x0, symName: _filmint.0, symObjAddr: 0x102C8, symBinAddr: 0x10000C480, symSize: 0x0 }
+  - { offsetInCU: 0x150, offset: 0x150, size: 0x8, addend: 0x0, symName: _filmint.1, symObjAddr: 0x102D0, symBinAddr: 0x10000C488, symSize: 0x0 }
+  - { offsetInCU: 0x1051, offset: 0x1051, size: 0x8, addend: 0x0, symName: _film_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100004D10, symSize: 0x50 }
+  - { offsetInCU: 0x110D, offset: 0x110D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100004D60, symSize: 0x2C }
+  - { offsetInCU: 0x1199, offset: 0x1199, size: 0x8, addend: 0x0, symName: _film_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100004D8C, symSize: 0x68 }
+  - { offsetInCU: 0x1234, offset: 0x1234, size: 0x8, addend: 0x0, symName: _film_init, symObjAddr: 0x130, symBinAddr: 0x100004DF4, symSize: 0x4 }
+  - { offsetInCU: 0x12A4, offset: 0x12A4, size: 0x8, addend: 0x0, symName: _film_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100004DF8, symSize: 0x24 }
+  - { offsetInCU: 0x132F, offset: 0x132F, size: 0x8, addend: 0x0, symName: _film_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100004E1C, symSize: 0x5E0 }
+  - { offsetInCU: 0x1CAA, offset: 0x1CAA, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x738, symBinAddr: 0x1000053FC, symSize: 0x30 }
+  - { offsetInCU: 0x2349, offset: 0x2349, size: 0x8, addend: 0x0, symName: _film_run, symObjAddr: 0x768, symBinAddr: 0x10000542C, symSize: 0xFFC }
+  - { offsetInCU: 0x3441, offset: 0x3441, size: 0x8, addend: 0x0, symName: _add_image_list, symObjAddr: 0x1764, symBinAddr: 0x100006428, symSize: 0x2A4 }
+  - { offsetInCU: 0x35CA, offset: 0x35CA, size: 0x8, addend: 0x0, symName: _add_image_list, symObjAddr: 0x1764, symBinAddr: 0x100006428, symSize: 0x2A4 }
+  - { offsetInCU: 0x3D17, offset: 0x3D17, size: 0x8, addend: 0x0, symName: _set_pixels, symObjAddr: 0x1D20, symBinAddr: 0x1000069E4, symSize: 0x84 }
+  - { offsetInCU: 0x3ECA, offset: 0x3ECA, size: 0x8, addend: 0x0, symName: _draw_number, symObjAddr: 0x1BBC, symBinAddr: 0x100006880, symSize: 0x164 }
+  - { offsetInCU: 0x45A8, offset: 0x45A8, size: 0x8, addend: 0x0, symName: _add_list_item_callback, symObjAddr: 0x1A08, symBinAddr: 0x1000066CC, symSize: 0xD8 }
+  - { offsetInCU: 0x4749, offset: 0x4749, size: 0x8, addend: 0x0, symName: _del_list_item_callback, symObjAddr: 0x1AE0, symBinAddr: 0x1000067A4, symSize: 0xDC }
+...

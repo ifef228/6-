@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-qoi/file-qoi'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _qoi_encode, symObjAddr: 0x0, symBinAddr: 0x100006734, symSize: 0x3B4 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _qoi_get_type, symObjAddr: 0x844, symBinAddr: 0x100006F78, symSize: 0x4C }
+  - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _qoi_get_type.static_g_define_type_id, symObjAddr: 0xA5B8, symBinAddr: 0x10000C200, symSize: 0x0 }
+  - { offsetInCU: 0x107, offset: 0x107, size: 0x8, addend: 0x0, symName: _qoi_parent_class, symObjAddr: 0xA5C0, symBinAddr: 0x10000C208, symSize: 0x0 }
+  - { offsetInCU: 0x128, offset: 0x128, size: 0x8, addend: 0x0, symName: _Qoi_private_offset, symObjAddr: 0xA5C8, symBinAddr: 0x10000C210, symSize: 0x0 }
+  - { offsetInCU: 0xD50, offset: 0xD50, size: 0x8, addend: 0x0, symName: _qoi_encode, symObjAddr: 0x0, symBinAddr: 0x100006734, symSize: 0x3B4 }
+  - { offsetInCU: 0xFCF, offset: 0xFCF, size: 0x8, addend: 0x0, symName: _qoi_decode, symObjAddr: 0x3B4, symBinAddr: 0x100006AE8, symSize: 0x2F8 }
+  - { offsetInCU: 0x1180, offset: 0x1180, size: 0x8, addend: 0x0, symName: _qoi_write, symObjAddr: 0x6AC, symBinAddr: 0x100006DE0, symSize: 0xAC }
+  - { offsetInCU: 0x1533, offset: 0x1533, size: 0x8, addend: 0x0, symName: _qoi_read, symObjAddr: 0x758, symBinAddr: 0x100006E8C, symSize: 0xEC }
+  - { offsetInCU: 0x172A, offset: 0x172A, size: 0x8, addend: 0x0, symName: _qoi_get_type_once, symObjAddr: 0x890, symBinAddr: 0x100006FC4, symSize: 0x50 }
+  - { offsetInCU: 0x17E6, offset: 0x17E6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x8E0, symBinAddr: 0x100007014, symSize: 0x2C }
+  - { offsetInCU: 0x1872, offset: 0x1872, size: 0x8, addend: 0x0, symName: _qoi_class_intern_init, symObjAddr: 0x90C, symBinAddr: 0x100007040, symSize: 0x68 }
+  - { offsetInCU: 0x190D, offset: 0x190D, size: 0x8, addend: 0x0, symName: _qoi_init, symObjAddr: 0x974, symBinAddr: 0x1000070A8, symSize: 0x4 }
+  - { offsetInCU: 0x1967, offset: 0x1967, size: 0x8, addend: 0x0, symName: _qoi_query_procedures, symObjAddr: 0x978, symBinAddr: 0x1000070AC, symSize: 0x48 }
+  - { offsetInCU: 0x1A39, offset: 0x1A39, size: 0x8, addend: 0x0, symName: _qoi_create_procedure, symObjAddr: 0x9C0, symBinAddr: 0x1000070F4, symSize: 0x1E8 }
+  - { offsetInCU: 0x1F33, offset: 0x1F33, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0xBA8, symBinAddr: 0x1000072DC, symSize: 0x30 }
+  - { offsetInCU: 0x2136, offset: 0x2136, size: 0x8, addend: 0x0, symName: _qoi_load, symObjAddr: 0xBD8, symBinAddr: 0x10000730C, symSize: 0x248 }
+  - { offsetInCU: 0x2776, offset: 0x2776, size: 0x8, addend: 0x0, symName: _qoi_export, symObjAddr: 0xE20, symBinAddr: 0x100007554, symSize: 0x24C }
+...

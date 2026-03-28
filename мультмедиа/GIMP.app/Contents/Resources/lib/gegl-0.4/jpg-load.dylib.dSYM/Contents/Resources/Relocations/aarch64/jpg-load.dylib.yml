@@ -1,0 +1,32 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gegl-0.4/jpg-load.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_load_get_type, symObjAddr: 0x0, symBinAddr: 0x67BC, symSize: 0xC }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_load_type_id, symObjAddr: 0xBA08, symBinAddr: 0xC178, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _gegl_op_parent_class, symObjAddr: 0xBA10, symBinAddr: 0xC180, symSize: 0x0 }
+  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _modinfo, symObjAddr: 0x13AC, symBinAddr: 0x7CC0, symSize: 0x0 }
+  - { offsetInCU: 0x1AAE, offset: 0x1AAE, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_load_get_type, symObjAddr: 0x0, symBinAddr: 0x67BC, symSize: 0xC }
+  - { offsetInCU: 0x1AC7, offset: 0x1AC7, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_load_register_type, symObjAddr: 0xC, symBinAddr: 0x67C8, symSize: 0x6C }
+  - { offsetInCU: 0x1E61, offset: 0x1E61, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_load_class_chant_intern_init, symObjAddr: 0x78, symBinAddr: 0x6834, symSize: 0x1FC }
+  - { offsetInCU: 0x2152, offset: 0x2152, size: 0x8, addend: 0x0, symName: _param_spec_update_ui, symObjAddr: 0x4F4, symBinAddr: 0x6CB0, symSize: 0x1AC }
+  - { offsetInCU: 0x2338, offset: 0x2338, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_load_class_finalize, symObjAddr: 0x274, symBinAddr: 0x6A30, symSize: 0x4 }
+  - { offsetInCU: 0x2389, offset: 0x2389, size: 0x8, addend: 0x0, symName: _gegl_op_jpg_load_init, symObjAddr: 0x278, symBinAddr: 0x6A34, symSize: 0x30 }
+  - { offsetInCU: 0x240B, offset: 0x240B, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x2A8, symBinAddr: 0x6A64, symSize: 0xC }
+  - { offsetInCU: 0x2453, offset: 0x2453, size: 0x8, addend: 0x0, symName: _gegl_module_register, symObjAddr: 0x2B4, symBinAddr: 0x6A70, symSize: 0x70 }
+  - { offsetInCU: 0x24CF, offset: 0x24CF, size: 0x8, addend: 0x0, symName: _set_property, symObjAddr: 0x324, symBinAddr: 0x6AE0, symSize: 0xCC }
+  - { offsetInCU: 0x2638, offset: 0x2638, size: 0x8, addend: 0x0, symName: _get_property, symObjAddr: 0x3F0, symBinAddr: 0x6BAC, symSize: 0xBC }
+  - { offsetInCU: 0x272A, offset: 0x272A, size: 0x8, addend: 0x0, symName: _gegl_op_constructor, symObjAddr: 0x4AC, symBinAddr: 0x6C68, symSize: 0x48 }
+  - { offsetInCU: 0x2809, offset: 0x2809, size: 0x8, addend: 0x0, symName: _has_key, symObjAddr: 0x6E4, symBinAddr: 0x6EA0, symSize: 0x48 }
+  - { offsetInCU: 0x2899, offset: 0x2899, size: 0x8, addend: 0x0, symName: _gegl_op_destroy_notify, symObjAddr: 0x6A0, symBinAddr: 0x6E5C, symSize: 0x44 }
+  - { offsetInCU: 0x2ADF, offset: 0x2ADF, size: 0x8, addend: 0x0, symName: _gegl_jpg_load_process, symObjAddr: 0x72C, symBinAddr: 0x6EE8, symSize: 0x2C0 }
+  - { offsetInCU: 0x2F58, offset: 0x2F58, size: 0x8, addend: 0x0, symName: _jpg_get_space, symObjAddr: 0xC20, symBinAddr: 0x73DC, symSize: 0x20C }
+  - { offsetInCU: 0x3242, offset: 0x3242, size: 0x8, addend: 0x0, symName: _gegl_jpg_load_get_bounding_box, symObjAddr: 0x9EC, symBinAddr: 0x71A8, symSize: 0x230 }
+  - { offsetInCU: 0x3563, offset: 0x3563, size: 0x8, addend: 0x0, symName: _gegl_jpg_load_get_cached_region, symObjAddr: 0xC1C, symBinAddr: 0x73D8, symSize: 0x4 }
+  - { offsetInCU: 0x359B, offset: 0x359B, size: 0x8, addend: 0x0, symName: _gegl_jpg_load_get_cached_region, symObjAddr: 0xC1C, symBinAddr: 0x73D8, symSize: 0x4 }
+  - { offsetInCU: 0x3689, offset: 0x3689, size: 0x8, addend: 0x0, symName: _marker_is_icc, symObjAddr: 0xF64, symBinAddr: 0x7720, symSize: 0xB8 }
+  - { offsetInCU: 0x3702, offset: 0x3702, size: 0x8, addend: 0x0, symName: _gio_source_init, symObjAddr: 0xE2C, symBinAddr: 0x75E8, symSize: 0x28 }
+  - { offsetInCU: 0x3788, offset: 0x3788, size: 0x8, addend: 0x0, symName: _gio_source_fill, symObjAddr: 0xE54, symBinAddr: 0x7610, symSize: 0x74 }
+  - { offsetInCU: 0x3847, offset: 0x3847, size: 0x8, addend: 0x0, symName: _gio_source_skip, symObjAddr: 0xEC8, symBinAddr: 0x7684, symSize: 0x90 }
+  - { offsetInCU: 0x3943, offset: 0x3943, size: 0x8, addend: 0x0, symName: _gio_source_destroy, symObjAddr: 0xF58, symBinAddr: 0x7714, symSize: 0xC }
+...

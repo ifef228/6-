@@ -1,0 +1,37 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gegl-0.4/matting-levin.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_op_matting_levin_get_type, symObjAddr: 0x0, symBinAddr: 0x3974, symSize: 0xC }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _gegl_op_matting_levin_type_id, symObjAddr: 0x144F0, symBinAddr: 0xC188, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _gegl_op_parent_class, symObjAddr: 0x144F8, symBinAddr: 0xC190, symSize: 0x0 }
+  - { offsetInCU: 0x155, offset: 0x155, size: 0x8, addend: 0x0, symName: _matting_downsample, symObjAddr: 0x1880, symBinAddr: 0x51F4, symSize: 0x190 }
+  - { offsetInCU: 0x17C, offset: 0x17C, size: 0x8, addend: 0x0, symName: _matting_downsample.DOWNSAMPLE_KERNEL, symObjAddr: 0x31B8, symBinAddr: 0x7488, symSize: 0x0 }
+  - { offsetInCU: 0x3B2, offset: 0x3B2, size: 0x8, addend: 0x0, symName: _modinfo, symObjAddr: 0x31B4, symBinAddr: 0x7484, symSize: 0x0 }
+  - { offsetInCU: 0x1037, offset: 0x1037, size: 0x8, addend: 0x0, symName: _gegl_op_matting_levin_get_type, symObjAddr: 0x0, symBinAddr: 0x3974, symSize: 0xC }
+  - { offsetInCU: 0x1050, offset: 0x1050, size: 0x8, addend: 0x0, symName: _gegl_op_matting_levin_register_type, symObjAddr: 0xC, symBinAddr: 0x3980, symSize: 0x6C }
+  - { offsetInCU: 0x14A9, offset: 0x14A9, size: 0x8, addend: 0x0, symName: _gegl_op_matting_levin_class_chant_intern_init, symObjAddr: 0x78, symBinAddr: 0x39EC, symSize: 0x478 }
+  - { offsetInCU: 0x1A51, offset: 0x1A51, size: 0x8, addend: 0x0, symName: _param_spec_update_ui, symObjAddr: 0x7FC, symBinAddr: 0x4170, symSize: 0x1AC }
+  - { offsetInCU: 0x1C2F, offset: 0x1C2F, size: 0x8, addend: 0x0, symName: _gegl_op_matting_levin_class_finalize, symObjAddr: 0x4F0, symBinAddr: 0x3E64, symSize: 0x4 }
+  - { offsetInCU: 0x1C80, offset: 0x1C80, size: 0x8, addend: 0x0, symName: _gegl_op_matting_levin_init, symObjAddr: 0x4F4, symBinAddr: 0x3E68, symSize: 0x34 }
+  - { offsetInCU: 0x1D03, offset: 0x1D03, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x528, symBinAddr: 0x3E9C, symSize: 0xC }
+  - { offsetInCU: 0x1D4B, offset: 0x1D4B, size: 0x8, addend: 0x0, symName: _gegl_module_register, symObjAddr: 0x534, symBinAddr: 0x3EA8, symSize: 0x70 }
+  - { offsetInCU: 0x1DC7, offset: 0x1DC7, size: 0x8, addend: 0x0, symName: _set_property, symObjAddr: 0x5A4, symBinAddr: 0x3F18, symSize: 0x10C }
+  - { offsetInCU: 0x1F3F, offset: 0x1F3F, size: 0x8, addend: 0x0, symName: _get_property, symObjAddr: 0x6B0, symBinAddr: 0x4024, symSize: 0x104 }
+  - { offsetInCU: 0x2050, offset: 0x2050, size: 0x8, addend: 0x0, symName: _gegl_op_constructor, symObjAddr: 0x7B4, symBinAddr: 0x4128, symSize: 0x48 }
+  - { offsetInCU: 0x212F, offset: 0x212F, size: 0x8, addend: 0x0, symName: _has_key, symObjAddr: 0x9B4, symBinAddr: 0x4328, symSize: 0x48 }
+  - { offsetInCU: 0x21BF, offset: 0x21BF, size: 0x8, addend: 0x0, symName: _gegl_op_destroy_notify, symObjAddr: 0x9A8, symBinAddr: 0x431C, symSize: 0xC }
+  - { offsetInCU: 0x2248, offset: 0x2248, size: 0x8, addend: 0x0, symName: _matting_process, symObjAddr: 0x9FC, symBinAddr: 0x4370, symSize: 0x248 }
+  - { offsetInCU: 0x25EF, offset: 0x25EF, size: 0x8, addend: 0x0, symName: _matting_solve_level, symObjAddr: 0xD8C, symBinAddr: 0x4700, symSize: 0xAF4 }
+  - { offsetInCU: 0x3005, offset: 0x3005, size: 0x8, addend: 0x0, symName: _matting_prepare, symObjAddr: 0xC44, symBinAddr: 0x45B8, symSize: 0x78 }
+  - { offsetInCU: 0x309D, offset: 0x309D, size: 0x8, addend: 0x0, symName: _matting_get_bounding_box, symObjAddr: 0xCBC, symBinAddr: 0x4630, symSize: 0x34 }
+  - { offsetInCU: 0x312A, offset: 0x312A, size: 0x8, addend: 0x0, symName: _matting_get_invalidated_by_change, symObjAddr: 0xCF0, symBinAddr: 0x4664, symSize: 0x34 }
+  - { offsetInCU: 0x31AF, offset: 0x31AF, size: 0x8, addend: 0x0, symName: _matting_get_required_for_output, symObjAddr: 0xD24, symBinAddr: 0x4698, symSize: 0x34 }
+  - { offsetInCU: 0x3238, offset: 0x3238, size: 0x8, addend: 0x0, symName: _matting_get_cached_region, symObjAddr: 0xD58, symBinAddr: 0x46CC, symSize: 0x34 }
+  - { offsetInCU: 0x3893, offset: 0x3893, size: 0x8, addend: 0x0, symName: _matting_get_linear_coefficients, symObjAddr: 0x297C, symBinAddr: 0x62F0, symSize: 0x718 }
+  - { offsetInCU: 0x3BF8, offset: 0x3BF8, size: 0x8, addend: 0x0, symName: _matting_convolve5, symObjAddr: 0x2558, symBinAddr: 0x5ECC, symSize: 0x1EC }
+  - { offsetInCU: 0x3D13, offset: 0x3D13, size: 0x8, addend: 0x0, symName: _matting_get_laplacian, symObjAddr: 0x1A10, symBinAddr: 0x5384, symSize: 0xB48 }
+  - { offsetInCU: 0x49D5, offset: 0x49D5, size: 0x8, addend: 0x0, symName: _matting_fill_borders, symObjAddr: 0x2744, symBinAddr: 0x60B8, symSize: 0x238 }
+  - { offsetInCU: 0x27, offset: 0x4BEA, size: 0x8, addend: 0x0, symName: _cblas_dgemm, symObjAddr: 0x0, symBinAddr: 0x6A08, symSize: 0x4D0 }
+  - { offsetInCU: 0xD4, offset: 0x4C97, size: 0x8, addend: 0x0, symName: _cblas_dgemm, symObjAddr: 0x0, symBinAddr: 0x6A08, symSize: 0x4D0 }
+...

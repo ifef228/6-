@@ -1,0 +1,45 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-fli/file-fli'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _fli_get_type, symObjAddr: 0x0, symBinAddr: 0x100006E8C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _fli_get_type, symObjAddr: 0x0, symBinAddr: 0x100006E8C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _fli_get_type.static_g_define_type_id, symObjAddr: 0xCD40, symBinAddr: 0x100010348, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _fli_parent_class, symObjAddr: 0xCD48, symBinAddr: 0x100010350, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Fli_private_offset, symObjAddr: 0xCD50, symBinAddr: 0x100010358, symSize: 0x0 }
+  - { offsetInCU: 0xEC9, offset: 0xEC9, size: 0x8, addend: 0x0, symName: _fli_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006ED8, symSize: 0x50 }
+  - { offsetInCU: 0xF85, offset: 0xF85, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006F28, symSize: 0x2C }
+  - { offsetInCU: 0x1011, offset: 0x1011, size: 0x8, addend: 0x0, symName: _fli_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006F54, symSize: 0x68 }
+  - { offsetInCU: 0x10AC, offset: 0x10AC, size: 0x8, addend: 0x0, symName: _fli_init, symObjAddr: 0x130, symBinAddr: 0x100006FBC, symSize: 0x4 }
+  - { offsetInCU: 0x1126, offset: 0x1126, size: 0x8, addend: 0x0, symName: _fli_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006FC0, symSize: 0x64 }
+  - { offsetInCU: 0x1237, offset: 0x1237, size: 0x8, addend: 0x0, symName: _fli_create_procedure, symObjAddr: 0x198, symBinAddr: 0x100007024, symSize: 0x404 }
+  - { offsetInCU: 0x19E6, offset: 0x19E6, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x59C, symBinAddr: 0x100007428, symSize: 0x30 }
+  - { offsetInCU: 0x1F34, offset: 0x1F34, size: 0x8, addend: 0x0, symName: _fli_load, symObjAddr: 0x5CC, symBinAddr: 0x100007458, symSize: 0x628 }
+  - { offsetInCU: 0x26F4, offset: 0x26F4, size: 0x8, addend: 0x0, symName: _get_info, symObjAddr: 0x148C, symBinAddr: 0x100008318, symSize: 0x100 }
+  - { offsetInCU: 0x2FA0, offset: 0x2FA0, size: 0x8, addend: 0x0, symName: _fli_export, symObjAddr: 0xBF4, symBinAddr: 0x100007A80, symSize: 0x7D0 }
+  - { offsetInCU: 0x3A04, offset: 0x3A04, size: 0x8, addend: 0x0, symName: _fli_info, symObjAddr: 0x13C4, symBinAddr: 0x100008250, symSize: 0xC8 }
+  - { offsetInCU: 0x27, offset: 0x3BFC, size: 0x8, addend: 0x0, symName: _fli_read_header, symObjAddr: 0x0, symBinAddr: 0x100008418, symSize: 0x2C8 }
+  - { offsetInCU: 0x190, offset: 0x3D65, size: 0x8, addend: 0x0, symName: _fli_read_header, symObjAddr: 0x0, symBinAddr: 0x100008418, symSize: 0x2C8 }
+  - { offsetInCU: 0x671, offset: 0x4246, size: 0x8, addend: 0x0, symName: _fli_read_uint32, symObjAddr: 0x2C8, symBinAddr: 0x1000086E0, symSize: 0x98 }
+  - { offsetInCU: 0x73F, offset: 0x4314, size: 0x8, addend: 0x0, symName: _fli_read_short, symObjAddr: 0x360, symBinAddr: 0x100008778, symSize: 0x98 }
+  - { offsetInCU: 0x934, offset: 0x4509, size: 0x8, addend: 0x0, symName: _fli_write_header, symObjAddr: 0x3F8, symBinAddr: 0x100008810, symSize: 0x1B8 }
+  - { offsetInCU: 0xB45, offset: 0x471A, size: 0x8, addend: 0x0, symName: _fli_write_uint32, symObjAddr: 0x5B0, symBinAddr: 0x1000089C8, symSize: 0x90 }
+  - { offsetInCU: 0xC13, offset: 0x47E8, size: 0x8, addend: 0x0, symName: _fli_write_short, symObjAddr: 0x640, symBinAddr: 0x100008A58, symSize: 0x90 }
+  - { offsetInCU: 0xE41, offset: 0x4A16, size: 0x8, addend: 0x0, symName: _fli_read_frame, symObjAddr: 0x6D0, symBinAddr: 0x100008AE8, symSize: 0x320 }
+  - { offsetInCU: 0x1229, offset: 0x4DFE, size: 0x8, addend: 0x0, symName: _fli_read_color_2, symObjAddr: 0xBF4, symBinAddr: 0x10000900C, symSize: 0x1C0 }
+  - { offsetInCU: 0x13ED, offset: 0x4FC2, size: 0x8, addend: 0x0, symName: _fli_read_lc_2, symObjAddr: 0x1268, symBinAddr: 0x100009680, symSize: 0x2E4 }
+  - { offsetInCU: 0x1700, offset: 0x52D5, size: 0x8, addend: 0x0, symName: _fli_read_color, symObjAddr: 0x9F0, symBinAddr: 0x100008E08, symSize: 0x204 }
+  - { offsetInCU: 0x18D0, offset: 0x54A5, size: 0x8, addend: 0x0, symName: _fli_read_lc, symObjAddr: 0x1028, symBinAddr: 0x100009440, symSize: 0x240 }
+  - { offsetInCU: 0x1B8F, offset: 0x5764, size: 0x8, addend: 0x0, symName: _fli_read_brun, symObjAddr: 0xDDC, symBinAddr: 0x1000091F4, symSize: 0x1BC }
+  - { offsetInCU: 0x1D7E, offset: 0x5953, size: 0x8, addend: 0x0, symName: _fli_read_copy, symObjAddr: 0xF98, symBinAddr: 0x1000093B0, symSize: 0x90 }
+  - { offsetInCU: 0x1E49, offset: 0x5A1E, size: 0x8, addend: 0x0, symName: _fli_read_char, symObjAddr: 0x2710, symBinAddr: 0x10000AB28, symSize: 0x84 }
+  - { offsetInCU: 0x1F0A, offset: 0x5ADF, size: 0x8, addend: 0x0, symName: _fli_read_black, symObjAddr: 0xDB4, symBinAddr: 0x1000091CC, symSize: 0x28 }
+  - { offsetInCU: 0x1F42, offset: 0x5B17, size: 0x8, addend: 0x0, symName: _fli_write_frame, symObjAddr: 0x154C, symBinAddr: 0x100009964, symSize: 0x1FC }
+  - { offsetInCU: 0x2205, offset: 0x5DDA, size: 0x8, addend: 0x0, symName: _fli_write_color, symObjAddr: 0x1748, symBinAddr: 0x100009B60, symSize: 0x370 }
+  - { offsetInCU: 0x24F5, offset: 0x60CA, size: 0x8, addend: 0x0, symName: _fli_write_color_2, symObjAddr: 0x1AB8, symBinAddr: 0x100009ED0, symSize: 0x360 }
+  - { offsetInCU: 0x27E5, offset: 0x63BA, size: 0x8, addend: 0x0, symName: _fli_write_lc, symObjAddr: 0x2168, symBinAddr: 0x10000A580, symSize: 0x5A8 }
+  - { offsetInCU: 0x2BDA, offset: 0x67AF, size: 0x8, addend: 0x0, symName: _fli_write_brun, symObjAddr: 0x1E18, symBinAddr: 0x10000A230, symSize: 0x350 }
+  - { offsetInCU: 0x2F45, offset: 0x6B1A, size: 0x8, addend: 0x0, symName: _fli_write_char, symObjAddr: 0x2794, symBinAddr: 0x10000ABAC, symSize: 0x90 }
+  - { offsetInCU: 0x3020, offset: 0x6BF5, size: 0x8, addend: 0x0, symName: _fli_write_black, symObjAddr: 0x2824, symBinAddr: 0x10000AC3C, symSize: 0x68 }
+  - { offsetInCU: 0x30EC, offset: 0x6CC1, size: 0x8, addend: 0x0, symName: _fli_write_copy, symObjAddr: 0x288C, symBinAddr: 0x10000ACA4, symSize: 0x104 }
+...

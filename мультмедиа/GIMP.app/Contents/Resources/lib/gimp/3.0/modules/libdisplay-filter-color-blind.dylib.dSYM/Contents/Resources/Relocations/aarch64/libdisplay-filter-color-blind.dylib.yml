@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/modules/libdisplay-filter-color-blind.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_get_type, symObjAddr: 0x0, symBinAddr: 0x3384, symSize: 0xC }
+  - { offsetInCU: 0x40, offset: 0x40, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_type_id, symObjAddr: 0x5C98, symBinAddr: 0x80B0, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_info, symObjAddr: 0x688, symBinAddr: 0x4008, symSize: 0x0 }
+  - { offsetInCU: 0x119, offset: 0x119, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_parent_class, symObjAddr: 0x5CA0, symBinAddr: 0x80B8, symSize: 0x0 }
+  - { offsetInCU: 0x13A, offset: 0x13A, size: 0x8, addend: 0x0, symName: _CdisplayColorblind_private_offset, symObjAddr: 0x5CA8, symBinAddr: 0x80C0, symSize: 0x0 }
+  - { offsetInCU: 0x161, offset: 0x161, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_deficiency_type_type, symObjAddr: 0x5CB0, symBinAddr: 0x80C8, symSize: 0x0 }
+  - { offsetInCU: 0x18D, offset: 0x18D, size: 0x8, addend: 0x0, symName: _enum_values, symObjAddr: 0x700, symBinAddr: 0x4080, symSize: 0x0 }
+  - { offsetInCU: 0x1F5, offset: 0x1F5, size: 0x8, addend: 0x0, symName: _enum_descs, symObjAddr: 0x760, symBinAddr: 0x40E0, symSize: 0x0 }
+  - { offsetInCU: 0xAC7, offset: 0xAC7, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_get_type, symObjAddr: 0x0, symBinAddr: 0x3384, symSize: 0xC }
+  - { offsetInCU: 0xAE0, offset: 0xAE0, size: 0x8, addend: 0x0, symName: _gimp_module_query, symObjAddr: 0xC, symBinAddr: 0x3390, symSize: 0xC }
+  - { offsetInCU: 0xDB1, offset: 0xDB1, size: 0x8, addend: 0x0, symName: _gimp_module_register, symObjAddr: 0x18, symBinAddr: 0x339C, symSize: 0xB4 }
+  - { offsetInCU: 0xF1E, offset: 0xF1E, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_class_intern_init, symObjAddr: 0xCC, symBinAddr: 0x3450, symSize: 0xFC }
+  - { offsetInCU: 0x109D, offset: 0x109D, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_class_finalize, symObjAddr: 0x1C8, symBinAddr: 0x354C, symSize: 0x4 }
+  - { offsetInCU: 0x10C0, offset: 0x10C0, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_init, symObjAddr: 0x1CC, symBinAddr: 0x3550, symSize: 0x4 }
+  - { offsetInCU: 0x10E3, offset: 0x10E3, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_get_property, symObjAddr: 0x1D0, symBinAddr: 0x3554, symSize: 0xA8 }
+  - { offsetInCU: 0x1294, offset: 0x1294, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_set_property, symObjAddr: 0x278, symBinAddr: 0x35FC, symSize: 0xE8 }
+  - { offsetInCU: 0x1446, offset: 0x1446, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_convert_buffer, symObjAddr: 0x360, symBinAddr: 0x36E4, symSize: 0x268 }
+  - { offsetInCU: 0x1724, offset: 0x1724, size: 0x8, addend: 0x0, symName: _cdisplay_colorblind_changed, symObjAddr: 0x5C8, symBinAddr: 0x394C, symSize: 0x74 }
+...

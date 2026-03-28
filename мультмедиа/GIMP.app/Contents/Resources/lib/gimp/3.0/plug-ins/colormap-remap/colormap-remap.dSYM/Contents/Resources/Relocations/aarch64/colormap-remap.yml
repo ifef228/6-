@@ -1,0 +1,27 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/colormap-remap/colormap-remap'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _remap_get_type, symObjAddr: 0x0, symBinAddr: 0x100005F60, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _remap_get_type, symObjAddr: 0x0, symBinAddr: 0x100005F60, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _remap_get_type.static_g_define_type_id, symObjAddr: 0xB578, symBinAddr: 0x10000C378, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _remap_parent_class, symObjAddr: 0xB580, symBinAddr: 0x10000C380, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Remap_private_offset, symObjAddr: 0xB588, symBinAddr: 0x10000C388, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _index_map_old_new, symObjAddr: 0xB58C, symBinAddr: 0x10000C38C, symSize: 0x0 }
+  - { offsetInCU: 0x177, offset: 0x177, size: 0x8, addend: 0x0, symName: _store, symObjAddr: 0xB690, symBinAddr: 0x10000C490, symSize: 0x0 }
+  - { offsetInCU: 0x291, offset: 0x291, size: 0x8, addend: 0x0, symName: _reverse_order, symObjAddr: 0xB698, symBinAddr: 0x10000C498, symSize: 0x0 }
+  - { offsetInCU: 0xDA3, offset: 0xDA3, size: 0x8, addend: 0x0, symName: _remap_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005FAC, symSize: 0x50 }
+  - { offsetInCU: 0xE5F, offset: 0xE5F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005FFC, symSize: 0x2C }
+  - { offsetInCU: 0xEEB, offset: 0xEEB, size: 0x8, addend: 0x0, symName: _remap_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006028, symSize: 0x68 }
+  - { offsetInCU: 0xF86, offset: 0xF86, size: 0x8, addend: 0x0, symName: _remap_init, symObjAddr: 0x130, symBinAddr: 0x100006090, symSize: 0x4 }
+  - { offsetInCU: 0xFF6, offset: 0xFF6, size: 0x8, addend: 0x0, symName: _remap_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006094, symSize: 0x48 }
+  - { offsetInCU: 0x10C8, offset: 0x10C8, size: 0x8, addend: 0x0, symName: _remap_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x1000060DC, symSize: 0x2A0 }
+  - { offsetInCU: 0x15FD, offset: 0x15FD, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x41C, symBinAddr: 0x10000637C, symSize: 0x30 }
+  - { offsetInCU: 0x1AD1, offset: 0x1AD1, size: 0x8, addend: 0x0, symName: _remap_run, symObjAddr: 0x44C, symBinAddr: 0x1000063AC, symSize: 0x8BC }
+  - { offsetInCU: 0x27A8, offset: 0x27A8, size: 0x8, addend: 0x0, symName: _real_remap, symObjAddr: 0xD08, symBinAddr: 0x100006C68, symSize: 0x33C }
+  - { offsetInCU: 0x3502, offset: 0x3502, size: 0x8, addend: 0x0, symName: _remap_sort_hue, symObjAddr: 0x1044, symBinAddr: 0x100006FA4, symSize: 0x38 }
+  - { offsetInCU: 0x3595, offset: 0x3595, size: 0x8, addend: 0x0, symName: _remap_sort_sat, symObjAddr: 0x107C, symBinAddr: 0x100006FDC, symSize: 0x38 }
+  - { offsetInCU: 0x3611, offset: 0x3611, size: 0x8, addend: 0x0, symName: _remap_sort_val, symObjAddr: 0x10B4, symBinAddr: 0x100007014, symSize: 0x38 }
+  - { offsetInCU: 0x368D, offset: 0x368D, size: 0x8, addend: 0x0, symName: _remap_reverse_order, symObjAddr: 0x10EC, symBinAddr: 0x10000704C, symSize: 0x14 }
+  - { offsetInCU: 0x36DB, offset: 0x36DB, size: 0x8, addend: 0x0, symName: _remap_sort_index, symObjAddr: 0x1100, symBinAddr: 0x100007060, symSize: 0x38 }
+...

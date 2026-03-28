@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-raw-placeholder/file-raw-placeholder'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _placeholder_get_type, symObjAddr: 0x0, symBinAddr: 0x100006338, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _placeholder_get_type, symObjAddr: 0x0, symBinAddr: 0x100006338, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _placeholder_get_type.static_g_define_type_id, symObjAddr: 0x6800, symBinAddr: 0x10000C138, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _placeholder_parent_class, symObjAddr: 0x6808, symBinAddr: 0x10000C140, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Placeholder_private_offset, symObjAddr: 0x6810, symBinAddr: 0x10000C148, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _file_formats, symObjAddr: 0x16F8, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x9D4, offset: 0x9D4, size: 0x8, addend: 0x0, symName: _placeholder_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006384, symSize: 0x50 }
+  - { offsetInCU: 0xA90, offset: 0xA90, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000063D4, symSize: 0x2C }
+  - { offsetInCU: 0xB1C, offset: 0xB1C, size: 0x8, addend: 0x0, symName: _placeholder_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006400, symSize: 0x68 }
+  - { offsetInCU: 0xBB7, offset: 0xBB7, size: 0x8, addend: 0x0, symName: _placeholder_init, symObjAddr: 0x130, symBinAddr: 0x100006468, symSize: 0x4 }
+  - { offsetInCU: 0xBD8, offset: 0xBD8, size: 0x8, addend: 0x0, symName: _placeholder_query_procedures, symObjAddr: 0x134, symBinAddr: 0x10000646C, symSize: 0x6C }
+  - { offsetInCU: 0xC8D, offset: 0xC8D, size: 0x8, addend: 0x0, symName: _placeholder_create_procedure, symObjAddr: 0x1A0, symBinAddr: 0x1000064D8, symSize: 0x158 }
+  - { offsetInCU: 0x106C, offset: 0x106C, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x2F8, symBinAddr: 0x100006630, symSize: 0x30 }
+  - { offsetInCU: 0x10F3, offset: 0x10F3, size: 0x8, addend: 0x0, symName: _placeholder_load, symObjAddr: 0x328, symBinAddr: 0x100006660, symSize: 0x7C }
+  - { offsetInCU: 0x27, offset: 0x1308, size: 0x8, addend: 0x0, symName: _file_raw_get_executable_path, symObjAddr: 0x0, symBinAddr: 0x1000066DC, symSize: 0x1A4 }
+  - { offsetInCU: 0xFF, offset: 0x13E0, size: 0x8, addend: 0x0, symName: _file_raw_get_executable_path, symObjAddr: 0x0, symBinAddr: 0x1000066DC, symSize: 0x1A4 }
+...

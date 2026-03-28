@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-seattle-filmworks/file-seattle-filmworks'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _seattle_filmworks_get_type, symObjAddr: 0x0, symBinAddr: 0x100002B0C, symSize: 0x4C }
+  - { offsetInCU: 0x40, offset: 0x40, size: 0x8, addend: 0x0, symName: _huffman_table, symObjAddr: 0xD30, symBinAddr: 0x1000081C8, symSize: 0x0 }
+  - { offsetInCU: 0x6F, offset: 0x6F, size: 0x8, addend: 0x0, symName: _seattle_filmworks_get_type, symObjAddr: 0x0, symBinAddr: 0x100002B0C, symSize: 0x4C }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _seattle_filmworks_get_type.static_g_define_type_id, symObjAddr: 0x7DC8, symBinAddr: 0x100008370, symSize: 0x0 }
+  - { offsetInCU: 0x12F, offset: 0x12F, size: 0x8, addend: 0x0, symName: _seattle_filmworks_parent_class, symObjAddr: 0x7DD0, symBinAddr: 0x100008378, symSize: 0x0 }
+  - { offsetInCU: 0x150, offset: 0x150, size: 0x8, addend: 0x0, symName: _Seattle_FilmWorks_private_offset, symObjAddr: 0x7DD8, symBinAddr: 0x100008380, symSize: 0x0 }
+  - { offsetInCU: 0xA10, offset: 0xA10, size: 0x8, addend: 0x0, symName: _seattle_filmworks_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100002B58, symSize: 0x50 }
+  - { offsetInCU: 0xACC, offset: 0xACC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100002BA8, symSize: 0x2C }
+  - { offsetInCU: 0xB58, offset: 0xB58, size: 0x8, addend: 0x0, symName: _seattle_filmworks_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100002BD4, symSize: 0x68 }
+  - { offsetInCU: 0xBF3, offset: 0xBF3, size: 0x8, addend: 0x0, symName: _seattle_filmworks_init, symObjAddr: 0x130, symBinAddr: 0x100002C3C, symSize: 0x4 }
+  - { offsetInCU: 0xC6D, offset: 0xC6D, size: 0x8, addend: 0x0, symName: _seattle_filmworks_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100002C40, symSize: 0x24 }
+  - { offsetInCU: 0xD04, offset: 0xD04, size: 0x8, addend: 0x0, symName: _seattle_filmworks_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100002C64, symSize: 0x100 }
+  - { offsetInCU: 0xFFE, offset: 0xFFE, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x258, symBinAddr: 0x100002D64, symSize: 0x30 }
+  - { offsetInCU: 0x1073, offset: 0x1073, size: 0x8, addend: 0x0, symName: _seattle_filmworks_load, symObjAddr: 0x288, symBinAddr: 0x100002D94, symSize: 0x8C }
+  - { offsetInCU: 0x11B6, offset: 0x11B6, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x314, symBinAddr: 0x100002E20, symSize: 0x820 }
+  - { offsetInCU: 0x1E79, offset: 0x1E79, size: 0x8, addend: 0x0, symName: _load_sfw93a, symObjAddr: 0xB34, symBinAddr: 0x100003640, symSize: 0x1FC }
+...

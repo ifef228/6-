@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/blinds/blinds'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _blinds_get_type, symObjAddr: 0x0, symBinAddr: 0x1000063E4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _blinds_get_type, symObjAddr: 0x0, symBinAddr: 0x1000063E4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _blinds_get_type.static_g_define_type_id, symObjAddr: 0xA130, symBinAddr: 0x10000C2B8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _blinds_parent_class, symObjAddr: 0xA138, symBinAddr: 0x10000C2C0, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Blinds_private_offset, symObjAddr: 0xA140, symBinAddr: 0x10000C2C8, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _fanwidths, symObjAddr: 0xA144, symBinAddr: 0x10000C2CC, symSize: 0x0 }
+  - { offsetInCU: 0xC0A, offset: 0xC0A, size: 0x8, addend: 0x0, symName: _blinds_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006430, symSize: 0x50 }
+  - { offsetInCU: 0xCC6, offset: 0xCC6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006480, symSize: 0x2C }
+  - { offsetInCU: 0xD52, offset: 0xD52, size: 0x8, addend: 0x0, symName: _blinds_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000064AC, symSize: 0x68 }
+  - { offsetInCU: 0xDE8, offset: 0xDE8, size: 0x8, addend: 0x0, symName: _blinds_init, symObjAddr: 0x130, symBinAddr: 0x100006514, symSize: 0x4 }
+  - { offsetInCU: 0xE62, offset: 0xE62, size: 0x8, addend: 0x0, symName: _blinds_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006518, symSize: 0x24 }
+  - { offsetInCU: 0xEED, offset: 0xEED, size: 0x8, addend: 0x0, symName: _blinds_create_procedure, symObjAddr: 0x158, symBinAddr: 0x10000653C, symSize: 0x254 }
+  - { offsetInCU: 0x13DD, offset: 0x13DD, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x3AC, symBinAddr: 0x100006790, symSize: 0x30 }
+  - { offsetInCU: 0x178C, offset: 0x178C, size: 0x8, addend: 0x0, symName: _blinds_run, symObjAddr: 0x3DC, symBinAddr: 0x1000067C0, symSize: 0x7D0 }
+  - { offsetInCU: 0x26B4, offset: 0x26B4, size: 0x8, addend: 0x0, symName: _blindsapply, symObjAddr: 0xEA8, symBinAddr: 0x10000728C, symSize: 0x26C }
+  - { offsetInCU: 0x2962, offset: 0x2962, size: 0x8, addend: 0x0, symName: _dialog_update_preview, symObjAddr: 0xBAC, symBinAddr: 0x100006F90, symSize: 0x2FC }
+...

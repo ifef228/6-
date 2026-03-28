@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gegl-0.4/vector-stroke.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_op_vector_stroke_get_type, symObjAddr: 0x0, symBinAddr: 0x6190, symSize: 0xC }
+  - { offsetInCU: 0x4F, offset: 0x4F, size: 0x8, addend: 0x0, symName: _composition, symObjAddr: 0x17B8, symBinAddr: 0xC220, symSize: 0x0 }
+  - { offsetInCU: 0x74, offset: 0x74, size: 0x8, addend: 0x0, symName: _gegl_op_vector_stroke_type_id, symObjAddr: 0xA4A8, symBinAddr: 0xC228, symSize: 0x0 }
+  - { offsetInCU: 0xA7, offset: 0xA7, size: 0x8, addend: 0x0, symName: _gegl_op_parent_class, symObjAddr: 0xA4B0, symBinAddr: 0xC230, symSize: 0x0 }
+  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _process, symObjAddr: 0xA5C, symBinAddr: 0x6BEC, symSize: 0x308 }
+  - { offsetInCU: 0xE1, offset: 0xE1, size: 0x8, addend: 0x0, symName: _process.mutex, symObjAddr: 0xA4B8, symBinAddr: 0xC238, symSize: 0x0 }
+  - { offsetInCU: 0x44C, offset: 0x44C, size: 0x8, addend: 0x0, symName: _modinfo, symObjAddr: 0x10CC, symBinAddr: 0x78BC, symSize: 0x0 }
+  - { offsetInCU: 0x1211, offset: 0x1211, size: 0x8, addend: 0x0, symName: _gegl_op_vector_stroke_get_type, symObjAddr: 0x0, symBinAddr: 0x6190, symSize: 0xC }
+  - { offsetInCU: 0x122A, offset: 0x122A, size: 0x8, addend: 0x0, symName: _gegl_op_vector_stroke_register_type, symObjAddr: 0xC, symBinAddr: 0x619C, symSize: 0x6C }
+  - { offsetInCU: 0x161E, offset: 0x161E, size: 0x8, addend: 0x0, symName: _gegl_op_vector_stroke_class_chant_intern_init, symObjAddr: 0x78, symBinAddr: 0x6208, symSize: 0x394 }
+  - { offsetInCU: 0x1A9F, offset: 0x1A9F, size: 0x8, addend: 0x0, symName: _param_spec_update_ui, symObjAddr: 0x79C, symBinAddr: 0x692C, symSize: 0x1AC }
+  - { offsetInCU: 0x1CC9, offset: 0x1CC9, size: 0x8, addend: 0x0, symName: _gegl_op_vector_stroke_class_finalize, symObjAddr: 0x40C, symBinAddr: 0x659C, symSize: 0x4 }
+  - { offsetInCU: 0x1D1A, offset: 0x1D1A, size: 0x8, addend: 0x0, symName: _gegl_op_vector_stroke_init, symObjAddr: 0x410, symBinAddr: 0x65A0, symSize: 0x38 }
+  - { offsetInCU: 0x1D9D, offset: 0x1D9D, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x448, symBinAddr: 0x65D8, symSize: 0xC }
+  - { offsetInCU: 0x1DE5, offset: 0x1DE5, size: 0x8, addend: 0x0, symName: _gegl_module_register, symObjAddr: 0x454, symBinAddr: 0x65E4, symSize: 0x70 }
+  - { offsetInCU: 0x1E61, offset: 0x1E61, size: 0x8, addend: 0x0, symName: _set_property, symObjAddr: 0x4C4, symBinAddr: 0x6654, symSize: 0x160 }
+  - { offsetInCU: 0x220A, offset: 0x220A, size: 0x8, addend: 0x0, symName: _get_property, symObjAddr: 0x624, symBinAddr: 0x67B4, symSize: 0x110 }
+  - { offsetInCU: 0x233B, offset: 0x233B, size: 0x8, addend: 0x0, symName: _gegl_op_constructor, symObjAddr: 0x734, symBinAddr: 0x68C4, symSize: 0x68 }
+  - { offsetInCU: 0x2449, offset: 0x2449, size: 0x8, addend: 0x0, symName: _has_key, symObjAddr: 0xA14, symBinAddr: 0x6BA4, symSize: 0x48 }
+  - { offsetInCU: 0x24D9, offset: 0x24D9, size: 0x8, addend: 0x0, symName: _path_changed, symObjAddr: 0x948, symBinAddr: 0x6AD8, symSize: 0x78 }
+  - { offsetInCU: 0x256D, offset: 0x256D, size: 0x8, addend: 0x0, symName: _gegl_op_destroy_notify, symObjAddr: 0x9C0, symBinAddr: 0x6B50, symSize: 0x54 }
+  - { offsetInCU: 0x298F, offset: 0x298F, size: 0x8, addend: 0x0, symName: _get_bounding_box, symObjAddr: 0xD64, symBinAddr: 0x6EF4, symSize: 0xB4 }
+  - { offsetInCU: 0x2AD4, offset: 0x2AD4, size: 0x8, addend: 0x0, symName: _prepare, symObjAddr: 0xE18, symBinAddr: 0x6FA8, symSize: 0x88 }
+  - { offsetInCU: 0x2C25, offset: 0x2C25, size: 0x8, addend: 0x0, symName: _detect, symObjAddr: 0xEA0, symBinAddr: 0x7030, symSize: 0xD8 }
+  - { offsetInCU: 0x2D9E, offset: 0x2D9E, size: 0x8, addend: 0x0, symName: _foreach_cairo, symObjAddr: 0xF78, symBinAddr: 0x7108, symSize: 0xD8 }
+...

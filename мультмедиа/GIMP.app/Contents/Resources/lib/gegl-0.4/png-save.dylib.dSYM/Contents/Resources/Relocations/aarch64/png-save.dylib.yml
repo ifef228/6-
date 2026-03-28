@@ -1,0 +1,32 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gegl-0.4/png-save.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_op_png_save_get_type, symObjAddr: 0x0, symBinAddr: 0x5EC8, symSize: 0xC }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _gegl_op_png_save_type_id, symObjAddr: 0xC038, symBinAddr: 0xC2E0, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _gegl_op_parent_class, symObjAddr: 0xC040, symBinAddr: 0xC2E8, symSize: 0x0 }
+  - { offsetInCU: 0xA7, offset: 0xA7, size: 0x8, addend: 0x0, symName: _png_save_metadata, symObjAddr: 0x13E0, symBinAddr: 0x8060, symSize: 0x0 }
+  - { offsetInCU: 0x26A, offset: 0x26A, size: 0x8, addend: 0x0, symName: _modinfo, symObjAddr: 0x1338, symBinAddr: 0x7AA0, symSize: 0x0 }
+  - { offsetInCU: 0xE14, offset: 0xE14, size: 0x8, addend: 0x0, symName: _gegl_op_png_save_get_type, symObjAddr: 0x0, symBinAddr: 0x5EC8, symSize: 0xC }
+  - { offsetInCU: 0xE2D, offset: 0xE2D, size: 0x8, addend: 0x0, symName: _gegl_op_png_save_register_type, symObjAddr: 0xC, symBinAddr: 0x5ED4, symSize: 0x6C }
+  - { offsetInCU: 0x1203, offset: 0x1203, size: 0x8, addend: 0x0, symName: _gegl_op_png_save_class_chant_intern_init, symObjAddr: 0x78, symBinAddr: 0x5F40, symSize: 0x2E4 }
+  - { offsetInCU: 0x163B, offset: 0x163B, size: 0x8, addend: 0x0, symName: _param_spec_update_ui, symObjAddr: 0x664, symBinAddr: 0x652C, symSize: 0x1AC }
+  - { offsetInCU: 0x1860, offset: 0x1860, size: 0x8, addend: 0x0, symName: _gegl_op_png_save_class_finalize, symObjAddr: 0x35C, symBinAddr: 0x6224, symSize: 0x4 }
+  - { offsetInCU: 0x18B1, offset: 0x18B1, size: 0x8, addend: 0x0, symName: _gegl_op_png_save_init, symObjAddr: 0x360, symBinAddr: 0x6228, symSize: 0x30 }
+  - { offsetInCU: 0x1934, offset: 0x1934, size: 0x8, addend: 0x0, symName: _gegl_module_query, symObjAddr: 0x390, symBinAddr: 0x6258, symSize: 0xC }
+  - { offsetInCU: 0x197C, offset: 0x197C, size: 0x8, addend: 0x0, symName: _gegl_module_register, symObjAddr: 0x39C, symBinAddr: 0x6264, symSize: 0x70 }
+  - { offsetInCU: 0x19F8, offset: 0x19F8, size: 0x8, addend: 0x0, symName: _set_property, symObjAddr: 0x40C, symBinAddr: 0x62D4, symSize: 0x108 }
+  - { offsetInCU: 0x1BE6, offset: 0x1BE6, size: 0x8, addend: 0x0, symName: _get_property, symObjAddr: 0x514, symBinAddr: 0x63DC, symSize: 0x108 }
+  - { offsetInCU: 0x1D17, offset: 0x1D17, size: 0x8, addend: 0x0, symName: _gegl_op_constructor, symObjAddr: 0x61C, symBinAddr: 0x64E4, symSize: 0x48 }
+  - { offsetInCU: 0x1DF6, offset: 0x1DF6, size: 0x8, addend: 0x0, symName: _has_key, symObjAddr: 0x854, symBinAddr: 0x671C, symSize: 0x48 }
+  - { offsetInCU: 0x1E86, offset: 0x1E86, size: 0x8, addend: 0x0, symName: _gegl_op_destroy_notify, symObjAddr: 0x810, symBinAddr: 0x66D8, symSize: 0x44 }
+  - { offsetInCU: 0x1F81, offset: 0x1F81, size: 0x8, addend: 0x0, symName: _process, symObjAddr: 0x89C, symBinAddr: 0x6764, symSize: 0x17C }
+  - { offsetInCU: 0x2397, offset: 0x2397, size: 0x8, addend: 0x0, symName: _export_png, symObjAddr: 0xB48, symBinAddr: 0x6A10, symSize: 0x694 }
+  - { offsetInCU: 0x2B78, offset: 0x2B78, size: 0x8, addend: 0x0, symName: _error_fn, symObjAddr: 0xA18, symBinAddr: 0x68E0, symSize: 0x28 }
+  - { offsetInCU: 0x2BC4, offset: 0x2BC4, size: 0x8, addend: 0x0, symName: _write_fn, symObjAddr: 0xA40, symBinAddr: 0x6908, symSize: 0x94 }
+  - { offsetInCU: 0x2C84, offset: 0x2C84, size: 0x8, addend: 0x0, symName: _flush_fn, symObjAddr: 0xAD4, symBinAddr: 0x699C, symSize: 0x74 }
+  - { offsetInCU: 0x2D3E, offset: 0x2D3E, size: 0x8, addend: 0x0, symName: _flush_fn, symObjAddr: 0xAD4, symBinAddr: 0x699C, symSize: 0x74 }
+  - { offsetInCU: 0x2DBF, offset: 0x2DBF, size: 0x8, addend: 0x0, symName: _export_png, symObjAddr: 0xB48, symBinAddr: 0x6A10, symSize: 0x694 }
+  - { offsetInCU: 0x3453, offset: 0x3453, size: 0x8, addend: 0x0, symName: _clear_png_text, symObjAddr: 0x11DC, symBinAddr: 0x70A4, symSize: 0x28 }
+  - { offsetInCU: 0x34A1, offset: 0x34A1, size: 0x8, addend: 0x0, symName: _png_format_timestamp, symObjAddr: 0x1204, symBinAddr: 0x70CC, symSize: 0xE4 }
+...

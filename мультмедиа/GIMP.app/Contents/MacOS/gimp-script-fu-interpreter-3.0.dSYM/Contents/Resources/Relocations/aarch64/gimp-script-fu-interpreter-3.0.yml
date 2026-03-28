@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/MacOS/gimp-script-fu-interpreter-3.0'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_list_defined_proc_names, symObjAddr: 0x0, symBinAddr: 0x1000035C0, symSize: 0x60 }
+  - { offsetInCU: 0x11B, offset: 0x11B, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_list_defined_proc_names, symObjAddr: 0x0, symBinAddr: 0x1000035C0, symSize: 0x60 }
+  - { offsetInCU: 0x1E7, offset: 0x1E7, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_init_inner, symObjAddr: 0x60, symBinAddr: 0x100003620, symSize: 0x68 }
+  - { offsetInCU: 0x26F, offset: 0x26F, size: 0x8, addend: 0x0, symName: _script_fu_get_plugin_parent_path, symObjAddr: 0xC8, symBinAddr: 0x100003688, symSize: 0x60 }
+  - { offsetInCU: 0x507, offset: 0x507, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_create_proc, symObjAddr: 0x128, symBinAddr: 0x1000036E8, symSize: 0x6C }
+  - { offsetInCU: 0x596, offset: 0x596, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_load_script, symObjAddr: 0x194, symBinAddr: 0x100003754, symSize: 0x4C }
+  - { offsetInCU: 0x6A8, offset: 0x6A8, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_get_i18n, symObjAddr: 0x1E0, symBinAddr: 0x1000037A0, symSize: 0x9C }
+  - { offsetInCU: 0x27, offset: 0x7E0, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_get_type, symObjAddr: 0x0, symBinAddr: 0x10000383C, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x7ED, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_get_type, symObjAddr: 0x0, symBinAddr: 0x10000383C, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x812, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_get_type.static_g_define_type_id, symObjAddr: 0x34B8, symBinAddr: 0x1000080D0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x8B4, size: 0x8, addend: 0x0, symName: _path_to_this_script, symObjAddr: 0x34C0, symBinAddr: 0x1000080D8, symSize: 0x0 }
+  - { offsetInCU: 0x120, offset: 0x8D9, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_parent_class, symObjAddr: 0x34C8, symBinAddr: 0x1000080E0, symSize: 0x0 }
+  - { offsetInCU: 0x141, offset: 0x8FA, size: 0x8, addend: 0x0, symName: _ScriptFuInterpreter_private_offset, symObjAddr: 0x34D0, symBinAddr: 0x1000080E8, symSize: 0x0 }
+  - { offsetInCU: 0x8C1, offset: 0x107A, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100003888, symSize: 0x50 }
+  - { offsetInCU: 0x97D, offset: 0x1136, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000038D8, symSize: 0x78 }
+  - { offsetInCU: 0xA6F, offset: 0x1228, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_class_intern_init, symObjAddr: 0x114, symBinAddr: 0x100003950, symSize: 0x68 }
+  - { offsetInCU: 0xB0A, offset: 0x12C3, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_init, symObjAddr: 0x17C, symBinAddr: 0x1000039B8, symSize: 0x4 }
+  - { offsetInCU: 0xB2B, offset: 0x12E4, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_query_procedures, symObjAddr: 0x180, symBinAddr: 0x1000039BC, symSize: 0x88 }
+  - { offsetInCU: 0xBD3, offset: 0x138C, size: 0x8, addend: 0x0, symName: _script_fu_interpreter_create_procedure, symObjAddr: 0x208, symBinAddr: 0x100003A44, symSize: 0xC }
+  - { offsetInCU: 0xC82, offset: 0x143B, size: 0x8, addend: 0x0, symName: _script_fu_set_i18n, symObjAddr: 0x214, symBinAddr: 0x100003A50, symSize: 0x11C }
+...

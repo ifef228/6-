@@ -1,0 +1,33 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/van-gogh-lic/van-gogh-lic'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _lic_get_type, symObjAddr: 0x0, symBinAddr: 0x100005DC4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _lic_get_type, symObjAddr: 0x0, symBinAddr: 0x100005DC4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _lic_get_type.static_g_define_type_id, symObjAddr: 0xB0B0, symBinAddr: 0x10000C228, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _lic_parent_class, symObjAddr: 0xB0B8, symBinAddr: 0x10000C230, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Lic_private_offset, symObjAddr: 0xB0C0, symBinAddr: 0x10000C238, symSize: 0x0 }
+  - { offsetInCU: 0x144, offset: 0x144, size: 0x8, addend: 0x0, symName: _border_x, symObjAddr: 0xB0C4, symBinAddr: 0x10000C23C, symSize: 0x0 }
+  - { offsetInCU: 0x15A, offset: 0x15A, size: 0x8, addend: 0x0, symName: _border_y, symObjAddr: 0xB0C8, symBinAddr: 0x10000C240, symSize: 0x0 }
+  - { offsetInCU: 0x170, offset: 0x170, size: 0x8, addend: 0x0, symName: _border_w, symObjAddr: 0xB0CC, symBinAddr: 0x10000C244, symSize: 0x0 }
+  - { offsetInCU: 0x186, offset: 0x186, size: 0x8, addend: 0x0, symName: _border_h, symObjAddr: 0xB0D0, symBinAddr: 0x10000C248, symSize: 0x0 }
+  - { offsetInCU: 0x19C, offset: 0x19C, size: 0x8, addend: 0x0, symName: _G, symObjAddr: 0xB0E0, symBinAddr: 0x10000C258, symSize: 0x0 }
+  - { offsetInCU: 0x1DC, offset: 0x1DC, size: 0x8, addend: 0x0, symName: _l, symObjAddr: 0x1B88, symBinAddr: 0x10000C208, symSize: 0x0 }
+  - { offsetInCU: 0x1F2, offset: 0x1F2, size: 0x8, addend: 0x0, symName: _dy, symObjAddr: 0x1B90, symBinAddr: 0x10000C210, symSize: 0x0 }
+  - { offsetInCU: 0x208, offset: 0x208, size: 0x8, addend: 0x0, symName: _dx, symObjAddr: 0x1B98, symBinAddr: 0x10000C218, symSize: 0x0 }
+  - { offsetInCU: 0x21E, offset: 0x21E, size: 0x8, addend: 0x0, symName: _isteps, symObjAddr: 0x1BA0, symBinAddr: 0x10000C220, symSize: 0x0 }
+  - { offsetInCU: 0x234, offset: 0x234, size: 0x8, addend: 0x0, symName: _source_drw_has_alpha, symObjAddr: 0xB0D4, symBinAddr: 0x10000C24C, symSize: 0x0 }
+  - { offsetInCU: 0x255, offset: 0x255, size: 0x8, addend: 0x0, symName: _effect_width, symObjAddr: 0xB0D8, symBinAddr: 0x10000C250, symSize: 0x0 }
+  - { offsetInCU: 0x26B, offset: 0x26B, size: 0x8, addend: 0x0, symName: _effect_height, symObjAddr: 0xB0DC, symBinAddr: 0x10000C254, symSize: 0x0 }
+  - { offsetInCU: 0xC82, offset: 0xC82, size: 0x8, addend: 0x0, symName: _lic_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005E10, symSize: 0x50 }
+  - { offsetInCU: 0xD3E, offset: 0xD3E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005E60, symSize: 0x2C }
+  - { offsetInCU: 0xDCA, offset: 0xDCA, size: 0x8, addend: 0x0, symName: _lic_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005E8C, symSize: 0x68 }
+  - { offsetInCU: 0xE65, offset: 0xE65, size: 0x8, addend: 0x0, symName: _lic_init, symObjAddr: 0x130, symBinAddr: 0x100005EF4, symSize: 0x4 }
+  - { offsetInCU: 0xED4, offset: 0xED4, size: 0x8, addend: 0x0, symName: _lic_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100005EF8, symSize: 0x24 }
+  - { offsetInCU: 0xF5F, offset: 0xF5F, size: 0x8, addend: 0x0, symName: _lic_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100005F1C, symSize: 0x474 }
+  - { offsetInCU: 0x15BA, offset: 0x15BA, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x5CC, symBinAddr: 0x100006390, symSize: 0x30 }
+  - { offsetInCU: 0x1BC7, offset: 0x1BC7, size: 0x8, addend: 0x0, symName: _lic_run, symObjAddr: 0x5FC, symBinAddr: 0x1000063C0, symSize: 0xCC8 }
+  - { offsetInCU: 0x28B3, offset: 0x28B3, size: 0x8, addend: 0x0, symName: _rgb_to_hsl, symObjAddr: 0x12C4, symBinAddr: 0x100007088, symSize: 0x1F8 }
+  - { offsetInCU: 0x2AD7, offset: 0x2AD7, size: 0x8, addend: 0x0, symName: _getpixel, symObjAddr: 0x1618, symBinAddr: 0x1000073DC, symSize: 0x1EC }
+  - { offsetInCU: 0x2E9C, offset: 0x2E9C, size: 0x8, addend: 0x0, symName: _noise, symObjAddr: 0x14BC, symBinAddr: 0x100007280, symSize: 0x15C }
+...

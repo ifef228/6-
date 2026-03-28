@@ -1,0 +1,50 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-gif-export/file-gif-export'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gif_get_type, symObjAddr: 0x0, symBinAddr: 0x100004254, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _gif_get_type, symObjAddr: 0x0, symBinAddr: 0x100004254, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _gif_get_type.static_g_define_type_id, symObjAddr: 0x13678, symBinAddr: 0x10000C400, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _gif_parent_class, symObjAddr: 0x13680, symBinAddr: 0x10000C408, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Gif_private_offset, symObjAddr: 0x13688, symBinAddr: 0x10000C410, symSize: 0x0 }
+  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: _Interlace, symObjAddr: 0x1368C, symBinAddr: 0x10000C414, symSize: 0x0 }
+  - { offsetInCU: 0x164, offset: 0x164, size: 0x8, addend: 0x0, symName: _Width, symObjAddr: 0x136AC, symBinAddr: 0x10000C434, symSize: 0x0 }
+  - { offsetInCU: 0x17A, offset: 0x17A, size: 0x8, addend: 0x0, symName: _Height, symObjAddr: 0x136B0, symBinAddr: 0x10000C438, symSize: 0x0 }
+  - { offsetInCU: 0x190, offset: 0x190, size: 0x8, addend: 0x0, symName: _CountDown, symObjAddr: 0x136B8, symBinAddr: 0x10000C440, symSize: 0x0 }
+  - { offsetInCU: 0x1B8, offset: 0x1B8, size: 0x8, addend: 0x0, symName: _Pass, symObjAddr: 0x136C0, symBinAddr: 0x10000C448, symSize: 0x0 }
+  - { offsetInCU: 0x1CE, offset: 0x1CE, size: 0x8, addend: 0x0, symName: _cury, symObjAddr: 0x136C4, symBinAddr: 0x10000C44C, symSize: 0x0 }
+  - { offsetInCU: 0x1E4, offset: 0x1E4, size: 0x8, addend: 0x0, symName: _curx, symObjAddr: 0x136C8, symBinAddr: 0x10000C450, symSize: 0x0 }
+  - { offsetInCU: 0x1FA, offset: 0x1FA, size: 0x8, addend: 0x0, symName: _cur_progress, symObjAddr: 0x13690, symBinAddr: 0x10000C418, symSize: 0x0 }
+  - { offsetInCU: 0x210, offset: 0x210, size: 0x8, addend: 0x0, symName: _max_progress, symObjAddr: 0x13694, symBinAddr: 0x10000C41C, symSize: 0x0 }
+  - { offsetInCU: 0x226, offset: 0x226, size: 0x8, addend: 0x0, symName: _rowstride, symObjAddr: 0x13698, symBinAddr: 0x10000C420, symSize: 0x0 }
+  - { offsetInCU: 0x23C, offset: 0x23C, size: 0x8, addend: 0x0, symName: _pixels, symObjAddr: 0x136A0, symBinAddr: 0x10000C428, symSize: 0x0 }
+  - { offsetInCU: 0x27C, offset: 0x27C, size: 0x8, addend: 0x0, symName: _g_init_bits, symObjAddr: 0x136CC, symBinAddr: 0x10000C454, symSize: 0x0 }
+  - { offsetInCU: 0x292, offset: 0x292, size: 0x8, addend: 0x0, symName: _cur_bits, symObjAddr: 0x136D0, symBinAddr: 0x10000C458, symSize: 0x0 }
+  - { offsetInCU: 0x2A8, offset: 0x2A8, size: 0x8, addend: 0x0, symName: _cur_accum, symObjAddr: 0x136D8, symBinAddr: 0x10000C460, symSize: 0x0 }
+  - { offsetInCU: 0x2C9, offset: 0x2C9, size: 0x8, addend: 0x0, symName: _out_count, symObjAddr: 0x136E0, symBinAddr: 0x10000C468, symSize: 0x0 }
+  - { offsetInCU: 0x2DF, offset: 0x2DF, size: 0x8, addend: 0x0, symName: _clear_flg, symObjAddr: 0x136E8, symBinAddr: 0x10000C470, symSize: 0x0 }
+  - { offsetInCU: 0x2FC, offset: 0x2FC, size: 0x8, addend: 0x0, symName: _in_count, symObjAddr: 0x3128, symBinAddr: 0x10000C3F8, symSize: 0x0 }
+  - { offsetInCU: 0x312, offset: 0x312, size: 0x8, addend: 0x0, symName: _ClearCode, symObjAddr: 0x136EC, symBinAddr: 0x10000C474, symSize: 0x0 }
+  - { offsetInCU: 0x328, offset: 0x328, size: 0x8, addend: 0x0, symName: _EOFCode, symObjAddr: 0x136F0, symBinAddr: 0x10000C478, symSize: 0x0 }
+  - { offsetInCU: 0x33E, offset: 0x33E, size: 0x8, addend: 0x0, symName: _free_ent, symObjAddr: 0x136F4, symBinAddr: 0x10000C47C, symSize: 0x0 }
+  - { offsetInCU: 0x354, offset: 0x354, size: 0x8, addend: 0x0, symName: _n_bits, symObjAddr: 0x136F8, symBinAddr: 0x10000C480, symSize: 0x0 }
+  - { offsetInCU: 0x36A, offset: 0x36A, size: 0x8, addend: 0x0, symName: _maxcode, symObjAddr: 0x136FC, symBinAddr: 0x10000C484, symSize: 0x0 }
+  - { offsetInCU: 0x380, offset: 0x380, size: 0x8, addend: 0x0, symName: _a_count, symObjAddr: 0x1FA70, symBinAddr: 0x1000187F8, symSize: 0x0 }
+  - { offsetInCU: 0x396, offset: 0x396, size: 0x8, addend: 0x0, symName: _masks, symObjAddr: 0x2538, symBinAddr: 0x100007378, symSize: 0x0 }
+  - { offsetInCU: 0x3B8, offset: 0x3B8, size: 0x8, addend: 0x0, symName: _accum, symObjAddr: 0x1FA74, symBinAddr: 0x1000187FC, symSize: 0x0 }
+  - { offsetInCU: 0x3DB, offset: 0x3DB, size: 0x8, addend: 0x0, symName: _htab, symObjAddr: 0x13700, symBinAddr: 0x10000C488, symSize: 0x0 }
+  - { offsetInCU: 0x3FE, offset: 0x3FE, size: 0x8, addend: 0x0, symName: _codetab, symObjAddr: 0x1D358, symBinAddr: 0x1000160E0, symSize: 0x0 }
+  - { offsetInCU: 0x126C, offset: 0x126C, size: 0x8, addend: 0x0, symName: _gif_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000042A0, symSize: 0x50 }
+  - { offsetInCU: 0x1328, offset: 0x1328, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000042F0, symSize: 0x2C }
+  - { offsetInCU: 0x13B4, offset: 0x13B4, size: 0x8, addend: 0x0, symName: _gif_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x10000431C, symSize: 0x68 }
+  - { offsetInCU: 0x144F, offset: 0x144F, size: 0x8, addend: 0x0, symName: _gif_init, symObjAddr: 0x130, symBinAddr: 0x100004384, symSize: 0x4 }
+  - { offsetInCU: 0x14C9, offset: 0x14C9, size: 0x8, addend: 0x0, symName: _gif_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100004388, symSize: 0x24 }
+  - { offsetInCU: 0x1554, offset: 0x1554, size: 0x8, addend: 0x0, symName: _gif_create_procedure, symObjAddr: 0x158, symBinAddr: 0x1000043AC, symSize: 0x460 }
+  - { offsetInCU: 0x1D77, offset: 0x1D77, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x5B8, symBinAddr: 0x10000480C, symSize: 0x30 }
+  - { offsetInCU: 0x29C0, offset: 0x29C0, size: 0x8, addend: 0x0, symName: _gif_export, symObjAddr: 0x5E8, symBinAddr: 0x10000483C, symSize: 0x1A2C }
+  - { offsetInCU: 0x5674, offset: 0x5674, size: 0x8, addend: 0x0, symName: _colors_to_bpp, symObjAddr: 0x2058, symBinAddr: 0x1000062AC, symSize: 0xB4 }
+  - { offsetInCU: 0x5828, offset: 0x5828, size: 0x8, addend: 0x0, symName: _gif_next_pixel, symObjAddr: 0x210C, symBinAddr: 0x100006360, symSize: 0x1A0 }
+  - { offsetInCU: 0x589B, offset: 0x589B, size: 0x8, addend: 0x0, symName: _output_code, symObjAddr: 0x22AC, symBinAddr: 0x100006500, symSize: 0x1F0 }
+  - { offsetInCU: 0x59DE, offset: 0x59DE, size: 0x8, addend: 0x0, symName: _export_edit_options, symObjAddr: 0x2014, symBinAddr: 0x100006268, symSize: 0x44 }
+  - { offsetInCU: 0x5AC3, offset: 0x5AC3, size: 0x8, addend: 0x0, symName: _char_flush, symObjAddr: 0x249C, symBinAddr: 0x1000066F0, symSize: 0x78 }
+...

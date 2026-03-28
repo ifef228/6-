@@ -1,0 +1,38 @@
+# GTK+ Input Method Modules file
+# Automatically generated file, do not edit
+# Created by /Users/circleci/macports-gimp3-arm64/bin/gtk-query-immodules-3.0 from gtk+-3.24.51
+#
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-am-et.so" 
+"am_et" "Amharic (EZ+)" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "am" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-cedilla.so" 
+"cedilla" "Cedilla" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "az:ca:co:fr:gv:oc:pt:sq:tr:wa" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-cyrillic-translit.so" 
+"cyrillic_translit" "Cyrillic (Transliterated)" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-inuktitut.so" 
+"inuktitut" "Inuktitut (Transliterated)" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "iu" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-ipa.so" 
+"ipa" "IPA" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-multipress.so" 
+"multipress" "Multipress" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-quartz.so" 
+"quartz" "Mac OS X Quartz" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "ja:ko:zh:*" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-thai.so" 
+"thai" "Thai-Lao" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "lo:th" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-ti-er.so" 
+"ti_er" "Tigrigna-Eritrean (EZ+)" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "ti" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-ti-et.so" 
+"ti_et" "Tigrigna-Ethiopian (EZ+)" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "ti" 
+
+"/Users/circleci/macports-gimp3-arm64/lib/gtk-3.0/3.0.0/immodules/im-viqr.so" 
+"viqr" "Vietnamese (VIQR)" "gtk30" "/Users/circleci/macports-gimp3-arm64/share/locale" "" 
+
+

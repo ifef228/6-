@@ -1,0 +1,31 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-svg/file-svg'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _svg_get_type, symObjAddr: 0x0, symBinAddr: 0x1000067C4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _svg_get_type, symObjAddr: 0x0, symBinAddr: 0x1000067C4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _svg_get_type.static_g_define_type_id, symObjAddr: 0x1B0B0, symBinAddr: 0x100010718, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _svg_parent_class, symObjAddr: 0x1B0B8, symBinAddr: 0x100010720, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Svg_private_offset, symObjAddr: 0x1B0C0, symBinAddr: 0x100010728, symSize: 0x0 }
+  - { offsetInCU: 0x1334, offset: 0x1334, size: 0x8, addend: 0x0, symName: _svg_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006810, symSize: 0x50 }
+  - { offsetInCU: 0x13F0, offset: 0x13F0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006860, symSize: 0x2C }
+  - { offsetInCU: 0x147C, offset: 0x147C, size: 0x8, addend: 0x0, symName: _svg_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x10000688C, symSize: 0x68 }
+  - { offsetInCU: 0x1517, offset: 0x1517, size: 0x8, addend: 0x0, symName: _svg_init, symObjAddr: 0x130, symBinAddr: 0x1000068F4, symSize: 0x4 }
+  - { offsetInCU: 0x1587, offset: 0x1587, size: 0x8, addend: 0x0, symName: _svg_query_procedures, symObjAddr: 0x134, symBinAddr: 0x1000068F8, symSize: 0x48 }
+  - { offsetInCU: 0x165C, offset: 0x165C, size: 0x8, addend: 0x0, symName: _svg_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x100006940, symSize: 0x3C0 }
+  - { offsetInCU: 0x1E8A, offset: 0x1E8A, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x53C, symBinAddr: 0x100006D00, symSize: 0x30 }
+  - { offsetInCU: 0x1EFF, offset: 0x1EFF, size: 0x8, addend: 0x0, symName: _svg_extract, symObjAddr: 0x56C, symBinAddr: 0x100006D30, symSize: 0x354 }
+  - { offsetInCU: 0x2492, offset: 0x2492, size: 0x8, addend: 0x0, symName: _svg_extract_dimensions, symObjAddr: 0x1538, symBinAddr: 0x100007CFC, symSize: 0x1F0 }
+  - { offsetInCU: 0x2B15, offset: 0x2B15, size: 0x8, addend: 0x0, symName: _svg_load, symObjAddr: 0x8C0, symBinAddr: 0x100007084, symSize: 0x4F0 }
+  - { offsetInCU: 0x38BB, offset: 0x38BB, size: 0x8, addend: 0x0, symName: _svg_export, symObjAddr: 0xDB0, symBinAddr: 0x100007574, symSize: 0x788 }
+  - { offsetInCU: 0x4359, offset: 0x4359, size: 0x8, addend: 0x0, symName: _has_invalid_links, symObjAddr: 0x1774, symBinAddr: 0x100007F38, symSize: 0x108 }
+  - { offsetInCU: 0x46D9, offset: 0x46D9, size: 0x8, addend: 0x0, symName: _svg_export_defs, symObjAddr: 0x187C, symBinAddr: 0x100008040, symSize: 0x1B4 }
+  - { offsetInCU: 0x497A, offset: 0x497A, size: 0x8, addend: 0x0, symName: _svg_export_layers, symObjAddr: 0x1A30, symBinAddr: 0x1000081F4, symSize: 0xBC8 }
+  - { offsetInCU: 0x59E5, offset: 0x59E5, size: 0x8, addend: 0x0, symName: _svg_rsvg_to_gimp_unit, symObjAddr: 0x1728, symBinAddr: 0x100007EEC, symSize: 0x44 }
+  - { offsetInCU: 0x5AA6, offset: 0x5AA6, size: 0x8, addend: 0x0, symName: _svg_destroy_surface, symObjAddr: 0x176C, symBinAddr: 0x100007F30, symSize: 0x8 }
+  - { offsetInCU: 0x5C45, offset: 0x5C45, size: 0x8, addend: 0x0, symName: _svg_get_def_string, symObjAddr: 0x25F8, symBinAddr: 0x100008DBC, symSize: 0x45C }
+  - { offsetInCU: 0x67A4, offset: 0x67A4, size: 0x8, addend: 0x0, symName: _svg_export_raster, symObjAddr: 0x2A54, symBinAddr: 0x100009218, symSize: 0x5F0 }
+  - { offsetInCU: 0x70AA, offset: 0x70AA, size: 0x8, addend: 0x0, symName: _svg_get_color_string, symObjAddr: 0x3044, symBinAddr: 0x100009808, symSize: 0x114 }
+  - { offsetInCU: 0x73DD, offset: 0x73DD, size: 0x8, addend: 0x0, symName: _svg_get_hex_color, symObjAddr: 0x3158, symBinAddr: 0x10000991C, symSize: 0x68 }
+  - { offsetInCU: 0x7597, offset: 0x7597, size: 0x8, addend: 0x0, symName: _svg_export_text_lines, symObjAddr: 0x31C0, symBinAddr: 0x100009984, symSize: 0x10C }
+...

@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/warp/warp'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _warp_get_type, symObjAddr: 0x0, symBinAddr: 0x100004718, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _warp_get_type, symObjAddr: 0x0, symBinAddr: 0x100004718, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _warp_get_type.static_g_define_type_id, symObjAddr: 0x12A30, symBinAddr: 0x10000C2D0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _warp_parent_class, symObjAddr: 0x12A38, symBinAddr: 0x10000C2D8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Warp_private_offset, symObjAddr: 0x12A40, symBinAddr: 0x10000C2E0, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _color_pixel, symObjAddr: 0x2FFC, symBinAddr: 0x10000C2C8, symSize: 0x0 }
+  - { offsetInCU: 0x176, offset: 0x176, size: 0x8, addend: 0x0, symName: _run_mode, symObjAddr: 0x12A44, symBinAddr: 0x10000C2E4, symSize: 0x0 }
+  - { offsetInCU: 0x1BA, offset: 0x1BA, size: 0x8, addend: 0x0, symName: _progress, symObjAddr: 0x12A48, symBinAddr: 0x10000C2E8, symSize: 0x0 }
+  - { offsetInCU: 0x1C3, offset: 0x1C3, size: 0x8, addend: 0x0, symName: _warp_pixel, symObjAddr: 0x2820, symBinAddr: 0x100006F38, symSize: 0x158 }
+  - { offsetInCU: 0x1E6, offset: 0x1E6, size: 0x8, addend: 0x0, symName: _warp_pixel.empty_pixel, symObjAddr: 0x3000, symBinAddr: 0x100007918, symSize: 0x0 }
+  - { offsetInCU: 0xFB4, offset: 0xFB4, size: 0x8, addend: 0x0, symName: _warp_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100004764, symSize: 0x50 }
+  - { offsetInCU: 0x1070, offset: 0x1070, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000047B4, symSize: 0x2C }
+  - { offsetInCU: 0x10FC, offset: 0x10FC, size: 0x8, addend: 0x0, symName: _warp_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000047E0, symSize: 0x68 }
+  - { offsetInCU: 0x1197, offset: 0x1197, size: 0x8, addend: 0x0, symName: _warp_init, symObjAddr: 0x130, symBinAddr: 0x100004848, symSize: 0x4 }
+  - { offsetInCU: 0x1206, offset: 0x1206, size: 0x8, addend: 0x0, symName: _warp_query_procedures, symObjAddr: 0x134, symBinAddr: 0x10000484C, symSize: 0x24 }
+  - { offsetInCU: 0x1291, offset: 0x1291, size: 0x8, addend: 0x0, symName: _warp_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100004870, symSize: 0x568 }
+  - { offsetInCU: 0x1A02, offset: 0x1A02, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x6C0, symBinAddr: 0x100004DD8, symSize: 0x30 }
+  - { offsetInCU: 0x266F, offset: 0x266F, size: 0x8, addend: 0x0, symName: _warp_run, symObjAddr: 0x6F0, symBinAddr: 0x100004E08, symSize: 0x1BF4 }
+  - { offsetInCU: 0x43B3, offset: 0x43B3, size: 0x8, addend: 0x0, symName: _get_u8_format, symObjAddr: 0x22E4, symBinAddr: 0x1000069FC, symSize: 0x60 }
+  - { offsetInCU: 0x4541, offset: 0x4541, size: 0x8, addend: 0x0, symName: _diff_prepare_row, symObjAddr: 0x2344, symBinAddr: 0x100006A5C, symSize: 0xCC }
+  - { offsetInCU: 0x4721, offset: 0x4721, size: 0x8, addend: 0x0, symName: _blur16, symObjAddr: 0x2410, symBinAddr: 0x100006B28, symSize: 0x410 }
+...

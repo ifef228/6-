@@ -1,0 +1,34 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/libgegl-sc-0.4.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gegl_sc_context_new, symObjAddr: 0x0, symBinAddr: 0x5BC4, symSize: 0x68 }
+  - { offsetInCU: 0x62E, offset: 0x62E, size: 0x8, addend: 0x0, symName: _gegl_sc_context_new, symObjAddr: 0x0, symBinAddr: 0x5BC4, symSize: 0x68 }
+  - { offsetInCU: 0x70B, offset: 0x70B, size: 0x8, addend: 0x0, symName: _gegl_sc_context_create_outline, symObjAddr: 0x68, symBinAddr: 0x5C2C, symSize: 0xC8 }
+  - { offsetInCU: 0x80A, offset: 0x80A, size: 0x8, addend: 0x0, symName: _gegl_sc_context_update_from_outline, symObjAddr: 0x130, symBinAddr: 0x5CF4, symSize: 0x294 }
+  - { offsetInCU: 0xF2F, offset: 0xF2F, size: 0x8, addend: 0x0, symName: _gegl_sc_context_render_cache_free, symObjAddr: 0xBA4, symBinAddr: 0x6768, symSize: 0x94 }
+  - { offsetInCU: 0x118C, offset: 0x118C, size: 0x8, addend: 0x0, symName: _gegl_sc_context_update, symObjAddr: 0x3C4, symBinAddr: 0x5F88, symSize: 0x6C }
+  - { offsetInCU: 0x163A, offset: 0x163A, size: 0x8, addend: 0x0, symName: _gegl_sc_context_prepare_render, symObjAddr: 0x430, symBinAddr: 0x5FF4, symSize: 0x394 }
+  - { offsetInCU: 0x1AD4, offset: 0x1AD4, size: 0x8, addend: 0x0, symName: _gegl_sc_context_sample_color_difference, symObjAddr: 0xC38, symBinAddr: 0x67FC, symSize: 0x164 }
+  - { offsetInCU: 0x1CC5, offset: 0x1CC5, size: 0x8, addend: 0x0, symName: _gegl_sc_context_set_uvt_cache, symObjAddr: 0x7C4, symBinAddr: 0x6388, symSize: 0x34 }
+  - { offsetInCU: 0x1D09, offset: 0x1D09, size: 0x8, addend: 0x0, symName: _gegl_sc_context_render, symObjAddr: 0x7F8, symBinAddr: 0x63BC, symSize: 0x2E8 }
+  - { offsetInCU: 0x217B, offset: 0x217B, size: 0x8, addend: 0x0, symName: _gegl_sc_point_to_color_func, symObjAddr: 0xAE0, symBinAddr: 0x66A4, symSize: 0x64 }
+  - { offsetInCU: 0x2211, offset: 0x2211, size: 0x8, addend: 0x0, symName: _gegl_sc_context_free, symObjAddr: 0xB44, symBinAddr: 0x6708, symSize: 0x60 }
+  - { offsetInCU: 0x225B, offset: 0x225B, size: 0x8, addend: 0x0, symName: _gegl_sc_context_free, symObjAddr: 0xB44, symBinAddr: 0x6708, symSize: 0x60 }
+  - { offsetInCU: 0x27, offset: 0x23EF, size: 0x8, addend: 0x0, symName: _gegl_sc_outline_find, symObjAddr: 0x0, symBinAddr: 0x6960, symSize: 0x418 }
+  - { offsetInCU: 0x441, offset: 0x2809, size: 0x8, addend: 0x0, symName: _gegl_sc_outline_find, symObjAddr: 0x0, symBinAddr: 0x6960, symSize: 0x418 }
+  - { offsetInCU: 0x9A0, offset: 0x2D68, size: 0x8, addend: 0x0, symName: _gegl_sc_outline_check_if_single, symObjAddr: 0x418, symBinAddr: 0x6D78, symSize: 0x2EC }
+  - { offsetInCU: 0xC6B, offset: 0x3033, size: 0x8, addend: 0x0, symName: _gegl_sc_point_cmp, symObjAddr: 0x704, symBinAddr: 0x7064, symSize: 0x44 }
+  - { offsetInCU: 0xC8F, offset: 0x3057, size: 0x8, addend: 0x0, symName: _gegl_sc_outline_length, symObjAddr: 0x748, symBinAddr: 0x70A8, symSize: 0x8 }
+  - { offsetInCU: 0xCFE, offset: 0x30C6, size: 0x8, addend: 0x0, symName: _gegl_sc_outline_equals, symObjAddr: 0x750, symBinAddr: 0x70B0, symSize: 0x84 }
+  - { offsetInCU: 0xDDE, offset: 0x31A6, size: 0x8, addend: 0x0, symName: _gegl_sc_outline_free, symObjAddr: 0x7D4, symBinAddr: 0x7134, symSize: 0x50 }
+  - { offsetInCU: 0x27, offset: 0x3251, size: 0x8, addend: 0x0, symName: _gegl_sc_sample_list_compute, symObjAddr: 0x0, symBinAddr: 0x7184, symSize: 0x2E0 }
+  - { offsetInCU: 0x328, offset: 0x3552, size: 0x8, addend: 0x0, symName: _gegl_sc_sample_list_compute, symObjAddr: 0x0, symBinAddr: 0x7184, symSize: 0x2E0 }
+  - { offsetInCU: 0x695, offset: 0x38BF, size: 0x8, addend: 0x0, symName: _gegl_sc_compute_sample_list_part, symObjAddr: 0x2E0, symBinAddr: 0x7464, symSize: 0x194 }
+  - { offsetInCU: 0x8D3, offset: 0x3AFD, size: 0x8, addend: 0x0, symName: _gegl_sc_sample_list_direct, symObjAddr: 0x474, symBinAddr: 0x75F8, symSize: 0x28 }
+  - { offsetInCU: 0x904, offset: 0x3B2E, size: 0x8, addend: 0x0, symName: _gegl_sc_sample_list_free, symObjAddr: 0x49C, symBinAddr: 0x7620, symSize: 0x98 }
+  - { offsetInCU: 0x999, offset: 0x3BC3, size: 0x8, addend: 0x0, symName: _gegl_sc_mesh_sampling_compute, symObjAddr: 0x534, symBinAddr: 0x76B8, symSize: 0xD0 }
+  - { offsetInCU: 0xA28, offset: 0x3C52, size: 0x8, addend: 0x0, symName: _gegl_sc_mesh_sampling_compute, symObjAddr: 0x534, symBinAddr: 0x76B8, symSize: 0xD0 }
+  - { offsetInCU: 0xDD1, offset: 0x3FFB, size: 0x8, addend: 0x0, symName: _gegl_sc_mesh_sampling_free, symObjAddr: 0x604, symBinAddr: 0x7788, symSize: 0x30 }
+  - { offsetInCU: 0xE72, offset: 0x409C, size: 0x8, addend: 0x0, symName: _gegl_sc_mesh_sampling_entry_free_hfunc, symObjAddr: 0x634, symBinAddr: 0x77B8, symSize: 0x8 }
+...

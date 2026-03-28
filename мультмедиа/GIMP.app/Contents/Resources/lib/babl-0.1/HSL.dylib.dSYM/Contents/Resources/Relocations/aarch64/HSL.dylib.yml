@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/babl-0.1/HSL.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x2C70, symSize: 0x3B4 }
+  - { offsetInCU: 0x5A, offset: 0x5A, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x2C70, symSize: 0x3B4 }
+  - { offsetInCU: 0x50F, offset: 0x50F, size: 0x8, addend: 0x0, symName: _rgba_to_hsla, symObjAddr: 0x3B4, symBinAddr: 0x3024, symSize: 0x5C }
+  - { offsetInCU: 0x5AA, offset: 0x5AA, size: 0x8, addend: 0x0, symName: _rgb_to_hsl_step, symObjAddr: 0xAA0, symBinAddr: 0x3710, symSize: 0x20C }
+  - { offsetInCU: 0x6D2, offset: 0x6D2, size: 0x8, addend: 0x0, symName: _rgba_to_hsl, symObjAddr: 0x410, symBinAddr: 0x3080, symSize: 0x4C }
+  - { offsetInCU: 0x74F, offset: 0x74F, size: 0x8, addend: 0x0, symName: _hsla_to_rgba, symObjAddr: 0x45C, symBinAddr: 0x30CC, symSize: 0x5C }
+  - { offsetInCU: 0x7EA, offset: 0x7EA, size: 0x8, addend: 0x0, symName: _hsl_to_rgb_step, symObjAddr: 0xCAC, symBinAddr: 0x391C, symSize: 0xEC }
+  - { offsetInCU: 0x89A, offset: 0x89A, size: 0x8, addend: 0x0, symName: _hsl_to_rgba, symObjAddr: 0x4B8, symBinAddr: 0x3128, symSize: 0x54 }
+  - { offsetInCU: 0x9B8, offset: 0x9B8, size: 0x8, addend: 0x0, symName: _rgba_nonlinear_to_hsla, symObjAddr: 0x50C, symBinAddr: 0x317C, symSize: 0x138 }
+  - { offsetInCU: 0xAC6, offset: 0xAC6, size: 0x8, addend: 0x0, symName: _hsla_to_rgba_nonlinear, symObjAddr: 0x644, symBinAddr: 0x32B4, symSize: 0x5C }
+  - { offsetInCU: 0xB61, offset: 0xB61, size: 0x8, addend: 0x0, symName: _hsl_to_rgb_nonlinear_step_double, symObjAddr: 0xD98, symBinAddr: 0x3A08, symSize: 0x248 }
+  - { offsetInCU: 0xD1E, offset: 0xD1E, size: 0x8, addend: 0x0, symName: _rgba_nonlinear_to_hsla_float, symObjAddr: 0x6A0, symBinAddr: 0x3310, symSize: 0x184 }
+  - { offsetInCU: 0xEBE, offset: 0xEBE, size: 0x8, addend: 0x0, symName: _hsla_to_rgba_nonlinear_float, symObjAddr: 0x824, symBinAddr: 0x3494, symSize: 0x27C }
+...

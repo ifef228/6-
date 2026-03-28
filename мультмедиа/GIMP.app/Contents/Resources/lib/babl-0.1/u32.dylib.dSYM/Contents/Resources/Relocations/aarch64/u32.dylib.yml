@@ -1,0 +1,24 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/babl-0.1/u32.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3544, symSize: 0x740 }
+  - { offsetInCU: 0x6F, offset: 0x6F, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x3544, symSize: 0x740 }
+  - { offsetInCU: 0xA10, offset: 0xA10, size: 0x8, addend: 0x0, symName: _conv_rgbau32_rgbau16, symObjAddr: 0x740, symBinAddr: 0x3C84, symSize: 0x20 }
+  - { offsetInCU: 0xA5F, offset: 0xA5F, size: 0x8, addend: 0x0, symName: _conv_rgbau32_rgbau16, symObjAddr: 0x740, symBinAddr: 0x3C84, symSize: 0x20 }
+  - { offsetInCU: 0xAA5, offset: 0xAA5, size: 0x8, addend: 0x0, symName: _conv_rgbu32_rgbu16, symObjAddr: 0x760, symBinAddr: 0x3CA4, symSize: 0x20 }
+  - { offsetInCU: 0xAF4, offset: 0xAF4, size: 0x8, addend: 0x0, symName: _conv_rgbu32_rgbu16, symObjAddr: 0x760, symBinAddr: 0x3CA4, symSize: 0x20 }
+  - { offsetInCU: 0xB90, offset: 0xB90, size: 0x8, addend: 0x0, symName: _conv_rgbu16_rgbu32, symObjAddr: 0x780, symBinAddr: 0x3CC4, symSize: 0x30 }
+  - { offsetInCU: 0xBDF, offset: 0xBDF, size: 0x8, addend: 0x0, symName: _conv_rgbu16_rgbu32, symObjAddr: 0x780, symBinAddr: 0x3CC4, symSize: 0x30 }
+  - { offsetInCU: 0xC25, offset: 0xC25, size: 0x8, addend: 0x0, symName: _conv_rgbau16_rgbau32, symObjAddr: 0x7B0, symBinAddr: 0x3CF4, symSize: 0x30 }
+  - { offsetInCU: 0xC74, offset: 0xC74, size: 0x8, addend: 0x0, symName: _conv_rgbau16_rgbau32, symObjAddr: 0x7B0, symBinAddr: 0x3CF4, symSize: 0x30 }
+  - { offsetInCU: 0xCBA, offset: 0xCBA, size: 0x8, addend: 0x0, symName: _conv_rgba32_rgb32, symObjAddr: 0x7E0, symBinAddr: 0x3D24, symSize: 0x30 }
+  - { offsetInCU: 0xD35, offset: 0xD35, size: 0x8, addend: 0x0, symName: _conv_rgb32_rgba32, symObjAddr: 0x810, symBinAddr: 0x3D54, symSize: 0x34 }
+  - { offsetInCU: 0xDB0, offset: 0xDB0, size: 0x8, addend: 0x0, symName: _conv_u32_u16, symObjAddr: 0x844, symBinAddr: 0x3D88, symSize: 0x1C }
+  - { offsetInCU: 0xDFB, offset: 0xDFB, size: 0x8, addend: 0x0, symName: _conv_u16_u32, symObjAddr: 0x860, symBinAddr: 0x3DA4, symSize: 0x2C }
+  - { offsetInCU: 0xE46, offset: 0xE46, size: 0x8, addend: 0x0, symName: _conv_yau32_yau16, symObjAddr: 0x88C, symBinAddr: 0x3DD0, symSize: 0x20 }
+  - { offsetInCU: 0xE95, offset: 0xE95, size: 0x8, addend: 0x0, symName: _conv_yau32_yau16, symObjAddr: 0x88C, symBinAddr: 0x3DD0, symSize: 0x20 }
+  - { offsetInCU: 0xEDB, offset: 0xEDB, size: 0x8, addend: 0x0, symName: _conv_yau16_yau32, symObjAddr: 0x8AC, symBinAddr: 0x3DF0, symSize: 0x30 }
+  - { offsetInCU: 0xF2A, offset: 0xF2A, size: 0x8, addend: 0x0, symName: _conv_yau16_yau32, symObjAddr: 0x8AC, symBinAddr: 0x3DF0, symSize: 0x30 }
+  - { offsetInCU: 0xF70, offset: 0xF70, size: 0x8, addend: 0x0, symName: _conv_yu32_yau32, symObjAddr: 0x8DC, symBinAddr: 0x3E20, symSize: 0x1C }
+...

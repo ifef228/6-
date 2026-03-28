@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/modules/libdisplay-filter-clip-warning.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_get_type, symObjAddr: 0x0, symBinAddr: 0x2B0C, symSize: 0xC }
+  - { offsetInCU: 0x40, offset: 0x40, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_type_id, symObjAddr: 0x74E8, symBinAddr: 0x80E0, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_info, symObjAddr: 0xE18, symBinAddr: 0x4010, symSize: 0x0 }
+  - { offsetInCU: 0x119, offset: 0x119, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_parent_class, symObjAddr: 0x74F0, symBinAddr: 0x80E8, symSize: 0x0 }
+  - { offsetInCU: 0x13A, offset: 0x13A, size: 0x8, addend: 0x0, symName: _CdisplayClipWarning_private_offset, symObjAddr: 0x74F8, symBinAddr: 0x80F0, symSize: 0x0 }
+  - { offsetInCU: 0xA48, offset: 0xA48, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_get_type, symObjAddr: 0x0, symBinAddr: 0x2B0C, symSize: 0xC }
+  - { offsetInCU: 0xA61, offset: 0xA61, size: 0x8, addend: 0x0, symName: _gimp_module_query, symObjAddr: 0xC, symBinAddr: 0x2B18, symSize: 0xC }
+  - { offsetInCU: 0xD1A, offset: 0xD1A, size: 0x8, addend: 0x0, symName: _gimp_module_register, symObjAddr: 0x18, symBinAddr: 0x2B24, symSize: 0x70 }
+  - { offsetInCU: 0xDFE, offset: 0xDFE, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_class_intern_init, symObjAddr: 0x88, symBinAddr: 0x2B94, symSize: 0x470 }
+  - { offsetInCU: 0x1469, offset: 0x1469, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_class_finalize, symObjAddr: 0x4F8, symBinAddr: 0x3004, symSize: 0x4 }
+  - { offsetInCU: 0x148A, offset: 0x148A, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_init, symObjAddr: 0x4FC, symBinAddr: 0x3008, symSize: 0x108 }
+  - { offsetInCU: 0x1583, offset: 0x1583, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_finalize, symObjAddr: 0x604, symBinAddr: 0x3110, symSize: 0x54 }
+  - { offsetInCU: 0x166B, offset: 0x166B, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_get_property, symObjAddr: 0x658, symBinAddr: 0x3164, symSize: 0x110 }
+  - { offsetInCU: 0x17B2, offset: 0x17B2, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_set_property, symObjAddr: 0x768, symBinAddr: 0x3274, symSize: 0x1B4 }
+  - { offsetInCU: 0x1A1E, offset: 0x1A1E, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_update_colors, symObjAddr: 0xB8C, symBinAddr: 0x3698, symSize: 0x218 }
+  - { offsetInCU: 0x1B68, offset: 0x1B68, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_set_member, symObjAddr: 0xB34, symBinAddr: 0x3640, symSize: 0x58 }
+  - { offsetInCU: 0x1C19, offset: 0x1C19, size: 0x8, addend: 0x0, symName: _cdisplay_clip_warning_convert_buffer, symObjAddr: 0x91C, symBinAddr: 0x3428, symSize: 0x218 }
+...

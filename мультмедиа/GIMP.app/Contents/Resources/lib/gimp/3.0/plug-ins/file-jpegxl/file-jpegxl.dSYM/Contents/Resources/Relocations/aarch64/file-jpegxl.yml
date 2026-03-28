@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-jpegxl/file-jpegxl'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _jpegxl_get_type, symObjAddr: 0x0, symBinAddr: 0x100006DC4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _jpegxl_get_type, symObjAddr: 0x0, symBinAddr: 0x100006DC4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _jpegxl_get_type.static_g_define_type_id, symObjAddr: 0x197B8, symBinAddr: 0x100010638, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _jpegxl_parent_class, symObjAddr: 0x197C0, symBinAddr: 0x100010640, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _JpegXL_private_offset, symObjAddr: 0x197C8, symBinAddr: 0x100010648, symSize: 0x0 }
+  - { offsetInCU: 0x14AE, offset: 0x14AE, size: 0x8, addend: 0x0, symName: _jpegxl_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100006E10, symSize: 0x50 }
+  - { offsetInCU: 0x156A, offset: 0x156A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006E60, symSize: 0x2C }
+  - { offsetInCU: 0x15F6, offset: 0x15F6, size: 0x8, addend: 0x0, symName: _jpegxl_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006E8C, symSize: 0x68 }
+  - { offsetInCU: 0x1691, offset: 0x1691, size: 0x8, addend: 0x0, symName: _jpegxl_init, symObjAddr: 0x130, symBinAddr: 0x100006EF4, symSize: 0x4 }
+  - { offsetInCU: 0x16EB, offset: 0x16EB, size: 0x8, addend: 0x0, symName: _jpegxl_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006EF8, symSize: 0x48 }
+  - { offsetInCU: 0x17BD, offset: 0x17BD, size: 0x8, addend: 0x0, symName: _jpegxl_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x100006F40, symSize: 0x52C }
+  - { offsetInCU: 0x205E, offset: 0x205E, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x6A8, symBinAddr: 0x10000746C, symSize: 0x30 }
+  - { offsetInCU: 0x2CBF, offset: 0x2CBF, size: 0x8, addend: 0x0, symName: _jpegxl_load, symObjAddr: 0x6D8, symBinAddr: 0x10000749C, symSize: 0x1520 }
+  - { offsetInCU: 0x5102, offset: 0x5102, size: 0x8, addend: 0x0, symName: _jpegxl_export, symObjAddr: 0x1BF8, symBinAddr: 0x1000089BC, symSize: 0x1694 }
+...

@@ -1,0 +1,47 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/tile-small/tile-small'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _tile_get_type, symObjAddr: 0x0, symBinAddr: 0x100005618, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _tile_get_type, symObjAddr: 0x0, symBinAddr: 0x100005618, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _tile_get_type.static_g_define_type_id, symObjAddr: 0x10D18, symBinAddr: 0x10000C5D0, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _tile_parent_class, symObjAddr: 0x10D20, symBinAddr: 0x10000C5D8, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Tile_private_offset, symObjAddr: 0x10D28, symBinAddr: 0x10000C5E0, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _has_alpha, symObjAddr: 0x10D2C, symBinAddr: 0x10000C5E4, symSize: 0x0 }
+  - { offsetInCU: 0x163, offset: 0x163, size: 0x8, addend: 0x0, symName: _sel_x1, symObjAddr: 0x10D30, symBinAddr: 0x10000C5E8, symSize: 0x0 }
+  - { offsetInCU: 0x178, offset: 0x178, size: 0x8, addend: 0x0, symName: _sel_y1, symObjAddr: 0x10D34, symBinAddr: 0x10000C5EC, symSize: 0x0 }
+  - { offsetInCU: 0x18D, offset: 0x18D, size: 0x8, addend: 0x0, symName: _sel_width, symObjAddr: 0x10D38, symBinAddr: 0x10000C5F0, symSize: 0x0 }
+  - { offsetInCU: 0x1A2, offset: 0x1A2, size: 0x8, addend: 0x0, symName: _sel_height, symObjAddr: 0x10D3C, symBinAddr: 0x10000C5F4, symSize: 0x0 }
+  - { offsetInCU: 0x1B7, offset: 0x1B7, size: 0x8, addend: 0x0, symName: _preview_width, symObjAddr: 0x10D40, symBinAddr: 0x10000C5F8, symSize: 0x0 }
+  - { offsetInCU: 0x1CC, offset: 0x1CC, size: 0x8, addend: 0x0, symName: _preview_height, symObjAddr: 0x10D44, symBinAddr: 0x10000C5FC, symSize: 0x0 }
+  - { offsetInCU: 0x1E1, offset: 0x1E1, size: 0x8, addend: 0x0, symName: _tint, symObjAddr: 0x1EF8, symBinAddr: 0x10000C3B8, symSize: 0x0 }
+  - { offsetInCU: 0x35D, offset: 0x35D, size: 0x8, addend: 0x0, symName: _tileactions, symObjAddr: 0x10D64, symBinAddr: 0x10000C61C, symSize: 0x0 }
+  - { offsetInCU: 0x384, offset: 0x384, size: 0x8, addend: 0x0, symName: _do_horz, symObjAddr: 0x10D48, symBinAddr: 0x10000C600, symSize: 0x0 }
+  - { offsetInCU: 0x399, offset: 0x399, size: 0x8, addend: 0x0, symName: _res_call, symObjAddr: 0x10D50, symBinAddr: 0x10000C608, symSize: 0x0 }
+  - { offsetInCU: 0x3D6, offset: 0x3D6, size: 0x8, addend: 0x0, symName: _do_vert, symObjAddr: 0x10D60, symBinAddr: 0x10000C618, symSize: 0x0 }
+  - { offsetInCU: 0x3EB, offset: 0x3EB, size: 0x8, addend: 0x0, symName: _exp_call, symObjAddr: 0x1EC0, symBinAddr: 0x10000C380, symSize: 0x0 }
+  - { offsetInCU: 0x4D0, offset: 0x4D0, size: 0x8, addend: 0x0, symName: _opacity, symObjAddr: 0x1EF0, symBinAddr: 0x10000C3B0, symSize: 0x0 }
+  - { offsetInCU: 0x4E5, offset: 0x4E5, size: 0x8, addend: 0x0, symName: _itvals, symObjAddr: 0x1EF4, symBinAddr: 0x10000C3B4, symSize: 0x0 }
+  - { offsetInCU: 0x16D6, offset: 0x16D6, size: 0x8, addend: 0x0, symName: _tile_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005664, symSize: 0x50 }
+  - { offsetInCU: 0x1792, offset: 0x1792, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000056B4, symSize: 0x2C }
+  - { offsetInCU: 0x181E, offset: 0x181E, size: 0x8, addend: 0x0, symName: _tile_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000056E0, symSize: 0x68 }
+  - { offsetInCU: 0x18B9, offset: 0x18B9, size: 0x8, addend: 0x0, symName: _tile_init, symObjAddr: 0x130, symBinAddr: 0x100005748, symSize: 0x4 }
+  - { offsetInCU: 0x1933, offset: 0x1933, size: 0x8, addend: 0x0, symName: _tile_query_procedures, symObjAddr: 0x134, symBinAddr: 0x10000574C, symSize: 0x24 }
+  - { offsetInCU: 0x19BE, offset: 0x19BE, size: 0x8, addend: 0x0, symName: _tile_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100005770, symSize: 0x128 }
+  - { offsetInCU: 0x1D1B, offset: 0x1D1B, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x280, symBinAddr: 0x100005898, symSize: 0x30 }
+  - { offsetInCU: 0x2221, offset: 0x2221, size: 0x8, addend: 0x0, symName: _tile_run, symObjAddr: 0x2B0, symBinAddr: 0x1000058C8, symSize: 0xFF0 }
+  - { offsetInCU: 0x3D9B, offset: 0x3D9B, size: 0x8, addend: 0x0, symName: _dialog_update_preview, symObjAddr: 0x16F0, symBinAddr: 0x100006D08, symSize: 0x25C }
+  - { offsetInCU: 0x4129, offset: 0x4129, size: 0x8, addend: 0x0, symName: _tileit_preview_draw, symObjAddr: 0x12A0, symBinAddr: 0x1000068B8, symSize: 0x100 }
+  - { offsetInCU: 0x42AD, offset: 0x42AD, size: 0x8, addend: 0x0, symName: _tileit_preview_events, symObjAddr: 0x13A0, symBinAddr: 0x1000069B8, symSize: 0xA4 }
+  - { offsetInCU: 0x434D, offset: 0x434D, size: 0x8, addend: 0x0, symName: _exp_need_update, symObjAddr: 0x194C, symBinAddr: 0x100006F64, symSize: 0x124 }
+  - { offsetInCU: 0x4457, offset: 0x4457, size: 0x8, addend: 0x0, symName: _tileit_hvtoggle_update, symObjAddr: 0x1444, symBinAddr: 0x100006A5C, symSize: 0x74 }
+  - { offsetInCU: 0x44E3, offset: 0x44E3, size: 0x8, addend: 0x0, symName: _all_update, symObjAddr: 0x1A70, symBinAddr: 0x100007088, symSize: 0x64 }
+  - { offsetInCU: 0x451A, offset: 0x451A, size: 0x8, addend: 0x0, symName: _alt_update, symObjAddr: 0x1AD4, symBinAddr: 0x1000070EC, symSize: 0x6C }
+  - { offsetInCU: 0x4551, offset: 0x4551, size: 0x8, addend: 0x0, symName: _tileit_reset, symObjAddr: 0x14B8, symBinAddr: 0x100006AD0, symSize: 0xFC }
+  - { offsetInCU: 0x46F1, offset: 0x46F1, size: 0x8, addend: 0x0, symName: _tileit_radio_update, symObjAddr: 0x15B4, symBinAddr: 0x100006BCC, symSize: 0xAC }
+  - { offsetInCU: 0x47B5, offset: 0x47B5, size: 0x8, addend: 0x0, symName: _explicit_update, symObjAddr: 0x1B40, symBinAddr: 0x100007158, symSize: 0xC8 }
+  - { offsetInCU: 0x4816, offset: 0x4816, size: 0x8, addend: 0x0, symName: _tileit_exp_update_f, symObjAddr: 0x1660, symBinAddr: 0x100006C78, symSize: 0x18 }
+  - { offsetInCU: 0x4865, offset: 0x4865, size: 0x8, addend: 0x0, symName: _tileit_exp_update, symObjAddr: 0x1678, symBinAddr: 0x100006C90, symSize: 0x18 }
+  - { offsetInCU: 0x48B4, offset: 0x48B4, size: 0x8, addend: 0x0, symName: _tileit_scale_update, symObjAddr: 0x1690, symBinAddr: 0x100006CA8, symSize: 0x30 }
+  - { offsetInCU: 0x491E, offset: 0x491E, size: 0x8, addend: 0x0, symName: _tileit_config_update, symObjAddr: 0x16C0, symBinAddr: 0x100006CD8, symSize: 0x30 }
+...

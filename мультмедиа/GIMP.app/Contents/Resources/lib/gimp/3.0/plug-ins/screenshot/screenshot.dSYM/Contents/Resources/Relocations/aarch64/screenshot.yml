@@ -1,0 +1,38 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/screenshot/screenshot'
+relocations:
+  - { offsetInCU: 0x40, offset: 0x40, size: 0x8, addend: 0x0, symName: _static_resource, symObjAddr: 0x40, symBinAddr: 0x10000C350, symSize: 0x0 }
+  - { offsetInCU: 0xF9, offset: 0xF9, size: 0x8, addend: 0x0, symName: _screenshot_icons_resource_data, symObjAddr: 0x68, symBinAddr: 0x100007070, symSize: 0x0 }
+  - { offsetInCU: 0x156, offset: 0x156, size: 0x8, addend: 0x0, symName: _screenshot_icons_get_resource, symObjAddr: 0x0, symBinAddr: 0x1000053A0, symSize: 0xC }
+  - { offsetInCU: 0x18E, offset: 0x18E, size: 0x8, addend: 0x0, symName: _screenshot_iconsresource_constructor, symObjAddr: 0xC, symBinAddr: 0x1000053AC, symSize: 0xC }
+  - { offsetInCU: 0x1BF, offset: 0x1BF, size: 0x8, addend: 0x0, symName: _screenshot_iconsresource_destructor, symObjAddr: 0x18, symBinAddr: 0x1000053B8, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x217, size: 0x8, addend: 0x0, symName: _screenshot_freedesktop_available, symObjAddr: 0x0, symBinAddr: 0x1000053DC, symSize: 0xA8 }
+  - { offsetInCU: 0x4E, offset: 0x23E, size: 0x8, addend: 0x0, symName: _proxy, symObjAddr: 0x39E0, symBinAddr: 0x10000C378, symSize: 0x0 }
+  - { offsetInCU: 0x2AE, offset: 0x49E, size: 0x8, addend: 0x0, symName: _screenshot_freedesktop_available, symObjAddr: 0x0, symBinAddr: 0x1000053DC, symSize: 0xA8 }
+  - { offsetInCU: 0x6E6, offset: 0x8D6, size: 0x8, addend: 0x0, symName: _screenshot_freedesktop_get_capabilities, symObjAddr: 0xA8, symBinAddr: 0x100005484, symSize: 0x8 }
+  - { offsetInCU: 0x6FF, offset: 0x8EF, size: 0x8, addend: 0x0, symName: _screenshot_freedesktop_shoot, symObjAddr: 0xB0, symBinAddr: 0x10000548C, symSize: 0x1B0 }
+  - { offsetInCU: 0xD85, offset: 0xF75, size: 0x8, addend: 0x0, symName: _screenshot_freedesktop_dbus_signal, symObjAddr: 0x260, symBinAddr: 0x10000563C, symSize: 0xCC }
+  - { offsetInCU: 0x27, offset: 0x11D5, size: 0x8, addend: 0x0, symName: _screenshot_osx_available, symObjAddr: 0x0, symBinAddr: 0x100005708, symSize: 0x8 }
+  - { offsetInCU: 0x13E, offset: 0x12EC, size: 0x8, addend: 0x0, symName: _screenshot_osx_available, symObjAddr: 0x0, symBinAddr: 0x100005708, symSize: 0x8 }
+  - { offsetInCU: 0x157, offset: 0x1305, size: 0x8, addend: 0x0, symName: _screenshot_osx_get_capabilities, symObjAddr: 0x8, symBinAddr: 0x100005710, symSize: 0x8 }
+  - { offsetInCU: 0x170, offset: 0x131E, size: 0x8, addend: 0x0, symName: _screenshot_osx_shoot, symObjAddr: 0x10, symBinAddr: 0x100005718, symSize: 0x1B0 }
+  - { offsetInCU: 0x27, offset: 0x17F9, size: 0x8, addend: 0x0, symName: _screenshot_get_type, symObjAddr: 0x0, symBinAddr: 0x1000058C8, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x1806, size: 0x8, addend: 0x0, symName: _screenshot_get_type, symObjAddr: 0x0, symBinAddr: 0x1000058C8, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x182B, size: 0x8, addend: 0x0, symName: _screenshot_get_type.static_g_define_type_id, symObjAddr: 0x8678, symBinAddr: 0x10000C380, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x18CD, size: 0x8, addend: 0x0, symName: _screenshot_parent_class, symObjAddr: 0x8680, symBinAddr: 0x10000C388, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x18EE, size: 0x8, addend: 0x0, symName: _Screenshot_private_offset, symObjAddr: 0x8688, symBinAddr: 0x10000C390, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x1915, size: 0x8, addend: 0x0, symName: _backend, symObjAddr: 0x868C, symBinAddr: 0x10000C394, symSize: 0x0 }
+  - { offsetInCU: 0x191, offset: 0x1963, size: 0x8, addend: 0x0, symName: _capabilities, symObjAddr: 0x8690, symBinAddr: 0x10000C398, symSize: 0x0 }
+  - { offsetInCU: 0xB70, offset: 0x2342, size: 0x8, addend: 0x0, symName: _screenshot_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005914, symSize: 0x50 }
+  - { offsetInCU: 0xC2C, offset: 0x23FE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005964, symSize: 0x2C }
+  - { offsetInCU: 0xC99, offset: 0x246B, size: 0x8, addend: 0x0, symName: _screenshot_wait_delay, symObjAddr: 0xC8, symBinAddr: 0x100005990, symSize: 0x34 }
+  - { offsetInCU: 0xD26, offset: 0x24F8, size: 0x8, addend: 0x0, symName: _shoot_delay_timeout, symObjAddr: 0xFC, symBinAddr: 0x1000059C4, symSize: 0x34 }
+  - { offsetInCU: 0xD94, offset: 0x2566, size: 0x8, addend: 0x0, symName: _screenshot_class_intern_init, symObjAddr: 0x130, symBinAddr: 0x1000059F8, symSize: 0x68 }
+  - { offsetInCU: 0xE2F, offset: 0x2601, size: 0x8, addend: 0x0, symName: _screenshot_init, symObjAddr: 0x198, symBinAddr: 0x100005A60, symSize: 0x4 }
+  - { offsetInCU: 0xE9E, offset: 0x2670, size: 0x8, addend: 0x0, symName: _screenshot_query_procedures, symObjAddr: 0x19C, symBinAddr: 0x100005A64, symSize: 0x24 }
+  - { offsetInCU: 0xF29, offset: 0x26FB, size: 0x8, addend: 0x0, symName: _screenshot_create_procedure, symObjAddr: 0x1C0, symBinAddr: 0x100005A88, symSize: 0x460 }
+  - { offsetInCU: 0x167A, offset: 0x2E4C, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x620, symBinAddr: 0x100005EE8, symSize: 0x30 }
+  - { offsetInCU: 0x181B, offset: 0x2FED, size: 0x8, addend: 0x0, symName: _screenshot_run, symObjAddr: 0x650, symBinAddr: 0x100005F18, symSize: 0x750 }
+  - { offsetInCU: 0x2562, offset: 0x3D34, size: 0x8, addend: 0x0, symName: _shoot_quit_timeout, symObjAddr: 0xDA0, symBinAddr: 0x100006668, symSize: 0x18 }
+...

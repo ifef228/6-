@@ -1,0 +1,29 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-psp/file-psp'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _psp_get_type, symObjAddr: 0x0, symBinAddr: 0x1000073E0, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _psp_get_type, symObjAddr: 0x0, symBinAddr: 0x1000073E0, symSize: 0x4C }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _psp_get_type.static_g_define_type_id, symObjAddr: 0x1AF78, symBinAddr: 0x100010368, symSize: 0x0 }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _psp_parent_class, symObjAddr: 0x1AF80, symBinAddr: 0x100010370, symSize: 0x0 }
+  - { offsetInCU: 0x123, offset: 0x123, size: 0x8, addend: 0x0, symName: _Psp_private_offset, symObjAddr: 0x1AF88, symBinAddr: 0x100010378, symSize: 0x0 }
+  - { offsetInCU: 0x14B, offset: 0x14B, size: 0x8, addend: 0x0, symName: _psp_ver_major, symObjAddr: 0x1AF8C, symBinAddr: 0x10001037C, symSize: 0x0 }
+  - { offsetInCU: 0x173, offset: 0x173, size: 0x8, addend: 0x0, symName: _psp_ver_minor, symObjAddr: 0x1AF8E, symBinAddr: 0x10001037E, symSize: 0x0 }
+  - { offsetInCU: 0x1A7, offset: 0x1A7, size: 0x8, addend: 0x0, symName: _block_name, symObjAddr: 0x329C, symBinAddr: 0x10000A67C, symSize: 0x5C }
+  - { offsetInCU: 0x1CE, offset: 0x1CE, size: 0x8, addend: 0x0, symName: _block_name.block_names, symObjAddr: 0x4198, symBinAddr: 0x10000C050, symSize: 0x0 }
+  - { offsetInCU: 0x1E4, offset: 0x1E4, size: 0x8, addend: 0x0, symName: _block_name.err_name, symObjAddr: 0x1AFA0, symBinAddr: 0x100010390, symSize: 0x0 }
+  - { offsetInCU: 0x11BF, offset: 0x11BF, size: 0x8, addend: 0x0, symName: _psp_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x10000742C, symSize: 0x50 }
+  - { offsetInCU: 0x127D, offset: 0x127D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x10000747C, symSize: 0x2C }
+  - { offsetInCU: 0x130F, offset: 0x130F, size: 0x8, addend: 0x0, symName: _psp_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000074A8, symSize: 0x68 }
+  - { offsetInCU: 0x13AD, offset: 0x13AD, size: 0x8, addend: 0x0, symName: _psp_init, symObjAddr: 0x130, symBinAddr: 0x100007510, symSize: 0x4 }
+  - { offsetInCU: 0x141F, offset: 0x141F, size: 0x8, addend: 0x0, symName: _psp_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100007514, symSize: 0x24 }
+  - { offsetInCU: 0x14BA, offset: 0x14BA, size: 0x8, addend: 0x0, symName: _psp_create_procedure, symObjAddr: 0x158, symBinAddr: 0x100007538, symSize: 0x2B0 }
+  - { offsetInCU: 0x1AB1, offset: 0x1AB1, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x408, symBinAddr: 0x1000077E8, symSize: 0x30 }
+  - { offsetInCU: 0x3076, offset: 0x3076, size: 0x8, addend: 0x0, symName: _psp_load, symObjAddr: 0x438, symBinAddr: 0x100007818, symSize: 0x2BE0 }
+  - { offsetInCU: 0x5F19, offset: 0x5F19, size: 0x8, addend: 0x0, symName: _psp_export, symObjAddr: 0x3018, symBinAddr: 0x10000A3F8, symSize: 0x150 }
+  - { offsetInCU: 0x6081, offset: 0x6081, size: 0x8, addend: 0x0, symName: _read_block_header, symObjAddr: 0x3168, symBinAddr: 0x10000A548, symSize: 0x134 }
+  - { offsetInCU: 0x6210, offset: 0x6210, size: 0x8, addend: 0x0, symName: _try_fseek, symObjAddr: 0x32F8, symBinAddr: 0x10000A6D8, symSize: 0xA0 }
+  - { offsetInCU: 0x6970, offset: 0x6970, size: 0x8, addend: 0x0, symName: _psp_export, symObjAddr: 0x3018, symBinAddr: 0x10000A3F8, symSize: 0x150 }
+  - { offsetInCU: 0x6D1C, offset: 0x6D1C, size: 0x8, addend: 0x0, symName: _psp_zalloc, symObjAddr: 0x3398, symBinAddr: 0x10000A778, symSize: 0x8 }
+  - { offsetInCU: 0x6D6C, offset: 0x6D6C, size: 0x8, addend: 0x0, symName: _psp_zfree, symObjAddr: 0x33A0, symBinAddr: 0x10000A780, symSize: 0x8 }
+...

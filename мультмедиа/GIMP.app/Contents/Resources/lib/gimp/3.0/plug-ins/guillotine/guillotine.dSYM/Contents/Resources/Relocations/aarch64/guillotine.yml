@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/guillotine/guillotine'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _guillotine_get_type, symObjAddr: 0x0, symBinAddr: 0x100002FF4, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _guillotine_get_type, symObjAddr: 0x0, symBinAddr: 0x100002FF4, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _guillotine_get_type.static_g_define_type_id, symObjAddr: 0x68A0, symBinAddr: 0x1000081F8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _guillotine_parent_class, symObjAddr: 0x68A8, symBinAddr: 0x100008200, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Guillotine_private_offset, symObjAddr: 0x68B0, symBinAddr: 0x100008208, symSize: 0x0 }
+  - { offsetInCU: 0x968, offset: 0x968, size: 0x8, addend: 0x0, symName: _guillotine_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100003040, symSize: 0x50 }
+  - { offsetInCU: 0xA24, offset: 0xA24, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100003090, symSize: 0x2C }
+  - { offsetInCU: 0xAB0, offset: 0xAB0, size: 0x8, addend: 0x0, symName: _guillotine_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x1000030BC, symSize: 0x68 }
+  - { offsetInCU: 0xB4B, offset: 0xB4B, size: 0x8, addend: 0x0, symName: _guillotine_init, symObjAddr: 0x130, symBinAddr: 0x100003124, symSize: 0x4 }
+  - { offsetInCU: 0xBBB, offset: 0xBBB, size: 0x8, addend: 0x0, symName: _guillotine_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100003128, symSize: 0x24 }
+  - { offsetInCU: 0xC46, offset: 0xC46, size: 0x8, addend: 0x0, symName: _guillotine_create_procedure, symObjAddr: 0x158, symBinAddr: 0x10000314C, symSize: 0x10C }
+  - { offsetInCU: 0xF80, offset: 0xF80, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x264, symBinAddr: 0x100003258, symSize: 0x30 }
+  - { offsetInCU: 0x1265, offset: 0x1265, size: 0x8, addend: 0x0, symName: _guillotine_run, symObjAddr: 0x294, symBinAddr: 0x100003288, symSize: 0x560 }
+  - { offsetInCU: 0x1A1F, offset: 0x1A1F, size: 0x8, addend: 0x0, symName: _guide_sort_func, symObjAddr: 0x7F4, symBinAddr: 0x1000037E8, symSize: 0x8 }
+  - { offsetInCU: 0x1DFA, offset: 0x1DFA, size: 0x8, addend: 0x0, symName: _guide_sort_func, symObjAddr: 0x7F4, symBinAddr: 0x1000037E8, symSize: 0x8 }
+...

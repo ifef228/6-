@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-cel/file-cel'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _cel_get_type, symObjAddr: 0x0, symBinAddr: 0x100005EF0, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _cel_get_type, symObjAddr: 0x0, symBinAddr: 0x100005EF0, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _cel_get_type.static_g_define_type_id, symObjAddr: 0xCA58, symBinAddr: 0x10000C290, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _cel_parent_class, symObjAddr: 0xCA60, symBinAddr: 0x10000C298, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Cel_private_offset, symObjAddr: 0xCA68, symBinAddr: 0x10000C2A0, symSize: 0x0 }
+  - { offsetInCU: 0xF71, offset: 0xF71, size: 0x8, addend: 0x0, symName: _cel_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005F3C, symSize: 0x50 }
+  - { offsetInCU: 0x102D, offset: 0x102D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100005F8C, symSize: 0x2C }
+  - { offsetInCU: 0x10B9, offset: 0x10B9, size: 0x8, addend: 0x0, symName: _cel_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005FB8, symSize: 0x68 }
+  - { offsetInCU: 0x1154, offset: 0x1154, size: 0x8, addend: 0x0, symName: _cel_init, symObjAddr: 0x130, symBinAddr: 0x100006020, symSize: 0x4 }
+  - { offsetInCU: 0x11C4, offset: 0x11C4, size: 0x8, addend: 0x0, symName: _cel_query_procedures, symObjAddr: 0x134, symBinAddr: 0x100006024, symSize: 0x48 }
+  - { offsetInCU: 0x1296, offset: 0x1296, size: 0x8, addend: 0x0, symName: _cel_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x10000606C, symSize: 0x224 }
+  - { offsetInCU: 0x17BA, offset: 0x17BA, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x3A0, symBinAddr: 0x100006290, symSize: 0x30 }
+  - { offsetInCU: 0x1CDE, offset: 0x1CDE, size: 0x8, addend: 0x0, symName: _cel_load, symObjAddr: 0x3D0, symBinAddr: 0x1000062C0, symSize: 0x8C8 }
+  - { offsetInCU: 0x2A4E, offset: 0x2A4E, size: 0x8, addend: 0x0, symName: _load_palette, symObjAddr: 0x1190, symBinAddr: 0x100007080, symSize: 0x31C }
+  - { offsetInCU: 0x2F65, offset: 0x2F65, size: 0x8, addend: 0x0, symName: _cel_export, symObjAddr: 0xC98, symBinAddr: 0x100006B88, symSize: 0x4F8 }
+...

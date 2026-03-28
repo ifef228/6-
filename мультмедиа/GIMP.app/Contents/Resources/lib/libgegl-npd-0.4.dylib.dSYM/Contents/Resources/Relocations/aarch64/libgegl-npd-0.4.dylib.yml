@@ -1,0 +1,58 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/libgegl-npd-0.4.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _npd_deform_model, symObjAddr: 0x0, symBinAddr: 0x4EE4, symSize: 0x354 }
+  - { offsetInCU: 0x556, offset: 0x556, size: 0x8, addend: 0x0, symName: _npd_deform_model, symObjAddr: 0x0, symBinAddr: 0x4EE4, symSize: 0x354 }
+  - { offsetInCU: 0x27, offset: 0x830, size: 0x8, addend: 0x0, symName: _npd_process_pixel_bilinear, symObjAddr: 0x0, symBinAddr: 0x5238, symSize: 0x284 }
+  - { offsetInCU: 0x41, offset: 0x84A, size: 0x8, addend: 0x0, symName: _npd_process_pixel, symObjAddr: 0x62B0, symBinAddr: 0xC140, symSize: 0x0 }
+  - { offsetInCU: 0xCF, offset: 0x8D8, size: 0x8, addend: 0x0, symName: _npd_draw_line, symObjAddr: 0x62A8, symBinAddr: 0xC138, symSize: 0x0 }
+  - { offsetInCU: 0x11A, offset: 0x923, size: 0x8, addend: 0x0, symName: _npd_get_pixel_color, symObjAddr: 0x6298, symBinAddr: 0xC128, symSize: 0x0 }
+  - { offsetInCU: 0x1E9, offset: 0x9F2, size: 0x8, addend: 0x0, symName: _npd_set_pixel_color, symObjAddr: 0x62A0, symBinAddr: 0xC130, symSize: 0x0 }
+  - { offsetInCU: 0x4B3, offset: 0xCBC, size: 0x8, addend: 0x0, symName: _npd_process_pixel_bilinear, symObjAddr: 0x0, symBinAddr: 0x5238, symSize: 0x284 }
+  - { offsetInCU: 0x90E, offset: 0x1117, size: 0x8, addend: 0x0, symName: _npd_draw_model_into_image, symObjAddr: 0x284, symBinAddr: 0x54BC, symSize: 0x134 }
+  - { offsetInCU: 0xA80, offset: 0x1289, size: 0x8, addend: 0x0, symName: _npd_texture_fill_triangle, symObjAddr: 0xB78, symBinAddr: 0x5DB0, symSize: 0x200 }
+  - { offsetInCU: 0xCC1, offset: 0x14CA, size: 0x8, addend: 0x0, symName: _npd_is_color_transparent, symObjAddr: 0x3B8, symBinAddr: 0x55F0, symSize: 0x28 }
+  - { offsetInCU: 0x1137, offset: 0x1940, size: 0x8, addend: 0x0, symName: _npd_create_model_from_image, symObjAddr: 0x3E0, symBinAddr: 0x5618, symSize: 0x6D0 }
+  - { offsetInCU: 0x190C, offset: 0x2115, size: 0x8, addend: 0x0, symName: _npd_draw_mesh, symObjAddr: 0xAB0, symBinAddr: 0x5CE8, symSize: 0xC8 }
+  - { offsetInCU: 0x19E5, offset: 0x21EE, size: 0x8, addend: 0x0, symName: _npd_draw_texture_line, symObjAddr: 0xD78, symBinAddr: 0x5FB0, symSize: 0xA0 }
+  - { offsetInCU: 0x27, offset: 0x2321, size: 0x8, addend: 0x0, symName: _npd_find_edges, symObjAddr: 0x0, symBinAddr: 0x6050, symSize: 0x1D8 }
+  - { offsetInCU: 0xAD, offset: 0x23A7, size: 0x8, addend: 0x0, symName: _npd_find_edges, symObjAddr: 0x0, symBinAddr: 0x6050, symSize: 0x1D8 }
+  - { offsetInCU: 0x283, offset: 0x257D, size: 0x8, addend: 0x0, symName: _npd_is_edge_empty, symObjAddr: 0x1D8, symBinAddr: 0x6228, symSize: 0xA8 }
+  - { offsetInCU: 0x411, offset: 0x270B, size: 0x8, addend: 0x0, symName: _npd_cut_edges, symObjAddr: 0x280, symBinAddr: 0x62D0, symSize: 0x78C }
+  - { offsetInCU: 0x27, offset: 0x2DE7, size: 0x8, addend: 0x0, symName: _npd_init_model, symObjAddr: 0x0, symBinAddr: 0x6A5C, symSize: 0x60 }
+  - { offsetInCU: 0x270, offset: 0x3030, size: 0x8, addend: 0x0, symName: _npd_init_model, symObjAddr: 0x0, symBinAddr: 0x6A5C, symSize: 0x60 }
+  - { offsetInCU: 0x3BB, offset: 0x317B, size: 0x8, addend: 0x0, symName: _npd_destroy_model, symObjAddr: 0x60, symBinAddr: 0x6ABC, symSize: 0xDC }
+  - { offsetInCU: 0x596, offset: 0x3356, size: 0x8, addend: 0x0, symName: _npd_add_control_point, symObjAddr: 0x13C, symBinAddr: 0x6B98, symSize: 0x128 }
+  - { offsetInCU: 0x72F, offset: 0x34EF, size: 0x8, addend: 0x0, symName: _npd_get_control_point_with_radius_at, symObjAddr: 0x5CC, symBinAddr: 0x7028, symSize: 0xA0 }
+  - { offsetInCU: 0x81C, offset: 0x35DC, size: 0x8, addend: 0x0, symName: _npd_compute_MLS_weights, symObjAddr: 0x278, symBinAddr: 0x6CD4, symSize: 0x174 }
+  - { offsetInCU: 0x940, offset: 0x3700, size: 0x8, addend: 0x0, symName: _npd_get_control_point_at, symObjAddr: 0x264, symBinAddr: 0x6CC0, symSize: 0x8 }
+  - { offsetInCU: 0x97E, offset: 0x373E, size: 0x8, addend: 0x0, symName: _npd_set_point_coordinates, symObjAddr: 0x26C, symBinAddr: 0x6CC8, symSize: 0xC }
+  - { offsetInCU: 0x9E0, offset: 0x37A0, size: 0x8, addend: 0x0, symName: _npd_reset_weights, symObjAddr: 0x78C, symBinAddr: 0x71E8, symSize: 0x58 }
+  - { offsetInCU: 0xA69, offset: 0x3829, size: 0x8, addend: 0x0, symName: _npd_remove_control_point, symObjAddr: 0x3EC, symBinAddr: 0x6E48, symSize: 0x9C }
+  - { offsetInCU: 0xB37, offset: 0x38F7, size: 0x8, addend: 0x0, symName: _npd_set_control_point_weight, symObjAddr: 0x488, symBinAddr: 0x6EE4, symSize: 0x2C }
+  - { offsetInCU: 0xB81, offset: 0x3941, size: 0x8, addend: 0x0, symName: _npd_remove_control_points, symObjAddr: 0x4B4, symBinAddr: 0x6F10, symSize: 0x100 }
+  - { offsetInCU: 0xCCE, offset: 0x3A8E, size: 0x8, addend: 0x0, symName: _npd_int_sort_function_descending, symObjAddr: 0x5B4, symBinAddr: 0x7010, symSize: 0x8 }
+  - { offsetInCU: 0xD04, offset: 0x3AC4, size: 0x8, addend: 0x0, symName: _npd_remove_all_control_points, symObjAddr: 0x5BC, symBinAddr: 0x7018, symSize: 0x10 }
+  - { offsetInCU: 0xDA2, offset: 0x3B62, size: 0x8, addend: 0x0, symName: _npd_create_square, symObjAddr: 0x66C, symBinAddr: 0x70C8, symSize: 0xBC }
+  - { offsetInCU: 0xEAD, offset: 0x3C6D, size: 0x8, addend: 0x0, symName: _npd_set_deformation_type, symObjAddr: 0x728, symBinAddr: 0x7184, symSize: 0x64 }
+  - { offsetInCU: 0x27, offset: 0x3D0C, size: 0x8, addend: 0x0, symName: _npd_print_model, symObjAddr: 0x0, symBinAddr: 0x7240, symSize: 0x13C }
+  - { offsetInCU: 0x1C6, offset: 0x3EAB, size: 0x8, addend: 0x0, symName: _npd_print_model, symObjAddr: 0x0, symBinAddr: 0x7240, symSize: 0x13C }
+  - { offsetInCU: 0x2F8, offset: 0x3FDD, size: 0x8, addend: 0x0, symName: _npd_print_hidden_model, symObjAddr: 0x13C, symBinAddr: 0x737C, symSize: 0x118 }
+  - { offsetInCU: 0x3BF, offset: 0x40A4, size: 0x8, addend: 0x0, symName: _npd_print_bone, symObjAddr: 0x2B4, symBinAddr: 0x74F4, symSize: 0xC0 }
+  - { offsetInCU: 0x452, offset: 0x4137, size: 0x8, addend: 0x0, symName: _npd_print_overlapping_points, symObjAddr: 0x374, symBinAddr: 0x75B4, symSize: 0xFC }
+  - { offsetInCU: 0x523, offset: 0x4208, size: 0x8, addend: 0x0, symName: _npd_print_point, symObjAddr: 0x254, symBinAddr: 0x7494, symSize: 0x60 }
+  - { offsetInCU: 0x27, offset: 0x43CA, size: 0x8, addend: 0x0, symName: _npd_compute_affinity, symObjAddr: 0x0, symBinAddr: 0x76B0, symSize: 0xB4 }
+  - { offsetInCU: 0x79, offset: 0x441C, size: 0x8, addend: 0x0, symName: _npd_compute_affinity, symObjAddr: 0x0, symBinAddr: 0x76B0, symSize: 0xB4 }
+  - { offsetInCU: 0x1C4, offset: 0x4567, size: 0x8, addend: 0x0, symName: _npd_apply_transformation, symObjAddr: 0xB4, symBinAddr: 0x7764, symSize: 0x50 }
+  - { offsetInCU: 0x262, offset: 0x4605, size: 0x8, addend: 0x0, symName: _npd_gegl_set_pixel_color, symObjAddr: 0x104, symBinAddr: 0x77B4, symSize: 0x68 }
+  - { offsetInCU: 0x2C5, offset: 0x4668, size: 0x8, addend: 0x0, symName: _npd_gegl_get_pixel_color, symObjAddr: 0x16C, symBinAddr: 0x781C, symSize: 0x70 }
+  - { offsetInCU: 0x328, offset: 0x46CB, size: 0x8, addend: 0x0, symName: _npd_gegl_open_buffer, symObjAddr: 0x1DC, symBinAddr: 0x788C, symSize: 0x34 }
+  - { offsetInCU: 0x428, offset: 0x47CB, size: 0x8, addend: 0x0, symName: _npd_gegl_close_buffer, symObjAddr: 0x210, symBinAddr: 0x78C0, symSize: 0xC }
+  - { offsetInCU: 0x46D, offset: 0x4810, size: 0x8, addend: 0x0, symName: _npd_gegl_init_image, symObjAddr: 0x21C, symBinAddr: 0x78CC, symSize: 0xA0 }
+  - { offsetInCU: 0x27, offset: 0x4B7F, size: 0x8, addend: 0x0, symName: _npd_equal_floats, symObjAddr: 0x0, symBinAddr: 0x796C, symSize: 0x18 }
+  - { offsetInCU: 0x91, offset: 0x4BE9, size: 0x8, addend: 0x0, symName: _npd_equal_floats, symObjAddr: 0x0, symBinAddr: 0x796C, symSize: 0x18 }
+  - { offsetInCU: 0xCC, offset: 0x4C24, size: 0x8, addend: 0x0, symName: _npd_equal_floats, symObjAddr: 0x0, symBinAddr: 0x796C, symSize: 0x18 }
+  - { offsetInCU: 0xFA, offset: 0x4C52, size: 0x8, addend: 0x0, symName: _npd_equal_floats_epsilon, symObjAddr: 0x18, symBinAddr: 0x7984, symSize: 0x10 }
+  - { offsetInCU: 0x127, offset: 0x4C7F, size: 0x8, addend: 0x0, symName: _npd_SED, symObjAddr: 0x28, symBinAddr: 0x7994, symSize: 0x1C }
+...

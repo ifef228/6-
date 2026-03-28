@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-heif/file-heif'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _gimp_heif_get_type, symObjAddr: 0x0, symBinAddr: 0x100006378, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _gimp_heif_get_type, symObjAddr: 0x0, symBinAddr: 0x100006378, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _gimp_heif_get_type.static_g_define_type_id, symObjAddr: 0x1F010, symBinAddr: 0x100010700, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _gimp_heif_parent_class, symObjAddr: 0x1F018, symBinAddr: 0x100010708, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _GimpHeif_private_offset, symObjAddr: 0x1F020, symBinAddr: 0x100010710, symSize: 0x0 }
+  - { offsetInCU: 0x1BAB, offset: 0x1BAB, size: 0x8, addend: 0x0, symName: _gimp_heif_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x1000063C4, symSize: 0x50 }
+  - { offsetInCU: 0x1C67, offset: 0x1C67, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100006414, symSize: 0x2C }
+  - { offsetInCU: 0x1CF3, offset: 0x1CF3, size: 0x8, addend: 0x0, symName: _gimp_heif_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100006440, symSize: 0x64 }
+  - { offsetInCU: 0x1D8E, offset: 0x1D8E, size: 0x8, addend: 0x0, symName: _gimp_heif_init, symObjAddr: 0x12C, symBinAddr: 0x1000064A4, symSize: 0x4 }
+  - { offsetInCU: 0x1DF3, offset: 0x1DF3, size: 0x8, addend: 0x0, symName: _heif_init_procedures, symObjAddr: 0x130, symBinAddr: 0x1000064A8, symSize: 0x148 }
+  - { offsetInCU: 0x2148, offset: 0x2148, size: 0x8, addend: 0x0, symName: _heif_create_procedure, symObjAddr: 0x278, symBinAddr: 0x1000065F0, symSize: 0xB4C }
+  - { offsetInCU: 0x312A, offset: 0x312A, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0xDC4, symBinAddr: 0x10000713C, symSize: 0x30 }
+  - { offsetInCU: 0x319F, offset: 0x319F, size: 0x8, addend: 0x0, symName: _heif_load, symObjAddr: 0xDF4, symBinAddr: 0x10000716C, symSize: 0xE4 }
+  - { offsetInCU: 0x3366, offset: 0x3366, size: 0x8, addend: 0x0, symName: _load_image, symObjAddr: 0x1274, symBinAddr: 0x1000075EC, symSize: 0xBF0 }
+  - { offsetInCU: 0x40BE, offset: 0x40BE, size: 0x8, addend: 0x0, symName: _heif_export, symObjAddr: 0xED8, symBinAddr: 0x100007250, symSize: 0x134 }
+  - { offsetInCU: 0x42D9, offset: 0x42D9, size: 0x8, addend: 0x0, symName: _save_dialog, symObjAddr: 0x2938, symBinAddr: 0x100008CB0, symSize: 0x18C }
+  - { offsetInCU: 0x451D, offset: 0x451D, size: 0x8, addend: 0x0, symName: _export_image, symObjAddr: 0x2AC4, symBinAddr: 0x100008E3C, symSize: 0xCC4 }
+  - { offsetInCU: 0x52AF, offset: 0x52AF, size: 0x8, addend: 0x0, symName: _heif_av1_export, symObjAddr: 0x100C, symBinAddr: 0x100007384, symSize: 0x134 }
+  - { offsetInCU: 0x54CA, offset: 0x54CA, size: 0x8, addend: 0x0, symName: _heif_jpeg2000_export, symObjAddr: 0x1140, symBinAddr: 0x1000074B8, symSize: 0x134 }
+  - { offsetInCU: 0x59E1, offset: 0x59E1, size: 0x8, addend: 0x0, symName: _load_dialog, symObjAddr: 0x1E64, symBinAddr: 0x1000081DC, symSize: 0x484 }
+  - { offsetInCU: 0x6758, offset: 0x6758, size: 0x8, addend: 0x0, symName: _nclx_to_gimp_profile, symObjAddr: 0x22E8, symBinAddr: 0x100008660, symSize: 0x344 }
+  - { offsetInCU: 0x6A00, offset: 0x6A00, size: 0x8, addend: 0x0, symName: _load_thumbnails, symObjAddr: 0x262C, symBinAddr: 0x1000089A4, symSize: 0x298 }
+  - { offsetInCU: 0x73C1, offset: 0x73C1, size: 0x8, addend: 0x0, symName: _heifplugin_color_profile_set_tag, symObjAddr: 0x28D0, symBinAddr: 0x100008C48, symSize: 0x68 }
+  - { offsetInCU: 0x7584, offset: 0x7584, size: 0x8, addend: 0x0, symName: _load_dialog_item_activated, symObjAddr: 0x28C4, symBinAddr: 0x100008C3C, symSize: 0xC }
+  - { offsetInCU: 0x7DA8, offset: 0x7DA8, size: 0x8, addend: 0x0, symName: _write_callback, symObjAddr: 0x3788, symBinAddr: 0x100009B00, symSize: 0x50 }
+...

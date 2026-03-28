@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/babl-0.1/HCY.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x324C, symSize: 0x2C0 }
+  - { offsetInCU: 0x75, offset: 0x75, size: 0x8, addend: 0x0, symName: _init, symObjAddr: 0x0, symBinAddr: 0x324C, symSize: 0x2C0 }
+  - { offsetInCU: 0x480, offset: 0x480, size: 0x8, addend: 0x0, symName: _rgba_to_hcya, symObjAddr: 0x2C0, symBinAddr: 0x350C, symSize: 0xAC }
+  - { offsetInCU: 0x5A8, offset: 0x5A8, size: 0x8, addend: 0x0, symName: _rgba_to_hcy_step, symObjAddr: 0x57C, symBinAddr: 0x37C8, symSize: 0x284 }
+  - { offsetInCU: 0x6CB, offset: 0x6CB, size: 0x8, addend: 0x0, symName: _rgba_to_hcy, symObjAddr: 0x36C, symBinAddr: 0x35B8, symSize: 0xA8 }
+  - { offsetInCU: 0x7BA, offset: 0x7BA, size: 0x8, addend: 0x0, symName: _hcya_to_rgba, symObjAddr: 0x414, symBinAddr: 0x3660, symSize: 0xB8 }
+  - { offsetInCU: 0x8C7, offset: 0x8C7, size: 0x8, addend: 0x0, symName: _hcy_to_rgba_step, symObjAddr: 0x800, symBinAddr: 0x3A4C, symSize: 0x354 }
+  - { offsetInCU: 0xA02, offset: 0xA02, size: 0x8, addend: 0x0, symName: _hcy_to_rgba, symObjAddr: 0x4CC, symBinAddr: 0x3718, symSize: 0xB0 }
+...

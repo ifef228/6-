@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/file-pdf-load/file-pdf-load'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _pdf_get_type, symObjAddr: 0x0, symBinAddr: 0x100005638, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0x34, size: 0x8, addend: 0x0, symName: _pdf_get_type, symObjAddr: 0x0, symBinAddr: 0x100005638, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _pdf_get_type.static_g_define_type_id, symObjAddr: 0xF590, symBinAddr: 0x10000C448, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _pdf_parent_class, symObjAddr: 0xF598, symBinAddr: 0x10000C450, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _Pdf_private_offset, symObjAddr: 0xF5A0, symBinAddr: 0x10000C458, symSize: 0x0 }
+  - { offsetInCU: 0xF26, offset: 0xF26, size: 0x8, addend: 0x0, symName: _pdf_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x100005684, symSize: 0x50 }
+  - { offsetInCU: 0xFE2, offset: 0xFE2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x1000056D4, symSize: 0x2C }
+  - { offsetInCU: 0x106E, offset: 0x106E, size: 0x8, addend: 0x0, symName: _pdf_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005700, symSize: 0x68 }
+  - { offsetInCU: 0x1104, offset: 0x1104, size: 0x8, addend: 0x0, symName: _pdf_init, symObjAddr: 0x130, symBinAddr: 0x100005768, symSize: 0x4 }
+  - { offsetInCU: 0x117E, offset: 0x117E, size: 0x8, addend: 0x0, symName: _pdf_query_procedures, symObjAddr: 0x134, symBinAddr: 0x10000576C, symSize: 0x48 }
+  - { offsetInCU: 0x1250, offset: 0x1250, size: 0x8, addend: 0x0, symName: _pdf_create_procedure, symObjAddr: 0x17C, symBinAddr: 0x1000057B4, symSize: 0x300 }
+  - { offsetInCU: 0x1990, offset: 0x1990, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x47C, symBinAddr: 0x100005AB4, symSize: 0x30 }
+  - { offsetInCU: 0x1A05, offset: 0x1A05, size: 0x8, addend: 0x0, symName: _pdf_extract, symObjAddr: 0x4AC, symBinAddr: 0x100005AE4, symSize: 0xF8 }
+  - { offsetInCU: 0x1B88, offset: 0x1B88, size: 0x8, addend: 0x0, symName: _open_document, symObjAddr: 0x1080, symBinAddr: 0x1000066B8, symSize: 0x29C }
+  - { offsetInCU: 0x24FA, offset: 0x24FA, size: 0x8, addend: 0x0, symName: _pdf_load, symObjAddr: 0x5A4, symBinAddr: 0x100005BDC, symSize: 0x8D0 }
+  - { offsetInCU: 0x3757, offset: 0x3757, size: 0x8, addend: 0x0, symName: _render_page_to_surface, symObjAddr: 0x15C4, symBinAddr: 0x100006BFC, symSize: 0x114 }
+  - { offsetInCU: 0x3A87, offset: 0x3A87, size: 0x8, addend: 0x0, symName: _pdf_load_thumb, symObjAddr: 0xE74, symBinAddr: 0x1000064AC, symSize: 0x20C }
+  - { offsetInCU: 0x3E92, offset: 0x3E92, size: 0x8, addend: 0x0, symName: _get_thumb_surface, symObjAddr: 0x151C, symBinAddr: 0x100006B54, symSize: 0xA8 }
+  - { offsetInCU: 0x41DE, offset: 0x41DE, size: 0x8, addend: 0x0, symName: _thumbnail_thread, symObjAddr: 0x131C, symBinAddr: 0x100006954, symSize: 0x16C }
+  - { offsetInCU: 0x450F, offset: 0x450F, size: 0x8, addend: 0x0, symName: _white_background_toggled, symObjAddr: 0x1488, symBinAddr: 0x100006AC0, symSize: 0x54 }
+  - { offsetInCU: 0x4627, offset: 0x4627, size: 0x8, addend: 0x0, symName: _idle_set_thumbnail, symObjAddr: 0x14DC, symBinAddr: 0x100006B14, symSize: 0x40 }
+...

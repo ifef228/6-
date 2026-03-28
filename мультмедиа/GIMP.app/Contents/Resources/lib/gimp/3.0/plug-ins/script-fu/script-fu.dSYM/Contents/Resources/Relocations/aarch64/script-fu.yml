@@ -1,0 +1,65 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/circleci/macports-gimp-osx-app-arm64/GIMP.app//Contents/Resources/lib/gimp/3.0/plug-ins/script-fu/script-fu'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _script_fu_eval_run, symObjAddr: 0x0, symBinAddr: 0x100004D50, symSize: 0xA8 }
+  - { offsetInCU: 0x8D, offset: 0x8D, size: 0x8, addend: 0x0, symName: _script_fu_eval_run, symObjAddr: 0x0, symBinAddr: 0x100004D50, symSize: 0xA8 }
+  - { offsetInCU: 0x27, offset: 0x407, size: 0x8, addend: 0x0, symName: _script_fu_text_console_run, symObjAddr: 0x0, symBinAddr: 0x100004DF8, symSize: 0x54 }
+  - { offsetInCU: 0x79, offset: 0x459, size: 0x8, addend: 0x0, symName: _script_fu_text_console_run, symObjAddr: 0x0, symBinAddr: 0x100004DF8, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x785, size: 0x8, addend: 0x0, symName: _script_fu_register_refresh_procedure, symObjAddr: 0x0, symBinAddr: 0x100004E4C, symSize: 0xF4 }
+  - { offsetInCU: 0x159, offset: 0x8B7, size: 0x8, addend: 0x0, symName: _script_fu_register_refresh_procedure, symObjAddr: 0x0, symBinAddr: 0x100004E4C, symSize: 0xF4 }
+  - { offsetInCU: 0x549, offset: 0xCA7, size: 0x8, addend: 0x0, symName: _script_fu_refresh_proc, symObjAddr: 0xF4, symBinAddr: 0x100004F40, symSize: 0x80 }
+  - { offsetInCU: 0x27, offset: 0xEF9, size: 0x8, addend: 0x0, symName: _script_fu_get_type, symObjAddr: 0x0, symBinAddr: 0x100004FC0, symSize: 0x4C }
+  - { offsetInCU: 0x34, offset: 0xF06, size: 0x8, addend: 0x0, symName: _script_fu_get_type, symObjAddr: 0x0, symBinAddr: 0x100004FC0, symSize: 0x4C }
+  - { offsetInCU: 0x59, offset: 0xF2B, size: 0x8, addend: 0x0, symName: _script_fu_get_type.static_g_define_type_id, symObjAddr: 0x5960, symBinAddr: 0x10000C468, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFCD, size: 0x8, addend: 0x0, symName: _script_fu_parent_class, symObjAddr: 0x5968, symBinAddr: 0x10000C470, symSize: 0x0 }
+  - { offsetInCU: 0x11C, offset: 0xFEE, size: 0x8, addend: 0x0, symName: _ScriptFu_private_offset, symObjAddr: 0x5970, symBinAddr: 0x10000C478, symSize: 0x0 }
+  - { offsetInCU: 0x8ED, offset: 0x17BF, size: 0x8, addend: 0x0, symName: _script_fu_get_type_once, symObjAddr: 0x4C, symBinAddr: 0x10000500C, symSize: 0x50 }
+  - { offsetInCU: 0x9A9, offset: 0x187B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x10000505C, symSize: 0x2C }
+  - { offsetInCU: 0xA35, offset: 0x1907, size: 0x8, addend: 0x0, symName: _script_fu_class_intern_init, symObjAddr: 0xC8, symBinAddr: 0x100005088, symSize: 0x68 }
+  - { offsetInCU: 0xAD0, offset: 0x19A2, size: 0x8, addend: 0x0, symName: _script_fu_init, symObjAddr: 0x130, symBinAddr: 0x1000050F0, symSize: 0x4 }
+  - { offsetInCU: 0xB40, offset: 0x1A12, size: 0x8, addend: 0x0, symName: _script_fu_query_procedures, symObjAddr: 0x134, symBinAddr: 0x1000050F4, symSize: 0x80 }
+  - { offsetInCU: 0xC90, offset: 0x1B62, size: 0x8, addend: 0x0, symName: _script_fu_create_procedure, symObjAddr: 0x1B4, symBinAddr: 0x100005174, symSize: 0x29C }
+  - { offsetInCU: 0x1109, offset: 0x1FDB, size: 0x8, addend: 0x0, symName: _set_i18n, symObjAddr: 0x450, symBinAddr: 0x100005410, symSize: 0x30 }
+  - { offsetInCU: 0x117E, offset: 0x2050, size: 0x8, addend: 0x0, symName: _script_fu_run, symObjAddr: 0x480, symBinAddr: 0x100005440, symSize: 0x144 }
+  - { offsetInCU: 0x133F, offset: 0x2211, size: 0x8, addend: 0x0, symName: _script_fu_batch_run, symObjAddr: 0x5C4, symBinAddr: 0x100005584, symSize: 0xC0 }
+  - { offsetInCU: 0x13A3, offset: 0x2275, size: 0x8, addend: 0x0, symName: _script_fu_run_init, symObjAddr: 0x684, symBinAddr: 0x100005644, symSize: 0x1AC }
+  - { offsetInCU: 0x170C, offset: 0x25DE, size: 0x8, addend: 0x0, symName: _script_fu_batch_run, symObjAddr: 0x5C4, symBinAddr: 0x100005584, symSize: 0xC0 }
+  - { offsetInCU: 0x27, offset: 0x2813, size: 0x8, addend: 0x0, symName: _script_fu_console_run, symObjAddr: 0x0, symBinAddr: 0x1000057F0, symSize: 0x3E8 }
+  - { offsetInCU: 0x8D2, offset: 0x30BE, size: 0x8, addend: 0x0, symName: _script_fu_console_run, symObjAddr: 0x0, symBinAddr: 0x1000057F0, symSize: 0x3E8 }
+  - { offsetInCU: 0xF5B, offset: 0x3747, size: 0x8, addend: 0x0, symName: _script_fu_command_to_history, symObjAddr: 0xC4C, symBinAddr: 0x10000643C, symSize: 0x44 }
+  - { offsetInCU: 0x15E1, offset: 0x3DCD, size: 0x8, addend: 0x0, symName: _script_fu_console_response, symObjAddr: 0x3E8, symBinAddr: 0x100005BD8, symSize: 0x134 }
+  - { offsetInCU: 0x1782, offset: 0x3F6E, size: 0x8, addend: 0x0, symName: _script_fu_editor_key_function, symObjAddr: 0x51C, symBinAddr: 0x100005D0C, symSize: 0x220 }
+  - { offsetInCU: 0x1B77, offset: 0x4363, size: 0x8, addend: 0x0, symName: _script_fu_output_to_console, symObjAddr: 0xC90, symBinAddr: 0x100006480, symSize: 0x68 }
+  - { offsetInCU: 0x1CEC, offset: 0x44D8, size: 0x8, addend: 0x0, symName: _script_fu_browse_callback, symObjAddr: 0x73C, symBinAddr: 0x100005F2C, symSize: 0x118 }
+  - { offsetInCU: 0x1DF2, offset: 0x45DE, size: 0x8, addend: 0x0, symName: _script_fu_console_save_response, symObjAddr: 0x854, symBinAddr: 0x100006044, symSize: 0xD8 }
+  - { offsetInCU: 0x22AB, offset: 0x4A97, size: 0x8, addend: 0x0, symName: _script_fu_browse_response, symObjAddr: 0x92C, symBinAddr: 0x10000611C, symSize: 0x2BC }
+  - { offsetInCU: 0x275C, offset: 0x4F48, size: 0x8, addend: 0x0, symName: _script_fu_browse_row_activated, symObjAddr: 0xBE8, symBinAddr: 0x1000063D8, symSize: 0x8 }
+  - { offsetInCU: 0x27A8, offset: 0x4F94, size: 0x8, addend: 0x0, symName: _script_fu_console_idle_scroll_end, symObjAddr: 0xBF0, symBinAddr: 0x1000063E0, symSize: 0x5C }
+  - { offsetInCU: 0x27, offset: 0x5211, size: 0x8, addend: 0x0, symName: _console_editor_new, symObjAddr: 0x0, symBinAddr: 0x1000064E8, symSize: 0x4 }
+  - { offsetInCU: 0x1AA, offset: 0x5394, size: 0x8, addend: 0x0, symName: _console_editor_new, symObjAddr: 0x0, symBinAddr: 0x1000064E8, symSize: 0x4 }
+  - { offsetInCU: 0x1C7, offset: 0x53B1, size: 0x8, addend: 0x0, symName: _console_editor_new, symObjAddr: 0x0, symBinAddr: 0x1000064E8, symSize: 0x4 }
+  - { offsetInCU: 0x1E1, offset: 0x53CB, size: 0x8, addend: 0x0, symName: _console_editor_set_text_and_position, symObjAddr: 0x4, symBinAddr: 0x1000064EC, symSize: 0x34 }
+  - { offsetInCU: 0x2A6, offset: 0x5490, size: 0x8, addend: 0x0, symName: _console_editor_clear, symObjAddr: 0x38, symBinAddr: 0x100006520, symSize: 0x30 }
+  - { offsetInCU: 0x31A, offset: 0x5504, size: 0x8, addend: 0x0, symName: _console_editor_get_text, symObjAddr: 0x68, symBinAddr: 0x100006550, symSize: 0x4 }
+  - { offsetInCU: 0x338, offset: 0x5522, size: 0x8, addend: 0x0, symName: _console_editor_get_text, symObjAddr: 0x68, symBinAddr: 0x100006550, symSize: 0x4 }
+  - { offsetInCU: 0x374, offset: 0x555E, size: 0x8, addend: 0x0, symName: _console_editor_is_empty, symObjAddr: 0x6C, symBinAddr: 0x100006554, symSize: 0x4C }
+  - { offsetInCU: 0x27, offset: 0x55F9, size: 0x8, addend: 0x0, symName: _console_history_init, symObjAddr: 0x0, symBinAddr: 0x1000065A0, symSize: 0x3C }
+  - { offsetInCU: 0x58, offset: 0x562A, size: 0x8, addend: 0x0, symName: _console_history_init, symObjAddr: 0x0, symBinAddr: 0x1000065A0, symSize: 0x3C }
+  - { offsetInCU: 0x152, offset: 0x5724, size: 0x8, addend: 0x0, symName: _console_history_set_tail, symObjAddr: 0x3C, symBinAddr: 0x1000065DC, symSize: 0x48 }
+  - { offsetInCU: 0x255, offset: 0x5827, size: 0x8, addend: 0x0, symName: _console_history_new_tail, symObjAddr: 0x84, symBinAddr: 0x100006624, symSize: 0x94 }
+  - { offsetInCU: 0x349, offset: 0x591B, size: 0x8, addend: 0x0, symName: _console_history_cursor_to_tail, symObjAddr: 0x118, symBinAddr: 0x1000066B8, symSize: 0x2C }
+  - { offsetInCU: 0x397, offset: 0x5969, size: 0x8, addend: 0x0, symName: _console_history_is_cursor_at_tail, symObjAddr: 0x144, symBinAddr: 0x1000066E4, symSize: 0x30 }
+  - { offsetInCU: 0x3EB, offset: 0x59BD, size: 0x8, addend: 0x0, symName: _console_history_move_cursor, symObjAddr: 0x174, symBinAddr: 0x100006714, symSize: 0x24 }
+  - { offsetInCU: 0x41B, offset: 0x59ED, size: 0x8, addend: 0x0, symName: _console_history_get_at_cursor, symObjAddr: 0x198, symBinAddr: 0x100006738, symSize: 0x24 }
+  - { offsetInCU: 0x451, offset: 0x5A23, size: 0x8, addend: 0x0, symName: _console_history_from_settings, symObjAddr: 0x1BC, symBinAddr: 0x10000675C, symSize: 0x34 }
+  - { offsetInCU: 0x53C, offset: 0x5B0E, size: 0x8, addend: 0x0, symName: _console_history_to_settings, symObjAddr: 0x1F0, symBinAddr: 0x100006790, symSize: 0x80 }
+  - { offsetInCU: 0x27, offset: 0x5D55, size: 0x8, addend: 0x0, symName: _console_total_history_new, symObjAddr: 0x0, symBinAddr: 0x100006810, symSize: 0x8 }
+  - { offsetInCU: 0x51, offset: 0x5D7F, size: 0x8, addend: 0x0, symName: _console_total_history_new, symObjAddr: 0x0, symBinAddr: 0x100006810, symSize: 0x8 }
+  - { offsetInCU: 0x1E0, offset: 0x5F0E, size: 0x8, addend: 0x0, symName: _console_total_history_clear, symObjAddr: 0x8, symBinAddr: 0x100006818, symSize: 0x48 }
+  - { offsetInCU: 0x394, offset: 0x60C2, size: 0x8, addend: 0x0, symName: _console_total_history_get_text, symObjAddr: 0x50, symBinAddr: 0x100006860, symSize: 0x4C }
+  - { offsetInCU: 0x47C, offset: 0x61AA, size: 0x8, addend: 0x0, symName: _console_total_append_welcome, symObjAddr: 0x9C, symBinAddr: 0x1000068AC, symSize: 0x104 }
+  - { offsetInCU: 0x633, offset: 0x6361, size: 0x8, addend: 0x0, symName: _console_total_append_text_normal, symObjAddr: 0x1A0, symBinAddr: 0x1000069B0, symSize: 0x68 }
+  - { offsetInCU: 0x6E4, offset: 0x6412, size: 0x8, addend: 0x0, symName: _console_total_append_text_emphasize, symObjAddr: 0x208, symBinAddr: 0x100006A18, symSize: 0x74 }
+  - { offsetInCU: 0x795, offset: 0x64C3, size: 0x8, addend: 0x0, symName: _console_total_append_command, symObjAddr: 0x27C, symBinAddr: 0x100006A8C, symSize: 0x80 }
+...
